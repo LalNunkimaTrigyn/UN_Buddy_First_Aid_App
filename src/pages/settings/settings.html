@@ -1,0 +1,76 @@
+<ion-header no-border>
+  <ion-navbar color="transparent"> </ion-navbar>
+</ion-header>
+
+<ion-content no-padding>
+  <ion-card class="card">
+    <ion-item *ngIf="ENG === true">
+      <ion-label id="LabelText">Language</ion-label>
+      <ion-select
+        id="Text"
+        (ionCancel)="onCancel()"
+        (ionChange)="onChange()"
+        [(ngModel)]="LanguageSelect"
+      >
+        <ion-option selected="true" value="ENG">English</ion-option>
+        <ion-option value="ES">Español</ion-option>
+        <ion-option value="FR">Français</ion-option>
+      </ion-select>
+    </ion-item>
+    <ion-item *ngIf="ENG === true">
+      <ion-label id="LabelText">Geo-Location</ion-label>
+      <ion-toggle
+      [color]="geolocationEnabled ? 'success' : 'danger'" 
+      (ionChange)="onToggleGeolocation()"
+      ></ion-toggle>
+    </ion-item>
+
+    <div *ngIf="geolocationEnabled && ENG === true">
+      <ion-label style="text-align: center">Share Location Detail</ion-label>
+
+      <div class="share-buttons-container">
+        <button class="share-button" (click)="sendLocationViaWhatsApp()">
+          Share via WhatsApp
+        </button>
+        <button class="share-button" (click)="sendLocationViaMessenger()">
+          Share via Messenger
+        </button>
+        <button class="share-button" (click)="sendLocationViaSMS()">
+          Share via SMS
+        </button>
+        <button class="share-button" (click)="sendLocationViaEmail()">
+          Share via Email
+        </button>
+      </div>
+    </div>
+
+    <ion-item *ngIf="ES === true">
+      <ion-label id="LabelText">idioma</ion-label>
+      <ion-select
+        id="Text"
+        cancelText="Cancelar"
+        (ionCancel)="onCancel()"
+        (ionChange)="onChange()"
+        [(ngModel)]="LanguageSelect"
+      >
+        <ion-option value="ENG">English</ion-option>
+        <ion-option selected="true" value="ES">Español</ion-option>
+        <ion-option value="FR">Français</ion-option>
+      </ion-select>
+    </ion-item>
+    <ion-item *ngIf="FR === true">
+      <ion-label id="LabelText">Langue</ion-label>
+      <ion-select
+        id="Text"
+        cancelText="Annuler"
+        (ionCancel)="onCancel()"
+        (ionChange)="onChange()"
+        [(ngModel)]="LanguageSelect"
+      >
+        <ion-option value="ENG">English</ion-option>
+        <ion-option value="ES">Español</ion-option>
+        <ion-option selected="true" value="FR">Français</ion-option>
+      </ion-select>
+    </ion-item>
+  </ion-card>
+</ion-content>

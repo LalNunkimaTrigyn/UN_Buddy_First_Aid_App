@@ -1,0 +1,6 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "lib": ["dom", "es2015"] // Add "es2015" or higher here
+  }
+}
