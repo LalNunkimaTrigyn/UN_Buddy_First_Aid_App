@@ -20,8 +20,9 @@
     <ion-item *ngIf="ENG === true">
       <ion-label id="LabelText">Geo-Location</ion-label>
       <ion-toggle
-      [color]="geolocationEnabled ? 'success' : 'danger'" 
-      (ionChange)="onToggleGeolocation()"
+        [(ngModel)]="geolocationEnabled"
+        [color]="geolocationEnabled ? 'success' : 'danger'"
+        (ionChange)="onToggleGeolocation()"
       ></ion-toggle>
     </ion-item>
 

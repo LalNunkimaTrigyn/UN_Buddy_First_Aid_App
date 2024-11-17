@@ -7,9 +7,6 @@
     "files": {}
   },
   "installed_plugins": {
-    "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "com.jellevanhaaster.UNBFAC"
-    },
     "cordova-plugin-device": {
       "PACKAGE_NAME": "com.jellevanhaaster.UNBFAC"
     },
@@ -30,6 +27,9 @@
       "PACKAGE_NAME": "com.jellevanhaaster.UNBFAC"
     },
     "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "com.jellevanhaaster.UNBFAC"
+    },
+    "cordova-plugin-androidx-adapter": {
       "PACKAGE_NAME": "com.jellevanhaaster.UNBFAC"
     }
   },

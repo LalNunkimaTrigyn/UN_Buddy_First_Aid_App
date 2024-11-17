@@ -1,13 +1,13 @@
 webpackJsonp([0],{
 
-/***/ 114:
+/***/ 115:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ENGProtocolData; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(63);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(115);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(116);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pages_train_scene_scene__ = __webpack_require__(41);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_train_alert_alert__ = __webpack_require__(42);
@@ -1449,14 +1449,14 @@ var ENGProtocolData = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 116:
+/***/ 117:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FRProtocolData; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(63);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(115);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(116);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pages_train_scene_scene__ = __webpack_require__(41);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_train_alert_alert__ = __webpack_require__(42);
@@ -2898,14 +2898,14 @@ var FRProtocolData = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 117:
+/***/ 118:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ESProtocolData; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(63);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(115);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(116);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pages_train_scene_scene__ = __webpack_require__(41);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_train_alert_alert__ = __webpack_require__(42);
@@ -4347,7 +4347,7 @@ var ESProtocolData = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 126:
+/***/ 127:
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -4360,11 +4360,11 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 126;
+webpackEmptyAsyncContext.id = 127;
 
 /***/ }),
 
-/***/ 168:
+/***/ 169:
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -4377,7 +4377,7 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 168;
+webpackEmptyAsyncContext.id = 169;
 
 /***/ }),
 
@@ -4390,7 +4390,7 @@ webpackEmptyAsyncContext.id = 168;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__protocol_protocol__ = __webpack_require__(213);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__train_train__ = __webpack_require__(217);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_storage__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_storage__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__settings_settings__ = __webpack_require__(223);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -4509,11 +4509,11 @@ var HomePage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ProtocolPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_ENGprotocoldata__ = __webpack_require__(114);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_FRprotocoldata__ = __webpack_require__(116);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_ESProtocolData__ = __webpack_require__(117);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_ENGprotocoldata__ = __webpack_require__(115);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_FRprotocoldata__ = __webpack_require__(117);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_ESProtocolData__ = __webpack_require__(118);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__infomodal_infomodal__ = __webpack_require__(215);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_storage__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_storage__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_native_audio__ = __webpack_require__(216);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -4846,10 +4846,10 @@ var ProtocolPage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return InfoModalPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_ENGprotocoldata__ = __webpack_require__(114);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_FRprotocoldata__ = __webpack_require__(116);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_storage__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_ESProtocolData__ = __webpack_require__(117);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_ENGprotocoldata__ = __webpack_require__(115);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_FRprotocoldata__ = __webpack_require__(117);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_storage__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_ESProtocolData__ = __webpack_require__(118);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -4991,7 +4991,7 @@ var InfoModalPage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__movement_movement__ = __webpack_require__(221);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__respiration_respiration__ = __webpack_require__(49);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__scene_scene__ = __webpack_require__(41);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ionic_storage__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ionic_storage__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__basics_basics__ = __webpack_require__(222);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -5093,7 +5093,7 @@ var TrainPage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__headtilt_headtilt__ = __webpack_require__(46);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__recoveryposition_recoveryposition__ = __webpack_require__(47);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__situp_situp__ = __webpack_require__(48);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_storage__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_storage__ = __webpack_require__(7);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -5168,7 +5168,7 @@ var AirwayPage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__hyperthermia_hyperthermia__ = __webpack_require__(50);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__hypothermia_hypothermia__ = __webpack_require__(51);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_storage__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_storage__ = __webpack_require__(7);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -5239,7 +5239,7 @@ var HeatPage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tourniquet_tourniquet__ = __webpack_require__(43);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__woundpacking_woundpacking__ = __webpack_require__(44);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_storage__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_storage__ = __webpack_require__(7);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -5308,7 +5308,7 @@ var MassivePage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MovementPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_storage__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_storage__ = __webpack_require__(7);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -5372,7 +5372,7 @@ var MovementPage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BasicsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_storage__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_storage__ = __webpack_require__(7);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -5437,9 +5437,136 @@ var BasicsPage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SettingsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_storage__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_geolocation__ = __webpack_require__(211);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_storage__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_geolocation__ = __webpack_require__(114);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_services_location_service__ = __webpack_require__(224);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+// import { Geolocation } from '@ionic-native/geolocation';  // Import Geolocation plugin
+
+
+var SettingsPage = /** @class */ (function () {
+    function SettingsPage(navParams, modalCtrl, navCtrl, storage, geolocation, locationService) {
+        this.navParams = navParams;
+        this.modalCtrl = modalCtrl;
+        this.navCtrl = navCtrl;
+        this.storage = storage;
+        this.geolocation = geolocation;
+        this.locationService = locationService;
+        this.ENG = false;
+        this.FR = false;
+        this.ES = false;
+        this.geolocationEnabled = false; // This will be bound to the toggle
+    }
+    SettingsPage.prototype.ionViewWillLoad = function () {
+        var _this = this;
+        this.storage.get("Language").then(function (data) {
+            if (data) {
+                if (data === "ENG") {
+                    _this.ENG = true;
+                    _this.FR = false;
+                    _this.ES = false;
+                }
+                if (data === "ES") {
+                    _this.ENG = false;
+                    _this.ES = true;
+                    _this.FR = false;
+                }
+                if (data === "FR") {
+                    _this.ENG = false;
+                    _this.FR = true;
+                    _this.ES = false;
+                }
+            }
+            else {
+                _this.ENG = true;
+                _this.ES = false;
+                _this.FR = false;
+                _this.storage.set("Language", "ENG");
+            }
+        });
+        this.locationService.loadGeolocationStatus();
+        this.geolocationEnabled = this.locationService.geolocationEnabled;
+    };
+    SettingsPage.prototype.sendLocationViaWhatsApp = function () {
+        var message = "My location is: Latitude: " + this.locationService.latitude + ", Longitude: " + this.locationService.longitude;
+        window.open("https://wa.me/?text=" + encodeURIComponent(message), "_blank");
+    };
+    SettingsPage.prototype.sendLocationViaSMS = function () {
+        var message = "My location is: Latitude: " + this.locationService.latitude + ", Longitude: " + this.locationService.longitude;
+        window.open("sms:?body=" + encodeURIComponent(message), "_blank");
+    };
+    SettingsPage.prototype.sendLocationViaMessenger = function () {
+        var message = "My location is: Latitude: " + this.locationService.latitude + ", Longitude: " + this.locationService.longitude;
+        window.open("https://www.facebook.com/messages/t/?text=" + encodeURIComponent(message), "_blank");
+    };
+    SettingsPage.prototype.onToggleGeolocation = function () {
+        this.locationService.onToggleGeolocation();
+    };
+    SettingsPage.prototype.sendLocationViaEmail = function () {
+        var subject = "My Current Location";
+        var body = "My location is: Latitude: " + this.locationService.latitude + ", Longitude: " + this.locationService.longitude;
+        window.open("mailto:?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body), "_blank");
+    };
+    SettingsPage.prototype.onCancel = function () {
+        console.log("OnCancelFired");
+    };
+    SettingsPage.prototype.onChange = function () {
+        if (this.LanguageSelect === "ENG") {
+            this.ENG = true;
+            this.FR = false;
+            this.ES = false;
+            this.storage.set("Language", "ENG");
+        }
+        if (this.LanguageSelect === "ES") {
+            this.ENG = false;
+            this.ES = true;
+            this.FR = false;
+            this.storage.set("Language", "ES");
+        }
+        if (this.LanguageSelect === "FR") {
+            this.ENG = false;
+            this.ES = false;
+            this.FR = true;
+            this.storage.set("Language", "FR");
+        }
+    };
+    SettingsPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: "page-settings",template:/*ion-inline-start:"D:\Projects\UN_Buddy_First_Aid_App\src\pages\settings\settings.html"*/'<ion-header no-border>\n  <ion-navbar color="transparent"> </ion-navbar>\n</ion-header>\n\n<ion-content no-padding>\n  <ion-card class="card">\n    <ion-item *ngIf="ENG === true">\n      <ion-label id="LabelText">Language</ion-label>\n      <ion-select\n        id="Text"\n        (ionCancel)="onCancel()"\n        (ionChange)="onChange()"\n        [(ngModel)]="LanguageSelect"\n      >\n        <ion-option selected="true" value="ENG">English</ion-option>\n        <ion-option value="ES">Español</ion-option>\n        <ion-option value="FR">Français</ion-option>\n      </ion-select>\n    </ion-item>\n    <ion-item *ngIf="ENG === true">\n      <ion-label id="LabelText">Geo-Location</ion-label>\n      <ion-toggle\n        [(ngModel)]="geolocationEnabled"\n        [color]="geolocationEnabled ? \'success\' : \'danger\'"\n        (ionChange)="onToggleGeolocation()"\n      ></ion-toggle>\n    </ion-item>\n\n    <div *ngIf="geolocationEnabled && ENG === true">\n      <ion-label style="text-align: center">Share Location Detail</ion-label>\n\n      <div class="share-buttons-container">\n        <button class="share-button" (click)="sendLocationViaWhatsApp()">\n          Share via WhatsApp\n        </button>\n        <button class="share-button" (click)="sendLocationViaMessenger()">\n          Share via Messenger\n        </button>\n        <button class="share-button" (click)="sendLocationViaSMS()">\n          Share via SMS\n        </button>\n        <button class="share-button" (click)="sendLocationViaEmail()">\n          Share via Email\n        </button>\n      </div>\n    </div>\n\n    <ion-item *ngIf="ES === true">\n      <ion-label id="LabelText">idioma</ion-label>\n      <ion-select\n        id="Text"\n        cancelText="Cancelar"\n        (ionCancel)="onCancel()"\n        (ionChange)="onChange()"\n        [(ngModel)]="LanguageSelect"\n      >\n        <ion-option value="ENG">English</ion-option>\n        <ion-option selected="true" value="ES">Español</ion-option>\n        <ion-option value="FR">Français</ion-option>\n      </ion-select>\n    </ion-item>\n    <ion-item *ngIf="FR === true">\n      <ion-label id="LabelText">Langue</ion-label>\n      <ion-select\n        id="Text"\n        cancelText="Annuler"\n        (ionCancel)="onCancel()"\n        (ionChange)="onChange()"\n        [(ngModel)]="LanguageSelect"\n      >\n        <ion-option value="ENG">English</ion-option>\n        <ion-option value="ES">Español</ion-option>\n        <ion-option selected="true" value="FR">Français</ion-option>\n      </ion-select>\n    </ion-item>\n  </ion-card>\n</ion-content>\n'/*ion-inline-end:"D:\Projects\UN_Buddy_First_Aid_App\src\pages\settings\settings.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* ModalController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_2__ionic_storage__["b" /* Storage */],
+            __WEBPACK_IMPORTED_MODULE_3__ionic_native_geolocation__["a" /* Geolocation */],
+            __WEBPACK_IMPORTED_MODULE_4__app_services_location_service__["a" /* LocationService */]])
+    ], SettingsPage);
+    return SettingsPage;
+}());
+
+//# sourceMappingURL=settings.js.map
+
+/***/ }),
+
+/***/ 224:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LocationService; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ionic_storage__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_geolocation__ = __webpack_require__(114);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -5486,67 +5613,25 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 };
 
 
-
 // import { Geolocation } from '@ionic-native/geolocation';  // Import Geolocation plugin
 
-
-var SettingsPage = /** @class */ (function () {
-    function SettingsPage(navParams, modalCtrl, navCtrl, storage, geolocation, locationService) {
-        this.navParams = navParams;
-        this.modalCtrl = modalCtrl;
-        this.navCtrl = navCtrl;
+var LocationService = /** @class */ (function () {
+    function LocationService(storage, geolocation) {
         this.storage = storage;
         this.geolocation = geolocation;
-        this.locationService = locationService;
         this.geolocationEnabled = false;
-        this.ENG = false;
-        this.FR = false;
-        this.ES = false;
     }
-    SettingsPage.prototype.ionViewWillLoad = function () {
-        var _this = this;
-        this.storage.get("Language").then(function (data) {
-            if (data) {
-                if (data === "ENG") {
-                    _this.ENG = true;
-                    _this.FR = false;
-                    _this.ES = false;
-                }
-                if (data === "ES") {
-                    _this.ENG = false;
-                    _this.ES = true;
-                    _this.FR = false;
-                }
-                if (data === "FR") {
-                    _this.ENG = false;
-                    _this.FR = true;
-                    _this.ES = false;
-                }
-            }
-            else {
-                _this.ENG = true;
-                _this.ES = false;
-                _this.FR = false;
-                _this.storage.set("Language", "ENG");
-            }
-        });
+    LocationService.prototype.setLocation = function (lat, long) {
+        this.latitude = lat;
+        this.longitude = long;
     };
-    SettingsPage.prototype.sendLocationViaWhatsApp = function () {
-        var message = "My location is: Latitude: " + this.locationService.latitude + ", Longitude: " + this.locationService.longitude;
-        window.open("https://wa.me/?text=" + encodeURIComponent(message), "_blank");
+    LocationService.prototype.getLocation = function () {
+        return { latitude: this.latitude, longitude: this.longitude };
     };
-    SettingsPage.prototype.sendLocationViaMessenger = function () {
-        var message = "My location is: Latitude: " + this.locationService.latitude + ", Longitude: " + this.locationService.longitude;
-        window.open("fb-messenger://share?text=" + encodeURIComponent(message), "_blank");
-    };
-    SettingsPage.prototype.sendLocationViaEmail = function () {
-        var subject = "My Current Location";
-        var body = "My location is: Latitude: " + this.locationService.latitude + ", Longitude: " + this.locationService.longitude;
-        window.open("mailto:?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body), "_blank");
-    };
-    SettingsPage.prototype.onToggleGeolocation = function () {
+    LocationService.prototype.onToggleGeolocation = function () {
         this.geolocationEnabled = !this.geolocationEnabled;
         console.log(this.geolocationEnabled);
+        this.storage.set("geolocationEnabled", this.geolocationEnabled);
         if (this.geolocationEnabled) {
             this.enableGeolocation();
         }
@@ -5554,7 +5639,7 @@ var SettingsPage = /** @class */ (function () {
             this.disableGeolocation();
         }
     };
-    SettingsPage.prototype.enableGeolocation = function () {
+    LocationService.prototype.enableGeolocation = function () {
         var _this = this;
         this.geolocation
             .getCurrentPosition()
@@ -5565,7 +5650,7 @@ var SettingsPage = /** @class */ (function () {
                         console.log("Latitude:", resp.coords.latitude);
                         console.log("Longitude:", resp.coords.longitude);
                         // Store the geolocation in the service
-                        this.locationService.setLocation(resp.coords.latitude, resp.coords.longitude);
+                        this.setLocation(resp.coords.latitude, resp.coords.longitude);
                         return [4 /*yield*/, this.storage.set("lat", resp.coords.latitude)];
                     case 1:
                         _a.sent();
@@ -5580,80 +5665,21 @@ var SettingsPage = /** @class */ (function () {
             console.error("Error getting location", error);
         });
     };
-    SettingsPage.prototype.disableGeolocation = function () {
+    LocationService.prototype.disableGeolocation = function () {
         console.log("Geolocation disabled");
         // Implement any additional logic if you need to stop geolocation tracking
     };
-    SettingsPage.prototype.onCancel = function () {
-        console.log("OnCancelFired");
-    };
-    SettingsPage.prototype.onChange = function () {
-        if (this.LanguageSelect === "ENG") {
-            this.ENG = true;
-            this.FR = false;
-            this.ES = false;
-            this.storage.set("Language", "ENG");
-        }
-        if (this.LanguageSelect === "ES") {
-            this.ENG = false;
-            this.ES = true;
-            this.FR = false;
-            this.storage.set("Language", "ES");
-        }
-        if (this.LanguageSelect === "FR") {
-            this.ENG = false;
-            this.ES = false;
-            this.FR = true;
-            this.storage.set("Language", "FR");
-        }
-    };
-    SettingsPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: "page-settings",template:/*ion-inline-start:"D:\Projects\UN_Buddy_First_Aid_App\src\pages\settings\settings.html"*/'<ion-header no-border>\n  <ion-navbar color="transparent"> </ion-navbar>\n</ion-header>\n\n<ion-content no-padding>\n  <ion-card class="card">\n    <ion-item *ngIf="ENG === true">\n      <ion-label id="LabelText">Language</ion-label>\n      <ion-select\n        id="Text"\n        (ionCancel)="onCancel()"\n        (ionChange)="onChange()"\n        [(ngModel)]="LanguageSelect"\n      >\n        <ion-option selected="true" value="ENG">English</ion-option>\n        <ion-option value="ES">Español</ion-option>\n        <ion-option value="FR">Français</ion-option>\n      </ion-select>\n    </ion-item>\n    <ion-item *ngIf="ENG === true">\n      <ion-label id="LabelText">Geo-Location</ion-label>\n      <ion-toggle\n      [color]="geolocationEnabled ? \'success\' : \'danger\'" \n      (ionChange)="onToggleGeolocation()"\n      ></ion-toggle>\n    </ion-item>\n\n    <div *ngIf="geolocationEnabled && ENG === true">\n      <ion-label style="text-align: center">Share Location Detail</ion-label>\n\n      <div class="share-buttons-container">\n        <button class="share-button" (click)="sendLocationViaWhatsApp()">\n          Share via WhatsApp\n        </button>\n        <button class="share-button" (click)="sendLocationViaMessenger()">\n          Share via Messenger\n        </button>\n        <button class="share-button" (click)="sendLocationViaSMS()">\n          Share via SMS\n        </button>\n        <button class="share-button" (click)="sendLocationViaEmail()">\n          Share via Email\n        </button>\n      </div>\n    </div>\n\n    <ion-item *ngIf="ES === true">\n      <ion-label id="LabelText">idioma</ion-label>\n      <ion-select\n        id="Text"\n        cancelText="Cancelar"\n        (ionCancel)="onCancel()"\n        (ionChange)="onChange()"\n        [(ngModel)]="LanguageSelect"\n      >\n        <ion-option value="ENG">English</ion-option>\n        <ion-option selected="true" value="ES">Español</ion-option>\n        <ion-option value="FR">Français</ion-option>\n      </ion-select>\n    </ion-item>\n    <ion-item *ngIf="FR === true">\n      <ion-label id="LabelText">Langue</ion-label>\n      <ion-select\n        id="Text"\n        cancelText="Annuler"\n        (ionCancel)="onCancel()"\n        (ionChange)="onChange()"\n        [(ngModel)]="LanguageSelect"\n      >\n        <ion-option value="ENG">English</ion-option>\n        <ion-option value="ES">Español</ion-option>\n        <ion-option selected="true" value="FR">Français</ion-option>\n      </ion-select>\n    </ion-item>\n  </ion-card>\n</ion-content>\n'/*ion-inline-end:"D:\Projects\UN_Buddy_First_Aid_App\src\pages\settings\settings.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* ModalController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */],
-            __WEBPACK_IMPORTED_MODULE_2__ionic_storage__["b" /* Storage */],
-            __WEBPACK_IMPORTED_MODULE_3__ionic_native_geolocation__["a" /* Geolocation */],
-            __WEBPACK_IMPORTED_MODULE_4__app_services_location_service__["a" /* LocationService */]])
-    ], SettingsPage);
-    return SettingsPage;
-}());
-
-//# sourceMappingURL=settings.js.map
-
-/***/ }),
-
-/***/ 224:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LocationService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-var LocationService = /** @class */ (function () {
-    function LocationService() {
-    }
-    LocationService.prototype.setLocation = function (lat, long) {
-        this.latitude = lat;
-        this.longitude = long;
-    };
-    LocationService.prototype.getLocation = function () {
-        return { latitude: this.latitude, longitude: this.longitude };
+    LocationService.prototype.loadGeolocationStatus = function () {
+        var _this = this;
+        this.storage.get("geolocationEnabled").then(function (status) {
+            if (status !== null) {
+                _this.geolocationEnabled = status; // Load the saved state
+            }
+        });
     };
     LocationService = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["A" /* Injectable */])(),
-        __metadata("design:paramtypes", [])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__ionic_storage__["b" /* Storage */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_geolocation__["a" /* Geolocation */]])
     ], LocationService);
     return LocationService;
 }());
@@ -5684,18 +5710,18 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(28);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(208);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(210);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_geolocation__ = __webpack_require__(211);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(209);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(211);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_geolocation__ = __webpack_require__(114);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__angular_http__ = __webpack_require__(63);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__app_component__ = __webpack_require__(297);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_home_home__ = __webpack_require__(212);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_protocol_protocol__ = __webpack_require__(213);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_train_train__ = __webpack_require__(217);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ionic_storage__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__providers_ENGprotocoldata__ = __webpack_require__(114);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__providers_FRprotocoldata__ = __webpack_require__(116);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__providers_ESProtocolData__ = __webpack_require__(117);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ionic_storage__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__providers_ENGprotocoldata__ = __webpack_require__(115);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__providers_FRprotocoldata__ = __webpack_require__(117);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__providers_ESProtocolData__ = __webpack_require__(118);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_protocol_infomodal_infomodal__ = __webpack_require__(215);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_train_airway_airway__ = __webpack_require__(218);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_train_alert_alert__ = __webpack_require__(42);
@@ -5848,8 +5874,8 @@ var AppModule = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(210);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(208);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(211);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(209);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(212);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -5899,7 +5925,7 @@ var MyApp = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ScenePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_storage__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_storage__ = __webpack_require__(7);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -5964,7 +5990,7 @@ var ScenePage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AlertPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_storage__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_storage__ = __webpack_require__(7);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -6029,7 +6055,7 @@ var AlertPage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TourniquetPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_storage__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_storage__ = __webpack_require__(7);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -6093,7 +6119,7 @@ var TourniquetPage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return WoundpackingPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_storage__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_storage__ = __webpack_require__(7);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -6157,7 +6183,7 @@ var WoundpackingPage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CirculationPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_storage__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_storage__ = __webpack_require__(7);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -6221,7 +6247,7 @@ var CirculationPage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HeadtiltPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_storage__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_storage__ = __webpack_require__(7);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -6285,7 +6311,7 @@ var HeadtiltPage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RecoverypositionPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_storage__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_storage__ = __webpack_require__(7);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -6349,7 +6375,7 @@ var RecoverypositionPage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SitupPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_storage__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_storage__ = __webpack_require__(7);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -6413,7 +6439,7 @@ var SitupPage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RespirationPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_storage__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_storage__ = __webpack_require__(7);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -6477,7 +6503,7 @@ var RespirationPage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HyperthermiaPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_storage__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_storage__ = __webpack_require__(7);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -6541,7 +6567,7 @@ var HyperthermiaPage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HypothermiaPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_storage__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_storage__ = __webpack_require__(7);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);

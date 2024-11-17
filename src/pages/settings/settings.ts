@@ -19,12 +19,11 @@ export class SettingsPage {
     public locationService: LocationService
   ) {}
 
-  geolocationEnabled: boolean = false;
-
   ENG = false;
   FR = false;
   ES = false;
   LanguageSelect: string;
+  geolocationEnabled: boolean = false; // This will be bound to the toggle
 
   ionViewWillLoad() {
     this.storage.get("Language").then((data) => {
@@ -51,6 +50,9 @@ export class SettingsPage {
         this.storage.set("Language", "ENG");
       }
     });
+
+    this.locationService.loadGeolocationStatus();
+    this.geolocationEnabled = this.locationService.geolocationEnabled;
   }
 
   sendLocationViaWhatsApp() {
@@ -58,12 +60,23 @@ export class SettingsPage {
     window.open(`https://wa.me/?text=${encodeURIComponent(message)}`, "_blank");
   }
 
+  sendLocationViaSMS() {
+    const message = `My location is: Latitude: ${this.locationService.latitude}, Longitude: ${this.locationService.longitude}`;
+    window.open(`sms:?body=${encodeURIComponent(message)}`, "_blank");
+  }
+
   sendLocationViaMessenger() {
     const message = `My location is: Latitude: ${this.locationService.latitude}, Longitude: ${this.locationService.longitude}`;
     window.open(
-      `fb-messenger://share?text=${encodeURIComponent(message)}`,
+      `https://www.facebook.com/messages/t/?text=${encodeURIComponent(
+        message
+      )}`,
       "_blank"
     );
+  }
+
+  onToggleGeolocation() {
+    this.locationService.onToggleGeolocation();
   }
 
   sendLocationViaEmail() {
@@ -75,42 +88,6 @@ export class SettingsPage {
       )}`,
       "_blank"
     );
-  }
-
-  onToggleGeolocation() {
-    this.geolocationEnabled = !this.geolocationEnabled;
-    console.log(this.geolocationEnabled);
-    if (this.geolocationEnabled) {
-      this.enableGeolocation();
-    } else {
-      this.disableGeolocation();
-    }
-  }
-
-  enableGeolocation() {
-    this.geolocation
-      .getCurrentPosition()
-      .then(async (resp) => {
-        console.log("Latitude:", resp.coords.latitude);
-        console.log("Longitude:", resp.coords.longitude);
-
-        // Store the geolocation in the service
-        this.locationService.setLocation(
-          resp.coords.latitude,
-          resp.coords.longitude
-        );
-
-        await this.storage.set("lat", resp.coords.latitude);
-        await this.storage.set("lon", resp.coords.longitude);
-      })
-      .catch((error) => {
-        console.error("Error getting location", error);
-      });
-  }
-
-  disableGeolocation() {
-    console.log("Geolocation disabled");
-    // Implement any additional logic if you need to stop geolocation tracking
   }
 
   onCancel() {

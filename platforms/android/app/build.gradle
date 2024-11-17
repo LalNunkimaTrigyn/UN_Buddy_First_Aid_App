@@ -193,7 +193,8 @@ android {
         versionCode cdvVersionCode ?: new BigInteger("" + privateHelpers.extractIntFromManifest("versionCode"))
         applicationId cordovaConfig.PACKAGE_NAMESPACE
 
-        minSdkVersion cordovaConfig.MIN_SDK_VERSION
+        minSdkVersion 21
+
         if (cordovaConfig.MAX_SDK_VERSION != null) {
             maxSdkVersion cordovaConfig.MAX_SDK_VERSION
         }
@@ -336,7 +337,7 @@ dependencies {
 
     // SUB-PROJECT DEPENDENCIES START
     implementation(project(path: ":CordovaLib"))
-    implementation "com.android.support:support-annotations:27.+"
+    implementation "androidx.annotation:annotation:1.1.0"
     // SUB-PROJECT DEPENDENCIES END
 }
 
