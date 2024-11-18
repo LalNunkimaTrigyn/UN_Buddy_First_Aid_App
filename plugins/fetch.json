@@ -76,7 +76,7 @@
   "cordova-plugin-androidx-adapter": {
     "source": {
       "type": "registry",
-      "id": "cordova-plugin-androidx-adapter"
+      "id": "cordova-plugin-androidx-adapter@1.1.3"
     },
     "is_top_level": true,
     "variables": {}
