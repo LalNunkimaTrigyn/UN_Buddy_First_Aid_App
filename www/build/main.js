@@ -5466,6 +5466,7 @@ var SettingsPage = /** @class */ (function () {
         this.ENG = false;
         this.FR = false;
         this.ES = false;
+        this.RUS = false;
         this.geolocationEnabled = false; // This will be bound to the toggle
     }
     SettingsPage.prototype.ionViewWillLoad = function () {
@@ -5476,22 +5477,32 @@ var SettingsPage = /** @class */ (function () {
                     _this.ENG = true;
                     _this.FR = false;
                     _this.ES = false;
+                    _this.RUS = false;
                 }
                 if (data === "ES") {
                     _this.ENG = false;
                     _this.ES = true;
                     _this.FR = false;
+                    _this.RUS = false;
                 }
                 if (data === "FR") {
                     _this.ENG = false;
                     _this.FR = true;
                     _this.ES = false;
+                    _this.RUS = false;
+                }
+                if (data === "RUS") {
+                    _this.ENG = false;
+                    _this.FR = false;
+                    _this.ES = false;
+                    _this.RUS = true;
                 }
             }
             else {
                 _this.ENG = true;
                 _this.ES = false;
                 _this.FR = false;
+                _this.RUS = false;
                 _this.storage.set("Language", "ENG");
             }
         });
@@ -5499,24 +5510,120 @@ var SettingsPage = /** @class */ (function () {
         this.geolocationEnabled = this.locationService.geolocationEnabled;
     };
     SettingsPage.prototype.sendLocationViaWhatsApp = function () {
-        var message = "My location is: Latitude: " + this.locationService.latitude + ", Longitude: " + this.locationService.longitude;
-        window.open("https://wa.me/?text=" + encodeURIComponent(message), "_blank");
+        var _this = this;
+        this.storage.get("Language").then(function (data) {
+            if (data) {
+                if (data === "ENG") {
+                    var message = "My location is: Latitude: " + _this.locationService.latitude + ", Longitude: " + _this.locationService.longitude;
+                    window.open("https://wa.me/?text=" + encodeURIComponent(message), "_blank");
+                }
+                if (data === "ES") {
+                    var message = "mi ubicaci\u00F3n es: Latitud: " + _this.locationService.latitude + ", Longitud: " + _this.locationService.longitude;
+                    window.open("https://wa.me/?text=" + encodeURIComponent(message), "_blank");
+                }
+                if (data === "FR") {
+                    var message = "Mon emplacement est: Latitude: " + _this.locationService.latitude + ", Longitude: " + _this.locationService.longitude;
+                    window.open("https://wa.me/?text=" + encodeURIComponent(message), "_blank");
+                }
+                if (data === "RUS") {
+                    var message = "\u041C\u043E\u0435 \u043C\u0435\u0441\u0442\u043E\u043F\u043E\u043B\u043E\u0436\u0435\u043D\u0438\u0435: \u0428\u0438\u0440\u043E\u0442\u0430: " + _this.locationService.latitude + ", \u0414\u043E\u043B\u0433\u043E\u0442\u0430: " + _this.locationService.longitude;
+                    window.open("https://wa.me/?text=" + encodeURIComponent(message), "_blank");
+                }
+            }
+            else {
+                var message = "My location is: Latitude: " + _this.locationService.latitude + ", Longitude: " + _this.locationService.longitude;
+                window.open("https://wa.me/?text=" + encodeURIComponent(message), "_blank");
+            }
+        });
     };
     SettingsPage.prototype.sendLocationViaSMS = function () {
-        var message = "My location is: Latitude: " + this.locationService.latitude + ", Longitude: " + this.locationService.longitude;
-        window.open("sms:?body=" + encodeURIComponent(message), "_blank");
+        var _this = this;
+        this.storage.get("Language").then(function (data) {
+            if (data) {
+                if (data === "ENG") {
+                    var message = "My location is: Latitude: " + _this.locationService.latitude + ", Longitude: " + _this.locationService.longitude;
+                    window.open("sms:?body=" + encodeURIComponent(message), "_blank");
+                }
+                if (data === "ES") {
+                    var message = "mi ubicaci\u00F3n es: Latitud: " + _this.locationService.latitude + ", Longitud: " + _this.locationService.longitude;
+                    window.open("sms:?body=" + encodeURIComponent(message), "_blank");
+                }
+                if (data === "FR") {
+                    var message = "Mon emplacement est: Latitude: " + _this.locationService.latitude + ", Longitude: " + _this.locationService.longitude;
+                    window.open("sms:?body=" + encodeURIComponent(message), "_blank");
+                }
+                if (data === "RUS") {
+                    var message = "\u041C\u043E\u0435 \u043C\u0435\u0441\u0442\u043E\u043F\u043E\u043B\u043E\u0436\u0435\u043D\u0438\u0435: \u0428\u0438\u0440\u043E\u0442\u0430: " + _this.locationService.latitude + ", \u0414\u043E\u043B\u0433\u043E\u0442\u0430: " + _this.locationService.longitude;
+                    window.open("sms:?body=" + encodeURIComponent(message), "_blank");
+                }
+            }
+            else {
+                var message = "My location is: Latitude: " + _this.locationService.latitude + ", Longitude: " + _this.locationService.longitude;
+                window.open("sms:?body=" + encodeURIComponent(message), "_blank");
+            }
+        });
     };
     SettingsPage.prototype.sendLocationViaMessenger = function () {
-        var message = "My location is: Latitude: " + this.locationService.latitude + ", Longitude: " + this.locationService.longitude;
-        window.open("https://www.facebook.com/messages/t/?text=" + encodeURIComponent(message), "_blank");
+        var _this = this;
+        this.storage.get("Language").then(function (data) {
+            if (data) {
+                if (data === "ENG") {
+                    var message = "My location is: Latitude: " + _this.locationService.latitude + ", Longitude: " + _this.locationService.longitude;
+                    window.open("https://www.facebook.com/messages/t/?text=" + encodeURIComponent(message), "_blank");
+                }
+                if (data === "ES") {
+                    var message = "mi ubicaci\u00F3n es: Latitud: " + _this.locationService.latitude + ", Longitud: " + _this.locationService.longitude;
+                    window.open("https://www.facebook.com/messages/t/?text=" + encodeURIComponent(message), "_blank");
+                }
+                if (data === "FR") {
+                    var message = "Mon emplacement est: Latitude: " + _this.locationService.latitude + ", Longitude: " + _this.locationService.longitude;
+                    window.open("https://www.facebook.com/messages/t/?text=" + encodeURIComponent(message), "_blank");
+                }
+                if (data === "RUS") {
+                    var message = "\u041C\u043E\u0435 \u043C\u0435\u0441\u0442\u043E\u043F\u043E\u043B\u043E\u0436\u0435\u043D\u0438\u0435: \u0428\u0438\u0440\u043E\u0442\u0430: " + _this.locationService.latitude + ", \u0414\u043E\u043B\u0433\u043E\u0442\u0430: " + _this.locationService.longitude;
+                    window.open("https://www.facebook.com/messages/t/?text=" + encodeURIComponent(message), "_blank");
+                }
+            }
+            else {
+                var message = "My location is: Latitude: " + _this.locationService.latitude + ", Longitude: " + _this.locationService.longitude;
+                window.open("https://www.facebook.com/messages/t/?text=" + encodeURIComponent(message), "_blank");
+            }
+        });
     };
     SettingsPage.prototype.onToggleGeolocation = function () {
         this.locationService.onToggleGeolocation();
     };
     SettingsPage.prototype.sendLocationViaEmail = function () {
-        var subject = "My Current Location";
-        var body = "My location is: Latitude: " + this.locationService.latitude + ", Longitude: " + this.locationService.longitude;
-        window.open("mailto:?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body), "_blank");
+        var _this = this;
+        this.storage.get("Language").then(function (data) {
+            if (data) {
+                if (data === "ENG") {
+                    var subject = "My Current Location";
+                    var body = "My location is: Latitude: " + _this.locationService.latitude + ", Longitude: " + _this.locationService.longitude;
+                    window.open("mailto:?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body), "_blank");
+                }
+                if (data === "ES") {
+                    var subject = "Mi ubicación actual";
+                    var body = "mi ubicaci\u00F3n es: Latitud: " + _this.locationService.latitude + ", Longitud: " + _this.locationService.longitude;
+                    window.open("mailto:?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body), "_blank");
+                }
+                if (data === "FR") {
+                    var subject = "Ma position actuelle";
+                    var body = "Mon emplacement est: Latitude: " + _this.locationService.latitude + ", Longitude: " + _this.locationService.longitude;
+                    window.open("mailto:?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body), "_blank");
+                }
+                if (data === "RUS") {
+                    var subject = "Мое текущее местоположение";
+                    var body = "\u041C\u043E\u0435 \u043C\u0435\u0441\u0442\u043E\u043F\u043E\u043B\u043E\u0436\u0435\u043D\u0438\u0435: \u0428\u0438\u0440\u043E\u0442\u0430: " + _this.locationService.latitude + ", \u0414\u043E\u043B\u0433\u043E\u0442\u0430: " + _this.locationService.longitude;
+                    window.open("mailto:?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body), "_blank");
+                }
+            }
+            else {
+                var subject = "My Current Location";
+                var body = "My location is: Latitude: " + _this.locationService.latitude + ", Longitude: " + _this.locationService.longitude;
+                window.open("mailto:?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body), "_blank");
+            }
+        });
     };
     SettingsPage.prototype.onCancel = function () {
         console.log("OnCancelFired");
@@ -5526,33 +5633,39 @@ var SettingsPage = /** @class */ (function () {
             this.ENG = true;
             this.FR = false;
             this.ES = false;
+            this.RUS = false;
             this.storage.set("Language", "ENG");
         }
         if (this.LanguageSelect === "ES") {
             this.ENG = false;
             this.ES = true;
             this.FR = false;
+            this.RUS = false;
             this.storage.set("Language", "ES");
         }
         if (this.LanguageSelect === "FR") {
             this.ENG = false;
             this.ES = false;
             this.FR = true;
+            this.RUS = false;
             this.storage.set("Language", "FR");
+        }
+        if (this.LanguageSelect === "RUS") {
+            this.ENG = false;
+            this.ES = false;
+            this.FR = false;
+            this.RUS = true;
+            this.storage.set("Language", "RUS");
         }
     };
     SettingsPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: "page-settings",template:/*ion-inline-start:"F:\UN_Buddy_First_Aid_App\src\pages\settings\settings.html"*/'<ion-header no-border>\n\n  <ion-navbar color="transparent"> </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content no-padding>\n\n  <ion-card class="card">\n\n    <ion-item *ngIf="ENG === true">\n\n      <ion-label id="LabelText">Language</ion-label>\n\n      <ion-select\n\n        id="Text"\n\n        (ionCancel)="onCancel()"\n\n        (ionChange)="onChange()"\n\n        [(ngModel)]="LanguageSelect"\n\n      >\n\n        <ion-option selected="true" value="ENG">English</ion-option>\n\n        <ion-option value="ES">Español</ion-option>\n\n        <ion-option value="FR">Français</ion-option>\n\n      </ion-select>\n\n    </ion-item>\n\n    <ion-item *ngIf="ENG === true">\n\n      <ion-label id="LabelText">Geo-Location</ion-label>\n\n      <ion-toggle\n\n        [(ngModel)]="geolocationEnabled"\n\n        [color]="geolocationEnabled ? \'success\' : \'danger\'"\n\n        (ionChange)="onToggleGeolocation()"\n\n      ></ion-toggle>\n\n    </ion-item>\n\n\n\n    <div *ngIf="geolocationEnabled && ENG === true">\n\n      <ion-label style="text-align: center">Share Location Detail</ion-label>\n\n\n\n      <div class="share-buttons-container">\n\n        <button class="share-button" (click)="sendLocationViaWhatsApp()">\n\n          Share via WhatsApp\n\n        </button>\n\n        <button class="share-button" (click)="sendLocationViaMessenger()">\n\n          Share via Messenger\n\n        </button>\n\n        <button class="share-button" (click)="sendLocationViaSMS()">\n\n          Share via SMS\n\n        </button>\n\n        <button class="share-button" (click)="sendLocationViaEmail()">\n\n          Share via Email\n\n        </button>\n\n      </div>\n\n    </div>\n\n\n\n    <ion-item *ngIf="ES === true">\n\n      <ion-label id="LabelText">idioma</ion-label>\n\n      <ion-select\n\n        id="Text"\n\n        cancelText="Cancelar"\n\n        (ionCancel)="onCancel()"\n\n        (ionChange)="onChange()"\n\n        [(ngModel)]="LanguageSelect"\n\n      >\n\n        <ion-option value="ENG">English</ion-option>\n\n        <ion-option selected="true" value="ES">Español</ion-option>\n\n        <ion-option value="FR">Français</ion-option>\n\n      </ion-select>\n\n    </ion-item>\n\n    <ion-item *ngIf="FR === true">\n\n      <ion-label id="LabelText">Langue</ion-label>\n\n      <ion-select\n\n        id="Text"\n\n        cancelText="Annuler"\n\n        (ionCancel)="onCancel()"\n\n        (ionChange)="onChange()"\n\n        [(ngModel)]="LanguageSelect"\n\n      >\n\n        <ion-option value="ENG">English</ion-option>\n\n        <ion-option value="ES">Español</ion-option>\n\n        <ion-option selected="true" value="FR">Français</ion-option>\n\n      </ion-select>\n\n    </ion-item>\n\n  </ion-card>\n\n</ion-content>\n\n'/*ion-inline-end:"F:\UN_Buddy_First_Aid_App\src\pages\settings\settings.html"*/,
+            selector: "page-settings",template:/*ion-inline-start:"F:\UN_Buddy_First_Aid_App\src\pages\settings\settings.html"*/'<ion-header no-border>\n\n  <ion-navbar color="transparent"> </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content no-padding>\n\n  <ion-card class="card">\n\n    <ion-item *ngIf="ENG === true">\n\n      <ion-label id="LabelText">Language</ion-label>\n\n      <ion-select\n\n        id="Text"\n\n        (ionCancel)="onCancel()"\n\n        (ionChange)="onChange()"\n\n        [(ngModel)]="LanguageSelect"\n\n      >\n\n        <ion-option selected="true" value="ENG">English</ion-option>\n\n        <ion-option value="ES">Español</ion-option>\n\n        <ion-option value="FR">Français</ion-option>\n\n        <ion-option value="RUS">Russian</ion-option>\n\n      </ion-select>\n\n    </ion-item>\n\n    <ion-item *ngIf="ENG === true">\n\n      <ion-label id="LabelText">Geo-Location</ion-label>\n\n      <ion-toggle\n\n        [(ngModel)]="geolocationEnabled"\n\n        [color]="geolocationEnabled ? \'success\' : \'danger\'"\n\n        (ionChange)="onToggleGeolocation()"\n\n      ></ion-toggle>\n\n    </ion-item>\n\n\n\n    <div *ngIf="geolocationEnabled && ENG === true">\n\n      <ion-label style="text-align: center">Share Location Detail</ion-label>\n\n\n\n      <div class="share-buttons-container">\n\n        <button class="share-button" (click)="sendLocationViaWhatsApp()">\n\n          Share via WhatsApp\n\n        </button>\n\n        <button class="share-button" (click)="sendLocationViaMessenger()">\n\n          Share via Messenger\n\n        </button>\n\n        <button class="share-button" (click)="sendLocationViaSMS()">\n\n          Share via SMS\n\n        </button>\n\n        <button class="share-button" (click)="sendLocationViaEmail()">\n\n          Share via Email\n\n        </button>\n\n      </div>\n\n    </div>\n\n\n\n    <ion-item *ngIf="ES === true">\n\n      <ion-label id="LabelText">idioma</ion-label>\n\n      <ion-select\n\n        id="Text"\n\n        cancelText="Cancelar"\n\n        (ionCancel)="onCancel()"\n\n        (ionChange)="onChange()"\n\n        [(ngModel)]="LanguageSelect"\n\n      >\n\n        <ion-option value="ENG">English</ion-option>\n\n        <ion-option selected="true" value="ES">Español</ion-option>\n\n        <ion-option value="FR">Français</ion-option>\n\n        <ion-option value="RUS">Russian</ion-option>\n\n      </ion-select>\n\n    </ion-item>\n\n\n\n    <ion-item *ngIf="ES === true">\n\n      <ion-label id="LabelText">Ubicación geográfica</ion-label>\n\n      <ion-toggle\n\n        [(ngModel)]="geolocationEnabled"\n\n        [color]="geolocationEnabled ? \'success\' : \'danger\'"\n\n        (ionChange)="onToggleGeolocation()"\n\n      ></ion-toggle>\n\n    </ion-item>\n\n\n\n    <div *ngIf="geolocationEnabled && ES === true">\n\n      <ion-label style="text-align: center">Compartir detalle de ubicación</ion-label>\n\n\n\n      <div class="share-buttons-container">\n\n        <button class="share-button" (click)="sendLocationViaWhatsApp()">\n\n          Compartir vía whatsapp\n\n        </button>\n\n        <button class="share-button" (click)="sendLocationViaMessenger()">\n\n          Compartir a través de Messenger\n\n        </button>\n\n        <button class="share-button" (click)="sendLocationViaSMS()">\n\n          Compartir por SMS\n\n        </button>\n\n        <button class="share-button" (click)="sendLocationViaEmail()">\n\n          Compartir por correo electrónico\n\n        </button>\n\n      </div>\n\n    </div>\n\n\n\n    <ion-item *ngIf="FR === true">\n\n      <ion-label id="LabelText">Langue</ion-label>\n\n      <ion-select\n\n        id="Text"\n\n        cancelText="Annuler"\n\n        (ionCancel)="onCancel()"\n\n        (ionChange)="onChange()"\n\n        [(ngModel)]="LanguageSelect"\n\n      >\n\n        <ion-option value="ENG">English</ion-option>\n\n        <ion-option value="ES">Español</ion-option>\n\n        <ion-option selected="true" value="FR">Français</ion-option>\n\n        <ion-option value="RUS">Russian</ion-option>\n\n      </ion-select>\n\n    </ion-item>\n\n\n\n    <ion-item *ngIf="FR === true">\n\n      <ion-label id="LabelText">Géolocalisation</ion-label>\n\n      <ion-toggle\n\n        [(ngModel)]="geolocationEnabled"\n\n        [color]="geolocationEnabled ? \'success\' : \'danger\'"\n\n        (ionChange)="onToggleGeolocation()"\n\n      ></ion-toggle>\n\n    </ion-item>\n\n\n\n    <div *ngIf="geolocationEnabled && FR === true">\n\n      <ion-label style="text-align: center">Partager les détails de l\'emplacement</ion-label>\n\n\n\n      <div class="share-buttons-container">\n\n        <button class="share-button" (click)="sendLocationViaWhatsApp()">\n\n          Partager via WhatsApp\n\n        </button>\n\n        <button class="share-button" (click)="sendLocationViaMessenger()">\n\n          Partager via Messenger\n\n        </button>\n\n        <button class="share-button" (click)="sendLocationViaSMS()">\n\n          Partager par SMS\n\n        </button>\n\n        <button class="share-button" (click)="sendLocationViaEmail()">\n\n          Partager par e-mail\n\n        </button>\n\n      </div>\n\n    </div>\n\n\n\n    <ion-item *ngIf="RUS === true">\n\n      <ion-label id="LabelText">Язык</ion-label>\n\n      <ion-select\n\n        id="Text"\n\n        cancelText="Отмена"\n\n        (ionCancel)="onCancel()"\n\n        (ionChange)="onChange()"\n\n        [(ngModel)]="LanguageSelect"\n\n      >\n\n        <ion-option value="ENG">English</ion-option>\n\n        <ion-option value="ES">Español</ion-option>\n\n        <ion-option value="FR">Français</ion-option>\n\n        <ion-option selected="true" value="RUS">Russian</ion-option>\n\n      </ion-select>\n\n    </ion-item>\n\n\n\n    <ion-item *ngIf="RUS === true">\n\n      <ion-label id="LabelText">Геолокация</ion-label>\n\n      <ion-toggle\n\n        [(ngModel)]="geolocationEnabled"\n\n        [color]="geolocationEnabled ? \'success\' : \'danger\'"\n\n        (ionChange)="onToggleGeolocation()"\n\n      ></ion-toggle>\n\n    </ion-item>\n\n\n\n    <div *ngIf="geolocationEnabled && RUS === true">\n\n      <ion-label style="text-align: center">Поделиться информацией о местоположении</ion-label>\n\n\n\n      <div class="share-buttons-container">\n\n        <button class="share-button" (click)="sendLocationViaWhatsApp()">\n\n          Поделиться через WhatsApp\n\n        </button>\n\n        <button class="share-button" (click)="sendLocationViaMessenger()">\n\n          Поделиться через Мессенджер\n\n        </button>\n\n        <button class="share-button" (click)="sendLocationViaSMS()">\n\n          Поделиться через SMS\n\n        </button>\n\n        <button class="share-button" (click)="sendLocationViaEmail()">\n\n          Поделиться по электронной почте\n\n        </button>\n\n      </div>\n\n    </div>\n\n\n\n  </ion-card>\n\n</ion-content>\n\n'/*ion-inline-end:"F:\UN_Buddy_First_Aid_App\src\pages\settings\settings.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* ModalController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */],
-            __WEBPACK_IMPORTED_MODULE_2__ionic_storage__["b" /* Storage */],
-            __WEBPACK_IMPORTED_MODULE_3__ionic_native_geolocation__["a" /* Geolocation */],
-            __WEBPACK_IMPORTED_MODULE_4__app_services_location_service__["a" /* LocationService */]])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* ModalController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* ModalController */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_2__ionic_storage__["b" /* Storage */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__ionic_storage__["b" /* Storage */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_3__ionic_native_geolocation__["a" /* Geolocation */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__ionic_native_geolocation__["a" /* Geolocation */]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_4__app_services_location_service__["a" /* LocationService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__app_services_location_service__["a" /* LocationService */]) === "function" && _f || Object])
     ], SettingsPage);
     return SettingsPage;
+    var _a, _b, _c, _d, _e, _f;
 }());
 
 //# sourceMappingURL=settings.js.map

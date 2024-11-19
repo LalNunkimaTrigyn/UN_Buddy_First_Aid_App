@@ -17,11 +17,12 @@ export class SettingsPage {
     public storage: Storage,
     public geolocation: Geolocation,
     public locationService: LocationService
-  ) {}
+  ) { }
 
   ENG = false;
   FR = false;
   ES = false;
+  RUS = false;
   LanguageSelect: string;
   geolocationEnabled: boolean = false; // This will be bound to the toggle
 
@@ -32,21 +33,31 @@ export class SettingsPage {
           this.ENG = true;
           this.FR = false;
           this.ES = false;
+          this.RUS = false;
         }
         if (data === "ES") {
           this.ENG = false;
           this.ES = true;
           this.FR = false;
+          this.RUS = false;
         }
         if (data === "FR") {
           this.ENG = false;
           this.FR = true;
           this.ES = false;
+          this.RUS = false;
+        }
+        if (data === "RUS") {
+          this.ENG = false;
+          this.FR = false;
+          this.ES = false;
+          this.RUS = true;
         }
       } else {
         this.ENG = true;
         this.ES = false;
         this.FR = false;
+        this.RUS = false;
         this.storage.set("Language", "ENG");
       }
     });
@@ -56,23 +67,108 @@ export class SettingsPage {
   }
 
   sendLocationViaWhatsApp() {
-    const message = `My location is: Latitude: ${this.locationService.latitude}, Longitude: ${this.locationService.longitude}`;
-    window.open(`https://wa.me/?text=${encodeURIComponent(message)}`, "_blank");
+    this.storage.get("Language").then((data) => {
+      if (data) {
+        if (data === "ENG") {
+          const message = `My location is: Latitude: ${this.locationService.latitude}, Longitude: ${this.locationService.longitude}`;
+          window.open(`https://wa.me/?text=${encodeURIComponent(message)}`, "_blank");
+        }
+        if (data === "ES") {
+          const message = `mi ubicación es: Latitud: ${this.locationService.latitude}, Longitud: ${this.locationService.longitude}`;
+          window.open(`https://wa.me/?text=${encodeURIComponent(message)}`, "_blank");
+        }
+        if (data === "FR") {
+          const message = `Mon emplacement est: Latitude: ${this.locationService.latitude}, Longitude: ${this.locationService.longitude}`;
+          window.open(`https://wa.me/?text=${encodeURIComponent(message)}`, "_blank");
+        }
+        if (data === "RUS") {
+          const message = `Мое местоположение: Широта: ${this.locationService.latitude}, Долгота: ${this.locationService.longitude}`;
+          window.open(`https://wa.me/?text=${encodeURIComponent(message)}`, "_blank");
+        }
+      } else {
+        const message = `My location is: Latitude: ${this.locationService.latitude}, Longitude: ${this.locationService.longitude}`;
+        window.open(`https://wa.me/?text=${encodeURIComponent(message)}`, "_blank");
+      }
+    });
   }
 
   sendLocationViaSMS() {
-    const message = `My location is: Latitude: ${this.locationService.latitude}, Longitude: ${this.locationService.longitude}`;
-    window.open(`sms:?body=${encodeURIComponent(message)}`, "_blank");
+    this.storage.get("Language").then((data) => {
+      if (data) {
+        if (data === "ENG") {
+          const message = `My location is: Latitude: ${this.locationService.latitude}, Longitude: ${this.locationService.longitude}`;
+          window.open(`sms:?body=${encodeURIComponent(message)}`, "_blank");
+        }
+        if (data === "ES") {
+          const message = `mi ubicación es: Latitud: ${this.locationService.latitude}, Longitud: ${this.locationService.longitude}`;
+          window.open(`sms:?body=${encodeURIComponent(message)}`, "_blank");
+        }
+        if (data === "FR") {
+          const message = `Mon emplacement est: Latitude: ${this.locationService.latitude}, Longitude: ${this.locationService.longitude}`;
+          window.open(`sms:?body=${encodeURIComponent(message)}`, "_blank");
+        }
+        if (data === "RUS") {
+          const message = `Мое местоположение: Широта: ${this.locationService.latitude}, Долгота: ${this.locationService.longitude}`;
+          window.open(`sms:?body=${encodeURIComponent(message)}`, "_blank");
+        }
+      } else {
+        const message = `My location is: Latitude: ${this.locationService.latitude}, Longitude: ${this.locationService.longitude}`;
+        window.open(`sms:?body=${encodeURIComponent(message)}`, "_blank");
+      }
+    });
+
   }
 
   sendLocationViaMessenger() {
-    const message = `My location is: Latitude: ${this.locationService.latitude}, Longitude: ${this.locationService.longitude}`;
-    window.open(
-      `https://www.facebook.com/messages/t/?text=${encodeURIComponent(
-        message
-      )}`,
-      "_blank"
-    );
+    this.storage.get("Language").then((data) => {
+      if (data) {
+        if (data === "ENG") {
+          const message = `My location is: Latitude: ${this.locationService.latitude}, Longitude: ${this.locationService.longitude}`;
+          window.open(
+            `https://www.facebook.com/messages/t/?text=${encodeURIComponent(
+              message
+            )}`,
+            "_blank"
+          );
+        }
+        if (data === "ES") {
+          const message = `mi ubicación es: Latitud: ${this.locationService.latitude}, Longitud: ${this.locationService.longitude}`;
+          window.open(
+            `https://www.facebook.com/messages/t/?text=${encodeURIComponent(
+              message
+            )}`,
+            "_blank"
+          );
+        }
+        if (data === "FR") {
+          const message = `Mon emplacement est: Latitude: ${this.locationService.latitude}, Longitude: ${this.locationService.longitude}`;
+          window.open(
+            `https://www.facebook.com/messages/t/?text=${encodeURIComponent(
+              message
+            )}`,
+            "_blank"
+          );
+        }
+        if (data === "RUS") {
+          const message = `Мое местоположение: Широта: ${this.locationService.latitude}, Долгота: ${this.locationService.longitude}`;
+          window.open(
+            `https://www.facebook.com/messages/t/?text=${encodeURIComponent(
+              message
+            )}`,
+            "_blank"
+          );
+        }
+      } else {
+        const message = `My location is: Latitude: ${this.locationService.latitude}, Longitude: ${this.locationService.longitude}`;
+        window.open(
+          `https://www.facebook.com/messages/t/?text=${encodeURIComponent(
+            message
+          )}`,
+          "_blank"
+        );
+      }
+    });
+
   }
 
   onToggleGeolocation() {
@@ -80,14 +176,60 @@ export class SettingsPage {
   }
 
   sendLocationViaEmail() {
-    const subject = "My Current Location";
-    const body = `My location is: Latitude: ${this.locationService.latitude}, Longitude: ${this.locationService.longitude}`;
-    window.open(
-      `mailto:?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(
-        body
-      )}`,
-      "_blank"
-    );
+    this.storage.get("Language").then((data) => {
+      if (data) {
+        if (data === "ENG") {
+          const subject = "My Current Location";
+          const body = `My location is: Latitude: ${this.locationService.latitude}, Longitude: ${this.locationService.longitude}`;
+          window.open(
+            `mailto:?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(
+              body
+            )}`,
+            "_blank"
+          );
+        }
+        if (data === "ES") {
+          const subject = "Mi ubicación actual";
+          const body = `mi ubicación es: Latitud: ${this.locationService.latitude}, Longitud: ${this.locationService.longitude}`;
+          window.open(
+            `mailto:?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(
+              body
+            )}`,
+            "_blank"
+          );
+        }
+        if (data === "FR") {
+          const subject = "Ma position actuelle";
+          const body = `Mon emplacement est: Latitude: ${this.locationService.latitude}, Longitude: ${this.locationService.longitude}`;
+          window.open(
+            `mailto:?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(
+              body
+            )}`,
+            "_blank"
+          );
+        }
+        if (data === "RUS") {
+          const subject = "Мое текущее местоположение";
+          const body = `Мое местоположение: Широта: ${this.locationService.latitude}, Долгота: ${this.locationService.longitude}`;
+          window.open(
+            `mailto:?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(
+              body
+            )}`,
+            "_blank"
+          );
+        }
+      } else {
+        const subject = "My Current Location";
+        const body = `My location is: Latitude: ${this.locationService.latitude}, Longitude: ${this.locationService.longitude}`;
+        window.open(
+          `mailto:?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(
+            body
+          )}`,
+          "_blank"
+        );
+      }
+    });
+
   }
 
   onCancel() {
@@ -99,12 +241,14 @@ export class SettingsPage {
       this.ENG = true;
       this.FR = false;
       this.ES = false;
+      this.RUS = false;
       this.storage.set("Language", "ENG");
     }
     if (this.LanguageSelect === "ES") {
       this.ENG = false;
       this.ES = true;
       this.FR = false;
+      this.RUS = false;
       this.storage.set("Language", "ES");
     }
 
@@ -112,7 +256,16 @@ export class SettingsPage {
       this.ENG = false;
       this.ES = false;
       this.FR = true;
+      this.RUS = false;
       this.storage.set("Language", "FR");
+    }
+
+    if (this.LanguageSelect === "RUS") {
+      this.ENG = false;
+      this.ES = false;
+      this.FR = false;
+      this.RUS = true;
+      this.storage.set("Language", "RUS");
     }
   }
 }

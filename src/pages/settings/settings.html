@@ -15,6 +15,7 @@
         <ion-option selected="true" value="ENG">English</ion-option>
         <ion-option value="ES">Español</ion-option>
         <ion-option value="FR">Français</ion-option>
+        <ion-option value="RUS">Russian</ion-option>
       </ion-select>
     </ion-item>
     <ion-item *ngIf="ENG === true">
@@ -57,8 +58,38 @@
         <ion-option value="ENG">English</ion-option>
         <ion-option selected="true" value="ES">Español</ion-option>
         <ion-option value="FR">Français</ion-option>
+        <ion-option value="RUS">Russian</ion-option>
       </ion-select>
     </ion-item>
+
+    <ion-item *ngIf="ES === true">
+      <ion-label id="LabelText">Ubicación geográfica</ion-label>
+      <ion-toggle
+        [(ngModel)]="geolocationEnabled"
+        [color]="geolocationEnabled ? 'success' : 'danger'"
+        (ionChange)="onToggleGeolocation()"
+      ></ion-toggle>
+    </ion-item>
+
+    <div *ngIf="geolocationEnabled && ES === true">
+      <ion-label style="text-align: center">Compartir detalle de ubicación</ion-label>
+
+      <div class="share-buttons-container">
+        <button class="share-button" (click)="sendLocationViaWhatsApp()">
+          Compartir vía whatsapp
+        </button>
+        <button class="share-button" (click)="sendLocationViaMessenger()">
+          Compartir a través de Messenger
+        </button>
+        <button class="share-button" (click)="sendLocationViaSMS()">
+          Compartir por SMS
+        </button>
+        <button class="share-button" (click)="sendLocationViaEmail()">
+          Compartir por correo electrónico
+        </button>
+      </div>
+    </div>
+
     <ion-item *ngIf="FR === true">
       <ion-label id="LabelText">Langue</ion-label>
       <ion-select
@@ -71,7 +102,81 @@
         <ion-option value="ENG">English</ion-option>
         <ion-option value="ES">Español</ion-option>
         <ion-option selected="true" value="FR">Français</ion-option>
+        <ion-option value="RUS">Russian</ion-option>
       </ion-select>
     </ion-item>
+
+    <ion-item *ngIf="FR === true">
+      <ion-label id="LabelText">Géolocalisation</ion-label>
+      <ion-toggle
+        [(ngModel)]="geolocationEnabled"
+        [color]="geolocationEnabled ? 'success' : 'danger'"
+        (ionChange)="onToggleGeolocation()"
+      ></ion-toggle>
+    </ion-item>
+
+    <div *ngIf="geolocationEnabled && FR === true">
+      <ion-label style="text-align: center">Partager les détails de l'emplacement</ion-label>
+
+      <div class="share-buttons-container">
+        <button class="share-button" (click)="sendLocationViaWhatsApp()">
+          Partager via WhatsApp
+        </button>
+        <button class="share-button" (click)="sendLocationViaMessenger()">
+          Partager via Messenger
+        </button>
+        <button class="share-button" (click)="sendLocationViaSMS()">
+          Partager par SMS
+        </button>
+        <button class="share-button" (click)="sendLocationViaEmail()">
+          Partager par e-mail
+        </button>
+      </div>
+    </div>
+
+    <ion-item *ngIf="RUS === true">
+      <ion-label id="LabelText">Язык</ion-label>
+      <ion-select
+        id="Text"
+        cancelText="Отмена"
+        (ionCancel)="onCancel()"
+        (ionChange)="onChange()"
+        [(ngModel)]="LanguageSelect"
+      >
+        <ion-option value="ENG">English</ion-option>
+        <ion-option value="ES">Español</ion-option>
+        <ion-option value="FR">Français</ion-option>
+        <ion-option selected="true" value="RUS">Russian</ion-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item *ngIf="RUS === true">
+      <ion-label id="LabelText">Геолокация</ion-label>
+      <ion-toggle
+        [(ngModel)]="geolocationEnabled"
+        [color]="geolocationEnabled ? 'success' : 'danger'"
+        (ionChange)="onToggleGeolocation()"
+      ></ion-toggle>
+    </ion-item>
+
+    <div *ngIf="geolocationEnabled && RUS === true">
+      <ion-label style="text-align: center">Поделиться информацией о местоположении</ion-label>
+
+      <div class="share-buttons-container">
+        <button class="share-button" (click)="sendLocationViaWhatsApp()">
+          Поделиться через WhatsApp
+        </button>
+        <button class="share-button" (click)="sendLocationViaMessenger()">
+          Поделиться через Мессенджер
+        </button>
+        <button class="share-button" (click)="sendLocationViaSMS()">
+          Поделиться через SMS
+        </button>
+        <button class="share-button" (click)="sendLocationViaEmail()">
+          Поделиться по электронной почте
+        </button>
+      </div>
+    </div>
+
   </ion-card>
 </ion-content>
