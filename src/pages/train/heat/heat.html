@@ -19,6 +19,11 @@
             HIPERTERMIA
         </button>
     </ion-buttons>
+    <ion-buttons *ngIf="RUS === true">
+        <button outline class="buttons" clear full ion-button icon-only (click)="GotoHyperthermia()">
+            ГИПЕРТЕРМИЯ
+        </button>
+    </ion-buttons>
 
     <ion-buttons *ngIf="ENG === true">
         <button outline class="buttons" clear full ion-button icon-only (click)="GotoHypothermia()">
@@ -33,6 +38,11 @@
     <ion-buttons *ngIf="ES === true">
         <button outline class="buttons" clear full ion-button icon-only (click)="GotoHypothermia()">
             HIPOTERMIA
+        </button>
+    </ion-buttons>
+    <ion-buttons *ngIf="RUS === true">
+        <button outline class="buttons" clear full ion-button icon-only (click)="GotoHypothermia()">
+            ГИПОТЕРМИЯ
         </button>
     </ion-buttons>
 </ion-content>
