@@ -13,8 +13,9 @@
         <button *ngIf="InformationButton === true && ENG === true" ion-button class="button" outline  (click)="OpenInfo()">INFO</button> 
         <button *ngIf="InformationButton === true && FR === true" ion-button class="button" outline  (click)="OpenInfo()">INFO</button>
         <button style="font-size: 20px;" *ngIf="InformationButton === true && ES === true" ion-button class="button" outline  (click)="OpenInfo()">INFORMACIÓN</button> 
-
-        <div *ngIf="InformationButton === false" class="placeholderhidden"></div>       
+        <button *ngIf="InformationButton === true && RUS === true" ion-button class="button" outline  (click)="OpenInfo()">ИНФОРМАЦИЯ</button>
+       
+        <div *ngIf="InformationButton === false" class="placeholderhidden"></div>      
     </ion-col>
     <ion-col></ion-col>
     <ion-col></ion-col>
@@ -29,6 +30,7 @@
         <button *ngIf="YesButton === true && ENG === true" ion-button class="button" outline  (click)="YesClick()">YES</button>
         <button *ngIf="YesButton === true && FR === true" ion-button class="button" outline  (click)="YesClick()">Oui</button>
         <button *ngIf="YesButton === true && ES === true" ion-button class="button" outline  (click)="YesClick()">SÍ</button>
+        <button *ngIf="YesButton === true && RUS === true" ion-button class="button" outline  (click)="YesClick()">ДА</button>
       </ion-col>
       <ion-col>
         <button *ngIf="CheckButton === true && ios === true" ion-button class="button" outline  (click)="CheckClick()">
@@ -42,6 +44,7 @@
         <button *ngIf="NoButton === true && ENG === true" ion-button class="button" outline  (click)="NoClick()">NO</button>
         <button *ngIf="NoButton === true && FR === true" ion-button class="button" outline  (click)="NoClick()">Non</button>
         <button *ngIf="NoButton === true && ES === true" ion-button class="button" outline  (click)="NoClick()">VOLVER</button>
+        <button *ngIf="NoButton === true && RUS === true" ion-button class="button" outline  (click)="NoClick()">НЕТ</button>
       </ion-col>
       <ion-col></ion-col>
   </ion-row>
@@ -53,6 +56,7 @@
           <button ion-button class="button" *ngIf="ENG === true" outline  (click)="BackClick()">BACK</button>
           <button ion-button class="button" *ngIf="FR === true" outline  (click)="BackClick()">Retour</button>
           <button ion-button class="button" *ngIf="ES === true" outline  (click)="BackClick()">ATRÁS</button>
+          <button ion-button class="button" *ngIf="RUS === true" outline  (click)="BackClick()">НАЗАД</button>
       </ion-col>
       <ion-col></ion-col>
       <ion-col></ion-col>

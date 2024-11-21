@@ -13,6 +13,7 @@ import { IonicStorageModule } from "@ionic/storage";
 import { ENGProtocolData } from "../providers/ENGprotocoldata";
 import { FRProtocolData } from "../providers/FRprotocoldata";
 import { ESProtocolData } from "../providers/ESProtocolData";
+import { RUSProtocolData } from "../providers/RUSprotocoldata";
 import { InfoModalPage } from "../pages/protocol/infomodal/infomodal";
 import { AirwayPage } from "../pages/train/airway/airway";
 import { AlertPage } from "../pages/train/alert/alert";
@@ -98,6 +99,7 @@ import { LocationService } from "./services/location.service";
     ENGProtocolData,
     FRProtocolData,
     ESProtocolData,
+    RUSProtocolData,
     NativeAudio,
     LocationService,
     Geolocation,

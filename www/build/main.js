@@ -4418,6 +4418,7 @@ var HomePage = /** @class */ (function () {
         this.ENG = false;
         this.FR = false;
         this.ES = false;
+        this.RUS = false;
     }
     HomePage.prototype.ionViewWillEnter = function () {
         var _this = this;
@@ -4458,21 +4459,31 @@ var HomePage = /** @class */ (function () {
                 _this.ES = false;
                 _this.ENG = true;
                 _this.FR = false;
+                _this.RUS = false;
             }
             else if (data === "ES") {
                 _this.ES = true;
                 _this.ENG = false;
                 _this.FR = false;
+                _this.RUS = false;
             }
             else if (data === "FR") {
                 _this.ENG = false;
                 _this.FR = true;
                 _this.ES = false;
+                _this.RUS = false;
+            }
+            else if (data === "RUS") {
+                _this.ENG = false;
+                _this.FR = false;
+                _this.ES = false;
+                _this.RUS = true;
             }
             else {
                 _this.ENG = true;
                 _this.ES = false;
                 _this.FR = false;
+                _this.RUS = false;
                 _this.storage.set("Language", "ENG");
             }
         });
@@ -4488,7 +4499,7 @@ var HomePage = /** @class */ (function () {
     };
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: "page-home",template:/*ion-inline-start:"F:\UN_Buddy_First_Aid_App\src\pages\home\home.html"*/'<ion-header no-border>\n\n  <ion-navbar color="transparent">\n\n    <ion-buttons right>\n\n      <button ion-button class="ion-icon" color="light" icon-only (click)="GotoSettings()">\n\n          <ion-icon name="settings"></ion-icon>\n\n      </button>\n\n    </ion-buttons>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n  <ion-content no-bounce>\n\n    <ion-grid>\n\n        <ion-row id="logocontainer" justify-content-center align-items-center>\n\n          <img id="logo" src="./assets/imgs/logo.svg" alt="logo">\n\n        </ion-row>\n\n        <ion-row id="rangenbuttons">\n\n          <ion-col>\n\n              <ion-buttons *ngIf="ENG === true">\n\n                <button class="buttons" clear ion-button color="light" icon-only (click)="OpenProtocol()">\n\n                protocol\n\n                </button>\n\n              </ion-buttons>\n\n              <ion-buttons *ngIf="ES === true">\n\n                <button class="buttons" clear ion-button color="light" icon-only (click)="OpenProtocol()">\n\n                  PROTOCOLO\n\n                </button>\n\n              </ion-buttons>\n\n              <ion-buttons *ngIf="FR === true">\n\n                <button class="buttons" clear ion-button color="light" icon-only (click)="OpenProtocol()">\n\n                protocole\n\n                </button>\n\n              </ion-buttons>\n\n          </ion-col>\n\n          <ion-col>\n\n              <ion-buttons *ngIf="ENG === true">\n\n                <button class="buttons" clear ion-button color="light" icon-only (click)="OpenTraining()">\n\n                training\n\n                </button>\n\n              </ion-buttons>\n\n              <ion-buttons *ngIf="ES === true">\n\n                <button class="buttons" clear ion-button color="light" icon-only (click)="OpenTraining()">\n\n                  ENTRENAMIENTO\n\n                </button>\n\n              </ion-buttons>\n\n              <ion-buttons *ngIf="FR === true">\n\n              <button class="buttons" clear ion-button color="light" icon-only (click)="OpenTraining()">\n\n                formation\n\n              </button>\n\n            </ion-buttons>\n\n          </ion-col>\n\n        </ion-row>\n\n      </ion-grid>\n\n</ion-content>\n\n'/*ion-inline-end:"F:\UN_Buddy_First_Aid_App\src\pages\home\home.html"*/,
+            selector: "page-home",template:/*ion-inline-start:"F:\UN_Buddy_First_Aid_App\src\pages\home\home.html"*/'<ion-header no-border>\n\n  <ion-navbar color="transparent">\n\n    <ion-buttons right>\n\n      <button ion-button class="ion-icon" color="light" icon-only (click)="GotoSettings()">\n\n        <ion-icon name="settings"></ion-icon>\n\n      </button>\n\n    </ion-buttons>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content no-bounce>\n\n  <ion-grid>\n\n    <ion-row id="logocontainer" justify-content-center align-items-center>\n\n      <img id="logo" src="./assets/imgs/logo.svg" alt="logo">\n\n    </ion-row>\n\n    <ion-row id="rangenbuttons">\n\n      <ion-col>\n\n        <ion-buttons *ngIf="ENG === true">\n\n          <button class="buttons" clear ion-button color="light" icon-only (click)="OpenProtocol()">\n\n            protocol\n\n          </button>\n\n        </ion-buttons>\n\n        <ion-buttons *ngIf="ES === true">\n\n          <button class="buttons" clear ion-button color="light" icon-only (click)="OpenProtocol()">\n\n            PROTOCOLO\n\n          </button>\n\n        </ion-buttons>\n\n        <ion-buttons *ngIf="FR === true">\n\n          <button class="buttons" clear ion-button color="light" icon-only (click)="OpenProtocol()">\n\n            protocole\n\n          </button>\n\n        </ion-buttons>\n\n        <ion-buttons *ngIf="RUS === true">\n\n          <button class="buttons" clear ion-button color="light" icon-only (click)="OpenProtocol()">\n\n            протокол\n\n          </button>\n\n        </ion-buttons>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-buttons *ngIf="ENG === true">\n\n          <button class="buttons" clear ion-button color="light" icon-only (click)="OpenTraining()">\n\n            training\n\n          </button>\n\n        </ion-buttons>\n\n        <ion-buttons *ngIf="ES === true">\n\n          <button class="buttons" clear ion-button color="light" icon-only (click)="OpenTraining()">\n\n            ENTRENAMIENTO\n\n          </button>\n\n        </ion-buttons>\n\n        <ion-buttons *ngIf="FR === true">\n\n          <button class="buttons" clear ion-button color="light" icon-only (click)="OpenTraining()">\n\n            formation\n\n          </button>\n\n        </ion-buttons>\n\n        <ion-buttons *ngIf="RUS === true">\n\n          <button class="buttons" clear ion-button color="light" icon-only (click)="OpenTraining()">\n\n            обучение\n\n          </button>\n\n        </ion-buttons>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>'/*ion-inline-end:"F:\UN_Buddy_First_Aid_App\src\pages\home\home.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_4__ionic_storage__["b" /* Storage */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */],
@@ -4512,9 +4523,10 @@ var HomePage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_ENGprotocoldata__ = __webpack_require__(115);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_FRprotocoldata__ = __webpack_require__(117);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_ESProtocolData__ = __webpack_require__(118);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__infomodal_infomodal__ = __webpack_require__(215);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_storage__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_native_audio__ = __webpack_require__(216);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_RUSprotocoldata__ = __webpack_require__(299);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__infomodal_infomodal__ = __webpack_require__(215);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_storage__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ionic_native_native_audio__ = __webpack_require__(216);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -4532,8 +4544,9 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
 var ProtocolPage = /** @class */ (function () {
-    function ProtocolPage(nativeAudio, platform, alertCtrl, storage, modalCtrl, ENGdataService, FRdataService, ESProtocolData, navCtrl) {
+    function ProtocolPage(nativeAudio, platform, alertCtrl, storage, modalCtrl, ENGdataService, FRdataService, ESProtocolData, RUSProtocolData, navCtrl) {
         this.nativeAudio = nativeAudio;
         this.platform = platform;
         this.alertCtrl = alertCtrl;
@@ -4542,10 +4555,12 @@ var ProtocolPage = /** @class */ (function () {
         this.ENGdataService = ENGdataService;
         this.FRdataService = FRdataService;
         this.ESProtocolData = ESProtocolData;
+        this.RUSProtocolData = RUSProtocolData;
         this.navCtrl = navCtrl;
         this.ENG = false;
         this.FR = false;
         this.ES = false;
+        this.RUS = false;
         this.Step = 0;
         this.StepHistory = [];
         this.InstructionText = '';
@@ -4577,18 +4592,28 @@ var ProtocolPage = /** @class */ (function () {
                 _this.ENG = true;
                 _this.FR = false;
                 _this.ES = false;
+                _this.RUS = false;
                 _this.GetInfo();
             }
             if (data === 'FR') {
                 _this.ENG = false;
                 _this.FR = true;
                 _this.ES = false;
+                _this.RUS = false;
                 _this.GetInfo();
             }
             if (data === 'ES') {
                 _this.ENG = false;
                 _this.FR = false;
                 _this.ES = true;
+                _this.RUS = false;
+                _this.GetInfo();
+            }
+            if (data === 'RUS') {
+                _this.ENG = false;
+                _this.FR = false;
+                _this.ES = false;
+                _this.RUS = true;
                 _this.GetInfo();
             }
         });
@@ -4603,6 +4628,9 @@ var ProtocolPage = /** @class */ (function () {
                 }
                 if (_this.ES === true) {
                     _this.presentESAlert();
+                }
+                if (_this.RUS === true) {
+                    _this.presentRUSAlert();
                 }
             }
             else {
@@ -4677,6 +4705,31 @@ var ProtocolPage = /** @class */ (function () {
                 },
                 {
                     text: 'Sí',
+                    handler: function () {
+                        _this.Step = _this.StepHistory.pop();
+                        _this.GetInfo();
+                    }
+                }
+            ]
+        });
+        alert.present();
+    };
+    ProtocolPage.prototype.presentRUSAlert = function () {
+        var _this = this;
+        var alert = this.alertCtrl.create({
+            title: 'Протокол возобновления',
+            message: 'Хотите возобновить?',
+            buttons: [
+                {
+                    text: 'Нет',
+                    handler: function () {
+                        _this.Step = 0;
+                        _this.StepHistory = [];
+                        _this.GetInfo();
+                    }
+                },
+                {
+                    text: 'Да',
                     handler: function () {
                         _this.Step = _this.StepHistory.pop();
                         _this.GetInfo();
@@ -4792,6 +4845,20 @@ var ProtocolPage = /** @class */ (function () {
             this.NoButtonGoToStepCount = this.ESProtocolData.FirstAidProtocol[this.Step].NoButtonGoToStepCount;
             this.MARCH = this.ESProtocolData.FirstAidProtocol[this.Step].MARCH;
         }
+        if (this.RUS === true) {
+            this.InstructionText = this.RUSProtocolData.FirstAidProtocol[this.Step].InstructionText;
+            this.InformationButton = this.RUSProtocolData.FirstAidProtocol[this.Step].InformationButton;
+            this.Information = this.RUSProtocolData.FirstAidProtocol[this.Step].Information;
+            this.InformationPage = this.RUSProtocolData.FirstAidProtocol[this.Step].InformationPage;
+            this.InformationPageName = this.RUSProtocolData.FirstAidProtocol[this.Step].InformationPageName;
+            this.CheckButton = this.RUSProtocolData.FirstAidProtocol[this.Step].CheckButton;
+            this.CheckButtonGoToStepCount = this.RUSProtocolData.FirstAidProtocol[this.Step].CheckButtonGoToStepCount;
+            this.YesButton = this.RUSProtocolData.FirstAidProtocol[this.Step].YesButton;
+            this.YesButtonGoToStepCount = this.RUSProtocolData.FirstAidProtocol[this.Step].YesButtonGoToStepCount;
+            this.NoButton = this.RUSProtocolData.FirstAidProtocol[this.Step].NoButton;
+            this.NoButtonGoToStepCount = this.RUSProtocolData.FirstAidProtocol[this.Step].NoButtonGoToStepCount;
+            this.MARCH = this.RUSProtocolData.FirstAidProtocol[this.Step].MARCH;
+        }
     };
     ProtocolPage.prototype.OpenInfo = function () {
         console.log(this.InformationPage, 'this.InformationPage');
@@ -4801,7 +4868,7 @@ var ProtocolPage = /** @class */ (function () {
             infoModal.present();
         }
         else {
-            var infoModal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_5__infomodal_infomodal__["a" /* InfoModalPage */], { Step: this.Step });
+            var infoModal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_6__infomodal_infomodal__["a" /* InfoModalPage */], { Step: this.Step });
             infoModal.present();
         }
     };
@@ -4820,19 +4887,12 @@ var ProtocolPage = /** @class */ (function () {
     };
     ProtocolPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-protocol',template:/*ion-inline-start:"F:\UN_Buddy_First_Aid_App\src\pages\protocol\protocol.html"*/'<ion-header no-border>\n\n  <ion-navbar>\n\n\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n  <ion-content no-padding no-bounce>\n\n  <ion-grid>\n\n  <ion-row>\n\n    <ion-col></ion-col>\n\n    <ion-col></ion-col>\n\n    <ion-col>\n\n        <button *ngIf="InformationButton === true && ENG === true" ion-button class="button" outline  (click)="OpenInfo()">INFO</button> \n\n        <button *ngIf="InformationButton === true && FR === true" ion-button class="button" outline  (click)="OpenInfo()">INFO</button>\n\n        <button style="font-size: 20px;" *ngIf="InformationButton === true && ES === true" ion-button class="button" outline  (click)="OpenInfo()">INFORMACIÓN</button> \n\n\n\n        <div *ngIf="InformationButton === false" class="placeholderhidden"></div>       \n\n    </ion-col>\n\n    <ion-col></ion-col>\n\n    <ion-col></ion-col>\n\n  </ion-row>\n\n  <ion-row no-padding>\n\n      <div id="InstructionText">{{ InstructionText }}</div>\n\n  </ion-row>\n\n  \n\n  <ion-row>\n\n      <ion-col></ion-col>\n\n      <ion-col>\n\n        <button *ngIf="YesButton === true && ENG === true" ion-button class="button" outline  (click)="YesClick()">YES</button>\n\n        <button *ngIf="YesButton === true && FR === true" ion-button class="button" outline  (click)="YesClick()">Oui</button>\n\n        <button *ngIf="YesButton === true && ES === true" ion-button class="button" outline  (click)="YesClick()">SÍ</button>\n\n      </ion-col>\n\n      <ion-col>\n\n        <button *ngIf="CheckButton === true && ios === true" ion-button class="button" outline  (click)="CheckClick()">\n\n          <ion-icon id="Checkmark" name=\'checkmark\'></ion-icon>          \n\n        </button>\n\n        <button *ngIf="CheckButton === true && android === true" ion-button class="button" outline  (click)="CheckClick()">\n\n          <ion-icon id="CheckmarkAndroid" name=\'checkmark\'></ion-icon>    \n\n        </button>\n\n      </ion-col>\n\n      <ion-col>\n\n        <button *ngIf="NoButton === true && ENG === true" ion-button class="button" outline  (click)="NoClick()">NO</button>\n\n        <button *ngIf="NoButton === true && FR === true" ion-button class="button" outline  (click)="NoClick()">Non</button>\n\n        <button *ngIf="NoButton === true && ES === true" ion-button class="button" outline  (click)="NoClick()">VOLVER</button>\n\n      </ion-col>\n\n      <ion-col></ion-col>\n\n  </ion-row>\n\n\n\n  <ion-row>\n\n      <ion-col></ion-col>\n\n      <ion-col></ion-col>\n\n      <ion-col>\n\n          <button ion-button class="button" *ngIf="ENG === true" outline  (click)="BackClick()">BACK</button>\n\n          <button ion-button class="button" *ngIf="FR === true" outline  (click)="BackClick()">Retour</button>\n\n          <button ion-button class="button" *ngIf="ES === true" outline  (click)="BackClick()">ATRÁS</button>\n\n      </ion-col>\n\n      <ion-col></ion-col>\n\n      <ion-col></ion-col>\n\n  </ion-row>\n\n\n\n  </ion-grid>\n\n\n\n</ion-content>\n\n\n\n<ion-footer no-border>\n\n  <ion-segment id="segments" [(ngModel)]="MARCH">\n\n    <ion-segment-button value="M" (ionSelect)="SelectM()">\n\n      M\n\n    </ion-segment-button>\n\n    <ion-segment-button value="A" (ionSelect)="SelectA()">\n\n      A\n\n    </ion-segment-button>\n\n    <ion-segment-button value="R" (ionSelect)="SelectR()">\n\n      R\n\n    </ion-segment-button>\n\n    <ion-segment-button value="C" (ionSelect)="SelectC()">\n\n      C\n\n    </ion-segment-button>\n\n    <ion-segment-button value="H" (ionSelect)="SelectH()">\n\n      H\n\n    </ion-segment-button>\n\n</ion-segment>\n\n</ion-footer>'/*ion-inline-end:"F:\UN_Buddy_First_Aid_App\src\pages\protocol\protocol.html"*/
+            selector: 'page-protocol',template:/*ion-inline-start:"F:\UN_Buddy_First_Aid_App\src\pages\protocol\protocol.html"*/'<ion-header no-border>\n\n  <ion-navbar>\n\n\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n  <ion-content no-padding no-bounce>\n\n  <ion-grid>\n\n  <ion-row>\n\n    <ion-col></ion-col>\n\n    <ion-col></ion-col>\n\n    <ion-col>\n\n        <button *ngIf="InformationButton === true && ENG === true" ion-button class="button" outline  (click)="OpenInfo()">INFO</button> \n\n        <button *ngIf="InformationButton === true && FR === true" ion-button class="button" outline  (click)="OpenInfo()">INFO</button>\n\n        <button style="font-size: 20px;" *ngIf="InformationButton === true && ES === true" ion-button class="button" outline  (click)="OpenInfo()">INFORMACIÓN</button> \n\n        <button *ngIf="InformationButton === true && RUS === true" ion-button class="button" outline  (click)="OpenInfo()">ИНФОРМАЦИЯ</button>\n\n       \n\n        <div *ngIf="InformationButton === false" class="placeholderhidden"></div>      \n\n    </ion-col>\n\n    <ion-col></ion-col>\n\n    <ion-col></ion-col>\n\n  </ion-row>\n\n  <ion-row no-padding>\n\n      <div id="InstructionText">{{ InstructionText }}</div>\n\n  </ion-row>\n\n  \n\n  <ion-row>\n\n      <ion-col></ion-col>\n\n      <ion-col>\n\n        <button *ngIf="YesButton === true && ENG === true" ion-button class="button" outline  (click)="YesClick()">YES</button>\n\n        <button *ngIf="YesButton === true && FR === true" ion-button class="button" outline  (click)="YesClick()">Oui</button>\n\n        <button *ngIf="YesButton === true && ES === true" ion-button class="button" outline  (click)="YesClick()">SÍ</button>\n\n        <button *ngIf="YesButton === true && RUS === true" ion-button class="button" outline  (click)="YesClick()">ДА</button>\n\n      </ion-col>\n\n      <ion-col>\n\n        <button *ngIf="CheckButton === true && ios === true" ion-button class="button" outline  (click)="CheckClick()">\n\n          <ion-icon id="Checkmark" name=\'checkmark\'></ion-icon>          \n\n        </button>\n\n        <button *ngIf="CheckButton === true && android === true" ion-button class="button" outline  (click)="CheckClick()">\n\n          <ion-icon id="CheckmarkAndroid" name=\'checkmark\'></ion-icon>    \n\n        </button>\n\n      </ion-col>\n\n      <ion-col>\n\n        <button *ngIf="NoButton === true && ENG === true" ion-button class="button" outline  (click)="NoClick()">NO</button>\n\n        <button *ngIf="NoButton === true && FR === true" ion-button class="button" outline  (click)="NoClick()">Non</button>\n\n        <button *ngIf="NoButton === true && ES === true" ion-button class="button" outline  (click)="NoClick()">VOLVER</button>\n\n        <button *ngIf="NoButton === true && RUS === true" ion-button class="button" outline  (click)="NoClick()">НЕТ</button>\n\n      </ion-col>\n\n      <ion-col></ion-col>\n\n  </ion-row>\n\n\n\n  <ion-row>\n\n      <ion-col></ion-col>\n\n      <ion-col></ion-col>\n\n      <ion-col>\n\n          <button ion-button class="button" *ngIf="ENG === true" outline  (click)="BackClick()">BACK</button>\n\n          <button ion-button class="button" *ngIf="FR === true" outline  (click)="BackClick()">Retour</button>\n\n          <button ion-button class="button" *ngIf="ES === true" outline  (click)="BackClick()">ATRÁS</button>\n\n          <button ion-button class="button" *ngIf="RUS === true" outline  (click)="BackClick()">НАЗАД</button>\n\n      </ion-col>\n\n      <ion-col></ion-col>\n\n      <ion-col></ion-col>\n\n  </ion-row>\n\n\n\n  </ion-grid>\n\n\n\n</ion-content>\n\n\n\n<ion-footer no-border>\n\n  <ion-segment id="segments" [(ngModel)]="MARCH">\n\n    <ion-segment-button value="M" (ionSelect)="SelectM()">\n\n      M\n\n    </ion-segment-button>\n\n    <ion-segment-button value="A" (ionSelect)="SelectA()">\n\n      A\n\n    </ion-segment-button>\n\n    <ion-segment-button value="R" (ionSelect)="SelectR()">\n\n      R\n\n    </ion-segment-button>\n\n    <ion-segment-button value="C" (ionSelect)="SelectC()">\n\n      C\n\n    </ion-segment-button>\n\n    <ion-segment-button value="H" (ionSelect)="SelectH()">\n\n      H\n\n    </ion-segment-button>\n\n</ion-segment>\n\n</ion-footer>'/*ion-inline-end:"F:\UN_Buddy_First_Aid_App\src\pages\protocol\protocol.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_7__ionic_native_native_audio__["a" /* NativeAudio */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */],
-            __WEBPACK_IMPORTED_MODULE_6__ionic_storage__["b" /* Storage */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* ModalController */],
-            __WEBPACK_IMPORTED_MODULE_2__providers_ENGprotocoldata__["a" /* ENGProtocolData */],
-            __WEBPACK_IMPORTED_MODULE_3__providers_FRprotocoldata__["a" /* FRProtocolData */],
-            __WEBPACK_IMPORTED_MODULE_4__providers_ESProtocolData__["a" /* ESProtocolData */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_8__ionic_native_native_audio__["a" /* NativeAudio */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_8__ionic_native_native_audio__["a" /* NativeAudio */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_7__ionic_storage__["b" /* Storage */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_7__ionic_storage__["b" /* Storage */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* ModalController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* ModalController */]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_2__providers_ENGprotocoldata__["a" /* ENGProtocolData */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__providers_ENGprotocoldata__["a" /* ENGProtocolData */]) === "function" && _f || Object, typeof (_g = typeof __WEBPACK_IMPORTED_MODULE_3__providers_FRprotocoldata__["a" /* FRProtocolData */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__providers_FRprotocoldata__["a" /* FRProtocolData */]) === "function" && _g || Object, typeof (_h = typeof __WEBPACK_IMPORTED_MODULE_4__providers_ESProtocolData__["a" /* ESProtocolData */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__providers_ESProtocolData__["a" /* ESProtocolData */]) === "function" && _h || Object, typeof (_j = typeof __WEBPACK_IMPORTED_MODULE_5__providers_RUSprotocoldata__["a" /* RUSProtocolData */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_5__providers_RUSprotocoldata__["a" /* RUSProtocolData */]) === "function" && _j || Object, typeof (_k = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]) === "function" && _k || Object])
     ], ProtocolPage);
     return ProtocolPage;
+    var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k;
 }());
 
 //# sourceMappingURL=protocol.js.map
@@ -5662,10 +5722,14 @@ var SettingsPage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: "page-settings",template:/*ion-inline-start:"F:\UN_Buddy_First_Aid_App\src\pages\settings\settings.html"*/'<ion-header no-border>\n\n  <ion-navbar color="transparent"> </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content no-padding>\n\n  <ion-card class="card">\n\n    <ion-item *ngIf="ENG === true">\n\n      <ion-label id="LabelText">Language</ion-label>\n\n      <ion-select\n\n        id="Text"\n\n        (ionCancel)="onCancel()"\n\n        (ionChange)="onChange()"\n\n        [(ngModel)]="LanguageSelect"\n\n      >\n\n        <ion-option selected="true" value="ENG">English</ion-option>\n\n        <ion-option value="ES">Español</ion-option>\n\n        <ion-option value="FR">Français</ion-option>\n\n        <ion-option value="RUS">Russian</ion-option>\n\n      </ion-select>\n\n    </ion-item>\n\n    <ion-item *ngIf="ENG === true">\n\n      <ion-label id="LabelText">Geo-Location</ion-label>\n\n      <ion-toggle\n\n        [(ngModel)]="geolocationEnabled"\n\n        [color]="geolocationEnabled ? \'success\' : \'danger\'"\n\n        (ionChange)="onToggleGeolocation()"\n\n      ></ion-toggle>\n\n    </ion-item>\n\n\n\n    <div *ngIf="geolocationEnabled && ENG === true">\n\n      <ion-label style="text-align: center">Share Location Detail</ion-label>\n\n\n\n      <div class="share-buttons-container">\n\n        <button class="share-button" (click)="sendLocationViaWhatsApp()">\n\n          Share via WhatsApp\n\n        </button>\n\n        <button class="share-button" (click)="sendLocationViaMessenger()">\n\n          Share via Messenger\n\n        </button>\n\n        <button class="share-button" (click)="sendLocationViaSMS()">\n\n          Share via SMS\n\n        </button>\n\n        <button class="share-button" (click)="sendLocationViaEmail()">\n\n          Share via Email\n\n        </button>\n\n      </div>\n\n    </div>\n\n\n\n    <ion-item *ngIf="ES === true">\n\n      <ion-label id="LabelText">idioma</ion-label>\n\n      <ion-select\n\n        id="Text"\n\n        cancelText="Cancelar"\n\n        (ionCancel)="onCancel()"\n\n        (ionChange)="onChange()"\n\n        [(ngModel)]="LanguageSelect"\n\n      >\n\n        <ion-option value="ENG">English</ion-option>\n\n        <ion-option selected="true" value="ES">Español</ion-option>\n\n        <ion-option value="FR">Français</ion-option>\n\n        <ion-option value="RUS">Russian</ion-option>\n\n      </ion-select>\n\n    </ion-item>\n\n\n\n    <ion-item *ngIf="ES === true">\n\n      <ion-label id="LabelText">Ubicación geográfica</ion-label>\n\n      <ion-toggle\n\n        [(ngModel)]="geolocationEnabled"\n\n        [color]="geolocationEnabled ? \'success\' : \'danger\'"\n\n        (ionChange)="onToggleGeolocation()"\n\n      ></ion-toggle>\n\n    </ion-item>\n\n\n\n    <div *ngIf="geolocationEnabled && ES === true">\n\n      <ion-label style="text-align: center">Compartir detalle de ubicación</ion-label>\n\n\n\n      <div class="share-buttons-container">\n\n        <button class="share-button" (click)="sendLocationViaWhatsApp()">\n\n          Compartir vía whatsapp\n\n        </button>\n\n        <button class="share-button" (click)="sendLocationViaMessenger()">\n\n          Compartir a través de Messenger\n\n        </button>\n\n        <button class="share-button" (click)="sendLocationViaSMS()">\n\n          Compartir por SMS\n\n        </button>\n\n        <button class="share-button" (click)="sendLocationViaEmail()">\n\n          Compartir por correo electrónico\n\n        </button>\n\n      </div>\n\n    </div>\n\n\n\n    <ion-item *ngIf="FR === true">\n\n      <ion-label id="LabelText">Langue</ion-label>\n\n      <ion-select\n\n        id="Text"\n\n        cancelText="Annuler"\n\n        (ionCancel)="onCancel()"\n\n        (ionChange)="onChange()"\n\n        [(ngModel)]="LanguageSelect"\n\n      >\n\n        <ion-option value="ENG">English</ion-option>\n\n        <ion-option value="ES">Español</ion-option>\n\n        <ion-option selected="true" value="FR">Français</ion-option>\n\n        <ion-option value="RUS">Russian</ion-option>\n\n      </ion-select>\n\n    </ion-item>\n\n\n\n    <ion-item *ngIf="FR === true">\n\n      <ion-label id="LabelText">Géolocalisation</ion-label>\n\n      <ion-toggle\n\n        [(ngModel)]="geolocationEnabled"\n\n        [color]="geolocationEnabled ? \'success\' : \'danger\'"\n\n        (ionChange)="onToggleGeolocation()"\n\n      ></ion-toggle>\n\n    </ion-item>\n\n\n\n    <div *ngIf="geolocationEnabled && FR === true">\n\n      <ion-label style="text-align: center">Partager les détails de l\'emplacement</ion-label>\n\n\n\n      <div class="share-buttons-container">\n\n        <button class="share-button" (click)="sendLocationViaWhatsApp()">\n\n          Partager via WhatsApp\n\n        </button>\n\n        <button class="share-button" (click)="sendLocationViaMessenger()">\n\n          Partager via Messenger\n\n        </button>\n\n        <button class="share-button" (click)="sendLocationViaSMS()">\n\n          Partager par SMS\n\n        </button>\n\n        <button class="share-button" (click)="sendLocationViaEmail()">\n\n          Partager par e-mail\n\n        </button>\n\n      </div>\n\n    </div>\n\n\n\n    <ion-item *ngIf="RUS === true">\n\n      <ion-label id="LabelText">Язык</ion-label>\n\n      <ion-select\n\n        id="Text"\n\n        cancelText="Отмена"\n\n        (ionCancel)="onCancel()"\n\n        (ionChange)="onChange()"\n\n        [(ngModel)]="LanguageSelect"\n\n      >\n\n        <ion-option value="ENG">English</ion-option>\n\n        <ion-option value="ES">Español</ion-option>\n\n        <ion-option value="FR">Français</ion-option>\n\n        <ion-option selected="true" value="RUS">Russian</ion-option>\n\n      </ion-select>\n\n    </ion-item>\n\n\n\n    <ion-item *ngIf="RUS === true">\n\n      <ion-label id="LabelText">Геолокация</ion-label>\n\n      <ion-toggle\n\n        [(ngModel)]="geolocationEnabled"\n\n        [color]="geolocationEnabled ? \'success\' : \'danger\'"\n\n        (ionChange)="onToggleGeolocation()"\n\n      ></ion-toggle>\n\n    </ion-item>\n\n\n\n    <div *ngIf="geolocationEnabled && RUS === true">\n\n      <ion-label style="text-align: center">Поделиться информацией о местоположении</ion-label>\n\n\n\n      <div class="share-buttons-container">\n\n        <button class="share-button" (click)="sendLocationViaWhatsApp()">\n\n          Поделиться через WhatsApp\n\n        </button>\n\n        <button class="share-button" (click)="sendLocationViaMessenger()">\n\n          Поделиться через Мессенджер\n\n        </button>\n\n        <button class="share-button" (click)="sendLocationViaSMS()">\n\n          Поделиться через SMS\n\n        </button>\n\n        <button class="share-button" (click)="sendLocationViaEmail()">\n\n          Поделиться по электронной почте\n\n        </button>\n\n      </div>\n\n    </div>\n\n\n\n  </ion-card>\n\n</ion-content>\n\n'/*ion-inline-end:"F:\UN_Buddy_First_Aid_App\src\pages\settings\settings.html"*/,
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* ModalController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* ModalController */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_2__ionic_storage__["b" /* Storage */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__ionic_storage__["b" /* Storage */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_3__ionic_native_geolocation__["a" /* Geolocation */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__ionic_native_geolocation__["a" /* Geolocation */]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_4__app_services_location_service__["a" /* LocationService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__app_services_location_service__["a" /* LocationService */]) === "function" && _f || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* ModalController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_2__ionic_storage__["b" /* Storage */],
+            __WEBPACK_IMPORTED_MODULE_3__ionic_native_geolocation__["a" /* Geolocation */],
+            __WEBPACK_IMPORTED_MODULE_4__app_services_location_service__["a" /* LocationService */]])
     ], SettingsPage);
     return SettingsPage;
-    var _a, _b, _c, _d, _e, _f;
 }());
 
 //# sourceMappingURL=settings.js.map
@@ -5835,32 +5899,34 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__providers_ENGprotocoldata__ = __webpack_require__(115);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__providers_FRprotocoldata__ = __webpack_require__(117);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__providers_ESProtocolData__ = __webpack_require__(118);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_protocol_infomodal_infomodal__ = __webpack_require__(215);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_train_airway_airway__ = __webpack_require__(218);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_train_alert_alert__ = __webpack_require__(42);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_train_circulation_circulation__ = __webpack_require__(45);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_train_heat_heat__ = __webpack_require__(219);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_train_massive_massive__ = __webpack_require__(220);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_train_movement_movement__ = __webpack_require__(221);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_train_respiration_respiration__ = __webpack_require__(49);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_train_scene_scene__ = __webpack_require__(41);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__ionic_native_native_audio__ = __webpack_require__(216);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__pages_train_massive_tourniquet_tourniquet__ = __webpack_require__(43);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__pages_train_massive_woundpacking_woundpacking__ = __webpack_require__(44);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__pages_train_airway_headtilt_headtilt__ = __webpack_require__(46);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__pages_train_airway_recoveryposition_recoveryposition__ = __webpack_require__(47);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__pages_train_airway_situp_situp__ = __webpack_require__(48);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__pages_train_heat_hyperthermia_hyperthermia__ = __webpack_require__(50);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__pages_train_heat_hypothermia_hypothermia__ = __webpack_require__(51);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__pages_settings_settings__ = __webpack_require__(223);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__pages_train_basics_basics__ = __webpack_require__(222);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__services_location_service__ = __webpack_require__(224);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__providers_RUSprotocoldata__ = __webpack_require__(299);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_protocol_infomodal_infomodal__ = __webpack_require__(215);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_train_airway_airway__ = __webpack_require__(218);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_train_alert_alert__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_train_circulation_circulation__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_train_heat_heat__ = __webpack_require__(219);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_train_massive_massive__ = __webpack_require__(220);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_train_movement_movement__ = __webpack_require__(221);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_train_respiration_respiration__ = __webpack_require__(49);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_train_scene_scene__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__ionic_native_native_audio__ = __webpack_require__(216);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__pages_train_massive_tourniquet_tourniquet__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__pages_train_massive_woundpacking_woundpacking__ = __webpack_require__(44);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__pages_train_airway_headtilt_headtilt__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__pages_train_airway_recoveryposition_recoveryposition__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__pages_train_airway_situp_situp__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__pages_train_heat_hyperthermia_hyperthermia__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__pages_train_heat_hypothermia_hypothermia__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__pages_settings_settings__ = __webpack_require__(223);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__pages_train_basics_basics__ = __webpack_require__(222);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__services_location_service__ = __webpack_require__(224);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -5906,24 +5972,24 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_8__pages_home_home__["a" /* HomePage */],
                 __WEBPACK_IMPORTED_MODULE_9__pages_protocol_protocol__["a" /* ProtocolPage */],
                 __WEBPACK_IMPORTED_MODULE_10__pages_train_train__["a" /* TrainPage */],
-                __WEBPACK_IMPORTED_MODULE_15__pages_protocol_infomodal_infomodal__["a" /* InfoModalPage */],
-                __WEBPACK_IMPORTED_MODULE_16__pages_train_airway_airway__["a" /* AirwayPage */],
-                __WEBPACK_IMPORTED_MODULE_17__pages_train_alert_alert__["a" /* AlertPage */],
-                __WEBPACK_IMPORTED_MODULE_18__pages_train_circulation_circulation__["a" /* CirculationPage */],
-                __WEBPACK_IMPORTED_MODULE_19__pages_train_heat_heat__["a" /* HeatPage */],
-                __WEBPACK_IMPORTED_MODULE_20__pages_train_massive_massive__["a" /* MassivePage */],
-                __WEBPACK_IMPORTED_MODULE_21__pages_train_movement_movement__["a" /* MovementPage */],
-                __WEBPACK_IMPORTED_MODULE_22__pages_train_respiration_respiration__["a" /* RespirationPage */],
-                __WEBPACK_IMPORTED_MODULE_23__pages_train_scene_scene__["a" /* ScenePage */],
-                __WEBPACK_IMPORTED_MODULE_33__pages_train_basics_basics__["a" /* BasicsPage */],
-                __WEBPACK_IMPORTED_MODULE_25__pages_train_massive_tourniquet_tourniquet__["a" /* TourniquetPage */],
-                __WEBPACK_IMPORTED_MODULE_26__pages_train_massive_woundpacking_woundpacking__["a" /* WoundpackingPage */],
-                __WEBPACK_IMPORTED_MODULE_27__pages_train_airway_headtilt_headtilt__["a" /* HeadtiltPage */],
-                __WEBPACK_IMPORTED_MODULE_28__pages_train_airway_recoveryposition_recoveryposition__["a" /* RecoverypositionPage */],
-                __WEBPACK_IMPORTED_MODULE_29__pages_train_airway_situp_situp__["a" /* SitupPage */],
-                __WEBPACK_IMPORTED_MODULE_30__pages_train_heat_hyperthermia_hyperthermia__["a" /* HyperthermiaPage */],
-                __WEBPACK_IMPORTED_MODULE_31__pages_train_heat_hypothermia_hypothermia__["a" /* HypothermiaPage */],
-                __WEBPACK_IMPORTED_MODULE_32__pages_settings_settings__["a" /* SettingsPage */],
+                __WEBPACK_IMPORTED_MODULE_16__pages_protocol_infomodal_infomodal__["a" /* InfoModalPage */],
+                __WEBPACK_IMPORTED_MODULE_17__pages_train_airway_airway__["a" /* AirwayPage */],
+                __WEBPACK_IMPORTED_MODULE_18__pages_train_alert_alert__["a" /* AlertPage */],
+                __WEBPACK_IMPORTED_MODULE_19__pages_train_circulation_circulation__["a" /* CirculationPage */],
+                __WEBPACK_IMPORTED_MODULE_20__pages_train_heat_heat__["a" /* HeatPage */],
+                __WEBPACK_IMPORTED_MODULE_21__pages_train_massive_massive__["a" /* MassivePage */],
+                __WEBPACK_IMPORTED_MODULE_22__pages_train_movement_movement__["a" /* MovementPage */],
+                __WEBPACK_IMPORTED_MODULE_23__pages_train_respiration_respiration__["a" /* RespirationPage */],
+                __WEBPACK_IMPORTED_MODULE_24__pages_train_scene_scene__["a" /* ScenePage */],
+                __WEBPACK_IMPORTED_MODULE_34__pages_train_basics_basics__["a" /* BasicsPage */],
+                __WEBPACK_IMPORTED_MODULE_26__pages_train_massive_tourniquet_tourniquet__["a" /* TourniquetPage */],
+                __WEBPACK_IMPORTED_MODULE_27__pages_train_massive_woundpacking_woundpacking__["a" /* WoundpackingPage */],
+                __WEBPACK_IMPORTED_MODULE_28__pages_train_airway_headtilt_headtilt__["a" /* HeadtiltPage */],
+                __WEBPACK_IMPORTED_MODULE_29__pages_train_airway_recoveryposition_recoveryposition__["a" /* RecoverypositionPage */],
+                __WEBPACK_IMPORTED_MODULE_30__pages_train_airway_situp_situp__["a" /* SitupPage */],
+                __WEBPACK_IMPORTED_MODULE_31__pages_train_heat_hyperthermia_hyperthermia__["a" /* HyperthermiaPage */],
+                __WEBPACK_IMPORTED_MODULE_32__pages_train_heat_hypothermia_hypothermia__["a" /* HypothermiaPage */],
+                __WEBPACK_IMPORTED_MODULE_33__pages_settings_settings__["a" /* SettingsPage */],
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -5941,24 +6007,24 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_8__pages_home_home__["a" /* HomePage */],
                 __WEBPACK_IMPORTED_MODULE_9__pages_protocol_protocol__["a" /* ProtocolPage */],
                 __WEBPACK_IMPORTED_MODULE_10__pages_train_train__["a" /* TrainPage */],
-                __WEBPACK_IMPORTED_MODULE_15__pages_protocol_infomodal_infomodal__["a" /* InfoModalPage */],
-                __WEBPACK_IMPORTED_MODULE_16__pages_train_airway_airway__["a" /* AirwayPage */],
-                __WEBPACK_IMPORTED_MODULE_17__pages_train_alert_alert__["a" /* AlertPage */],
-                __WEBPACK_IMPORTED_MODULE_18__pages_train_circulation_circulation__["a" /* CirculationPage */],
-                __WEBPACK_IMPORTED_MODULE_19__pages_train_heat_heat__["a" /* HeatPage */],
-                __WEBPACK_IMPORTED_MODULE_20__pages_train_massive_massive__["a" /* MassivePage */],
-                __WEBPACK_IMPORTED_MODULE_21__pages_train_movement_movement__["a" /* MovementPage */],
-                __WEBPACK_IMPORTED_MODULE_22__pages_train_respiration_respiration__["a" /* RespirationPage */],
-                __WEBPACK_IMPORTED_MODULE_23__pages_train_scene_scene__["a" /* ScenePage */],
-                __WEBPACK_IMPORTED_MODULE_33__pages_train_basics_basics__["a" /* BasicsPage */],
-                __WEBPACK_IMPORTED_MODULE_25__pages_train_massive_tourniquet_tourniquet__["a" /* TourniquetPage */],
-                __WEBPACK_IMPORTED_MODULE_26__pages_train_massive_woundpacking_woundpacking__["a" /* WoundpackingPage */],
-                __WEBPACK_IMPORTED_MODULE_27__pages_train_airway_headtilt_headtilt__["a" /* HeadtiltPage */],
-                __WEBPACK_IMPORTED_MODULE_28__pages_train_airway_recoveryposition_recoveryposition__["a" /* RecoverypositionPage */],
-                __WEBPACK_IMPORTED_MODULE_29__pages_train_airway_situp_situp__["a" /* SitupPage */],
-                __WEBPACK_IMPORTED_MODULE_30__pages_train_heat_hyperthermia_hyperthermia__["a" /* HyperthermiaPage */],
-                __WEBPACK_IMPORTED_MODULE_31__pages_train_heat_hypothermia_hypothermia__["a" /* HypothermiaPage */],
-                __WEBPACK_IMPORTED_MODULE_32__pages_settings_settings__["a" /* SettingsPage */],
+                __WEBPACK_IMPORTED_MODULE_16__pages_protocol_infomodal_infomodal__["a" /* InfoModalPage */],
+                __WEBPACK_IMPORTED_MODULE_17__pages_train_airway_airway__["a" /* AirwayPage */],
+                __WEBPACK_IMPORTED_MODULE_18__pages_train_alert_alert__["a" /* AlertPage */],
+                __WEBPACK_IMPORTED_MODULE_19__pages_train_circulation_circulation__["a" /* CirculationPage */],
+                __WEBPACK_IMPORTED_MODULE_20__pages_train_heat_heat__["a" /* HeatPage */],
+                __WEBPACK_IMPORTED_MODULE_21__pages_train_massive_massive__["a" /* MassivePage */],
+                __WEBPACK_IMPORTED_MODULE_22__pages_train_movement_movement__["a" /* MovementPage */],
+                __WEBPACK_IMPORTED_MODULE_23__pages_train_respiration_respiration__["a" /* RespirationPage */],
+                __WEBPACK_IMPORTED_MODULE_24__pages_train_scene_scene__["a" /* ScenePage */],
+                __WEBPACK_IMPORTED_MODULE_34__pages_train_basics_basics__["a" /* BasicsPage */],
+                __WEBPACK_IMPORTED_MODULE_26__pages_train_massive_tourniquet_tourniquet__["a" /* TourniquetPage */],
+                __WEBPACK_IMPORTED_MODULE_27__pages_train_massive_woundpacking_woundpacking__["a" /* WoundpackingPage */],
+                __WEBPACK_IMPORTED_MODULE_28__pages_train_airway_headtilt_headtilt__["a" /* HeadtiltPage */],
+                __WEBPACK_IMPORTED_MODULE_29__pages_train_airway_recoveryposition_recoveryposition__["a" /* RecoverypositionPage */],
+                __WEBPACK_IMPORTED_MODULE_30__pages_train_airway_situp_situp__["a" /* SitupPage */],
+                __WEBPACK_IMPORTED_MODULE_31__pages_train_heat_hyperthermia_hyperthermia__["a" /* HyperthermiaPage */],
+                __WEBPACK_IMPORTED_MODULE_32__pages_train_heat_hypothermia_hypothermia__["a" /* HypothermiaPage */],
+                __WEBPACK_IMPORTED_MODULE_33__pages_settings_settings__["a" /* SettingsPage */],
             ],
             providers: [
                 __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__["a" /* StatusBar */],
@@ -5966,8 +6032,9 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_12__providers_ENGprotocoldata__["a" /* ENGProtocolData */],
                 __WEBPACK_IMPORTED_MODULE_13__providers_FRprotocoldata__["a" /* FRProtocolData */],
                 __WEBPACK_IMPORTED_MODULE_14__providers_ESProtocolData__["a" /* ESProtocolData */],
-                __WEBPACK_IMPORTED_MODULE_24__ionic_native_native_audio__["a" /* NativeAudio */],
-                __WEBPACK_IMPORTED_MODULE_34__services_location_service__["a" /* LocationService */],
+                __WEBPACK_IMPORTED_MODULE_15__providers_RUSprotocoldata__["a" /* RUSProtocolData */],
+                __WEBPACK_IMPORTED_MODULE_25__ionic_native_native_audio__["a" /* NativeAudio */],
+                __WEBPACK_IMPORTED_MODULE_35__services_location_service__["a" /* LocationService */],
                 __WEBPACK_IMPORTED_MODULE_5__ionic_native_geolocation__["a" /* Geolocation */],
                 { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["u" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicErrorHandler */] },
             ],
@@ -6028,6 +6095,1456 @@ var MyApp = /** @class */ (function () {
 }());
 
 //# sourceMappingURL=app.component.js.map
+
+/***/ }),
+
+/***/ 299:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RUSProtocolData; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(63);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(116);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pages_train_scene_scene__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_train_alert_alert__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_train_massive_tourniquet_tourniquet__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_train_massive_woundpacking_woundpacking__ = __webpack_require__(44);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_train_circulation_circulation__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_train_airway_headtilt_headtilt__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_train_airway_recoveryposition_recoveryposition__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_train_airway_situp_situp__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_train_respiration_respiration__ = __webpack_require__(49);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_train_heat_hyperthermia_hyperthermia__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_train_heat_hypothermia_hypothermia__ = __webpack_require__(51);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var RUSProtocolData = /** @class */ (function () {
+    function RUSProtocolData(http) {
+        this.http = http;
+        this.FirstAidProtocol = [];
+        this.FirstAidProtocol = [
+            {
+                //Under fire?
+                Step: '0',
+                InstructionText: 'Под огнем противника?',
+                InformationButton: false,
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: true,
+                CheckButton: false,
+                CheckButtonGoToStepCount: null,
+                YesButton: true,
+                YesButtonGoToStepCount: 1,
+                NoButton: true,
+                NoButtonGoToStepCount: 2,
+                MARCH: 'null',
+            },
+            {
+                //Return fire and evacuate
+                Step: '1',
+                InstructionText: 'Подавить огонь противника и эвакуироваться в укрытие',
+                InformationButton: true,
+                Information: [
+                    {
+                        Title: "Ответный огонь",
+                        Text: "Весь личный состав (включая раненых, где это возможно) должен вернуться и поддерживать огонь для подавления противника и его эвакуации в укрытие.",
+                    },
+                    {
+                        Title: "Если медик и раненый находятся под открытым небом",
+                        Text: "Если это возможно, откажитесь от человеческих гранад в направлении, противоположном войне. Рассмотрим: Torniquete для масивной геморрагии. Используйте дыхательные пути, чтобы получить этот список для перемещения.",
+                    },
+                    {
+                        Title: "Если пострадавший на открытом воздухе",
+                        Text: "Если пострадавший не может вести ответный эффективный огонь, попросите его лежать как можно неподвижнее. Планируйте спасение, учитывая: \n•	Поддержка дружественных сил\n•	Использование транспортных средств\n•	Использование дыма\n•	Использование укрытия\n•	Использование веревочной линии\n•	Самые быстрые маршруты",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: true,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 2,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'null',
+            },
+            {
+                //Assess S.C.E.N.E
+                Step: '2',
+                InstructionText: 'ОЦЕНИТЕ СЦЕНУ',
+                InformationButton: true,
+                Information: [
+                    {
+                        Text: "",
+                    },
+                ],
+                InformationPage: true,
+                InformationPageName: __WEBPACK_IMPORTED_MODULE_3__pages_train_scene_scene__["a" /* ScenePage */],
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 3,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'null',
+            },
+            {
+                //Transmit alert message
+                Step: '3',
+                InstructionText: 'Передача предупреждающего сообщения',
+                InformationButton: true,
+                Information: [
+                    {
+                        Text: "",
+                    },
+                ],
+                InformationPage: true,
+                InformationPageName: __WEBPACK_IMPORTED_MODULE_4__pages_train_alert_alert__["a" /* AlertPage */],
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 6,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'null',
+            },
+            {
+                //Multiple casualties? 
+                Step: '4',
+                InstructionText: 'Множественные жертвы?',
+                InformationButton: false,
+                Information: [
+                    {
+                        Text: "",
+                    },
+                ],
+                InformationPager: false,
+                CheckButton: false,
+                CheckButtonGoToStepCount: null,
+                YesButton: true,
+                YesButtonGoToStepCount: 5,
+                NoButton: true,
+                NoButtonGoToStepCount: 6,
+                MARCH: 'null',
+            },
+            {
+                //Prioritize casualties
+                Step: '5',
+                InstructionText: 'Распределяйте приоритеты пострадавших и лечите их соответствующим образом.',
+                InformationButton: true,
+                Information: [
+                    {
+                        Title: "Расставьте приоритеты среди жертв",
+                        Text: "В обстоятельствах, когда число жертв превышает количество служб реагирования и ресурсов, необходимо принять решения по определению приоритетности жертв, чтобы гарантировать, что для большинства жертв будет сделано самое лучшее..",
+                    },
+                    {
+                        Title: "сортировка",
+                        Text: "Сортировка — это процесс определения приоритетности лечения пациентов в зависимости от тяжести их состояния, который может использоваться для определения приоритетности раненых.\nСледующие категории часто используются в сортировке:\n\n•	T1, приоритет 1 (КРАСНЫЙ: немедленно). Эта категория имеет наивысший приоритет для лечения или эвакуации, поскольку необходимы срочные меры для обеспечения выживания пострадавшего. Примеры: обструкция дыхательных путей, неотложная респираторная помощь, шок и тяжелая травма.\n\n•	Т2, приоритет 2 (ЖЕЛТЫЙ: срочно). Сюда входят случаи, требующие раннего лечения, в частности хирургического вмешательства, и рекомендуется провести эвакуацию в хирургическое учреждение в течение 6 часов после травмы. Примеры: серьезные травмы и переломы конечностей, закрытая травма головы, открытая травма глаза и ожоги средней степени тяжести.\n\n•	T3, приоритет 3 (ЗЕЛЕНЫЙ: с задержкой или удержанием). В этой категории лечение менее срочно и может быть отложено, если есть другие пострадавшие, требующие ограниченного лечения или эвакуации. Примеры: закрытые переломы, травмы мягких тканей, закрытая травма грудной клетки и травма лица.\n\n•	Мертв, приоритет 4 (ЧЕРНЫЙ: ожидающий или умерший). К этой категории относятся пострадавшие, чьи травмы или заболевания настолько серьезны, что у них минимальные шансы на выживание, или которые умерли по прибытии. Если возникнет конкуренция за ограниченные медицинские ресурсы, такие случаи будут иметь меньший приоритет для эвакуации или лечения, несмотря на тяжесть их состояния.",
+                    },
+                ],
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 6,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'null',
+            },
+            {
+                //Massive bleeding?
+                Step: '6',
+                InstructionText: 'Массивное кровотечение?',
+                InformationButton: false,
+                Information: [
+                    {
+                        Text: "",
+                    },
+                ],
+                InformationPager: false,
+                CheckButton: false,
+                CheckButtonGoToStepCount: null,
+                YesButton: true,
+                YesButtonGoToStepCount: 7,
+                NoButton: true,
+                NoButtonGoToStepCount: 18,
+                MARCH: 'M',
+            },
+            {
+                //Bleeding on limbs?
+                Step: '7',
+                InstructionText: 'Кровотечение на конечностях?',
+                InformationButton: false,
+                Information: [
+                    {
+                        Text: "",
+                    },
+                ],
+                InformationPager: false,
+                CheckButton: false,
+                CheckButtonGoToStepCount: null,
+                YesButton: true,
+                YesButtonGoToStepCount: 8,
+                NoButton: true,
+                NoButtonGoToStepCount: 16,
+                MARCH: 'M',
+            },
+            {
+                //Apply tourniquet
+                Step: '8',
+                InstructionText: 'Наложить жгут',
+                InformationButton: true,
+                Information: [
+                    {
+                        Text: "",
+                    },
+                ],
+                InformationPage: true,
+                InformationPageName: __WEBPACK_IMPORTED_MODULE_5__pages_train_massive_tourniquet_tourniquet__["a" /* TourniquetPage */],
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 9,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'M',
+            },
+            {
+                //Bleeding stopped?
+                Step: '9',
+                InstructionText: 'Кровотечение остановлено?',
+                InformationButton: false,
+                Information: [
+                    {
+                        Text: "",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: false,
+                CheckButtonGoToStepCount: null,
+                YesButton: true,
+                YesButtonGoToStepCount: 60,
+                NoButton: true,
+                NoButtonGoToStepCount: 10,
+                MARCH: 'M',
+            },
+            {
+                //Apply tourniquet
+                Step: '10',
+                InstructionText: 'Сначала наложите второй жгут, указанный выше',
+                InformationButton: true,
+                Information: [
+                    {
+                        Text: "",
+                    },
+                ],
+                InformationPage: true,
+                InformationPageName: __WEBPACK_IMPORTED_MODULE_5__pages_train_massive_tourniquet_tourniquet__["a" /* TourniquetPage */],
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 11,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'M',
+            },
+            {
+                //Apply tourniquet
+                Step: '11',
+                InstructionText: 'Кровотечение остановилось?',
+                InformationButton: false,
+                Information: [
+                    {
+                        Text: "",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: false,
+                CheckButtonGoToStepCount: null,
+                YesButton: true,
+                YesButtonGoToStepCount: 60,
+                NoButton: true,
+                NoButtonGoToStepCount: 12,
+                MARCH: 'M',
+            },
+            {
+                //Pack Wound
+                Step: '12',
+                InstructionText: 'Пакетная рана',
+                InformationButton: true,
+                Information: [
+                    {
+                        Text: "",
+                    },
+                ],
+                InformationPage: true,
+                InformationPageName: __WEBPACK_IMPORTED_MODULE_6__pages_train_massive_woundpacking_woundpacking__["a" /* WoundpackingPage */],
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 13,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'M',
+            },
+            {
+                //Bleeding stopped?
+                Step: '13',
+                InstructionText: 'Кровотечение остановилось?',
+                InformationButton: false,
+                Information: [
+                    {
+                        Text: "",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: false,
+                CheckButtonGoToStepCount: null,
+                YesButton: true,
+                YesButtonGoToStepCount: 60,
+                NoButton: true,
+                NoButtonGoToStepCount: 14,
+                MARCH: 'M',
+            },
+            {
+                //Repack wound
+                Step: '14',
+                InstructionText: 'Перетакуйте рану и надавите на нее дольше',
+                InformationButton: false,
+                Information: [
+                    {
+                        Text: "",
+                    },
+                ],
+                InformationPage: true,
+                InformationPageName: __WEBPACK_IMPORTED_MODULE_7__pages_train_circulation_circulation__["a" /* CirculationPage */],
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 15,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'M',
+            },
+            {
+                //Apply dressing
+                Step: '15',
+                InstructionText: 'Закрепите EPD на ране',
+                InformationButton: true,
+                Information: [
+                    {
+                        Text: "",
+                    },
+                ],
+                InformationPage: true,
+                InformationPageName: __WEBPACK_IMPORTED_MODULE_7__pages_train_circulation_circulation__["a" /* CirculationPage */],
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 60,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'M',
+            },
+            {
+                //Pack wound
+                Step: '16',
+                InstructionText: 'Пакетная рана',
+                InformationButton: true,
+                Information: [
+                    {
+                        Text: "",
+                    },
+                ],
+                InformationPage: true,
+                InformationPageName: __WEBPACK_IMPORTED_MODULE_6__pages_train_massive_woundpacking_woundpacking__["a" /* WoundpackingPage */],
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 17,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'M',
+            },
+            {
+                //Bleeding stopped?
+                Step: '17',
+                InstructionText: 'Кровотечение остановилось?',
+                InformationButton: false,
+                Information: [
+                    {
+                        Text: "",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: false,
+                CheckButtonGoToStepCount: null,
+                YesButton: true,
+                YesButtonGoToStepCount: 60,
+                NoButton: true,
+                NoButtonGoToStepCount: 14,
+                MARCH: 'M',
+            },
+            {
+                //Casualty normal?
+                Step: '18',
+                InstructionText: 'Пострадавший реагирует нормально?',
+                InformationButton: true,
+                Information: [
+                    {
+                        Title: "Встряхнуть и кричать",
+                        Text: "•	Если пострадавший в сознании, спросите: «Что случилось?» или «Где вы ранены?»\n•	Если пострадавший выглядит без сознания или потерял сознание, встряхните его и спросите: «С вами все в порядке?»\n•	Если пострадавший реагирует нормально, у него свободны дыхательные пути, он дышит и у него перфузия головного мозга.\n•	Если пострадавший говорит только короткими предложениями, у него могут возникнуть проблемы с дыханием. Отсутствие реакции пострадавшего является явным признаком критического заболевания.",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: false,
+                CheckButtonGoToStepCount: null,
+                YesButton: true,
+                YesButtonGoToStepCount: 27,
+                NoButton: true,
+                NoButtonGoToStepCount: 19,
+                MARCH: 'A',
+            },
+            {
+                //Casualty conscious?
+                Step: '19',
+                InstructionText: 'Пострадавший в сознании?',
+                InformationButton: false,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: false,
+                CheckButtonGoToStepCount: null,
+                YesButton: true,
+                YesButtonGoToStepCount: 24,
+                NoButton: true,
+                NoButtonGoToStepCount: 20,
+                MARCH: 'A',
+            },
+            {
+                //Examine airway & remove debris
+                Step: '20',
+                InstructionText: 'Осмотрите дыхательные пути и удалите потенциальный мусор',
+                InformationButton: true,
+                Information: [
+                    {
+                        Title: "Осмотр дыхательных путей",
+                        Text: "Если пострадавший выглядит без сознания, откройте ему рот, осмотрите рот и удалите возможные остатки.",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 21,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'A',
+            },
+            {
+                //Perform head-tilt
+                Step: '21',
+                InstructionText: 'Открытие дыхательных путей путем наклона головы',
+                InformationButton: true,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: true,
+                InformationPageName: __WEBPACK_IMPORTED_MODULE_8__pages_train_airway_headtilt_headtilt__["a" /* HeadtiltPage */],
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 22,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'A',
+            },
+            {
+                //Continuing breathing difficulties?
+                Step: '22',
+                InstructionText: 'Продолжаются трудности с дыханием?',
+                InformationButton: false,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: false,
+                CheckButtonGoToStepCount: null,
+                YesButton: true,
+                YesButtonGoToStepCount: 23,
+                NoButton: true,
+                NoButtonGoToStepCount: 27,
+                MARCH: 'A',
+            },
+            {
+                //Recovery position
+                Step: '23',
+                InstructionText: 'Применить положение восстановления',
+                InformationButton: true,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: true,
+                InformationPageName: __WEBPACK_IMPORTED_MODULE_9__pages_train_airway_recoveryposition_recoveryposition__["a" /* RecoverypositionPage */],
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 63,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'A',
+            },
+            {
+                //Examine airway & remove debris
+                Step: '24',
+                InstructionText: 'Осмотрите дыхательные пути и дайте пострадавшему удалить мусор',
+                InformationButton: true,
+                Information: [
+                    {
+                        Title: "Осмотр дыхательных путей",
+                        Text: "Если пострадавший находится в сознании, попросите его удалить изо рта потенциальный мусор.",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 25,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'A',
+            },
+            {
+                //Continuing problems? 
+                Step: '25',
+                InstructionText: 'Продолжаются проблемы с дыханием?',
+                InformationButton: false,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: false,
+                CheckButtonGoToStepCount: null,
+                YesButton: true,
+                YesButtonGoToStepCount: 26,
+                NoButton: true,
+                NoButtonGoToStepCount: 27,
+                MARCH: 'A',
+            },
+            {
+                //Sit-up & forward
+                Step: '26',
+                InstructionText: 'Примените положение сидя и вперед',
+                InformationButton: true,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: true,
+                InformationPageName: __WEBPACK_IMPORTED_MODULE_10__pages_train_airway_situp_situp__["a" /* SitupPage */],
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 27,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'A',
+            },
+            {
+                //Examine chest and back
+                Step: '27',
+                InstructionText: 'Осмотр груди и спины',
+                InformationButton: true,
+                Information: [
+                    {
+                        Title: "полная оценка грудной клетки",
+                        Text: "Полная оценка грудной клетки состоит из следующих элементов:\n•	Осмотрите грудь на предмет синяков, ран или отсутствия симметрии.\n•	Прислушайтесь к необычным звукам дыхания.\n•	Ощупайте грудную клетку на предмет повреждений или ран (в условиях низкой освещенности).\n•	Осмотрите подмышки пострадавшего, раны могут быть скрыты в складках кожи.",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 28,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'R',
+            },
+            {
+                //Sucking wound(s)?
+                Step: '28',
+                InstructionText: 'Открытая рана грудной клетки?',
+                InformationButton: true,
+                Information: [
+                    {
+                        Title: "Открытые раны грудной клетки",
+                        Text: "Открытая рана грудной клетки может возникнуть в результате проникновения в грудную стенку пули, лезвия ножа, шрапнели или другого предмета. Некоторые признаки и симптомы открытой раны грудной клетки:\n• Из раны грудной клетки доносятся сосательные или шипящие звуки.\n• Пострадавший кашляет кровью.\n• Пенистая кровь течет из раны грудной клетки.\n• Одышка или затруднение дыхания.\n• Грудная клетка не поднимается нормально при вдохе.\n• Боль в плече или области грудной клетки, усиливающаяся при дыхании.\n• Синюшный оттенок губ, внутренней части рта, кончиков пальцев или ногтей. кровати.\n• Признаки шока, такие как учащенное и слабое сердцебиение.",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: false,
+                CheckButtonGoToStepCount: null,
+                YesButton: true,
+                YesButtonGoToStepCount: 29,
+                NoButton: true,
+                NoButtonGoToStepCount: 31,
+                MARCH: 'R',
+            },
+            {
+                //Seal wound
+                Step: '29',
+                InstructionText: 'Запечатать рану',
+                InformationButton: true,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: true,
+                InformationPageName: __WEBPACK_IMPORTED_MODULE_11__pages_train_respiration_respiration__["a" /* RespirationPage */],
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 30,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'R',
+            },
+            {
+                //Other sucking wound(s)?
+                Step: '30',
+                InstructionText: 'Другие открытые раны грудной клетки?',
+                InformationButton: true,
+                Information: [
+                    {
+                        Title: "Открытые раны грудной клетки",
+                        Text: "Открытая рана грудной клетки может возникнуть в результате проникновения в грудную стенку пули, лезвия ножа, шрапнели или другого предмета. Некоторые признаки и симптомы открытой раны грудной клетки:\n• Из раны грудной клетки доносятся сосательные или шипящие звуки.\n• Пострадавший кашляет кровью.\n• Пенистая кровь течет из раны грудной клетки.\n• Одышка или затрудненное дыхание.\n• Грудная клетка не поднимается нормально при вдохе.\n• Боль в плече или области грудной клетки, усиливающаяся при дыхании.\n• Синюшный оттенок губ, внутренней части рта, кончиков пальцев или ногтей. кровати.\n• Признаки шока, такие как учащенное и слабое сердцебиение.",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: false,
+                CheckButtonGoToStepCount: null,
+                YesButton: true,
+                YesButtonGoToStepCount: 29,
+                NoButton: true,
+                NoButtonGoToStepCount: 31,
+                MARCH: 'R',
+            },
+            {
+                //Airway burn?
+                Step: '31',
+                InstructionText: 'Подозрение на ожог дыхательных путей?',
+                InformationButton: true,
+                Information: [
+                    {
+                        Title: "Ожоги дыхательных путей",
+                        Text: "Ожоги дыхательных путей могут быть вызваны вдыханием дыма, пара, перегретого воздуха или токсичных паров. Ожоги дыхательных путей могут быть очень серьезными, поскольку быстрый отек обожженных тканей в дыхательных путях может быстро заблокировать поток воздуха в легкие. Симптомы и признаки включают:\n• Охриплость голоса или изменение голоса.\n• Сильный кашель.\n• Стридор.\n• Ожоги лица.\n• Отек головы и шеи.\n• Выраженные волосы в носу, на бровях или ресницы.\n• Копоть в слюне, мокроте, носу или рту.",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: false,
+                CheckButtonGoToStepCount: null,
+                YesButton: true,
+                YesButtonGoToStepCount: 62,
+                NoButton: true,
+                NoButtonGoToStepCount: 33,
+                MARCH: 'R',
+            },
+            {
+                //Cool airway
+                Step: '32',
+                InstructionText: 'Охлаждение дыхательных путей холодными жидкостями',
+                InformationButton: false,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: null,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'R',
+            },
+            {
+                //Full body check
+                Step: '33',
+                InstructionText: 'Выполните полную проверку тела',
+                InformationButton: true,
+                Information: [
+                    {
+                        Title: "Быстрая оценка кровотечения",
+                        Text: "Используйте следующую процедуру:\n• Проверьте все наложенные жгуты (все еще эффективны?).\n• Проверьте голову на наличие кровотечения.\n• Проверьте грудь на наличие кровотечения.\n• Проверьте живот (включая спину).\n• Проверьте таз.\n• Проверьте верхнюю часть ног.\n• Проверьте голени и руки.",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 34,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'C',
+            },
+            {
+                //Bleeding?
+                Step: '34',
+                InstructionText: 'Кровотечение?',
+                InformationButton: false,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: false,
+                CheckButtonGoToStepCount: null,
+                YesButton: true,
+                YesButtonGoToStepCount: 35,
+                NoButton: true,
+                NoButtonGoToStepCount: 51,
+                MARCH: 'C',
+            },
+            {
+                //Massive bleeding?
+                Step: '35',
+                InstructionText: 'Массивное кровотечение?',
+                InformationButton: false,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: false,
+                CheckButtonGoToStepCount: null,
+                YesButton: true,
+                YesButtonGoToStepCount: 36,
+                NoButton: true,
+                NoButtonGoToStepCount: 48,
+                MARCH: 'C',
+            },
+            {
+                //Bleeding on limbs?
+                Step: '36',
+                InstructionText: 'Кровотечение на конечностях?',
+                InformationButton: false,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: false,
+                CheckButtonGoToStepCount: null,
+                YesButton: true,
+                YesButtonGoToStepCount: 37,
+                NoButton: true,
+                NoButtonGoToStepCount: 45,
+                MARCH: 'C',
+            },
+            {
+                //Tourniquet
+                Step: '37',
+                InstructionText: 'Наложить жгут',
+                InformationButton: true,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: true,
+                InformationPageName: __WEBPACK_IMPORTED_MODULE_5__pages_train_massive_tourniquet_tourniquet__["a" /* TourniquetPage */],
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 38,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'C',
+            },
+            {
+                //Bleeding stopped?
+                Step: '38',
+                InstructionText: 'Кровотечение остановилось?',
+                InformationButton: false,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: false,
+                CheckButtonGoToStepCount: null,
+                YesButton: true,
+                YesButtonGoToStepCount: 44,
+                NoButton: true,
+                NoButtonGoToStepCount: 39,
+                MARCH: 'C',
+            },
+            {
+                //Apply 2nd tourniquet
+                Step: '39',
+                InstructionText: 'Сначала наложите второй жгут, указанный выше',
+                InformationButton: true,
+                Information: [
+                    {
+                        Text: "",
+                    },
+                ],
+                InformationPage: true,
+                InformationPageName: __WEBPACK_IMPORTED_MODULE_5__pages_train_massive_tourniquet_tourniquet__["a" /* TourniquetPage */],
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 40,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'C',
+            },
+            {
+                //Bleeding stopped?
+                Step: '40',
+                InstructionText: 'Кровотечение остановилось?',
+                InformationButton: false,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: false,
+                CheckButtonGoToStepCount: null,
+                YesButton: true,
+                YesButtonGoToStepCount: 44,
+                NoButton: true,
+                NoButtonGoToStepCount: 41,
+                MARCH: 'C',
+            },
+            {
+                //Pack Wound
+                Step: '41',
+                InstructionText: 'Пакетная рана',
+                InformationButton: true,
+                Information: [
+                    {
+                        Text: "",
+                    },
+                ],
+                InformationPage: true,
+                InformationPageName: __WEBPACK_IMPORTED_MODULE_6__pages_train_massive_woundpacking_woundpacking__["a" /* WoundpackingPage */],
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 42,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'C',
+            },
+            {
+                //Bleeding stopped?
+                Step: '42',
+                InstructionText: 'Кровотечение остановилось?',
+                InformationButton: false,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: false,
+                CheckButtonGoToStepCount: null,
+                YesButton: true,
+                YesButtonGoToStepCount: 44,
+                NoButton: true,
+                NoButtonGoToStepCount: 43,
+                MARCH: 'C',
+            },
+            {
+                //Use EPD & direct pressure
+                Step: '43',
+                InstructionText: 'Перетакуйте рану и надавите на нее дольше',
+                InformationButton: false,
+                Information: [
+                    {
+                        Text: "",
+                    },
+                ],
+                InformationPage: true,
+                InformationPageName: __WEBPACK_IMPORTED_MODULE_7__pages_train_circulation_circulation__["a" /* CirculationPage */],
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 44,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'C',
+            },
+            {
+                //Apply dressing
+                Step: '44',
+                InstructionText: 'Закрепите EPD на ране',
+                InformationButton: true,
+                Information: [
+                    {
+                        Text: "",
+                    },
+                ],
+                InformationPage: true,
+                InformationPageName: __WEBPACK_IMPORTED_MODULE_7__pages_train_circulation_circulation__["a" /* CirculationPage */],
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 47,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'C',
+            },
+            {
+                //Pack Wound
+                Step: '45',
+                InstructionText: 'Пакетная рана',
+                InformationButton: true,
+                Information: [
+                    {
+                        Text: "",
+                    },
+                ],
+                InformationPage: true,
+                InformationPageName: __WEBPACK_IMPORTED_MODULE_6__pages_train_massive_woundpacking_woundpacking__["a" /* WoundpackingPage */],
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 46,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'C',
+            },
+            {
+                //Bleeding stopped?
+                Step: '46',
+                InstructionText: 'Кровотечение остановилось?',
+                InformationButton: false,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: false,
+                CheckButtonGoToStepCount: null,
+                YesButton: true,
+                YesButtonGoToStepCount: 47,
+                NoButton: true,
+                NoButtonGoToStepCount: 43,
+                MARCH: 'C',
+            },
+            {
+                //Other bleeding wounds
+                Step: '47',
+                InstructionText: 'Другие кровоточащие раны?',
+                InformationButton: false,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: false,
+                CheckButtonGoToStepCount: null,
+                YesButton: true,
+                YesButtonGoToStepCount: 35,
+                NoButton: true,
+                NoButtonGoToStepCount: 51,
+                MARCH: 'C',
+            },
+            {
+                //Abdominal wounds?
+                Step: '48',
+                InstructionText: 'Ранения живота?',
+                InformationButton: false,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: false,
+                CheckButtonGoToStepCount: null,
+                YesButton: true,
+                YesButtonGoToStepCount: 49,
+                NoButton: true,
+                NoButtonGoToStepCount: 50,
+                MARCH: 'C',
+            },
+            {
+                //Apply wet dressing
+                Step: '49',
+                InstructionText: 'Наложить влажную повязку',
+                InformationButton: true,
+                Image1: true,
+                Information: [
+                    {
+                        Title: "Лечение раны на животе",
+                        Text: "•	Не пытайтесь прикоснуться к органам или втолкнуть их обратно в полость тела.\n• Накройте стерильной повязкой, смоченной физиологическим раствором или чистой водой, или чистой пластиковой крышкой, заклеенной со всех четырех сторон.\n• Надежно, но не плотно забинтуйте\ n• Разрешить пострадавшему сидеть или лежать в удобном положении. Возможно, ноги согнуты, колени подняты к груди.",
+                        ImageURL: './assets/imgs/circulation/Abdominal.png'
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 47,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'C',
+            },
+            {
+                //Apply EPD
+                Step: '50',
+                InstructionText: 'Применить ЭПД',
+                InformationButton: true,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: true,
+                InformationPageName: __WEBPACK_IMPORTED_MODULE_7__pages_train_circulation_circulation__["a" /* CirculationPage */],
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 47,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'C',
+            },
+            {
+                //Suffering from heat
+                Step: '51',
+                InstructionText: 'Страдаете от тепловых судорог, истощения или инсульта?',
+                InformationButton: true,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: true,
+                InformationPageName: __WEBPACK_IMPORTED_MODULE_12__pages_train_heat_hyperthermia_hyperthermia__["a" /* HyperthermiaPage */],
+                InformationPager: false,
+                CheckButton: false,
+                CheckButtonGoToStepCount: null,
+                YesButton: true,
+                YesButtonGoToStepCount: 52,
+                NoButton: true,
+                NoButtonGoToStepCount: 53,
+                MARCH: 'H',
+            },
+            {
+                //Cool casualty
+                Step: '52',
+                InstructionText: 'Крутая жертва',
+                InformationButton: true,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: true,
+                InformationPageName: __WEBPACK_IMPORTED_MODULE_12__pages_train_heat_hyperthermia_hyperthermia__["a" /* HyperthermiaPage */],
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 55,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'H',
+            },
+            {
+                //Suffering from cold
+                Step: '53',
+                InstructionText: 'Страдаете от переохлаждения?',
+                InformationButton: true,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: true,
+                InformationPageName: __WEBPACK_IMPORTED_MODULE_13__pages_train_heat_hypothermia_hypothermia__["a" /* HypothermiaPage */],
+                InformationPager: false,
+                CheckButton: false,
+                CheckButtonGoToStepCount: null,
+                YesButton: true,
+                YesButtonGoToStepCount: 54,
+                NoButton: true,
+                NoButtonGoToStepCount: 55,
+                MARCH: 'H',
+            },
+            {
+                //Rewarm casualty
+                Step: '54',
+                InstructionText: 'Согреть пострадавшего',
+                InformationButton: true,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: true,
+                InformationPageName: __WEBPACK_IMPORTED_MODULE_13__pages_train_heat_hypothermia_hypothermia__["a" /* HypothermiaPage */],
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 55,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'H',
+            },
+            {
+                //Other casualties
+                Step: '55',
+                InstructionText: 'Другие жертвы?',
+                InformationButton: false,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: false,
+                CheckButtonGoToStepCount: null,
+                YesButton: true,
+                YesButtonGoToStepCount: 6,
+                NoButton: true,
+                NoButtonGoToStepCount: 56,
+                MARCH: null,
+            },
+            {
+                //Transfer to forward medical team?
+                Step: '56',
+                InstructionText: 'Можно ли передать пострадавшего (передовой) медицинской бригаде?',
+                InformationButton: false,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: false,
+                CheckButtonGoToStepCount: null,
+                YesButton: true,
+                YesButtonGoToStepCount: 59,
+                NoButton: true,
+                NoButtonGoToStepCount: 57,
+                MARCH: null,
+            },
+            {
+                //Keep checking MARCH
+                Step: '57',
+                InstructionText: 'Переоценка МАРТ',
+                InformationButton: true,
+                Information: [
+                    {
+                        Title: "Переоценка МАРТ",
+                        Text: "Если пострадавшего пока невозможно передать (передовой) медицинской бригаде, лицу, оказывающему первую помощь, следует продолжить мониторинг и повторную оценку MARCH, например, путем:\n• Повторной оценки эффективности ранее применявшихся мер, таких как жгуты, тампоны и ЭПД.\ n• Проверка того, что дыхательные пути пострадавшего все еще открыты.\n• Проверка того, что дыхание пострадавшего все еще адекватно. Повторная оценка нагрудных герметиков и EPD.\n• Повторная оценка ранее вводившихся EPD.\n• Повторная оценка того, страдает ли пострадавший от гипертермии или гипотермии.\n• Убедиться, что пострадавший чувствует себя настолько комфортно, насколько это позволяет его ситуация.",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 58,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: null,
+            },
+            {
+                //Restart protocol?
+                Step: '58',
+                InstructionText: 'Протокол перезапуска, чтобы помочь в переоценке марша?',
+                InformationButton: false,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: false,
+                CheckButtonGoToStepCount: null,
+                YesButton: true,
+                YesButtonGoToStepCount: 6,
+                NoButton: true,
+                NoButtonGoToStepCount: 56,
+                MARCH: null,
+            },
+            {
+                //End of protocol
+                Step: '59',
+                InstructionText: 'Конец протокола',
+                InformationButton: false,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 0,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: null,
+            },
+            {
+                //Other massive bleeding
+                Step: '60',
+                InstructionText: 'Другое массивное кровотечение?',
+                InformationButton: false,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: false,
+                CheckButtonGoToStepCount: null,
+                YesButton: true,
+                YesButtonGoToStepCount: 7,
+                NoButton: true,
+                NoButtonGoToStepCount: 18,
+                MARCH: 'M',
+            },
+            {
+                //Call medic after recovery
+                Step: '61',
+                InstructionText: 'Вызов медика',
+                InformationButton: false,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 27,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'A',
+            },
+            {
+                //Call medic after airway burns
+                Step: '62',
+                InstructionText: 'Вызов медика',
+                InformationButton: false,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 33,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'R',
+            },
+            {
+                //Hypothermia blanket
+                Step: '63',
+                InstructionText: 'Наложите одеяло от гипотермии',
+                InformationButton: false,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 61,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'A',
+            },
+        ];
+    }
+    RUSProtocolData = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["A" /* Injectable */])(),
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Http */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Http */]) === "function" && _a || Object])
+    ], RUSProtocolData);
+    return RUSProtocolData;
+    var _a;
+}());
+
+//# sourceMappingURL=RUSprotocoldata.js.map
 
 /***/ }),
 

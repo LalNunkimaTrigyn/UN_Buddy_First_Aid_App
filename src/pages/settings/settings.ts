@@ -17,7 +17,7 @@ export class SettingsPage {
     public storage: Storage,
     public geolocation: Geolocation,
     public locationService: LocationService
-  ) { }
+  ) {}
 
   ENG = false;
   FR = false;
@@ -28,7 +28,7 @@ export class SettingsPage {
 
   ionViewWillLoad() {
     this.storage.get("Language").then((data) => {
-      if (data) {
+      if (data) { 
         if (data === "ENG") {
           this.ENG = true;
           this.FR = false;

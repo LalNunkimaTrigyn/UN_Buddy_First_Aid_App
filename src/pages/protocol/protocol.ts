@@ -3,6 +3,7 @@ import { ModalController, NavController, AlertController, Platform } from 'ionic
 import { ENGProtocolData } from '../../providers/ENGprotocoldata';
 import { FRProtocolData } from '../../providers/FRprotocoldata';
 import { ESProtocolData } from '../../providers/ESProtocolData';
+import { RUSProtocolData } from '../../providers/RUSprotocoldata';
 import { InfoModalPage } from './infomodal/infomodal';
 import { Storage } from '@ionic/storage';
 import { NativeAudio } from '@ionic-native/native-audio';
@@ -21,6 +22,7 @@ export class ProtocolPage {
      public ENGdataService: ENGProtocolData, 
      public FRdataService: FRProtocolData,  
      public ESProtocolData: ESProtocolData,  
+     public RUSProtocolData:RUSProtocolData,
      public navCtrl: NavController) {
 
   }
@@ -49,18 +51,28 @@ export class ProtocolPage {
             this.ENG = true;
             this.FR = false;
             this.ES = false;
+            this.RUS = false;
             this.GetInfo();
           }
           if(data === 'FR'){
             this.ENG = false;
             this.FR = true;
             this.ES = false;
+            this.RUS = false;
             this.GetInfo();
           }
           if(data === 'ES') {
             this.ENG = false;
             this.FR = false;
             this.ES = true;
+            this.RUS = false;
+            this.GetInfo();
+          }
+          if(data === 'RUS') {
+            this.ENG = false;
+            this.FR = false;
+            this.ES = false;
+            this.RUS = true;
             this.GetInfo();
           }
         }
@@ -78,6 +90,9 @@ export class ProtocolPage {
            if (this.ES === true){
             this.presentESAlert()
            }
+           if (this.RUS === true){
+            this.presentRUSAlert()
+          }
         }
         else{
           this.Step = 0;
@@ -92,6 +107,7 @@ export class ProtocolPage {
   ENG = false;
   FR = false;
   ES = false;
+  RUS = false;
   Step = 0;
   StepHistory = [];
   InstructionText = '';
@@ -105,8 +121,6 @@ export class ProtocolPage {
   NoButton = false; 
   NoButtonGoToStepCount: number;
   InformationPageName: any;
-
-
 
   presentENGAlert() {
       let alert = this.alertCtrl.create({
@@ -183,7 +197,31 @@ export class ProtocolPage {
       alert.present();
       }
   
-
+      presentRUSAlert() {
+        let alert = this.alertCtrl.create({
+          title: 'Протокол возобновления',
+          message: 'Хотите возобновить?',
+          buttons: [
+            {
+              text: 'Нет',
+              handler: () => {
+                this.Step = 0;
+                this.StepHistory = [];
+                this.GetInfo();
+              }
+            },
+            {
+              text: 'Да',
+              handler: () => {
+                this.Step = this.StepHistory.pop();
+                this.GetInfo();
+              }
+            }
+          ]
+        });
+        alert.present();
+        }
+  
   CheckClick(){
     this.nativeAudio.play('Tap')
     this.SetHistory();
@@ -296,6 +334,21 @@ export class ProtocolPage {
       this.NoButton = this.ESProtocolData.FirstAidProtocol[this.Step].NoButton
       this.NoButtonGoToStepCount = this.ESProtocolData.FirstAidProtocol[this.Step].NoButtonGoToStepCount
       this.MARCH = this.ESProtocolData.FirstAidProtocol[this.Step].MARCH
+    }
+
+    if (this.RUS === true){
+      this.InstructionText = this.RUSProtocolData.FirstAidProtocol[this.Step].InstructionText
+      this.InformationButton = this.RUSProtocolData.FirstAidProtocol[this.Step].InformationButton
+      this.Information = this.RUSProtocolData.FirstAidProtocol[this.Step].Information
+      this.InformationPage = this.RUSProtocolData.FirstAidProtocol[this.Step].InformationPage
+      this.InformationPageName = this.RUSProtocolData.FirstAidProtocol[this.Step].InformationPageName
+      this.CheckButton = this.RUSProtocolData.FirstAidProtocol[this.Step].CheckButton
+      this.CheckButtonGoToStepCount = this.RUSProtocolData.FirstAidProtocol[this.Step].CheckButtonGoToStepCount
+      this.YesButton = this.RUSProtocolData.FirstAidProtocol[this.Step].YesButton
+      this.YesButtonGoToStepCount = this.RUSProtocolData.FirstAidProtocol[this.Step].YesButtonGoToStepCount
+      this.NoButton = this.RUSProtocolData.FirstAidProtocol[this.Step].NoButton
+      this.NoButtonGoToStepCount = this.RUSProtocolData.FirstAidProtocol[this.Step].NoButtonGoToStepCount
+      this.MARCH = this.RUSProtocolData.FirstAidProtocol[this.Step].MARCH
     }
 
   }
