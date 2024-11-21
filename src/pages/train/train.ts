@@ -23,6 +23,7 @@ export class TrainPage {
 ENG = false;
 FR = false;
 ES = false;
+RUS = false;
 ionViewWillEnter(){
   this.storage.get('Language').then(data => 
     {
@@ -30,15 +31,23 @@ ionViewWillEnter(){
         this.ENG = true;
         this.FR = false;
         this.ES = false;
+        this.RUS = false;
       }else if(data === 'FR'){
         this.ENG = false;
         this.FR = true;
         this.ES = false;
+        this.RUS = false;
       }else if(data === 'ES'){
         this.ENG = false;
         this.ES = true;
         this.FR = false;
+        this.RUS = false;
         // this.storage.set('Language', 'ENG');
+      }else if(data === 'RUS'){
+        this.ENG = false;
+        this.FR = false;
+        this.ES = false;
+        this.RUS = true;
       }
     }
   )
