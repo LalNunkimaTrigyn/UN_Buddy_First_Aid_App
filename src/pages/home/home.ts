@@ -57,6 +57,7 @@ export class HomePage {
   ENG = false;
   FR = false;
   ES = false;
+  RUS = false;
   GetLanguage() {
     this.storage.get("Language").then((data) => {
       console.log(data, "Language");
@@ -64,18 +65,28 @@ export class HomePage {
         this.ES = false;
         this.ENG = true;
         this.FR = false;
+        this.RUS = false;
       } else if (data === "ES") {
         this.ES = true;
         this.ENG = false;
         this.FR = false;
+        this.RUS = false;
       } else if (data === "FR") {
         this.ENG = false;
         this.FR = true;
         this.ES = false;
-      } else {
+        this.RUS = false;
+      } else if (data === "RUS") {
+        this.ENG = false;
+        this.FR = false;
+        this.ES = false;
+        this.RUS = true;
+      } 
+      else {
         this.ENG = true;
         this.ES = false;
         this.FR = false;
+        this.RUS = false;
         this.storage.set("Language", "ENG");
       }
     });
