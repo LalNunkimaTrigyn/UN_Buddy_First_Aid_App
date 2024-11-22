@@ -72,7 +72,7 @@ constructor(public http: Http) {
     {
       //Assess S.C.E.N.E
       Step: '2',
-      InstructionText: 'ОЦЕНИТЕ Б.П.А.К.Р. ',
+      InstructionText: 'ОЦЕНИТЕ Б.П.А.К.Р.',
       InformationButton: true,
       Information:      
       [
