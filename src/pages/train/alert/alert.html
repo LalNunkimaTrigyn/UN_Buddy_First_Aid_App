@@ -24,8 +24,16 @@
     <ion-card *ngIf="ES === true">
         <h2 id="Title">4-LÍNEAS</h2>
         <p id="Text">
-            Un mensaje de alerta debe ser transmitido tan pronto como sea posible y no excediendo 10 minutos después de que se produzcan las víctimas, para garantizar una evacuación rápida. Las Naciones Unidas han adoptado un informe de situación básico que consta de cuatro líneas.
+            Un mensaje de alerta debe ser transmitido tan pronto como sea posible y no excediendo 10 minutos después de
+            que se produzcan las víctimas, para garantizar una evacuación rápida. Las Naciones Unidas han adoptado un
+            informe de situación básico que consta de cuatro líneas.
         </p>
+    </ion-card>
+    <ion-card *ngIf="RUS === true">
+        <h2 id="Title">4 СТРОКИ</h2>
+        <p id="Text">Сообщение о тревоге должно быть передано как можно скорее, но не более чем через 10 минут после
+            появления пострадавших, для обеспечения быстрой эвакуации. Организация Объединенных Наций приняла базовый
+            отчет о ситуации, состоящий из четырех строк.</p>
     </ion-card>
 
     <ion-card *ngIf="ENG === true">
@@ -39,7 +47,13 @@
     </ion-card>
     <ion-card *ngIf="ES === true">
         <h2 id="Title">UBICACIÓN</h2>
-        <p id="Text">¿Dónde está? Proporcione la ubicación exacta de extracción deseada (por ejemplo, UTM, MGRS, LAT/LONG). </p>
+        <p id="Text">¿Dónde está? Proporcione la ubicación exacta de extracción deseada (por ejemplo, UTM, MGRS,
+            LAT/LONG). </p>
+    </ion-card>
+    <ion-card *ngIf="RUS === true">
+        <h2 id="Title">ЛОКАЦИЯ</h2>
+        <p id="Text">Где находится? Укажите точное желаемое местоположение эвакуации (например, ВРЕМЯ, МЕСТО, ШИРОТА /
+            ДОЛГОТА).</p>
     </ion-card>
 
     <ion-card *ngIf="ENG === true">
@@ -55,8 +69,14 @@
     <ion-card *ngIf="ES === true">
         <h2 id="Title">INCIDENTE</h2>
         <p id="Text">
-            ¿Qué ha ocurrido? Incluya información sobre la frecuencia de radio, teléfono o teléfono satelital en el lugar. 
+            ¿Qué ha ocurrido? Incluya información sobre la frecuencia de radio, teléfono o teléfono satelital en el
+            lugar.
         </p>
+    </ion-card>
+    <ion-card *ngIf="RUS === true">
+        <h2 id="Title">ИНЦИДЕНТ</h2>
+        <p id="Text">Что произошло? Включите информацию о частоте радиосвязи, телефоне или спутниковой связи в
+            местоположении.</p>
     </ion-card>
 
     <ion-card *ngIf="ENG === true">
@@ -72,8 +92,14 @@
     <ion-card *ngIf="ES === true">
         <h2 id="Title">ACCIONES TOMADAS</h2>
         <p id="Text">
-            ¿Qué han hecho? Por ejemplo “Estamos proporcionando primeros auxilios al costado de la carretera” o “Conducimos sin ayuda hasta el hospital más cercano”. 
+            ¿Qué han hecho? Por ejemplo “Estamos proporcionando primeros auxilios al costado de la carretera” o
+            “Conducimos sin ayuda hasta el hospital más cercano”.
         </p>
+    </ion-card>
+    <ion-card *ngIf="RUS === true">
+        <h2 id="Title">ПРЕДПРИНЯТЫЕ ДЕЙСТВИЯ</h2>
+        <p id="Text">Что было сделано? Например, “Мы оказываем первую помощь на обочине дороги” или “Мы едем без
+            посторонней помощи в ближайшую больницу”.</p>
     </ion-card>
 
     <ion-card *ngIf="ENG === true">
@@ -89,8 +115,14 @@
     <ion-card *ngIf="ES === true">
         <h2 id="Title">RECURSOS NECESARIOS</h2>
         <p id="Text">
-            ¿Qué necesita? ¿Hay algún equipo especial en el sitio (por ejemplo, elevadores, equipos de extracción, ventiladores)?
+            ¿Qué necesita? ¿Hay algún equipo especial en el sitio (por ejemplo, elevadores, equipos de extracción,
+            ventiladores)?
         </p>
+    </ion-card>
+    <ion-card *ngIf="RUS === true">
+        <h2 id="Title">НЕОБХОДИМЫЕ РЕСУРСЫ</h2>
+        <p id="Text">Что вам нужно? Имеется ли на объекте какое-либо специальное оборудование (например, подъемники,
+            оборудование для извлечения, вентиляторы)?</p>
     </ion-card>
 
 </ion-content>

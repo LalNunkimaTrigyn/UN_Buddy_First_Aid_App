@@ -23,7 +23,7 @@ constructor(public http: Http) {
     {
       //Under fire?
       Step: '0',
-      InstructionText: 'Под огнем противника?',
+      InstructionText: 'ПОД ВРАЖЕСКИМ ОГНЕМ?',
       InformationButton: false,
       InformationPage: false,
       InformationPageName: '',
@@ -40,7 +40,7 @@ constructor(public http: Http) {
     {
       //Return fire and evacuate
       Step: '1',
-      InstructionText: 'Подавить огонь противника и эвакуироваться в укрытие',
+      InstructionText: 'ПОДАВИТЕ ОГОНЬ ПРОТИВНИКА И ЭВАКУИРУЙТЕСЬ В УКРЫТИЕ',
       InformationButton: true,
       Information:      
       [
@@ -72,7 +72,7 @@ constructor(public http: Http) {
     {
       //Assess S.C.E.N.E
       Step: '2',
-      InstructionText: 'ОЦЕНИТЕ СЦЕНУ',
+      InstructionText: 'ОЦЕНИТЕ Б.П.А.К.Р. ',
       InformationButton: true,
       Information:      
       [
