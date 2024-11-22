@@ -3,18 +3,30 @@ import { Injectable } from "@angular/core";
 import { Storage } from "@ionic/storage";
 // import { Geolocation } from '@ionic-native/geolocation';  // Import Geolocation plugin
 import { Geolocation } from "@ionic-native/geolocation";
+import { Subject, Subscription } from "rxjs";
 
 @Injectable()
 export class LocationService {
   public latitude: number;
   public longitude: number;
+  public sub1: Subscription;
+
+  public watch: any;
+  private locationSubject = new Subject<{
+    latitude: number;
+    longitude: number;
+  }>();
+  locationUpdates$ = this.locationSubject.asObservable(); // Expose as Observable
 
   constructor(public storage: Storage, public geolocation: Geolocation) {}
-  geolocationEnabled: boolean = false;
+  public geolocationEnabled: boolean = false;
 
   setLocation(lat: number, long: number) {
     this.latitude = lat;
     this.longitude = long;
+    // Emit the location update
+    this.locationSubject.next({ latitude: lat, longitude: long });
+    console.log("Location emitted:", { latitude: lat, longitude: long });
   }
 
   getLocation() {
@@ -31,6 +43,29 @@ export class LocationService {
     } else {
       this.disableGeolocation();
     }
+  }
+
+  enableGeolocationTracking() {
+    this.geolocationEnabled = true;
+    this.watch = this.geolocation.watchPosition();
+
+    this.sub1 = this.watch.subscribe(
+      (data: { coords: { latitude: number; longitude: number } }) => {
+        if (data && data.coords) {
+          console.log("Updated Latitude:", data.coords.latitude);
+          console.log("Updated Longitude:", data.coords.longitude);
+          this.setLocation(data.coords.latitude, data.coords.longitude);
+        }
+      },
+      (error) => {
+        console.error("Error watching geolocation", error);
+      }
+    );
+  }
+
+
+  getLastKnownLocation() {
+    return { latitude: this.latitude, longitude: this.longitude };
   }
 
   enableGeolocation() {
@@ -53,6 +88,8 @@ export class LocationService {
 
   disableGeolocation() {
     console.log("Geolocation disabled");
+    // this.sub1.unsubscribe();
+    this.geolocationEnabled =false;
     // Implement any additional logic if you need to stop geolocation tracking
   }
   loadGeolocationStatus() {
