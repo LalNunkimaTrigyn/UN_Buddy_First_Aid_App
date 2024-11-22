@@ -14,6 +14,7 @@ export class BasicsPage {
   ENG = false;
   FR = false;
   ES = false;
+  RUS = false;
   ionViewWillEnter(){
     this.storage.get('Language').then(data => 
       {
@@ -22,16 +23,25 @@ export class BasicsPage {
           this.ENG = true;
           this.FR = false;
           this.ES = false;
+          this.RUS = false;
         }
         if(data === 'FR'){
           this.ENG = false;
           this.ES = false;
           this.FR = true;
+          this.RUS = false;
         }
         if(data === 'ES'){
           this.ES = true;
           this.FR = false;
           this.ENG = false;
+          this.RUS = false;
+        }
+        if(data === 'RUS'){
+          this.ES = false;
+          this.FR = false;
+          this.ENG = false;
+          this.RUS = true;
         }
       }
     )
