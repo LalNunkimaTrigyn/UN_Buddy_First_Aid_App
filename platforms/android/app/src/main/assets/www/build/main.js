@@ -1,25 +1,25 @@
 webpackJsonp([0],{
 
-/***/ 115:
+/***/ 116:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ENGProtocolData; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(63);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(116);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(52);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(64);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pages_train_scene_scene__ = __webpack_require__(41);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_train_alert_alert__ = __webpack_require__(42);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_train_massive_tourniquet_tourniquet__ = __webpack_require__(43);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_train_massive_woundpacking_woundpacking__ = __webpack_require__(44);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_train_circulation_circulation__ = __webpack_require__(45);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_train_airway_headtilt_headtilt__ = __webpack_require__(46);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_train_airway_recoveryposition_recoveryposition__ = __webpack_require__(47);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_train_airway_situp_situp__ = __webpack_require__(48);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_train_respiration_respiration__ = __webpack_require__(49);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_train_heat_hyperthermia_hyperthermia__ = __webpack_require__(50);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_train_heat_hypothermia_hypothermia__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pages_train_scene_scene__ = __webpack_require__(34);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_train_alert_alert__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_train_massive_tourniquet_tourniquet__ = __webpack_require__(36);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_train_massive_woundpacking_woundpacking__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_train_circulation_circulation__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_train_airway_headtilt_headtilt__ = __webpack_require__(39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_train_airway_recoveryposition_recoveryposition__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_train_airway_situp_situp__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_train_respiration_respiration__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_train_heat_hyperthermia_hyperthermia__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_train_heat_hypothermia_hypothermia__ = __webpack_require__(44);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1455,20 +1455,20 @@ var ENGProtocolData = /** @class */ (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FRProtocolData; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(63);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(116);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(52);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(64);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pages_train_scene_scene__ = __webpack_require__(41);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_train_alert_alert__ = __webpack_require__(42);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_train_massive_tourniquet_tourniquet__ = __webpack_require__(43);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_train_massive_woundpacking_woundpacking__ = __webpack_require__(44);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_train_circulation_circulation__ = __webpack_require__(45);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_train_airway_headtilt_headtilt__ = __webpack_require__(46);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_train_airway_recoveryposition_recoveryposition__ = __webpack_require__(47);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_train_airway_situp_situp__ = __webpack_require__(48);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_train_respiration_respiration__ = __webpack_require__(49);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_train_heat_hyperthermia_hyperthermia__ = __webpack_require__(50);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_train_heat_hypothermia_hypothermia__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pages_train_scene_scene__ = __webpack_require__(34);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_train_alert_alert__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_train_massive_tourniquet_tourniquet__ = __webpack_require__(36);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_train_massive_woundpacking_woundpacking__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_train_circulation_circulation__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_train_airway_headtilt_headtilt__ = __webpack_require__(39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_train_airway_recoveryposition_recoveryposition__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_train_airway_situp_situp__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_train_respiration_respiration__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_train_heat_hyperthermia_hyperthermia__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_train_heat_hypothermia_hypothermia__ = __webpack_require__(44);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2904,20 +2904,20 @@ var FRProtocolData = /** @class */ (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ESProtocolData; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(63);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(116);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(52);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(64);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pages_train_scene_scene__ = __webpack_require__(41);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_train_alert_alert__ = __webpack_require__(42);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_train_massive_tourniquet_tourniquet__ = __webpack_require__(43);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_train_massive_woundpacking_woundpacking__ = __webpack_require__(44);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_train_circulation_circulation__ = __webpack_require__(45);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_train_airway_headtilt_headtilt__ = __webpack_require__(46);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_train_airway_recoveryposition_recoveryposition__ = __webpack_require__(47);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_train_airway_situp_situp__ = __webpack_require__(48);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_train_respiration_respiration__ = __webpack_require__(49);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_train_heat_hyperthermia_hyperthermia__ = __webpack_require__(50);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_train_heat_hypothermia_hypothermia__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pages_train_scene_scene__ = __webpack_require__(34);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_train_alert_alert__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_train_massive_tourniquet_tourniquet__ = __webpack_require__(36);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_train_massive_woundpacking_woundpacking__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_train_circulation_circulation__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_train_airway_headtilt_headtilt__ = __webpack_require__(39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_train_airway_recoveryposition_recoveryposition__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_train_airway_situp_situp__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_train_respiration_respiration__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_train_heat_hyperthermia_hyperthermia__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_train_heat_hypothermia_hypothermia__ = __webpack_require__(44);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -4347,7 +4347,1456 @@ var ESProtocolData = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 127:
+/***/ 119:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RUSProtocolData; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(52);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(64);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pages_train_scene_scene__ = __webpack_require__(34);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_train_alert_alert__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_train_massive_tourniquet_tourniquet__ = __webpack_require__(36);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_train_massive_woundpacking_woundpacking__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_train_circulation_circulation__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_train_airway_headtilt_headtilt__ = __webpack_require__(39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_train_airway_recoveryposition_recoveryposition__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_train_airway_situp_situp__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_train_respiration_respiration__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_train_heat_hyperthermia_hyperthermia__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_train_heat_hypothermia_hypothermia__ = __webpack_require__(44);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var RUSProtocolData = /** @class */ (function () {
+    function RUSProtocolData(http) {
+        this.http = http;
+        this.FirstAidProtocol = [];
+        this.FirstAidProtocol = [
+            {
+                //Under fire?
+                Step: '0',
+                InstructionText: 'ПОД ВРАЖЕСКИМ ОГНЕМ?',
+                InformationButton: false,
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: true,
+                CheckButton: false,
+                CheckButtonGoToStepCount: null,
+                YesButton: true,
+                YesButtonGoToStepCount: 1,
+                NoButton: true,
+                NoButtonGoToStepCount: 2,
+                MARCH: 'null',
+            },
+            {
+                //Return fire and evacuate
+                Step: '1',
+                InstructionText: 'ПОДАВИТЕ ОГОНЬ ПРОТИВНИКА И ЭВАКУИРУЙТЕСЬ В УКРЫТИЕ',
+                InformationButton: true,
+                Information: [
+                    {
+                        Title: "Ответный огонь",
+                        Text: "Весь личный состав (включая раненых, где это возможно) должен вернуться и поддерживать огонь для подавления противника и его эвакуации в укрытие.",
+                    },
+                    {
+                        Title: "Если медик и раненый находятся под открытым небом",
+                        Text: "Если это возможно, откажитесь от человеческих гранад в направлении, противоположном войне. Рассмотрим: Torniquete для масивной геморрагии. Используйте дыхательные пути, чтобы получить этот список для перемещения.",
+                    },
+                    {
+                        Title: "Если пострадавший на открытом воздухе",
+                        Text: "Если пострадавший не может вести ответный эффективный огонь, попросите его лежать как можно неподвижнее. Планируйте спасение, учитывая: \n•	Поддержка дружественных сил\n•	Использование транспортных средств\n•	Использование дыма\n•	Использование укрытия\n•	Использование веревочной линии\n•	Самые быстрые маршруты",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: true,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 2,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'null',
+            },
+            {
+                //Assess S.C.E.N.E
+                Step: '2',
+                InstructionText: 'ОЦЕНИТЕ Б.П.А.К.Р.',
+                InformationButton: true,
+                Information: [
+                    {
+                        Text: "",
+                    },
+                ],
+                InformationPage: true,
+                InformationPageName: __WEBPACK_IMPORTED_MODULE_3__pages_train_scene_scene__["a" /* ScenePage */],
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 3,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'null',
+            },
+            {
+                //Transmit alert message
+                Step: '3',
+                InstructionText: 'Передача предупреждающего сообщения',
+                InformationButton: true,
+                Information: [
+                    {
+                        Text: "",
+                    },
+                ],
+                InformationPage: true,
+                InformationPageName: __WEBPACK_IMPORTED_MODULE_4__pages_train_alert_alert__["a" /* AlertPage */],
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 6,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'null',
+            },
+            {
+                //Multiple casualties? 
+                Step: '4',
+                InstructionText: 'Множественные жертвы?',
+                InformationButton: false,
+                Information: [
+                    {
+                        Text: "",
+                    },
+                ],
+                InformationPager: false,
+                CheckButton: false,
+                CheckButtonGoToStepCount: null,
+                YesButton: true,
+                YesButtonGoToStepCount: 5,
+                NoButton: true,
+                NoButtonGoToStepCount: 6,
+                MARCH: 'null',
+            },
+            {
+                //Prioritize casualties
+                Step: '5',
+                InstructionText: 'Распределяйте приоритеты пострадавших и лечите их соответствующим образом.',
+                InformationButton: true,
+                Information: [
+                    {
+                        Title: "Расставьте приоритеты среди жертв",
+                        Text: "В обстоятельствах, когда число жертв превышает количество служб реагирования и ресурсов, необходимо принять решения по определению приоритетности жертв, чтобы гарантировать, что для большинства жертв будет сделано самое лучшее..",
+                    },
+                    {
+                        Title: "сортировка",
+                        Text: "Сортировка — это процесс определения приоритетности лечения пациентов в зависимости от тяжести их состояния, который может использоваться для определения приоритетности раненых.\nСледующие категории часто используются в сортировке:\n\n•	T1, приоритет 1 (КРАСНЫЙ: немедленно). Эта категория имеет наивысший приоритет для лечения или эвакуации, поскольку необходимы срочные меры для обеспечения выживания пострадавшего. Примеры: обструкция дыхательных путей, неотложная респираторная помощь, шок и тяжелая травма.\n\n•	Т2, приоритет 2 (ЖЕЛТЫЙ: срочно). Сюда входят случаи, требующие раннего лечения, в частности хирургического вмешательства, и рекомендуется провести эвакуацию в хирургическое учреждение в течение 6 часов после травмы. Примеры: серьезные травмы и переломы конечностей, закрытая травма головы, открытая травма глаза и ожоги средней степени тяжести.\n\n•	T3, приоритет 3 (ЗЕЛЕНЫЙ: с задержкой или удержанием). В этой категории лечение менее срочно и может быть отложено, если есть другие пострадавшие, требующие ограниченного лечения или эвакуации. Примеры: закрытые переломы, травмы мягких тканей, закрытая травма грудной клетки и травма лица.\n\n•	Мертв, приоритет 4 (ЧЕРНЫЙ: ожидающий или умерший). К этой категории относятся пострадавшие, чьи травмы или заболевания настолько серьезны, что у них минимальные шансы на выживание, или которые умерли по прибытии. Если возникнет конкуренция за ограниченные медицинские ресурсы, такие случаи будут иметь меньший приоритет для эвакуации или лечения, несмотря на тяжесть их состояния.",
+                    },
+                ],
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 6,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'null',
+            },
+            {
+                //Massive bleeding?
+                Step: '6',
+                InstructionText: 'Массивное кровотечение?',
+                InformationButton: false,
+                Information: [
+                    {
+                        Text: "",
+                    },
+                ],
+                InformationPager: false,
+                CheckButton: false,
+                CheckButtonGoToStepCount: null,
+                YesButton: true,
+                YesButtonGoToStepCount: 7,
+                NoButton: true,
+                NoButtonGoToStepCount: 18,
+                MARCH: 'M',
+            },
+            {
+                //Bleeding on limbs?
+                Step: '7',
+                InstructionText: 'Кровотечение на конечностях?',
+                InformationButton: false,
+                Information: [
+                    {
+                        Text: "",
+                    },
+                ],
+                InformationPager: false,
+                CheckButton: false,
+                CheckButtonGoToStepCount: null,
+                YesButton: true,
+                YesButtonGoToStepCount: 8,
+                NoButton: true,
+                NoButtonGoToStepCount: 16,
+                MARCH: 'M',
+            },
+            {
+                //Apply tourniquet
+                Step: '8',
+                InstructionText: 'Наложить жгут',
+                InformationButton: true,
+                Information: [
+                    {
+                        Text: "",
+                    },
+                ],
+                InformationPage: true,
+                InformationPageName: __WEBPACK_IMPORTED_MODULE_5__pages_train_massive_tourniquet_tourniquet__["a" /* TourniquetPage */],
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 9,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'M',
+            },
+            {
+                //Bleeding stopped?
+                Step: '9',
+                InstructionText: 'Кровотечение остановлено?',
+                InformationButton: false,
+                Information: [
+                    {
+                        Text: "",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: false,
+                CheckButtonGoToStepCount: null,
+                YesButton: true,
+                YesButtonGoToStepCount: 60,
+                NoButton: true,
+                NoButtonGoToStepCount: 10,
+                MARCH: 'M',
+            },
+            {
+                //Apply tourniquet
+                Step: '10',
+                InstructionText: 'Сначала наложите второй жгут, указанный выше',
+                InformationButton: true,
+                Information: [
+                    {
+                        Text: "",
+                    },
+                ],
+                InformationPage: true,
+                InformationPageName: __WEBPACK_IMPORTED_MODULE_5__pages_train_massive_tourniquet_tourniquet__["a" /* TourniquetPage */],
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 11,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'M',
+            },
+            {
+                //Apply tourniquet
+                Step: '11',
+                InstructionText: 'Кровотечение остановилось?',
+                InformationButton: false,
+                Information: [
+                    {
+                        Text: "",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: false,
+                CheckButtonGoToStepCount: null,
+                YesButton: true,
+                YesButtonGoToStepCount: 60,
+                NoButton: true,
+                NoButtonGoToStepCount: 12,
+                MARCH: 'M',
+            },
+            {
+                //Pack Wound
+                Step: '12',
+                InstructionText: 'Пакетная рана',
+                InformationButton: true,
+                Information: [
+                    {
+                        Text: "",
+                    },
+                ],
+                InformationPage: true,
+                InformationPageName: __WEBPACK_IMPORTED_MODULE_6__pages_train_massive_woundpacking_woundpacking__["a" /* WoundpackingPage */],
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 13,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'M',
+            },
+            {
+                //Bleeding stopped?
+                Step: '13',
+                InstructionText: 'Кровотечение остановилось?',
+                InformationButton: false,
+                Information: [
+                    {
+                        Text: "",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: false,
+                CheckButtonGoToStepCount: null,
+                YesButton: true,
+                YesButtonGoToStepCount: 60,
+                NoButton: true,
+                NoButtonGoToStepCount: 14,
+                MARCH: 'M',
+            },
+            {
+                //Repack wound
+                Step: '14',
+                InstructionText: 'Перетакуйте рану и надавите на нее дольше',
+                InformationButton: false,
+                Information: [
+                    {
+                        Text: "",
+                    },
+                ],
+                InformationPage: true,
+                InformationPageName: __WEBPACK_IMPORTED_MODULE_7__pages_train_circulation_circulation__["a" /* CirculationPage */],
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 15,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'M',
+            },
+            {
+                //Apply dressing
+                Step: '15',
+                InstructionText: 'Закрепите EPD на ране',
+                InformationButton: true,
+                Information: [
+                    {
+                        Text: "",
+                    },
+                ],
+                InformationPage: true,
+                InformationPageName: __WEBPACK_IMPORTED_MODULE_7__pages_train_circulation_circulation__["a" /* CirculationPage */],
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 60,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'M',
+            },
+            {
+                //Pack wound
+                Step: '16',
+                InstructionText: 'Пакетная рана',
+                InformationButton: true,
+                Information: [
+                    {
+                        Text: "",
+                    },
+                ],
+                InformationPage: true,
+                InformationPageName: __WEBPACK_IMPORTED_MODULE_6__pages_train_massive_woundpacking_woundpacking__["a" /* WoundpackingPage */],
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 17,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'M',
+            },
+            {
+                //Bleeding stopped?
+                Step: '17',
+                InstructionText: 'Кровотечение остановилось?',
+                InformationButton: false,
+                Information: [
+                    {
+                        Text: "",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: false,
+                CheckButtonGoToStepCount: null,
+                YesButton: true,
+                YesButtonGoToStepCount: 60,
+                NoButton: true,
+                NoButtonGoToStepCount: 14,
+                MARCH: 'M',
+            },
+            {
+                //Casualty normal?
+                Step: '18',
+                InstructionText: 'Пострадавший реагирует нормально?',
+                InformationButton: true,
+                Information: [
+                    {
+                        Title: "Встряхнуть и кричать",
+                        Text: "•	Если пострадавший в сознании, спросите: «Что случилось?» или «Где вы ранены?»\n•	Если пострадавший выглядит без сознания или потерял сознание, встряхните его и спросите: «С вами все в порядке?»\n•	Если пострадавший реагирует нормально, у него свободны дыхательные пути, он дышит и у него перфузия головного мозга.\n•	Если пострадавший говорит только короткими предложениями, у него могут возникнуть проблемы с дыханием. Отсутствие реакции пострадавшего является явным признаком критического заболевания.",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: false,
+                CheckButtonGoToStepCount: null,
+                YesButton: true,
+                YesButtonGoToStepCount: 27,
+                NoButton: true,
+                NoButtonGoToStepCount: 19,
+                MARCH: 'A',
+            },
+            {
+                //Casualty conscious?
+                Step: '19',
+                InstructionText: 'Пострадавший в сознании?',
+                InformationButton: false,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: false,
+                CheckButtonGoToStepCount: null,
+                YesButton: true,
+                YesButtonGoToStepCount: 24,
+                NoButton: true,
+                NoButtonGoToStepCount: 20,
+                MARCH: 'A',
+            },
+            {
+                //Examine airway & remove debris
+                Step: '20',
+                InstructionText: 'Осмотрите дыхательные пути и удалите потенциальный мусор',
+                InformationButton: true,
+                Information: [
+                    {
+                        Title: "Осмотр дыхательных путей",
+                        Text: "Если пострадавший выглядит без сознания, откройте ему рот, осмотрите рот и удалите возможные остатки.",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 21,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'A',
+            },
+            {
+                //Perform head-tilt
+                Step: '21',
+                InstructionText: 'Открытие дыхательных путей путем наклона головы',
+                InformationButton: true,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: true,
+                InformationPageName: __WEBPACK_IMPORTED_MODULE_8__pages_train_airway_headtilt_headtilt__["a" /* HeadtiltPage */],
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 22,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'A',
+            },
+            {
+                //Continuing breathing difficulties?
+                Step: '22',
+                InstructionText: 'Продолжаются трудности с дыханием?',
+                InformationButton: false,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: false,
+                CheckButtonGoToStepCount: null,
+                YesButton: true,
+                YesButtonGoToStepCount: 23,
+                NoButton: true,
+                NoButtonGoToStepCount: 27,
+                MARCH: 'A',
+            },
+            {
+                //Recovery position
+                Step: '23',
+                InstructionText: 'Применить положение восстановления',
+                InformationButton: true,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: true,
+                InformationPageName: __WEBPACK_IMPORTED_MODULE_9__pages_train_airway_recoveryposition_recoveryposition__["a" /* RecoverypositionPage */],
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 63,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'A',
+            },
+            {
+                //Examine airway & remove debris
+                Step: '24',
+                InstructionText: 'Осмотрите дыхательные пути и дайте пострадавшему удалить мусор',
+                InformationButton: true,
+                Information: [
+                    {
+                        Title: "Осмотр дыхательных путей",
+                        Text: "Если пострадавший находится в сознании, попросите его удалить изо рта потенциальный мусор.",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 25,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'A',
+            },
+            {
+                //Continuing problems? 
+                Step: '25',
+                InstructionText: 'Продолжаются проблемы с дыханием?',
+                InformationButton: false,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: false,
+                CheckButtonGoToStepCount: null,
+                YesButton: true,
+                YesButtonGoToStepCount: 26,
+                NoButton: true,
+                NoButtonGoToStepCount: 27,
+                MARCH: 'A',
+            },
+            {
+                //Sit-up & forward
+                Step: '26',
+                InstructionText: 'Примените положение сидя и вперед',
+                InformationButton: true,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: true,
+                InformationPageName: __WEBPACK_IMPORTED_MODULE_10__pages_train_airway_situp_situp__["a" /* SitupPage */],
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 27,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'A',
+            },
+            {
+                //Examine chest and back
+                Step: '27',
+                InstructionText: 'Осмотр груди и спины',
+                InformationButton: true,
+                Information: [
+                    {
+                        Title: "полная оценка грудной клетки",
+                        Text: "Полная оценка грудной клетки состоит из следующих элементов:\n•	Осмотрите грудь на предмет синяков, ран или отсутствия симметрии.\n•	Прислушайтесь к необычным звукам дыхания.\n•	Ощупайте грудную клетку на предмет повреждений или ран (в условиях низкой освещенности).\n•	Осмотрите подмышки пострадавшего, раны могут быть скрыты в складках кожи.",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 28,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'R',
+            },
+            {
+                //Sucking wound(s)?
+                Step: '28',
+                InstructionText: 'Открытая рана грудной клетки?',
+                InformationButton: true,
+                Information: [
+                    {
+                        Title: "Открытые раны грудной клетки",
+                        Text: "Открытая рана грудной клетки может возникнуть в результате проникновения в грудную стенку пули, лезвия ножа, шрапнели или другого предмета. Некоторые признаки и симптомы открытой раны грудной клетки:\n• Из раны грудной клетки доносятся сосательные или шипящие звуки.\n• Пострадавший кашляет кровью.\n• Пенистая кровь течет из раны грудной клетки.\n• Одышка или затруднение дыхания.\n• Грудная клетка не поднимается нормально при вдохе.\n• Боль в плече или области грудной клетки, усиливающаяся при дыхании.\n• Синюшный оттенок губ, внутренней части рта, кончиков пальцев или ногтей. кровати.\n• Признаки шока, такие как учащенное и слабое сердцебиение.",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: false,
+                CheckButtonGoToStepCount: null,
+                YesButton: true,
+                YesButtonGoToStepCount: 29,
+                NoButton: true,
+                NoButtonGoToStepCount: 31,
+                MARCH: 'R',
+            },
+            {
+                //Seal wound
+                Step: '29',
+                InstructionText: 'Запечатать рану',
+                InformationButton: true,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: true,
+                InformationPageName: __WEBPACK_IMPORTED_MODULE_11__pages_train_respiration_respiration__["a" /* RespirationPage */],
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 30,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'R',
+            },
+            {
+                //Other sucking wound(s)?
+                Step: '30',
+                InstructionText: 'Другие открытые раны грудной клетки?',
+                InformationButton: true,
+                Information: [
+                    {
+                        Title: "Открытые раны грудной клетки",
+                        Text: "Открытая рана грудной клетки может возникнуть в результате проникновения в грудную стенку пули, лезвия ножа, шрапнели или другого предмета. Некоторые признаки и симптомы открытой раны грудной клетки:\n• Из раны грудной клетки доносятся сосательные или шипящие звуки.\n• Пострадавший кашляет кровью.\n• Пенистая кровь течет из раны грудной клетки.\n• Одышка или затрудненное дыхание.\n• Грудная клетка не поднимается нормально при вдохе.\n• Боль в плече или области грудной клетки, усиливающаяся при дыхании.\n• Синюшный оттенок губ, внутренней части рта, кончиков пальцев или ногтей. кровати.\n• Признаки шока, такие как учащенное и слабое сердцебиение.",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: false,
+                CheckButtonGoToStepCount: null,
+                YesButton: true,
+                YesButtonGoToStepCount: 29,
+                NoButton: true,
+                NoButtonGoToStepCount: 31,
+                MARCH: 'R',
+            },
+            {
+                //Airway burn?
+                Step: '31',
+                InstructionText: 'Подозрение на ожог дыхательных путей?',
+                InformationButton: true,
+                Information: [
+                    {
+                        Title: "Ожоги дыхательных путей",
+                        Text: "Ожоги дыхательных путей могут быть вызваны вдыханием дыма, пара, перегретого воздуха или токсичных паров. Ожоги дыхательных путей могут быть очень серьезными, поскольку быстрый отек обожженных тканей в дыхательных путях может быстро заблокировать поток воздуха в легкие. Симптомы и признаки включают:\n• Охриплость голоса или изменение голоса.\n• Сильный кашель.\n• Стридор.\n• Ожоги лица.\n• Отек головы и шеи.\n• Выраженные волосы в носу, на бровях или ресницы.\n• Копоть в слюне, мокроте, носу или рту.",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: false,
+                CheckButtonGoToStepCount: null,
+                YesButton: true,
+                YesButtonGoToStepCount: 62,
+                NoButton: true,
+                NoButtonGoToStepCount: 33,
+                MARCH: 'R',
+            },
+            {
+                //Cool airway
+                Step: '32',
+                InstructionText: 'Охлаждение дыхательных путей холодными жидкостями',
+                InformationButton: false,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: null,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'R',
+            },
+            {
+                //Full body check
+                Step: '33',
+                InstructionText: 'Выполните полную проверку тела',
+                InformationButton: true,
+                Information: [
+                    {
+                        Title: "Быстрая оценка кровотечения",
+                        Text: "Используйте следующую процедуру:\n• Проверьте все наложенные жгуты (все еще эффективны?).\n• Проверьте голову на наличие кровотечения.\n• Проверьте грудь на наличие кровотечения.\n• Проверьте живот (включая спину).\n• Проверьте таз.\n• Проверьте верхнюю часть ног.\n• Проверьте голени и руки.",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 34,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'C',
+            },
+            {
+                //Bleeding?
+                Step: '34',
+                InstructionText: 'Кровотечение?',
+                InformationButton: false,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: false,
+                CheckButtonGoToStepCount: null,
+                YesButton: true,
+                YesButtonGoToStepCount: 35,
+                NoButton: true,
+                NoButtonGoToStepCount: 51,
+                MARCH: 'C',
+            },
+            {
+                //Massive bleeding?
+                Step: '35',
+                InstructionText: 'Массивное кровотечение?',
+                InformationButton: false,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: false,
+                CheckButtonGoToStepCount: null,
+                YesButton: true,
+                YesButtonGoToStepCount: 36,
+                NoButton: true,
+                NoButtonGoToStepCount: 48,
+                MARCH: 'C',
+            },
+            {
+                //Bleeding on limbs?
+                Step: '36',
+                InstructionText: 'Кровотечение на конечностях?',
+                InformationButton: false,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: false,
+                CheckButtonGoToStepCount: null,
+                YesButton: true,
+                YesButtonGoToStepCount: 37,
+                NoButton: true,
+                NoButtonGoToStepCount: 45,
+                MARCH: 'C',
+            },
+            {
+                //Tourniquet
+                Step: '37',
+                InstructionText: 'Наложить жгут',
+                InformationButton: true,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: true,
+                InformationPageName: __WEBPACK_IMPORTED_MODULE_5__pages_train_massive_tourniquet_tourniquet__["a" /* TourniquetPage */],
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 38,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'C',
+            },
+            {
+                //Bleeding stopped?
+                Step: '38',
+                InstructionText: 'Кровотечение остановилось?',
+                InformationButton: false,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: false,
+                CheckButtonGoToStepCount: null,
+                YesButton: true,
+                YesButtonGoToStepCount: 44,
+                NoButton: true,
+                NoButtonGoToStepCount: 39,
+                MARCH: 'C',
+            },
+            {
+                //Apply 2nd tourniquet
+                Step: '39',
+                InstructionText: 'Сначала наложите второй жгут, указанный выше',
+                InformationButton: true,
+                Information: [
+                    {
+                        Text: "",
+                    },
+                ],
+                InformationPage: true,
+                InformationPageName: __WEBPACK_IMPORTED_MODULE_5__pages_train_massive_tourniquet_tourniquet__["a" /* TourniquetPage */],
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 40,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'C',
+            },
+            {
+                //Bleeding stopped?
+                Step: '40',
+                InstructionText: 'Кровотечение остановилось?',
+                InformationButton: false,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: false,
+                CheckButtonGoToStepCount: null,
+                YesButton: true,
+                YesButtonGoToStepCount: 44,
+                NoButton: true,
+                NoButtonGoToStepCount: 41,
+                MARCH: 'C',
+            },
+            {
+                //Pack Wound
+                Step: '41',
+                InstructionText: 'Пакетная рана',
+                InformationButton: true,
+                Information: [
+                    {
+                        Text: "",
+                    },
+                ],
+                InformationPage: true,
+                InformationPageName: __WEBPACK_IMPORTED_MODULE_6__pages_train_massive_woundpacking_woundpacking__["a" /* WoundpackingPage */],
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 42,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'C',
+            },
+            {
+                //Bleeding stopped?
+                Step: '42',
+                InstructionText: 'Кровотечение остановилось?',
+                InformationButton: false,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: false,
+                CheckButtonGoToStepCount: null,
+                YesButton: true,
+                YesButtonGoToStepCount: 44,
+                NoButton: true,
+                NoButtonGoToStepCount: 43,
+                MARCH: 'C',
+            },
+            {
+                //Use EPD & direct pressure
+                Step: '43',
+                InstructionText: 'Перетакуйте рану и надавите на нее дольше',
+                InformationButton: false,
+                Information: [
+                    {
+                        Text: "",
+                    },
+                ],
+                InformationPage: true,
+                InformationPageName: __WEBPACK_IMPORTED_MODULE_7__pages_train_circulation_circulation__["a" /* CirculationPage */],
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 44,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'C',
+            },
+            {
+                //Apply dressing
+                Step: '44',
+                InstructionText: 'Закрепите EPD на ране',
+                InformationButton: true,
+                Information: [
+                    {
+                        Text: "",
+                    },
+                ],
+                InformationPage: true,
+                InformationPageName: __WEBPACK_IMPORTED_MODULE_7__pages_train_circulation_circulation__["a" /* CirculationPage */],
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 47,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'C',
+            },
+            {
+                //Pack Wound
+                Step: '45',
+                InstructionText: 'Пакетная рана',
+                InformationButton: true,
+                Information: [
+                    {
+                        Text: "",
+                    },
+                ],
+                InformationPage: true,
+                InformationPageName: __WEBPACK_IMPORTED_MODULE_6__pages_train_massive_woundpacking_woundpacking__["a" /* WoundpackingPage */],
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 46,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'C',
+            },
+            {
+                //Bleeding stopped?
+                Step: '46',
+                InstructionText: 'Кровотечение остановилось?',
+                InformationButton: false,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: false,
+                CheckButtonGoToStepCount: null,
+                YesButton: true,
+                YesButtonGoToStepCount: 47,
+                NoButton: true,
+                NoButtonGoToStepCount: 43,
+                MARCH: 'C',
+            },
+            {
+                //Other bleeding wounds
+                Step: '47',
+                InstructionText: 'Другие кровоточащие раны?',
+                InformationButton: false,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: false,
+                CheckButtonGoToStepCount: null,
+                YesButton: true,
+                YesButtonGoToStepCount: 35,
+                NoButton: true,
+                NoButtonGoToStepCount: 51,
+                MARCH: 'C',
+            },
+            {
+                //Abdominal wounds?
+                Step: '48',
+                InstructionText: 'Ранения живота?',
+                InformationButton: false,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: false,
+                CheckButtonGoToStepCount: null,
+                YesButton: true,
+                YesButtonGoToStepCount: 49,
+                NoButton: true,
+                NoButtonGoToStepCount: 50,
+                MARCH: 'C',
+            },
+            {
+                //Apply wet dressing
+                Step: '49',
+                InstructionText: 'Наложить влажную повязку',
+                InformationButton: true,
+                Image1: true,
+                Information: [
+                    {
+                        Title: "Лечение раны на животе",
+                        Text: "•	Не пытайтесь прикоснуться к органам или втолкнуть их обратно в полость тела.\n• Накройте стерильной повязкой, смоченной физиологическим раствором или чистой водой, или чистой пластиковой крышкой, заклеенной со всех четырех сторон.\n• Надежно, но не плотно забинтуйте\ n• Разрешить пострадавшему сидеть или лежать в удобном положении. Возможно, ноги согнуты, колени подняты к груди.",
+                        ImageURL: './assets/imgs/circulation/Abdominal.png'
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 47,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'C',
+            },
+            {
+                //Apply EPD
+                Step: '50',
+                InstructionText: 'Применить ЭПД',
+                InformationButton: true,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: true,
+                InformationPageName: __WEBPACK_IMPORTED_MODULE_7__pages_train_circulation_circulation__["a" /* CirculationPage */],
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 47,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'C',
+            },
+            {
+                //Suffering from heat
+                Step: '51',
+                InstructionText: 'Страдаете от тепловых судорог, истощения или инсульта?',
+                InformationButton: true,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: true,
+                InformationPageName: __WEBPACK_IMPORTED_MODULE_12__pages_train_heat_hyperthermia_hyperthermia__["a" /* HyperthermiaPage */],
+                InformationPager: false,
+                CheckButton: false,
+                CheckButtonGoToStepCount: null,
+                YesButton: true,
+                YesButtonGoToStepCount: 52,
+                NoButton: true,
+                NoButtonGoToStepCount: 53,
+                MARCH: 'H',
+            },
+            {
+                //Cool casualty
+                Step: '52',
+                InstructionText: 'Крутая жертва',
+                InformationButton: true,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: true,
+                InformationPageName: __WEBPACK_IMPORTED_MODULE_12__pages_train_heat_hyperthermia_hyperthermia__["a" /* HyperthermiaPage */],
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 55,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'H',
+            },
+            {
+                //Suffering from cold
+                Step: '53',
+                InstructionText: 'Страдаете от переохлаждения?',
+                InformationButton: true,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: true,
+                InformationPageName: __WEBPACK_IMPORTED_MODULE_13__pages_train_heat_hypothermia_hypothermia__["a" /* HypothermiaPage */],
+                InformationPager: false,
+                CheckButton: false,
+                CheckButtonGoToStepCount: null,
+                YesButton: true,
+                YesButtonGoToStepCount: 54,
+                NoButton: true,
+                NoButtonGoToStepCount: 55,
+                MARCH: 'H',
+            },
+            {
+                //Rewarm casualty
+                Step: '54',
+                InstructionText: 'Согреть пострадавшего',
+                InformationButton: true,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: true,
+                InformationPageName: __WEBPACK_IMPORTED_MODULE_13__pages_train_heat_hypothermia_hypothermia__["a" /* HypothermiaPage */],
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 55,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'H',
+            },
+            {
+                //Other casualties
+                Step: '55',
+                InstructionText: 'Другие жертвы?',
+                InformationButton: false,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: false,
+                CheckButtonGoToStepCount: null,
+                YesButton: true,
+                YesButtonGoToStepCount: 6,
+                NoButton: true,
+                NoButtonGoToStepCount: 56,
+                MARCH: null,
+            },
+            {
+                //Transfer to forward medical team?
+                Step: '56',
+                InstructionText: 'Можно ли передать пострадавшего (передовой) медицинской бригаде?',
+                InformationButton: false,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: false,
+                CheckButtonGoToStepCount: null,
+                YesButton: true,
+                YesButtonGoToStepCount: 59,
+                NoButton: true,
+                NoButtonGoToStepCount: 57,
+                MARCH: null,
+            },
+            {
+                //Keep checking MARCH
+                Step: '57',
+                InstructionText: 'Переоценка МАРТ',
+                InformationButton: true,
+                Information: [
+                    {
+                        Title: "Переоценка МАРТ",
+                        Text: "Если пострадавшего пока невозможно передать (передовой) медицинской бригаде, лицу, оказывающему первую помощь, следует продолжить мониторинг и повторную оценку MARCH, например, путем:\n• Повторной оценки эффективности ранее применявшихся мер, таких как жгуты, тампоны и ЭПД.\ n• Проверка того, что дыхательные пути пострадавшего все еще открыты.\n• Проверка того, что дыхание пострадавшего все еще адекватно. Повторная оценка нагрудных герметиков и EPD.\n• Повторная оценка ранее вводившихся EPD.\n• Повторная оценка того, страдает ли пострадавший от гипертермии или гипотермии.\n• Убедиться, что пострадавший чувствует себя настолько комфортно, насколько это позволяет его ситуация.",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 58,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: null,
+            },
+            {
+                //Restart protocol?
+                Step: '58',
+                InstructionText: 'Протокол перезапуска, чтобы помочь в переоценке марша?',
+                InformationButton: false,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: false,
+                CheckButtonGoToStepCount: null,
+                YesButton: true,
+                YesButtonGoToStepCount: 6,
+                NoButton: true,
+                NoButtonGoToStepCount: 56,
+                MARCH: null,
+            },
+            {
+                //End of protocol
+                Step: '59',
+                InstructionText: 'Конец протокола',
+                InformationButton: false,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 0,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: null,
+            },
+            {
+                //Other massive bleeding
+                Step: '60',
+                InstructionText: 'Другое массивное кровотечение?',
+                InformationButton: false,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: false,
+                CheckButtonGoToStepCount: null,
+                YesButton: true,
+                YesButtonGoToStepCount: 7,
+                NoButton: true,
+                NoButtonGoToStepCount: 18,
+                MARCH: 'M',
+            },
+            {
+                //Call medic after recovery
+                Step: '61',
+                InstructionText: 'Вызов медика',
+                InformationButton: false,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 27,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'A',
+            },
+            {
+                //Call medic after airway burns
+                Step: '62',
+                InstructionText: 'Вызов медика',
+                InformationButton: false,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 33,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'R',
+            },
+            {
+                //Hypothermia blanket
+                Step: '63',
+                InstructionText: 'Наложите одеяло от гипотермии',
+                InformationButton: false,
+                Information: [
+                    {
+                        Title: "",
+                        Text: "",
+                    },
+                ],
+                InformationPage: false,
+                InformationPageName: '',
+                InformationPager: false,
+                CheckButton: true,
+                CheckButtonGoToStepCount: 61,
+                YesButton: false,
+                YesButtonGoToStepCount: null,
+                NoButton: false,
+                NoButtonGoToStepCount: null,
+                MARCH: 'A',
+            },
+        ];
+    }
+    RUSProtocolData = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["A" /* Injectable */])(),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Http */]])
+    ], RUSProtocolData);
+    return RUSProtocolData;
+}());
+
+//# sourceMappingURL=RUSprotocoldata.js.map
+
+/***/ }),
+
+/***/ 128:
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -4360,11 +5809,11 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 127;
+webpackEmptyAsyncContext.id = 128;
 
 /***/ }),
 
-/***/ 169:
+/***/ 170:
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -4377,21 +5826,21 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 169;
+webpackEmptyAsyncContext.id = 170;
 
 /***/ }),
 
-/***/ 212:
+/***/ 213:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__protocol_protocol__ = __webpack_require__(213);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__train_train__ = __webpack_require__(217);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__protocol_protocol__ = __webpack_require__(214);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__train_train__ = __webpack_require__(218);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_storage__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__settings_settings__ = __webpack_require__(223);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__settings_settings__ = __webpack_require__(224);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -4418,6 +5867,7 @@ var HomePage = /** @class */ (function () {
         this.ENG = false;
         this.FR = false;
         this.ES = false;
+        this.RUS = false;
     }
     HomePage.prototype.ionViewWillEnter = function () {
         var _this = this;
@@ -4458,21 +5908,31 @@ var HomePage = /** @class */ (function () {
                 _this.ES = false;
                 _this.ENG = true;
                 _this.FR = false;
+                _this.RUS = false;
             }
             else if (data === "ES") {
                 _this.ES = true;
                 _this.ENG = false;
                 _this.FR = false;
+                _this.RUS = false;
             }
             else if (data === "FR") {
                 _this.ENG = false;
                 _this.FR = true;
                 _this.ES = false;
+                _this.RUS = false;
+            }
+            else if (data === "RUS") {
+                _this.ENG = false;
+                _this.FR = false;
+                _this.ES = false;
+                _this.RUS = true;
             }
             else {
                 _this.ENG = true;
                 _this.ES = false;
                 _this.FR = false;
+                _this.RUS = false;
                 _this.storage.set("Language", "ENG");
             }
         });
@@ -4488,7 +5948,7 @@ var HomePage = /** @class */ (function () {
     };
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: "page-home",template:/*ion-inline-start:"F:\UN_Buddy_First_Aid_App\src\pages\home\home.html"*/'<ion-header no-border>\n\n  <ion-navbar color="transparent">\n\n    <ion-buttons right>\n\n      <button ion-button class="ion-icon" color="light" icon-only (click)="GotoSettings()">\n\n          <ion-icon name="settings"></ion-icon>\n\n      </button>\n\n    </ion-buttons>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n  <ion-content no-bounce>\n\n    <ion-grid>\n\n        <ion-row id="logocontainer" justify-content-center align-items-center>\n\n          <img id="logo" src="./assets/imgs/logo.svg" alt="logo">\n\n        </ion-row>\n\n        <ion-row id="rangenbuttons">\n\n          <ion-col>\n\n              <ion-buttons *ngIf="ENG === true">\n\n                <button class="buttons" clear ion-button color="light" icon-only (click)="OpenProtocol()">\n\n                protocol\n\n                </button>\n\n              </ion-buttons>\n\n              <ion-buttons *ngIf="ES === true">\n\n                <button class="buttons" clear ion-button color="light" icon-only (click)="OpenProtocol()">\n\n                  PROTOCOLO\n\n                </button>\n\n              </ion-buttons>\n\n              <ion-buttons *ngIf="FR === true">\n\n                <button class="buttons" clear ion-button color="light" icon-only (click)="OpenProtocol()">\n\n                protocole\n\n                </button>\n\n              </ion-buttons>\n\n          </ion-col>\n\n          <ion-col>\n\n              <ion-buttons *ngIf="ENG === true">\n\n                <button class="buttons" clear ion-button color="light" icon-only (click)="OpenTraining()">\n\n                training\n\n                </button>\n\n              </ion-buttons>\n\n              <ion-buttons *ngIf="ES === true">\n\n                <button class="buttons" clear ion-button color="light" icon-only (click)="OpenTraining()">\n\n                  ENTRENAMIENTO\n\n                </button>\n\n              </ion-buttons>\n\n              <ion-buttons *ngIf="FR === true">\n\n              <button class="buttons" clear ion-button color="light" icon-only (click)="OpenTraining()">\n\n                formation\n\n              </button>\n\n            </ion-buttons>\n\n          </ion-col>\n\n        </ion-row>\n\n      </ion-grid>\n\n</ion-content>\n\n'/*ion-inline-end:"F:\UN_Buddy_First_Aid_App\src\pages\home\home.html"*/,
+            selector: "page-home",template:/*ion-inline-start:"F:\UN_Buddy_First_Aid_App\src\pages\home\home.html"*/'<ion-header no-border>\n\n  <ion-navbar color="transparent">\n\n    <ion-buttons right>\n\n      <button ion-button class="ion-icon" color="light" icon-only (click)="GotoSettings()">\n\n        <ion-icon name="settings"></ion-icon>\n\n      </button>\n\n    </ion-buttons>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content no-bounce>\n\n  <ion-grid>\n\n    <ion-row id="logocontainer" justify-content-center align-items-center>\n\n      <img id="logo" src="./assets/imgs/logo.svg" alt="logo">\n\n    </ion-row>\n\n    <ion-row id="rangenbuttons">\n\n      <ion-col>\n\n        <ion-buttons *ngIf="ENG === true">\n\n          <button class="buttons" clear ion-button color="light" icon-only (click)="OpenProtocol()">\n\n            protocol\n\n          </button>\n\n        </ion-buttons>\n\n        <ion-buttons *ngIf="ES === true">\n\n          <button class="buttons" clear ion-button color="light" icon-only (click)="OpenProtocol()">\n\n            PROTOCOLO\n\n          </button>\n\n        </ion-buttons>\n\n        <ion-buttons *ngIf="FR === true">\n\n          <button class="buttons" clear ion-button color="light" icon-only (click)="OpenProtocol()">\n\n            protocole\n\n          </button>\n\n        </ion-buttons>\n\n        <ion-buttons *ngIf="RUS === true">\n\n          <button class="buttons" clear ion-button color="light" icon-only (click)="OpenProtocol()">\n\n            протокол\n\n          </button>\n\n        </ion-buttons>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-buttons *ngIf="ENG === true">\n\n          <button class="buttons" clear ion-button color="light" icon-only (click)="OpenTraining()">\n\n            training\n\n          </button>\n\n        </ion-buttons>\n\n        <ion-buttons *ngIf="ES === true">\n\n          <button class="buttons" clear ion-button color="light" icon-only (click)="OpenTraining()">\n\n            ENTRENAMIENTO\n\n          </button>\n\n        </ion-buttons>\n\n        <ion-buttons *ngIf="FR === true">\n\n          <button class="buttons" clear ion-button color="light" icon-only (click)="OpenTraining()">\n\n            formation\n\n          </button>\n\n        </ion-buttons>\n\n        <ion-buttons *ngIf="RUS === true">\n\n          <button class="buttons" clear ion-button color="light" icon-only (click)="OpenTraining()">\n\n            обучение\n\n          </button>\n\n        </ion-buttons>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>'/*ion-inline-end:"F:\UN_Buddy_First_Aid_App\src\pages\home\home.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_4__ionic_storage__["b" /* Storage */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */],
@@ -4502,19 +5962,20 @@ var HomePage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 213:
+/***/ 214:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ProtocolPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_ENGprotocoldata__ = __webpack_require__(115);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_ENGprotocoldata__ = __webpack_require__(116);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_FRprotocoldata__ = __webpack_require__(117);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_ESProtocolData__ = __webpack_require__(118);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__infomodal_infomodal__ = __webpack_require__(215);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_storage__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_native_audio__ = __webpack_require__(216);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_RUSprotocoldata__ = __webpack_require__(119);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__infomodal_infomodal__ = __webpack_require__(216);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_storage__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ionic_native_native_audio__ = __webpack_require__(217);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -4532,8 +5993,9 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
 var ProtocolPage = /** @class */ (function () {
-    function ProtocolPage(nativeAudio, platform, alertCtrl, storage, modalCtrl, ENGdataService, FRdataService, ESProtocolData, navCtrl) {
+    function ProtocolPage(nativeAudio, platform, alertCtrl, storage, modalCtrl, ENGdataService, FRdataService, ESProtocolData, RUSProtocolData, navCtrl) {
         this.nativeAudio = nativeAudio;
         this.platform = platform;
         this.alertCtrl = alertCtrl;
@@ -4542,10 +6004,12 @@ var ProtocolPage = /** @class */ (function () {
         this.ENGdataService = ENGdataService;
         this.FRdataService = FRdataService;
         this.ESProtocolData = ESProtocolData;
+        this.RUSProtocolData = RUSProtocolData;
         this.navCtrl = navCtrl;
         this.ENG = false;
         this.FR = false;
         this.ES = false;
+        this.RUS = false;
         this.Step = 0;
         this.StepHistory = [];
         this.InstructionText = '';
@@ -4577,18 +6041,28 @@ var ProtocolPage = /** @class */ (function () {
                 _this.ENG = true;
                 _this.FR = false;
                 _this.ES = false;
+                _this.RUS = false;
                 _this.GetInfo();
             }
             if (data === 'FR') {
                 _this.ENG = false;
                 _this.FR = true;
                 _this.ES = false;
+                _this.RUS = false;
                 _this.GetInfo();
             }
             if (data === 'ES') {
                 _this.ENG = false;
                 _this.FR = false;
                 _this.ES = true;
+                _this.RUS = false;
+                _this.GetInfo();
+            }
+            if (data === 'RUS') {
+                _this.ENG = false;
+                _this.FR = false;
+                _this.ES = false;
+                _this.RUS = true;
                 _this.GetInfo();
             }
         });
@@ -4603,6 +6077,9 @@ var ProtocolPage = /** @class */ (function () {
                 }
                 if (_this.ES === true) {
                     _this.presentESAlert();
+                }
+                if (_this.RUS === true) {
+                    _this.presentRUSAlert();
                 }
             }
             else {
@@ -4677,6 +6154,31 @@ var ProtocolPage = /** @class */ (function () {
                 },
                 {
                     text: 'Sí',
+                    handler: function () {
+                        _this.Step = _this.StepHistory.pop();
+                        _this.GetInfo();
+                    }
+                }
+            ]
+        });
+        alert.present();
+    };
+    ProtocolPage.prototype.presentRUSAlert = function () {
+        var _this = this;
+        var alert = this.alertCtrl.create({
+            title: 'Протокол возобновления',
+            message: 'Хотите возобновить?',
+            buttons: [
+                {
+                    text: 'Нет',
+                    handler: function () {
+                        _this.Step = 0;
+                        _this.StepHistory = [];
+                        _this.GetInfo();
+                    }
+                },
+                {
+                    text: 'Да',
                     handler: function () {
                         _this.Step = _this.StepHistory.pop();
                         _this.GetInfo();
@@ -4792,6 +6294,20 @@ var ProtocolPage = /** @class */ (function () {
             this.NoButtonGoToStepCount = this.ESProtocolData.FirstAidProtocol[this.Step].NoButtonGoToStepCount;
             this.MARCH = this.ESProtocolData.FirstAidProtocol[this.Step].MARCH;
         }
+        if (this.RUS === true) {
+            this.InstructionText = this.RUSProtocolData.FirstAidProtocol[this.Step].InstructionText;
+            this.InformationButton = this.RUSProtocolData.FirstAidProtocol[this.Step].InformationButton;
+            this.Information = this.RUSProtocolData.FirstAidProtocol[this.Step].Information;
+            this.InformationPage = this.RUSProtocolData.FirstAidProtocol[this.Step].InformationPage;
+            this.InformationPageName = this.RUSProtocolData.FirstAidProtocol[this.Step].InformationPageName;
+            this.CheckButton = this.RUSProtocolData.FirstAidProtocol[this.Step].CheckButton;
+            this.CheckButtonGoToStepCount = this.RUSProtocolData.FirstAidProtocol[this.Step].CheckButtonGoToStepCount;
+            this.YesButton = this.RUSProtocolData.FirstAidProtocol[this.Step].YesButton;
+            this.YesButtonGoToStepCount = this.RUSProtocolData.FirstAidProtocol[this.Step].YesButtonGoToStepCount;
+            this.NoButton = this.RUSProtocolData.FirstAidProtocol[this.Step].NoButton;
+            this.NoButtonGoToStepCount = this.RUSProtocolData.FirstAidProtocol[this.Step].NoButtonGoToStepCount;
+            this.MARCH = this.RUSProtocolData.FirstAidProtocol[this.Step].MARCH;
+        }
     };
     ProtocolPage.prototype.OpenInfo = function () {
         console.log(this.InformationPage, 'this.InformationPage');
@@ -4801,7 +6317,7 @@ var ProtocolPage = /** @class */ (function () {
             infoModal.present();
         }
         else {
-            var infoModal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_5__infomodal_infomodal__["a" /* InfoModalPage */], { Step: this.Step });
+            var infoModal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_6__infomodal_infomodal__["a" /* InfoModalPage */], { Step: this.Step });
             infoModal.present();
         }
     };
@@ -4820,16 +6336,17 @@ var ProtocolPage = /** @class */ (function () {
     };
     ProtocolPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-protocol',template:/*ion-inline-start:"F:\UN_Buddy_First_Aid_App\src\pages\protocol\protocol.html"*/'<ion-header no-border>\n\n  <ion-navbar>\n\n\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n  <ion-content no-padding no-bounce>\n\n  <ion-grid>\n\n  <ion-row>\n\n    <ion-col></ion-col>\n\n    <ion-col></ion-col>\n\n    <ion-col>\n\n        <button *ngIf="InformationButton === true && ENG === true" ion-button class="button" outline  (click)="OpenInfo()">INFO</button> \n\n        <button *ngIf="InformationButton === true && FR === true" ion-button class="button" outline  (click)="OpenInfo()">INFO</button>\n\n        <button style="font-size: 20px;" *ngIf="InformationButton === true && ES === true" ion-button class="button" outline  (click)="OpenInfo()">INFORMACIÓN</button> \n\n\n\n        <div *ngIf="InformationButton === false" class="placeholderhidden"></div>       \n\n    </ion-col>\n\n    <ion-col></ion-col>\n\n    <ion-col></ion-col>\n\n  </ion-row>\n\n  <ion-row no-padding>\n\n      <div id="InstructionText">{{ InstructionText }}</div>\n\n  </ion-row>\n\n  \n\n  <ion-row>\n\n      <ion-col></ion-col>\n\n      <ion-col>\n\n        <button *ngIf="YesButton === true && ENG === true" ion-button class="button" outline  (click)="YesClick()">YES</button>\n\n        <button *ngIf="YesButton === true && FR === true" ion-button class="button" outline  (click)="YesClick()">Oui</button>\n\n        <button *ngIf="YesButton === true && ES === true" ion-button class="button" outline  (click)="YesClick()">SÍ</button>\n\n      </ion-col>\n\n      <ion-col>\n\n        <button *ngIf="CheckButton === true && ios === true" ion-button class="button" outline  (click)="CheckClick()">\n\n          <ion-icon id="Checkmark" name=\'checkmark\'></ion-icon>          \n\n        </button>\n\n        <button *ngIf="CheckButton === true && android === true" ion-button class="button" outline  (click)="CheckClick()">\n\n          <ion-icon id="CheckmarkAndroid" name=\'checkmark\'></ion-icon>    \n\n        </button>\n\n      </ion-col>\n\n      <ion-col>\n\n        <button *ngIf="NoButton === true && ENG === true" ion-button class="button" outline  (click)="NoClick()">NO</button>\n\n        <button *ngIf="NoButton === true && FR === true" ion-button class="button" outline  (click)="NoClick()">Non</button>\n\n        <button *ngIf="NoButton === true && ES === true" ion-button class="button" outline  (click)="NoClick()">VOLVER</button>\n\n      </ion-col>\n\n      <ion-col></ion-col>\n\n  </ion-row>\n\n\n\n  <ion-row>\n\n      <ion-col></ion-col>\n\n      <ion-col></ion-col>\n\n      <ion-col>\n\n          <button ion-button class="button" *ngIf="ENG === true" outline  (click)="BackClick()">BACK</button>\n\n          <button ion-button class="button" *ngIf="FR === true" outline  (click)="BackClick()">Retour</button>\n\n          <button ion-button class="button" *ngIf="ES === true" outline  (click)="BackClick()">ATRÁS</button>\n\n      </ion-col>\n\n      <ion-col></ion-col>\n\n      <ion-col></ion-col>\n\n  </ion-row>\n\n\n\n  </ion-grid>\n\n\n\n</ion-content>\n\n\n\n<ion-footer no-border>\n\n  <ion-segment id="segments" [(ngModel)]="MARCH">\n\n    <ion-segment-button value="M" (ionSelect)="SelectM()">\n\n      M\n\n    </ion-segment-button>\n\n    <ion-segment-button value="A" (ionSelect)="SelectA()">\n\n      A\n\n    </ion-segment-button>\n\n    <ion-segment-button value="R" (ionSelect)="SelectR()">\n\n      R\n\n    </ion-segment-button>\n\n    <ion-segment-button value="C" (ionSelect)="SelectC()">\n\n      C\n\n    </ion-segment-button>\n\n    <ion-segment-button value="H" (ionSelect)="SelectH()">\n\n      H\n\n    </ion-segment-button>\n\n</ion-segment>\n\n</ion-footer>'/*ion-inline-end:"F:\UN_Buddy_First_Aid_App\src\pages\protocol\protocol.html"*/
+            selector: 'page-protocol',template:/*ion-inline-start:"F:\UN_Buddy_First_Aid_App\src\pages\protocol\protocol.html"*/'<ion-header no-border>\n\n  <ion-navbar>\n\n\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n  <ion-content no-padding no-bounce>\n\n  <ion-grid>\n\n  <ion-row>\n\n    <ion-col></ion-col>\n\n    <ion-col></ion-col>\n\n    <ion-col>\n\n        <button *ngIf="InformationButton === true && ENG === true" ion-button class="button" outline  (click)="OpenInfo()">INFO</button> \n\n        <button *ngIf="InformationButton === true && FR === true" ion-button class="button" outline  (click)="OpenInfo()">INFO</button>\n\n        <button style="font-size: 20px;" *ngIf="InformationButton === true && ES === true" ion-button class="button" outline  (click)="OpenInfo()">INFORMACIÓN</button> \n\n        <button style="font-size: 20px;" *ngIf="InformationButton === true && RUS === true" ion-button class="button" outline  (click)="OpenInfo()">ИНФОРМАЦИЯ</button>\n\n       \n\n        <div *ngIf="InformationButton === false" class="placeholderhidden"></div>      \n\n    </ion-col>\n\n    <ion-col></ion-col>\n\n    <ion-col></ion-col>\n\n  </ion-row>\n\n  <ion-row no-padding>\n\n      <div id="InstructionText">{{ InstructionText }}</div>\n\n  </ion-row>\n\n  \n\n  <ion-row>\n\n      <ion-col></ion-col>\n\n      <ion-col>\n\n        <button *ngIf="YesButton === true && ENG === true" ion-button class="button" outline  (click)="YesClick()">YES</button>\n\n        <button *ngIf="YesButton === true && FR === true" ion-button class="button" outline  (click)="YesClick()">Oui</button>\n\n        <button *ngIf="YesButton === true && ES === true" ion-button class="button" outline  (click)="YesClick()">SÍ</button>\n\n        <button *ngIf="YesButton === true && RUS === true" ion-button class="button" outline  (click)="YesClick()">ДА</button>\n\n      </ion-col>\n\n      <ion-col>\n\n        <button *ngIf="CheckButton === true && ios === true" ion-button class="button" outline  (click)="CheckClick()">\n\n          <ion-icon id="Checkmark" name=\'checkmark\'></ion-icon>          \n\n        </button>\n\n        <button *ngIf="CheckButton === true && android === true" ion-button class="button" outline  (click)="CheckClick()">\n\n          <ion-icon id="CheckmarkAndroid" name=\'checkmark\'></ion-icon>    \n\n        </button>\n\n      </ion-col>\n\n      <ion-col>\n\n        <button *ngIf="NoButton === true && ENG === true" ion-button class="button" outline  (click)="NoClick()">NO</button>\n\n        <button *ngIf="NoButton === true && FR === true" ion-button class="button" outline  (click)="NoClick()">Non</button>\n\n        <button *ngIf="NoButton === true && ES === true" ion-button class="button" outline  (click)="NoClick()">VOLVER</button>\n\n        <button *ngIf="NoButton === true && RUS === true" ion-button class="button" outline  (click)="NoClick()">НЕТ</button>\n\n      </ion-col>\n\n      <ion-col></ion-col>\n\n  </ion-row>\n\n\n\n  <ion-row>\n\n      <ion-col></ion-col>\n\n      <ion-col></ion-col>\n\n      <ion-col>\n\n          <button ion-button class="button" *ngIf="ENG === true" outline  (click)="BackClick()">BACK</button>\n\n          <button ion-button class="button" *ngIf="FR === true" outline  (click)="BackClick()">Retour</button>\n\n          <button ion-button class="button" *ngIf="ES === true" outline  (click)="BackClick()">ATRÁS</button>\n\n          <button ion-button class="button" *ngIf="RUS === true" outline  (click)="BackClick()">НАЗАД</button>\n\n      </ion-col>\n\n      <ion-col></ion-col>\n\n      <ion-col></ion-col>\n\n  </ion-row>\n\n\n\n  </ion-grid>\n\n\n\n</ion-content>\n\n\n\n<ion-footer no-border>\n\n  <ion-segment id="segments" [(ngModel)]="MARCH">\n\n    <ion-segment-button value="M" (ionSelect)="SelectM()">\n\n      M\n\n    </ion-segment-button>\n\n    <ion-segment-button value="A" (ionSelect)="SelectA()">\n\n      A\n\n    </ion-segment-button>\n\n    <ion-segment-button value="R" (ionSelect)="SelectR()">\n\n      R\n\n    </ion-segment-button>\n\n    <ion-segment-button value="C" (ionSelect)="SelectC()">\n\n      C\n\n    </ion-segment-button>\n\n    <ion-segment-button value="H" (ionSelect)="SelectH()">\n\n      H\n\n    </ion-segment-button>\n\n</ion-segment>\n\n</ion-footer>'/*ion-inline-end:"F:\UN_Buddy_First_Aid_App\src\pages\protocol\protocol.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_7__ionic_native_native_audio__["a" /* NativeAudio */],
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_8__ionic_native_native_audio__["a" /* NativeAudio */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */],
-            __WEBPACK_IMPORTED_MODULE_6__ionic_storage__["b" /* Storage */],
+            __WEBPACK_IMPORTED_MODULE_7__ionic_storage__["b" /* Storage */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* ModalController */],
             __WEBPACK_IMPORTED_MODULE_2__providers_ENGprotocoldata__["a" /* ENGProtocolData */],
             __WEBPACK_IMPORTED_MODULE_3__providers_FRprotocoldata__["a" /* FRProtocolData */],
             __WEBPACK_IMPORTED_MODULE_4__providers_ESProtocolData__["a" /* ESProtocolData */],
+            __WEBPACK_IMPORTED_MODULE_5__providers_RUSprotocoldata__["a" /* RUSProtocolData */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
     ], ProtocolPage);
     return ProtocolPage;
@@ -4839,17 +6356,18 @@ var ProtocolPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 215:
+/***/ 216:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return InfoModalPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_ENGprotocoldata__ = __webpack_require__(115);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_ENGprotocoldata__ = __webpack_require__(116);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_FRprotocoldata__ = __webpack_require__(117);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_storage__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_ESProtocolData__ = __webpack_require__(118);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_RUSprotocoldata__ = __webpack_require__(119);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -4865,14 +6383,16 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
 var InfoModalPage = /** @class */ (function () {
-    function InfoModalPage(storage, navParams, modalCtrl, ENGdataService, FRdataService, ESProtocolData, navCtrl) {
+    function InfoModalPage(storage, navParams, modalCtrl, ENGdataService, FRdataService, ESProtocolData, RUSProtocolData, navCtrl) {
         this.storage = storage;
         this.navParams = navParams;
         this.modalCtrl = modalCtrl;
         this.ENGdataService = ENGdataService;
         this.FRdataService = FRdataService;
         this.ESProtocolData = ESProtocolData;
+        this.RUSProtocolData = RUSProtocolData;
         this.navCtrl = navCtrl;
         this.Step = 0;
         this.Information = [];
@@ -4884,6 +6404,7 @@ var InfoModalPage = /** @class */ (function () {
         this.ENG = false;
         this.FR = false;
         this.ES = false;
+        this.RUS = false;
     }
     InfoModalPage.prototype.ionViewWillEnter = function () {
         var _this = this;
@@ -4894,6 +6415,7 @@ var InfoModalPage = /** @class */ (function () {
                 _this.ENG = true;
                 _this.FR = false;
                 _this.ES = false;
+                _this.RUS = false;
                 if (_this.InformationPage !== true) {
                     _this.GetInfo();
                     if (_this.Information[0]["Image1"] === true) {
@@ -4908,6 +6430,7 @@ var InfoModalPage = /** @class */ (function () {
                 _this.ENG = false;
                 _this.FR = true;
                 _this.ES = false;
+                _this.RUS = false;
                 if (_this.InformationPage !== true) {
                     _this.GetInfo();
                     if (_this.Information[0]["Image1"] === true) {
@@ -4922,6 +6445,22 @@ var InfoModalPage = /** @class */ (function () {
                 _this.ENG = false;
                 _this.FR = false;
                 _this.ES = true;
+                _this.RUS = false;
+                if (_this.InformationPage !== true) {
+                    _this.GetInfo();
+                    if (_this.Information[0]["Image1"] === true) {
+                        _this.Image1 = true;
+                    }
+                    if (_this.Information[0]["Image2"] === true) {
+                        _this.Image2 = true;
+                    }
+                }
+            }
+            if (data === 'RUS') {
+                _this.ENG = false;
+                _this.FR = false;
+                _this.ES = false;
+                _this.RUS = true;
                 if (_this.InformationPage !== true) {
                     _this.GetInfo();
                     if (_this.Information[0]["Image1"] === true) {
@@ -4953,6 +6492,12 @@ var InfoModalPage = /** @class */ (function () {
             this.Image1 = this.ESProtocolData.FirstAidProtocol[this.Step].Image1;
             this.ImageURL = this.ESProtocolData.FirstAidProtocol[this.Step].ImageURL;
         }
+        if (this.RUS === true) {
+            this.Information = this.RUSProtocolData.FirstAidProtocol[this.Step].Information;
+            this.InformationPager = this.RUSProtocolData.FirstAidProtocol[this.Step].InformationPager;
+            this.Image1 = this.RUSProtocolData.FirstAidProtocol[this.Step].Image1;
+            this.ImageURL = this.RUSProtocolData.FirstAidProtocol[this.Step].ImageURL;
+        }
     };
     InfoModalPage.prototype.ModalDismiss = function () {
         this.navCtrl.pop();
@@ -4967,6 +6512,7 @@ var InfoModalPage = /** @class */ (function () {
             __WEBPACK_IMPORTED_MODULE_2__providers_ENGprotocoldata__["a" /* ENGProtocolData */],
             __WEBPACK_IMPORTED_MODULE_3__providers_FRprotocoldata__["a" /* FRProtocolData */],
             __WEBPACK_IMPORTED_MODULE_5__providers_ESProtocolData__["a" /* ESProtocolData */],
+            __WEBPACK_IMPORTED_MODULE_6__providers_RUSprotocoldata__["a" /* RUSProtocolData */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
     ], InfoModalPage);
     return InfoModalPage;
@@ -4976,23 +6522,23 @@ var InfoModalPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 217:
+/***/ 218:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TrainPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__airway_airway__ = __webpack_require__(218);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__alert_alert__ = __webpack_require__(42);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__circulation_circulation__ = __webpack_require__(45);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__heat_heat__ = __webpack_require__(219);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__massive_massive__ = __webpack_require__(220);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__movement_movement__ = __webpack_require__(221);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__respiration_respiration__ = __webpack_require__(49);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__scene_scene__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__airway_airway__ = __webpack_require__(219);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__alert_alert__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__circulation_circulation__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__heat_heat__ = __webpack_require__(220);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__massive_massive__ = __webpack_require__(221);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__movement_movement__ = __webpack_require__(222);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__respiration_respiration__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__scene_scene__ = __webpack_require__(34);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ionic_storage__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__basics_basics__ = __webpack_require__(222);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__basics_basics__ = __webpack_require__(223);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -5021,6 +6567,7 @@ var TrainPage = /** @class */ (function () {
         this.ENG = false;
         this.FR = false;
         this.ES = false;
+        this.RUS = false;
     }
     TrainPage.prototype.ionViewWillEnter = function () {
         var _this = this;
@@ -5029,17 +6576,26 @@ var TrainPage = /** @class */ (function () {
                 _this.ENG = true;
                 _this.FR = false;
                 _this.ES = false;
+                _this.RUS = false;
             }
             else if (data === 'FR') {
                 _this.ENG = false;
                 _this.FR = true;
                 _this.ES = false;
+                _this.RUS = false;
             }
             else if (data === 'ES') {
                 _this.ENG = false;
                 _this.ES = true;
                 _this.FR = false;
+                _this.RUS = false;
                 // this.storage.set('Language', 'ENG');
+            }
+            else if (data === 'RUS') {
+                _this.ENG = false;
+                _this.FR = false;
+                _this.ES = false;
+                _this.RUS = true;
             }
         });
     };
@@ -5072,7 +6628,7 @@ var TrainPage = /** @class */ (function () {
     };
     TrainPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-train',template:/*ion-inline-start:"F:\UN_Buddy_First_Aid_App\src\pages\train\train.html"*/'<ion-header no-border>\n\n  <ion-navbar color="transparent">\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content no-bounce padding>\n\n  <ion-buttons *ngIf="ENG === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoBasics()">\n\n      Basics\n\n    </button>\n\n  </ion-buttons>\n\n  <ion-buttons *ngIf="FR === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoBasics()">\n\n      Notions élémentaires\n\n    </button>\n\n  </ion-buttons>\n\n  <ion-buttons *ngIf="ES === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoBasics()">\n\n      Lo esencial\n\n    </button>\n\n  </ion-buttons>\n\n\n\n  <ion-buttons *ngIf="ENG === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoScene()">\n\n      S.C.E.N.E assessment\n\n    </button>\n\n  </ion-buttons>\n\n  <ion-buttons *ngIf="FR === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoScene()">\n\n      L\'évaluation S.C.E.N.E\n\n    </button>\n\n  </ion-buttons>\n\n  <ion-buttons *ngIf="ES === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoScene()">\n\n      Evaluación S.C.E.N.E.\n\n    </button>\n\n  </ion-buttons>\n\n\n\n  <ion-buttons *ngIf="ENG === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoAlert()">\n\n      Alert message\n\n    </button>\n\n  </ion-buttons>\n\n  <ion-buttons *ngIf="FR === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoAlert()">\n\n      message d\'alerte\n\n    </button>\n\n  </ion-buttons>\n\n  <ion-buttons *ngIf="ES === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoAlert()">\n\n      Mensaje de alerta\n\n    </button>\n\n  </ion-buttons>\n\n\n\n  <ion-buttons *ngIf="ENG === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoMassive()">\n\n      Massive bleeding\n\n    </button>\n\n  </ion-buttons>\n\n  <ion-buttons *ngIf="FR === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoMassive()">\n\n      hemorragie massive\n\n    </button>\n\n  </ion-buttons>\n\n  <ion-buttons *ngIf="ES === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoMassive()">\n\n      Sangrado masivo\n\n    </button>\n\n  </ion-buttons>\n\n\n\n  <ion-buttons *ngIf="ENG === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoAirway()">\n\n      Airway\n\n    </button>\n\n  </ion-buttons>\n\n  <ion-buttons *ngIf="FR === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoAirway()">\n\n      voies respiratoires\n\n    </button>\n\n  </ion-buttons>\n\n  <ion-buttons *ngIf="ES === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoAirway()">\n\n      VÍA RESPIRATORIA\n\n    </button>\n\n  </ion-buttons>\n\n\n\n  <ion-buttons *ngIf="ENG === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoRespiration()">\n\n      Respiration\n\n    </button>\n\n  </ion-buttons>\n\n  <ion-buttons *ngIf="FR === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoRespiration()">\n\n      Respiration\n\n    </button>\n\n  </ion-buttons>\n\n  <ion-buttons *ngIf="ES === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoRespiration()">\n\n      Respiración\n\n    </button>\n\n  </ion-buttons>\n\n\n\n  <ion-buttons *ngIf="ENG === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoCirculation()">\n\n      Circulation\n\n    </button>\n\n  </ion-buttons>\n\n  <ion-buttons *ngIf="FR === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoCirculation()">\n\n      Circulation\n\n    </button>\n\n  </ion-buttons>\n\n  <ion-buttons *ngIf="ES === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoCirculation()">\n\n      CIRCULACIÓN\n\n    </button>\n\n  </ion-buttons>\n\n\n\n  <ion-buttons *ngIf="ENG === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoHeat()">\n\n      Heat disorders\n\n    </button>\n\n  </ion-buttons>\n\n  <ion-buttons *ngIf="FR === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoHeat()">\n\n      Troubles de la chaleur\n\n    </button>\n\n  </ion-buttons>\n\n  <ion-buttons *ngIf="ES === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoHeat()">\n\n      TRASTORNOS PRODUCIDOS POR EL CALOR\n\n    </button>\n\n  </ion-buttons>\n\n\n\n  <ion-buttons *ngIf="ENG === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoMovement()">\n\n      Emergency movement\n\n    </button>\n\n  </ion-buttons>\n\n  <ion-buttons *ngIf="FR === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoMovement()">\n\n      déplacement\n\n    </button>\n\n  </ion-buttons>\n\n  <ion-buttons *ngIf="ES === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoMovement()">\n\n      MOVIMIENTOS DE EMERGENCIA\n\n    </button>\n\n  </ion-buttons>\n\n\n\n</ion-content>'/*ion-inline-end:"F:\UN_Buddy_First_Aid_App\src\pages\train\train.html"*/
+            selector: 'page-train',template:/*ion-inline-start:"F:\UN_Buddy_First_Aid_App\src\pages\train\train.html"*/'<ion-header no-border>\n\n  <ion-navbar color="transparent">\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content no-bounce padding>\n\n  <ion-buttons *ngIf="ENG === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoBasics()">\n\n      Basics\n\n    </button>\n\n  </ion-buttons>\n\n  <ion-buttons *ngIf="FR === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoBasics()">\n\n      Notions élémentaires\n\n    </button>\n\n  </ion-buttons>\n\n  <ion-buttons *ngIf="ES === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoBasics()">\n\n      Lo esencial\n\n    </button>\n\n  </ion-buttons>\n\n  <ion-buttons *ngIf="RUS === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoBasics()">\n\n      ОСНОВНОЕ\n\n    </button>\n\n  </ion-buttons>\n\n\n\n  <ion-buttons *ngIf="ENG === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoScene()">\n\n      S.C.E.N.E assessment\n\n    </button>\n\n  </ion-buttons>\n\n  <ion-buttons *ngIf="FR === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoScene()">\n\n      L\'évaluation S.C.E.N.E\n\n    </button>\n\n  </ion-buttons>\n\n  <ion-buttons *ngIf="ES === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoScene()">\n\n      Evaluación S.C.E.N.E.\n\n    </button>\n\n  </ion-buttons>\n\n  <ion-buttons *ngIf="RUS === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoScene()">\n\n      ОЦЕНКА СОСТОЯНИЯ Б.П.А.К.Р.\n\n    </button>\n\n  </ion-buttons>\n\n\n\n  <ion-buttons *ngIf="ENG === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoAlert()">\n\n      Alert message\n\n    </button>\n\n  </ion-buttons>\n\n  <ion-buttons *ngIf="FR === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoAlert()">\n\n      message d\'alerte\n\n    </button>\n\n  </ion-buttons>\n\n  <ion-buttons *ngIf="ES === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoAlert()">\n\n      Mensaje de alerta\n\n    </button>\n\n  </ion-buttons>\n\n  <ion-buttons *ngIf="RUS === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoAlert()">\n\n      ПРЕДУПРЕЖДАЮЩЕЕ СООБЩЕНИЕ\n\n    </button>\n\n  </ion-buttons>\n\n\n\n  <ion-buttons *ngIf="ENG === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoMassive()">\n\n      Massive bleeding\n\n    </button>\n\n  </ion-buttons>\n\n  <ion-buttons *ngIf="FR === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoMassive()">\n\n      hemorragie massive\n\n    </button>\n\n  </ion-buttons>\n\n  <ion-buttons *ngIf="ES === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoMassive()">\n\n      Sangrado masivo\n\n    </button>\n\n  </ion-buttons>\n\n  <ion-buttons *ngIf="RUS === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoMassive()">\n\n      МАССИВНОЕ КРОВОТЕЧЕНИЕ\n\n    </button>\n\n  </ion-buttons>\n\n\n\n  <ion-buttons *ngIf="ENG === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoAirway()">\n\n      Airway\n\n    </button>\n\n  </ion-buttons>\n\n  <ion-buttons *ngIf="FR === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoAirway()">\n\n      voies respiratoires\n\n    </button>\n\n  </ion-buttons>\n\n  <ion-buttons *ngIf="ES === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoAirway()">\n\n      VÍA RESPIRATORIA\n\n    </button>\n\n  </ion-buttons>\n\n  <ion-buttons *ngIf="RUS === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoAirway()">\n\n      ДЫХАТЕЛЬНЫЕ ПУТИ\n\n    </button>\n\n  </ion-buttons>\n\n\n\n  <ion-buttons *ngIf="ENG === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoRespiration()">\n\n      Respiration\n\n    </button>\n\n  </ion-buttons>\n\n  <ion-buttons *ngIf="FR === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoRespiration()">\n\n      Respiration\n\n    </button>\n\n  </ion-buttons>\n\n  <ion-buttons *ngIf="ES === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoRespiration()">\n\n      Respiración\n\n    </button>\n\n  </ion-buttons>\n\n  <ion-buttons *ngIf="RUS === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoRespiration()">\n\n      ДЫХАНИЕ\n\n    </button>\n\n  </ion-buttons>\n\n\n\n  <ion-buttons *ngIf="ENG === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoCirculation()">\n\n      Circulation\n\n    </button>\n\n  </ion-buttons>\n\n  <ion-buttons *ngIf="FR === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoCirculation()">\n\n      Circulation\n\n    </button>\n\n  </ion-buttons>\n\n  <ion-buttons *ngIf="ES === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoCirculation()">\n\n      CIRCULACIÓN\n\n    </button>\n\n  </ion-buttons>\n\n  <ion-buttons *ngIf="RUS === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoCirculation()">\n\n      КРОВООБРАЩЕНИЕ\n\n    </button>\n\n  </ion-buttons>\n\n\n\n  <ion-buttons *ngIf="ENG === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoHeat()">\n\n      Heat disorders\n\n    </button>\n\n  </ion-buttons>\n\n  <ion-buttons *ngIf="FR === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoHeat()">\n\n      Troubles de la chaleur\n\n    </button>\n\n  </ion-buttons>\n\n  <ion-buttons *ngIf="ES === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoHeat()">\n\n      TRASTORNOS PRODUCIDOS POR EL CALOR\n\n    </button>\n\n  </ion-buttons>\n\n  <ion-buttons *ngIf="RUS === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoHeat()">\n\n      ТЕПЛОВЫЕ НАРУШЕНИЯ\n\n    </button>\n\n  </ion-buttons>\n\n\n\n  <ion-buttons *ngIf="ENG === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoMovement()">\n\n      Emergency movement\n\n    </button>\n\n  </ion-buttons>\n\n  <ion-buttons *ngIf="FR === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoMovement()">\n\n      déplacement\n\n    </button>\n\n  </ion-buttons>\n\n  <ion-buttons *ngIf="ES === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoMovement()">\n\n      MOVIMIENTOS DE EMERGENCIA\n\n    </button>\n\n  </ion-buttons>\n\n  <ion-buttons *ngIf="RUS === true">\n\n    <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoMovement()">\n\n      ЭКСТРЕННЫЕ ДВИЖЕНИЯ\n\n    </button>\n\n  </ion-buttons>\n\n\n\n</ion-content>'/*ion-inline-end:"F:\UN_Buddy_First_Aid_App\src\pages\train\train.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_10__ionic_storage__["b" /* Storage */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
     ], TrainPage);
@@ -5083,16 +6639,16 @@ var TrainPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 218:
+/***/ 219:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AirwayPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__headtilt_headtilt__ = __webpack_require__(46);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__recoveryposition_recoveryposition__ = __webpack_require__(47);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__situp_situp__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__headtilt_headtilt__ = __webpack_require__(39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__recoveryposition_recoveryposition__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__situp_situp__ = __webpack_require__(41);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_storage__ = __webpack_require__(7);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -5116,6 +6672,7 @@ var AirwayPage = /** @class */ (function () {
         this.ENG = false;
         this.FR = false;
         this.ES = false;
+        this.RUS = false;
     }
     AirwayPage.prototype.ionViewWillEnter = function () {
         var _this = this;
@@ -5124,16 +6681,25 @@ var AirwayPage = /** @class */ (function () {
                 _this.ENG = true;
                 _this.FR = false;
                 _this.ES = false;
+                _this.RUS = false;
             }
             if (data === 'FR') {
                 _this.ENG = false;
                 _this.FR = true;
                 _this.ES = false;
+                _this.RUS = false;
             }
             if (data === 'ES') {
                 _this.ENG = false;
                 _this.FR = false;
                 _this.ES = true;
+                _this.RUS = false;
+            }
+            if (data === 'RUS') {
+                _this.ENG = false;
+                _this.FR = false;
+                _this.ES = false;
+                _this.RUS = true;
             }
         });
     };
@@ -5148,7 +6714,7 @@ var AirwayPage = /** @class */ (function () {
     };
     AirwayPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-airway',template:/*ion-inline-start:"F:\UN_Buddy_First_Aid_App\src\pages\train\airway\airway.html"*/'<ion-header no-border>\n\n    <ion-navbar color="transparent">\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n    <ion-buttons *ngIf="ENG === true">\n\n        <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoHeadtilt()">\n\n            Head-tilt\n\n        </button>\n\n    </ion-buttons>\n\n    <ion-buttons *ngIf="FR === true">\n\n        <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoHeadtilt()">\n\n            Inclinaison de la tête\n\n        </button>\n\n    </ion-buttons>\n\n    <ion-buttons *ngIf="ES === true">\n\n        <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoHeadtilt()">\n\n            INCLINACIÓN DE LA CABEZA\n\n        </button>\n\n    </ion-buttons>\n\n\n\n    <ion-buttons *ngIf="ENG === true">\n\n        <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoRecovery()">\n\n            Recovery position\n\n        </button>\n\n    </ion-buttons>\n\n    <ion-buttons *ngIf="FR === true">\n\n        <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoRecovery()">\n\n            Position de récupération\n\n        </button>\n\n    </ion-buttons>\n\n    <ion-buttons *ngIf="ES === true">\n\n        <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoRecovery()">\n\n            POSICIÓN DE RECUPERACIÓN\n\n        </button>\n\n    </ion-buttons>\n\n\n\n    <ion-buttons *ngIf="ENG === true">\n\n        <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoSitup()">\n\n            Sit-up and forward position\n\n        </button>\n\n    </ion-buttons>\n\n    <ion-buttons *ngIf="FR === true">\n\n        <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoSitup()">\n\n            Position assise et en avant\n\n        </button>\n\n    </ion-buttons>\n\n    <ion-buttons *ngIf="ES === true">\n\n        <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoSitup()">\n\n            POSICIÓN SENTADA HACIA ADELANTE\n\n        </button>\n\n    </ion-buttons>\n\n</ion-content>'/*ion-inline-end:"F:\UN_Buddy_First_Aid_App\src\pages\train\airway\airway.html"*/
+            selector: 'page-airway',template:/*ion-inline-start:"F:\UN_Buddy_First_Aid_App\src\pages\train\airway\airway.html"*/'<ion-header no-border>\n\n    <ion-navbar color="transparent">\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n    <ion-buttons *ngIf="ENG === true">\n\n        <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoHeadtilt()">\n\n            Head-tilt\n\n        </button>\n\n    </ion-buttons>\n\n    <ion-buttons *ngIf="FR === true">\n\n        <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoHeadtilt()">\n\n            Inclinaison de la tête\n\n        </button>\n\n    </ion-buttons>\n\n    <ion-buttons *ngIf="ES === true">\n\n        <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoHeadtilt()">\n\n            INCLINACIÓN DE LA CABEZA\n\n        </button>\n\n    </ion-buttons>\n\n    <ion-buttons *ngIf="RUS === true">\n\n        <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoHeadtilt()">\n\n            НАКЛОН ГОЛОВЫ\n\n        </button>\n\n    </ion-buttons>\n\n\n\n    <ion-buttons *ngIf="ENG === true">\n\n        <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoRecovery()">\n\n            Recovery position\n\n        </button>\n\n    </ion-buttons>\n\n    <ion-buttons *ngIf="FR === true">\n\n        <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoRecovery()">\n\n            Position de récupération\n\n        </button>\n\n    </ion-buttons>\n\n    <ion-buttons *ngIf="ES === true">\n\n        <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoRecovery()">\n\n            POSICIÓN DE RECUPERACIÓN\n\n        </button>\n\n    </ion-buttons>\n\n    <ion-buttons *ngIf="RUS === true">\n\n        <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoRecovery()">\n\n            ИСХОДНОЕ ПОЛОЖЕНИЕ\n\n        </button>\n\n    </ion-buttons>\n\n\n\n    <ion-buttons *ngIf="ENG === true">\n\n        <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoSitup()">\n\n            Sit-up and forward position\n\n        </button>\n\n    </ion-buttons>\n\n    <ion-buttons *ngIf="FR === true">\n\n        <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoSitup()">\n\n            Position assise et en avant\n\n        </button>\n\n    </ion-buttons>\n\n    <ion-buttons *ngIf="ES === true">\n\n        <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoSitup()">\n\n            POSICIÓN SENTADA HACIA ADELANTE\n\n        </button>\n\n    </ion-buttons>\n\n    <ion-buttons *ngIf="RUS === true">\n\n        <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoSitup()">\n\n            ПОЛОЖЕНИЕ СИДЯ ВПЕРЕД\n\n        </button>\n\n    </ion-buttons>\n\n</ion-content>'/*ion-inline-end:"F:\UN_Buddy_First_Aid_App\src\pages\train\airway\airway.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_5__ionic_storage__["b" /* Storage */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
     ], AirwayPage);
@@ -5159,15 +6725,15 @@ var AirwayPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 219:
+/***/ 220:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HeatPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__hyperthermia_hyperthermia__ = __webpack_require__(50);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__hypothermia_hypothermia__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__hyperthermia_hyperthermia__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__hypothermia_hypothermia__ = __webpack_require__(44);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_storage__ = __webpack_require__(7);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -5230,15 +6796,15 @@ var HeatPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 220:
+/***/ 221:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MassivePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tourniquet_tourniquet__ = __webpack_require__(43);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__woundpacking_woundpacking__ = __webpack_require__(44);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tourniquet_tourniquet__ = __webpack_require__(36);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__woundpacking_woundpacking__ = __webpack_require__(37);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_storage__ = __webpack_require__(7);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -5261,6 +6827,7 @@ var MassivePage = /** @class */ (function () {
         this.ENG = false;
         this.FR = false;
         this.ES = false;
+        this.RUS = false;
     }
     MassivePage.prototype.ionViewWillEnter = function () {
         var _this = this;
@@ -5269,16 +6836,25 @@ var MassivePage = /** @class */ (function () {
                 _this.ENG = true;
                 _this.FR = false;
                 _this.ES = false;
+                _this.RUS = false;
             }
             if (data === 'FR') {
                 _this.ENG = false;
                 _this.FR = true;
                 _this.ES = false;
+                _this.RUS = false;
             }
             if (data === 'ES') {
                 _this.ENG = false;
                 _this.FR = false;
                 _this.ES = true;
+                _this.RUS = false;
+            }
+            if (data === 'RUS') {
+                _this.ENG = false;
+                _this.FR = false;
+                _this.ES = false;
+                _this.RUS = true;
             }
         });
     };
@@ -5290,7 +6866,7 @@ var MassivePage = /** @class */ (function () {
     };
     MassivePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-massive',template:/*ion-inline-start:"F:\UN_Buddy_First_Aid_App\src\pages\train\massive\massive.html"*/'<ion-header no-border>\n\n        <ion-navbar color="transparent">\n\n        </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n        <ion-buttons *ngIf="ENG === true">\n\n                <button outline class="buttons" clear full ion-button color="light" icon-only\n\n                        (click)="GotoTourniquet()">\n\n                        Tourniquet\n\n                </button>\n\n        </ion-buttons>\n\n        <ion-buttons *ngIf="FR === true">\n\n                <button outline class="buttons" clear full ion-button color="light" icon-only\n\n                        (click)="GotoTourniquet()">\n\n                        Tourniquet\n\n                </button>\n\n        </ion-buttons>\n\n        <ion-buttons *ngIf="ES === true">\n\n                <button outline class="buttons" clear full ion-button color="light" icon-only\n\n                        (click)="GotoTourniquet()">\n\n                        TORNIQUETE\n\n                </button>\n\n        </ion-buttons>\n\n\n\n\n\n        <ion-buttons *ngIf="ENG === true">\n\n                <button outline class="buttons" clear full ion-button color="light" icon-only\n\n                        (click)="GotoWoundpacking()">\n\n                        Woundpacking\n\n                </button>\n\n        </ion-buttons>\n\n        <ion-buttons *ngIf="FR === true">\n\n                <button outline class="buttons" clear full ion-button color="light" icon-only\n\n                        (click)="GotoWoundpacking()">\n\n                        Emballage de la plaie\n\n                </button>\n\n        </ion-buttons>\n\n        <ion-buttons *ngIf="ES === true">\n\n                <button outline class="buttons" clear full ion-button color="light" icon-only\n\n                        (click)="GotoWoundpacking()">\n\n                        VENDAJE DE HERIDAS\n\n                </button>\n\n        </ion-buttons>\n\n\n\n</ion-content>'/*ion-inline-end:"F:\UN_Buddy_First_Aid_App\src\pages\train\massive\massive.html"*/
+            selector: 'page-massive',template:/*ion-inline-start:"F:\UN_Buddy_First_Aid_App\src\pages\train\massive\massive.html"*/'<ion-header no-border>\n\n        <ion-navbar color="transparent">\n\n        </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n        <ion-buttons *ngIf="ENG === true">\n\n                <button outline class="buttons" clear full ion-button color="light" icon-only\n\n                        (click)="GotoTourniquet()">\n\n                        Tourniquet\n\n                </button>\n\n        </ion-buttons>\n\n        <ion-buttons *ngIf="FR === true">\n\n                <button outline class="buttons" clear full ion-button color="light" icon-only\n\n                        (click)="GotoTourniquet()">\n\n                        Tourniquet\n\n                </button>\n\n        </ion-buttons>\n\n        <ion-buttons *ngIf="ES === true">\n\n                <button outline class="buttons" clear full ion-button color="light" icon-only\n\n                        (click)="GotoTourniquet()">\n\n                        TORNIQUETE\n\n                </button>\n\n        </ion-buttons>\n\n        <ion-buttons *ngIf="RUS === true">\n\n                <button outline class="buttons" clear full ion-button color="light" icon-only\n\n                        (click)="GotoTourniquet()">\n\n                        ЖГУТ\n\n                </button>\n\n        </ion-buttons>\n\n\n\n        <ion-buttons *ngIf="ENG === true">\n\n                <button outline class="buttons" clear full ion-button color="light" icon-only\n\n                        (click)="GotoWoundpacking()">\n\n                        Woundpacking\n\n                </button>\n\n        </ion-buttons>\n\n        <ion-buttons *ngIf="FR === true">\n\n                <button outline class="buttons" clear full ion-button color="light" icon-only\n\n                        (click)="GotoWoundpacking()">\n\n                        Emballage de la plaie\n\n                </button>\n\n        </ion-buttons>\n\n        <ion-buttons *ngIf="ES === true">\n\n                <button outline class="buttons" clear full ion-button color="light" icon-only\n\n                        (click)="GotoWoundpacking()">\n\n                        VENDAJE DE HERIDAS\n\n                </button>\n\n        </ion-buttons>\n\n        <ion-buttons *ngIf="RUS === true">\n\n                <button outline class="buttons" clear full ion-button color="light" icon-only\n\n                        (click)="GotoWoundpacking()">\n\n                        НАМОТАННАЯ ПОВЯЗКА\n\n                </button>\n\n        </ion-buttons>\n\n</ion-content>'/*ion-inline-end:"F:\UN_Buddy_First_Aid_App\src\pages\train\massive\massive.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_4__ionic_storage__["b" /* Storage */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
     ], MassivePage);
@@ -5301,7 +6877,7 @@ var MassivePage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 221:
+/***/ 222:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5365,7 +6941,7 @@ var MovementPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 222:
+/***/ 223:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5392,6 +6968,7 @@ var BasicsPage = /** @class */ (function () {
         this.ENG = false;
         this.FR = false;
         this.ES = false;
+        this.RUS = false;
     }
     BasicsPage.prototype.ionViewWillEnter = function () {
         var _this = this;
@@ -5401,16 +6978,25 @@ var BasicsPage = /** @class */ (function () {
                 _this.ENG = true;
                 _this.FR = false;
                 _this.ES = false;
+                _this.RUS = false;
             }
             if (data === 'FR') {
                 _this.ENG = false;
                 _this.ES = false;
                 _this.FR = true;
+                _this.RUS = false;
             }
             if (data === 'ES') {
                 _this.ES = true;
                 _this.FR = false;
                 _this.ENG = false;
+                _this.RUS = false;
+            }
+            if (data === 'RUS') {
+                _this.ES = false;
+                _this.FR = false;
+                _this.ENG = false;
+                _this.RUS = true;
             }
         });
     };
@@ -5419,7 +7005,7 @@ var BasicsPage = /** @class */ (function () {
     };
     BasicsPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-basics',template:/*ion-inline-start:"F:\UN_Buddy_First_Aid_App\src\pages\train\basics\basics.html"*/'<ion-header no-border>\n\n    <ion-navbar hideBackButton color="transparent">\n\n        <ion-buttons left>\n\n            <button ion-button class="ion-icon" color="light" icon-only (click)="GoBack()">\n\n                <ion-icon id="closeicon" name="arrow-back"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content no-padding>\n\n\n\n    <ion-card *ngIf="ENG === true">\n\n        <h2 id="Title">Basics</h2>\n\n        <p id="Text">First Aid is defined as ‘the initial care or treatment to the sick or wounded’.\n\n\n\n            First aid is often provided by non-medical personnel who are first present at the Point of injury (POI).\n\n            This could include fellow peacekeepers or other civilians.\n\n\n\n            The role of the First-Aider includes:\n\n            • Sending an effective alert message\n\n            • Provide initial care and\n\n            • Provide continued care until the casualty is delivered to the next appropriate ‘level of care’.\n\n        </p>\n\n    </ion-card>\n\n    <ion-card *ngIf="FR === true">\n\n        <h2 id="Title">Notions élémentaires</h2>\n\n        <p id="Text">Les premiers secours sont définis comme « les premiers soins ou traitements prodigués aux malades\n\n            ou aux blessés ».\n\n\n\n            Les premiers soins sont souvent prodigués par du personnel non médical qui est le premier présent sur le\n\n            lieu de l’accident (point of injury ou POI). Il peut s’agir d’autres soldats de la paix ou d’autres civils.\n\n\n\n            Le rôle des personnes prodiguant les premiers secours est le suivant :\n\n            • Envoyer un message d’alerte efficace\n\n            • Prodiguer les premiers soins\n\n            • Fournir des soins continus jusqu’à ce que la victime soit conduite au prochain « niveau de soins »\n\n            approprié.\n\n        </p>\n\n    </ion-card>\n\n    <ion-card *ngIf="ES === true">\n\n        <h2 id="Title">Lo esencial</h2>\n\n        <p id="Text">\n\n            Los primeros auxilios se define como “el cuidado o tratamiento inicial a un enfermo o herido”.\n\n            Los primeros auxilios son aplicados a menudo por personal no médico, quienes son las primeras personas en\n\n            estar presentes en el lugar del incidente. Esto puede incluir colegas en operaciones para el mantenimiento\n\n            de la paz u otros civiles.\n\n            El rol de los socorristas incluye:\n\n            .Enviar un mensaje de alerta efectivo.\n\n            .Aplicar cuidados iniciales y\n\n            .Suministrar cuidados continuos hasta que la víctima sea llevada al siguiente “nivel de cuidado” apropiado.\n\n        </p>\n\n    </ion-card>\n\n\n\n    <ion-card *ngIf="ENG === true">\n\n        <h2 id="Title">“10-1-2 Doctrine”</h2>\n\n        <p id="Text">\n\n            It is evidence-based medicine that the risk of death or permanent disability is significantly\n\n            reduced if people are treated as soon as possible after the onset of a life-threatening injury or illness.\n\n            Based on this evidence, it is of utmost importance that appropriate life, limb and eyesight saving\n\n            procedures are provided within specific timelines along with the survival chain appropriate for the event.\n\n            This has become known as the 10-1-2 timeline. The Survival chain in line with this timeline is described as\n\n            follows.\n\n        </p>\n\n        <p id="SubTitle">10 minutes</p>\n\n        <p id="Text">\n\n            10 - Represents the recommended maximum time, in minutes, to provide the necessary immediate\n\n            lifesaving measures at POI after the onset of injury/illness. This is often referred to as the ‘Platinum 10\n\n            Minutes’.\n\n        </p>\n\n        <p id="SubTitle">1 hour</p>\n\n        <p id="Text">\n\n            1 - Represents the recommended maximum time that necessary damage control resuscitation procedures\n\n            are provided by emergency medical personnel. This should be completed within 1 hour of the onset of\n\n            injury/illness and is often referred to as the ‘Golden Hour’.\n\n        </p>\n\n        <p id="SubTitle">2 hours</p>\n\n        <p id="Text">\n\n            2 - Represents the recommended maximum time that necessary Damage Control Surgery (DCS) is\n\n            provided. This should start within 2 hours of the onset of injury/illness.\n\n        </p>\n\n    </ion-card>\n\n    <ion-card *ngIf="FR === true">\n\n        <h2 id="Title">La « Doctrine 10-1-2 » pour les soins de traumatologie</h2>\n\n        <p id="Text">Il est médicalement prouvé que le risque de décès ou d’invalidité permanente se voit\n\n            considérablement réduit si les gens sont traités le plus tôt possible après l’apparition d’une blessure ou\n\n            d’une maladie mettant leur vie en danger. Sur la base de ces preuves, il est de la plus haute importance que\n\n            des procédures appropriées de protection de la vie, des membres et de la vue soient fournies dans des délais\n\n            spécifiques et tout en respectant la chaîne de survie appropriée pour l’événement. C’est ce que l’on appelle\n\n            la chronologie 10-1-2. La chaîne de survie conforme à cette chronologie est décrite comme suit :</p>\n\n        <p id="SubTitle">10 minutes</p>\n\n        <p id="Text">10 - Représente le temps maximum recommandé, en minutes, pour fournir les mesures de sauvetage\n\n            immédiates nécessaires sur le POI après l\'apparition d\'une blessure ou d\'une maladie. C’est ce que l’on\n\n            appelle souvent les « 10 minutes de platine ». </p>\n\n        <p id="SubTitle">1 heure</p>\n\n        <p id="Text">1 - Représente la durée maximale recommandée pour que le personnel médical d’urgence fournisse les\n\n            procédures de réanimation nécessaires pour contrôler les dommages. Ceci doit être fait dans l’heure qui suit\n\n            l’apparition de la blessure ou de la maladie et est souvent appelé « l’heure d’or ».</p>\n\n        <p id="SubTitle">2 heures</p>\n\n        <p id="Text">2 - Représente la durée maximale recommandée pendant laquelle la chirurgie de contrôle des dommages\n\n            (damage control surgery ou DCS) nécessaire est fournie. Celle-ci doit commencer dans les 2 heures suivant\n\n            l\'apparition de la blessure ou de la maladie.</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="ES === true">\n\n        <h2 id="Title">“PRINCIPIO DEL 10-1-2”</h2>\n\n        <p id="Text">\n\n            Hay evidencia médica de que el riesgo de muerte o invalidez permanente se puede reducir de manera\n\n            significativa si las personas son tratadas tan pronto como sea posible luego de la lesión o la enfermedad\n\n            potencialmente mortal. Basado en esta evidencia, es de máxima importancia que los procedimientos apropiados\n\n            para salvar la vida, extremidades o la vista sean aplicados dentro de líneas específicas de tiempo junto con\n\n            la cadena de supervivencia apropiada para el incidente. Esto se conoce como la línea de tiempo 10-1-2. A\n\n            continuación, se describe la aplicación de la cadena de supervivencia dentro de la línea de tiempo.\n\n        </p>\n\n        <p id="SubTitle">10 MINUTOS</p>\n\n        <p id="Text">\n\n            10: representa el tiempo máximo recomendado, en minutos, para aplicar las medidas inmediatas necesarias para salvar la vida en el lugar del incidente, luego del Comienzo de una enfermedad o herida o de la enfermedad. A menudo, se conoce como “los 10 minutos de platino”.\n\n        </p>\n\n        <p id="SubTitle">1 HORA</p>\n\n        <p id="Text">\n\n            1: representa el tiempo máximo recomendado para que el personal médico de emergencias pueda aplicar los procedimientos de reanimación necesarios para el control de daños. Esto se debe hacer dentro de la primera hora luego del Comienzo de una enfermedad o herida o de la enfermedad, usualmente se le conoce como “la hora dorada”.\n\n        </p>\n\n        <p id="SubTitle">2 HORAS</p>\n\n        <p id="Text">\n\n            2: representa el tiempo máximo recomendado para aplicar cirugía de control de daños (CCD) necesaria. Ésta debe empezar dentro de las 2 horas posteriores al inicio  de la herida o de la enfermedad.\n\n        </p>\n\n    </ion-card>\n\n\n\n    <ion-card *ngIf="ENG === true">\n\n        <h2 id="Title">Tactical medicine </h2>\n\n        <p id="Text">\n\n            First-aid and pre-hospital medical guidelines have long been developed by the civilian medical\n\n            systems of the country and rely on the assumption that the First Aider and responders are able to provide\n\n            care without putting their own lives at risk.\n\n\n\n            In recent years, the role of military medicine has been further defined to address circumstances where the\n\n            treatment of the casualty must be weighed against other considerations including Mission goals and ongoing\n\n            hostility\n\n\n\n            Additionally, the operational context of military medicine means that some treatments and interventions that\n\n            may be appropriate in the civilian setting could lead to additional loss of life and increased risk in a\n\n            military setting. With this in mind, the following three phases of care have been widely recognized to apply\n\n            in the tactical setting.</p>\n\n        <p id="SubTitle">Care Under Fire</p>\n\n        <p id="Text">\n\n            Care Under Fire relates to medical treatment provided while actively engaged in a hostile\n\n            environment. Treatments will often be limited to application of tourniquets, and self-aid at this point due\n\n            to the overwhelming priority of Engaging and Suppressing the Threat, which should include the casualty if\n\n            possible.\n\n        </p>\n\n        <p id="SubTitle">Tactical Field Care</p>\n\n        <p id="Text">Tactical Field Care is delivered when the casualty and responders are no longer under direct fire,\n\n            though the environment around them may still be hostile or their situation may become hostile again. It will\n\n            often be carried out by the First Aider or Medic, using equipment that was being carried at the time\n\n            including airway adjuncts, chest decompression and fluid resuscitation.</p>\n\n        <p id="SubTitle">Evacuation Care</p>\n\n        <p id="Text">Evacuation Care occurs when evacuation assets arrive with additional medical supplies and/or the\n\n            casualty is removed from the hostile environment. This may include access to more advanced emergency medical\n\n            professionals and equipment.</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="FR === true">\n\n        <h2 id="Title">Médecine tactique</h2>\n\n        <p id="Text">Les directives médicales en matière de premiers soins et de soins pré-hospitaliers ont longtemps\n\n            été élaborées par les systèmes médicaux civils du pays et reposent sur l\'hypothèse que le secouriste et les\n\n            intervenants sont capables de fournir des soins sans mettre leur propre vie en danger.\n\n\n\n            Ces dernières années, le rôle de la médecine militaire a été mieux défini pour tenir compte des\n\n            circonstances dans lesquelles le traitement de la victime doit être mis en balance avec d\'autres\n\n            considérations, notamment les objectifs de la mission et l\'hostilité persistante.\n\n\n\n            De plus, le contexte opérationnel de la médecine militaire signifie que certains traitements et\n\n            interventions qui peuvent être appropriés dans le contexte civil pourraient entraîner des pertes de vie\n\n            additionnelles et des risques accrus dans un contexte militaire. Dans cette optique, les trois phases de\n\n            soins suivantes ont été largement reconnues comme s\'appliquant dans le contexte tactique :</p>\n\n        <p id="SubTitle">Soins sous le feu de l\'ennemi</p>\n\n        <p id="Text">Les soins sous le feu de l\'ennemi concernent les traitements médicaux dispensés dans un\n\n            environnement hostile. Les traitements se limiteront souvent à l’application de garrots et à\n\n            l’auto-assistance à ce stade, en raison de la priorité absolue de l’engagement et de la suppression de la\n\n            menace, qui devrait si possible inclure la victime.</p>\n\n        <p id="SubTitle">Soins tactiques sur le terrain</p>\n\n        <p id="Text">Les soins tactiques sur le terrain sont dispensés lorsque la victime et les intervenants ne sont\n\n            plus sous le feu direct, bien que l\'environnement qui les entoure puisse encore être hostile ou que leur\n\n            situation puisse redevenir hostile. Ils seront souvent effectués par la personne prodiguant les premiers\n\n            soins ou par le médecin, à l’aide de l’équipement disponible à ce moment-là, y compris accessoires pour les\n\n            voies respiratoires, décompression thoracique et réanimation liquidienne.</p>\n\n        <p id="SubTitle">Soins d’évacuation</p>\n\n        <p id="Text">On parle de soins d’évacuation lorsque les moyens d\'évacuation arrivent avec des fournitures\n\n            médicales supplémentaires et/ou lorsque la victime est retirée de l\'environnement hostile. Cela peut inclure\n\n            l\'accès à des professionnels et à de l\'équipement médicaux d\'urgence plus avancés.</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="ES === true">\n\n        <h2 id="Title">MEDICINA TÁCTICA</h2>\n\n        <p id="Text">\n\n            Los primeros auxilios y las guías médics prehospitalarias han sido desarrollados durante mucho tiempo por los sistemas médicos civiles del país y asumen que los socorristas están en la capacidad de aplicar cuidados sin poner sus vidas en riesgo.\n\n\n\n            En años recientes, el rol de la medicina militar ha sido definido con más detalle para abordar circunstancias donde el tratamiento de la víctima debe evaluarse junto  con otras consideraciones, incluyendo los objetivos de la misión y el ambiente hostil.\n\n\n\n            Además, el contexto operacional de la medicina militar significa que algunos tratamientos e intervenciones que pueden ser apropiados en el entorno civil, podrían conducir a una mayor pérdida de vidas e incrementar el riesgo en un entorno militar. Con esto en mente, las tres fases de cuidados que se presentan a continuación han sido ampliamente reconocidas para ser aplicadas en un ambiente táctico.\n\n        </p>\n\n        <p id="SubTitle">Cuidado bajo fuego</p>\n\n        <p id="Text">\n\n            La atención bajo fuego se relaciona con el tratamiento médico aplicado mientras se está en un ambiente hostil. La atención a menudo se limitará a la aplicación de torniquetes y autotratamientos, en este punto, debido a la prioridad de combatir y suprimir la amenaza, la cual debe incluir a la víctima, si es posible.\n\n        </p>\n\n        <p id="SubTitle">Atención Táctica en el Terreno        </p>\n\n        <p id="Text">\n\n            La atención táctica en el terreno es aplicada cuando la víctima y el socorrista ya no se encuentran bajo fuego directo, aunque el ambiente a su alrededor sea hostil o su situación  vuelva a ser adversa. A menudo, es aplicado por socorristas o médicos, usando el equipo con el que se cuente en ese momento, incluyendo complementos para las vías respiratorias, descompresión del pecho y canalización.\n\n        </p>\n\n        <p id="SubTitle">Atención de evacuación</p>\n\n        <p id="Text">\n\n            Los Cuidados durante la evacuación ocurren cuando llega el personal de evacuación con implementos médicos adicionales o la víctima es retirada del área hostil. Esto puede incluir acceso a médicos profesionales y equipo médico de emergencia más avanzado.\n\n        </p>\n\n    </ion-card>\n\n</ion-content>'/*ion-inline-end:"F:\UN_Buddy_First_Aid_App\src\pages\train\basics\basics.html"*/
+            selector: 'page-basics',template:/*ion-inline-start:"F:\UN_Buddy_First_Aid_App\src\pages\train\basics\basics.html"*/'<ion-header no-border>\n\n    <ion-navbar hideBackButton color="transparent">\n\n        <ion-buttons left>\n\n            <button ion-button class="ion-icon" color="light" icon-only (click)="GoBack()">\n\n                <ion-icon id="closeicon" name="arrow-back"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content no-padding>\n\n\n\n    <ion-card *ngIf="ENG === true">\n\n        <h2 id="Title">Basics</h2>\n\n        <p id="Text">First Aid is defined as ‘the initial care or treatment to the sick or wounded’.\n\n\n\n            First aid is often provided by non-medical personnel who are first present at the Point of injury (POI).\n\n            This could include fellow peacekeepers or other civilians.\n\n\n\n            The role of the First-Aider includes:\n\n            • Sending an effective alert message\n\n            • Provide initial care and\n\n            • Provide continued care until the casualty is delivered to the next appropriate ‘level of care’.\n\n        </p>\n\n    </ion-card>\n\n    <ion-card *ngIf="FR === true">\n\n        <h2 id="Title">Notions élémentaires</h2>\n\n        <p id="Text">Les premiers secours sont définis comme « les premiers soins ou traitements prodigués aux malades\n\n            ou aux blessés ».\n\n\n\n            Les premiers soins sont souvent prodigués par du personnel non médical qui est le premier présent sur le\n\n            lieu de l’accident (point of injury ou POI). Il peut s’agir d’autres soldats de la paix ou d’autres civils.\n\n\n\n            Le rôle des personnes prodiguant les premiers secours est le suivant :\n\n            • Envoyer un message d’alerte efficace\n\n            • Prodiguer les premiers soins\n\n            • Fournir des soins continus jusqu’à ce que la victime soit conduite au prochain « niveau de soins »\n\n            approprié.\n\n        </p>\n\n    </ion-card>\n\n    <ion-card *ngIf="ES === true">\n\n        <h2 id="Title">Lo esencial</h2>\n\n        <p id="Text">\n\n            Los primeros auxilios se define como “el cuidado o tratamiento inicial a un enfermo o herido”.\n\n            Los primeros auxilios son aplicados a menudo por personal no médico, quienes son las primeras personas en\n\n            estar presentes en el lugar del incidente. Esto puede incluir colegas en operaciones para el mantenimiento\n\n            de la paz u otros civiles.\n\n            El rol de los socorristas incluye:\n\n            .Enviar un mensaje de alerta efectivo.\n\n            .Aplicar cuidados iniciales y\n\n            .Suministrar cuidados continuos hasta que la víctima sea llevada al siguiente “nivel de cuidado” apropiado.\n\n        </p>\n\n    </ion-card>\n\n    <ion-card *ngIf="RUS === true">\n\n        <h2 id="Title">Основы</h2>\n\n        <p id="Text">Первая помощь определяется как “первоначальный уход или лечение больного или травмированного лица”.\n\n\n\n            Первая помощь часто оказывается немедицинским персоналом, который первым оказывается на месте происшествия.\n\n            Это могут быть коллеги по миротворческим операциям или другие гражданские лица.\n\n            Роль спасателей включает в себя:\n\n            .Примените первоначальную помощь и\n\n            .Продолжайте оказывать помощь до тех пор, пока пострадавший не будет переведен на следующий соответствующий\n\n            “уровень помощи”.\n\n        </p>\n\n    </ion-card>\n\n\n\n    <ion-card *ngIf="ENG === true">\n\n        <h2 id="Title">“10-1-2 Doctrine”</h2>\n\n        <p id="Text">\n\n            It is evidence-based medicine that the risk of death or permanent disability is significantly\n\n            reduced if people are treated as soon as possible after the onset of a life-threatening injury or illness.\n\n            Based on this evidence, it is of utmost importance that appropriate life, limb and eyesight saving\n\n            procedures are provided within specific timelines along with the survival chain appropriate for the event.\n\n            This has become known as the 10-1-2 timeline. The Survival chain in line with this timeline is described as\n\n            follows.\n\n        </p>\n\n        <p id="SubTitle">10 minutes</p>\n\n        <p id="Text">\n\n            10 - Represents the recommended maximum time, in minutes, to provide the necessary immediate\n\n            lifesaving measures at POI after the onset of injury/illness. This is often referred to as the ‘Platinum 10\n\n            Minutes’.\n\n        </p>\n\n        <p id="SubTitle">1 hour</p>\n\n        <p id="Text">\n\n            1 - Represents the recommended maximum time that necessary damage control resuscitation procedures\n\n            are provided by emergency medical personnel. This should be completed within 1 hour of the onset of\n\n            injury/illness and is often referred to as the ‘Golden Hour’.\n\n        </p>\n\n        <p id="SubTitle">2 hours</p>\n\n        <p id="Text">\n\n            2 - Represents the recommended maximum time that necessary Damage Control Surgery (DCS) is\n\n            provided. This should start within 2 hours of the onset of injury/illness.\n\n        </p>\n\n    </ion-card>\n\n    <ion-card *ngIf="FR === true">\n\n        <h2 id="Title">La « Doctrine 10-1-2 » pour les soins de traumatologie</h2>\n\n        <p id="Text">Il est médicalement prouvé que le risque de décès ou d’invalidité permanente se voit\n\n            considérablement réduit si les gens sont traités le plus tôt possible après l’apparition d’une blessure ou\n\n            d’une maladie mettant leur vie en danger. Sur la base de ces preuves, il est de la plus haute importance que\n\n            des procédures appropriées de protection de la vie, des membres et de la vue soient fournies dans des délais\n\n            spécifiques et tout en respectant la chaîne de survie appropriée pour l’événement. C’est ce que l’on appelle\n\n            la chronologie 10-1-2. La chaîne de survie conforme à cette chronologie est décrite comme suit :</p>\n\n        <p id="SubTitle">10 minutes</p>\n\n        <p id="Text">10 - Représente le temps maximum recommandé, en minutes, pour fournir les mesures de sauvetage\n\n            immédiates nécessaires sur le POI après l\'apparition d\'une blessure ou d\'une maladie. C’est ce que l’on\n\n            appelle souvent les « 10 minutes de platine ». </p>\n\n        <p id="SubTitle">1 heure</p>\n\n        <p id="Text">1 - Représente la durée maximale recommandée pour que le personnel médical d’urgence fournisse les\n\n            procédures de réanimation nécessaires pour contrôler les dommages. Ceci doit être fait dans l’heure qui suit\n\n            l’apparition de la blessure ou de la maladie et est souvent appelé « l’heure d’or ».</p>\n\n        <p id="SubTitle">2 heures</p>\n\n        <p id="Text">2 - Représente la durée maximale recommandée pendant laquelle la chirurgie de contrôle des dommages\n\n            (damage control surgery ou DCS) nécessaire est fournie. Celle-ci doit commencer dans les 2 heures suivant\n\n            l\'apparition de la blessure ou de la maladie.</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="ES === true">\n\n        <h2 id="Title">“PRINCIPIO DEL 10-1-2”</h2>\n\n        <p id="Text">\n\n            Hay evidencia médica de que el riesgo de muerte o invalidez permanente se puede reducir de manera\n\n            significativa si las personas son tratadas tan pronto como sea posible luego de la lesión o la enfermedad\n\n            potencialmente mortal. Basado en esta evidencia, es de máxima importancia que los procedimientos apropiados\n\n            para salvar la vida, extremidades o la vista sean aplicados dentro de líneas específicas de tiempo junto con\n\n            la cadena de supervivencia apropiada para el incidente. Esto se conoce como la línea de tiempo 10-1-2. A\n\n            continuación, se describe la aplicación de la cadena de supervivencia dentro de la línea de tiempo.\n\n        </p>\n\n        <p id="SubTitle">10 MINUTOS</p>\n\n        <p id="Text">\n\n            10: representa el tiempo máximo recomendado, en minutos, para aplicar las medidas inmediatas necesarias para\n\n            salvar la vida en el lugar del incidente, luego del Comienzo de una enfermedad o herida o de la enfermedad.\n\n            A menudo, se conoce como “los 10 minutos de platino”.\n\n        </p>\n\n        <p id="SubTitle">1 HORA</p>\n\n        <p id="Text">\n\n            1: representa el tiempo máximo recomendado para que el personal médico de emergencias pueda aplicar los\n\n            procedimientos de reanimación necesarios para el control de daños. Esto se debe hacer dentro de la primera\n\n            hora luego del Comienzo de una enfermedad o herida o de la enfermedad, usualmente se le conoce como “la hora\n\n            dorada”.\n\n        </p>\n\n        <p id="SubTitle">2 HORAS</p>\n\n        <p id="Text">\n\n            2: representa el tiempo máximo recomendado para aplicar cirugía de control de daños (CCD) necesaria. Ésta\n\n            debe empezar dentro de las 2 horas posteriores al inicio de la herida o de la enfermedad.\n\n        </p>\n\n    </ion-card>\n\n\n\n    <ion-card *ngIf="RUS === true">\n\n        <h2 id="Title">“ДОКТРИНА 10-1-2”</h2>\n\n        <p id="Text">\n\n            Существуют медицинские доказательства того, что риск смерти или постоянной нетрудоспособности может быть\n\n            значительно снижен, если людей лечить как можно скорее после начала потенциально опасного для жизни\n\n            заболевания. Основываясь на этих доказательствах, крайне важно, чтобы соответствующие процедуры по спасению\n\n            жизни, конечностей или зрения применялись в определенные сроки наряду с соответствующей цепочкой выживания в\n\n            случае инцидента. Это известно как временная шкала 10-1-2. Ниже описывается применение цепочки выживания в\n\n            рамках временной шкалы.\n\n        </p>\n\n        <p id="SubTitle">10 МИНУТ</p>\n\n        <p id="Text">\n\n            10 – Представляет собой максимальное рекомендуемое время в минутах для принятия немедленных мер, необходимых\n\n            для спасения жизни на месте происшествия, после наступления травмы или заболевания. Это часто называют\n\n            “Платиновыми 10 минутами”.\n\n        </p>\n\n        <p id="SubTitle">1 ЧАС</p>\n\n        <p id="Text">\n\n            1 – Максимальное рекомендуемое время, необходимое персоналу скорой медицинской помощи для проведения\n\n            реанимационных процедур, необходимых для устранения повреждений. Это должно быть сделано в течение первого\n\n            часа после начала травмы или заболевания, обычно известного как “Золотой час”.\n\n        </p>\n\n        <p id="SubTitle">2 ЧАСА</p>\n\n        <p id="Text">\n\n            2 – Максимальное рекомендуемое время для проведения необходимой операции по контролю повреждений. Это должно\n\n            начинаться в течение 2 часов после возникновения травмы или заболевания.\n\n        </p>\n\n    </ion-card>\n\n\n\n    <ion-card *ngIf="ENG === true">\n\n        <h2 id="Title">Tactical medicine </h2>\n\n        <p id="Text">\n\n            First-aid and pre-hospital medical guidelines have long been developed by the civilian medical\n\n            systems of the country and rely on the assumption that the First Aider and responders are able to provide\n\n            care without putting their own lives at risk.\n\n\n\n            In recent years, the role of military medicine has been further defined to address circumstances where the\n\n            treatment of the casualty must be weighed against other considerations including Mission goals and ongoing\n\n            hostility\n\n\n\n            Additionally, the operational context of military medicine means that some treatments and interventions that\n\n            may be appropriate in the civilian setting could lead to additional loss of life and increased risk in a\n\n            military setting. With this in mind, the following three phases of care have been widely recognized to apply\n\n            in the tactical setting.</p>\n\n        <p id="SubTitle">Care Under Fire</p>\n\n        <p id="Text">\n\n            Care Under Fire relates to medical treatment provided while actively engaged in a hostile\n\n            environment. Treatments will often be limited to application of tourniquets, and self-aid at this point due\n\n            to the overwhelming priority of Engaging and Suppressing the Threat, which should include the casualty if\n\n            possible.\n\n        </p>\n\n        <p id="SubTitle">Tactical Field Care</p>\n\n        <p id="Text">Tactical Field Care is delivered when the casualty and responders are no longer under direct fire,\n\n            though the environment around them may still be hostile or their situation may become hostile again. It will\n\n            often be carried out by the First Aider or Medic, using equipment that was being carried at the time\n\n            including airway adjuncts, chest decompression and fluid resuscitation.</p>\n\n        <p id="SubTitle">Evacuation Care</p>\n\n        <p id="Text">Evacuation Care occurs when evacuation assets arrive with additional medical supplies and/or the\n\n            casualty is removed from the hostile environment. This may include access to more advanced emergency medical\n\n            professionals and equipment.</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="FR === true">\n\n        <h2 id="Title">Médecine tactique</h2>\n\n        <p id="Text">Les directives médicales en matière de premiers soins et de soins pré-hospitaliers ont longtemps\n\n            été élaborées par les systèmes médicaux civils du pays et reposent sur l\'hypothèse que le secouriste et les\n\n            intervenants sont capables de fournir des soins sans mettre leur propre vie en danger.\n\n\n\n            Ces dernières années, le rôle de la médecine militaire a été mieux défini pour tenir compte des\n\n            circonstances dans lesquelles le traitement de la victime doit être mis en balance avec d\'autres\n\n            considérations, notamment les objectifs de la mission et l\'hostilité persistante.\n\n\n\n            De plus, le contexte opérationnel de la médecine militaire signifie que certains traitements et\n\n            interventions qui peuvent être appropriés dans le contexte civil pourraient entraîner des pertes de vie\n\n            additionnelles et des risques accrus dans un contexte militaire. Dans cette optique, les trois phases de\n\n            soins suivantes ont été largement reconnues comme s\'appliquant dans le contexte tactique :</p>\n\n        <p id="SubTitle">Soins sous le feu de l\'ennemi</p>\n\n        <p id="Text">Les soins sous le feu de l\'ennemi concernent les traitements médicaux dispensés dans un\n\n            environnement hostile. Les traitements se limiteront souvent à l’application de garrots et à\n\n            l’auto-assistance à ce stade, en raison de la priorité absolue de l’engagement et de la suppression de la\n\n            menace, qui devrait si possible inclure la victime.</p>\n\n        <p id="SubTitle">Soins tactiques sur le terrain</p>\n\n        <p id="Text">Les soins tactiques sur le terrain sont dispensés lorsque la victime et les intervenants ne sont\n\n            plus sous le feu direct, bien que l\'environnement qui les entoure puisse encore être hostile ou que leur\n\n            situation puisse redevenir hostile. Ils seront souvent effectués par la personne prodiguant les premiers\n\n            soins ou par le médecin, à l’aide de l’équipement disponible à ce moment-là, y compris accessoires pour les\n\n            voies respiratoires, décompression thoracique et réanimation liquidienne.</p>\n\n        <p id="SubTitle">Soins d’évacuation</p>\n\n        <p id="Text">On parle de soins d’évacuation lorsque les moyens d\'évacuation arrivent avec des fournitures\n\n            médicales supplémentaires et/ou lorsque la victime est retirée de l\'environnement hostile. Cela peut inclure\n\n            l\'accès à des professionnels et à de l\'équipement médicaux d\'urgence plus avancés.</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="ES === true">\n\n        <h2 id="Title">MEDICINA TÁCTICA</h2>\n\n        <p id="Text">\n\n            Los primeros auxilios y las guías médics prehospitalarias han sido desarrollados durante mucho tiempo por\n\n            los sistemas médicos civiles del país y asumen que los socorristas están en la capacidad de aplicar cuidados\n\n            sin poner sus vidas en riesgo.\n\n\n\n            En años recientes, el rol de la medicina militar ha sido definido con más detalle para abordar\n\n            circunstancias donde el tratamiento de la víctima debe evaluarse junto con otras consideraciones, incluyendo\n\n            los objetivos de la misión y el ambiente hostil.\n\n\n\n            Además, el contexto operacional de la medicina militar significa que algunos tratamientos e intervenciones\n\n            que pueden ser apropiados en el entorno civil, podrían conducir a una mayor pérdida de vidas e incrementar\n\n            el riesgo en un entorno militar. Con esto en mente, las tres fases de cuidados que se presentan a\n\n            continuación han sido ampliamente reconocidas para ser aplicadas en un ambiente táctico.\n\n        </p>\n\n        <p id="SubTitle">Cuidado bajo fuego</p>\n\n        <p id="Text">\n\n            La atención bajo fuego se relaciona con el tratamiento médico aplicado mientras se está en un ambiente\n\n            hostil. La atención a menudo se limitará a la aplicación de torniquetes y autotratamientos, en este punto,\n\n            debido a la prioridad de combatir y suprimir la amenaza, la cual debe incluir a la víctima, si es posible.\n\n        </p>\n\n        <p id="SubTitle">Atención Táctica en el Terreno </p>\n\n        <p id="Text">\n\n            La atención táctica en el terreno es aplicada cuando la víctima y el socorrista ya no se encuentran bajo\n\n            fuego directo, aunque el ambiente a su alrededor sea hostil o su situación vuelva a ser adversa. A menudo,\n\n            es aplicado por socorristas o médicos, usando el equipo con el que se cuente en ese momento, incluyendo\n\n            complementos para las vías respiratorias, descompresión del pecho y canalización.\n\n        </p>\n\n        <p id="SubTitle">Atención de evacuación</p>\n\n        <p id="Text">\n\n            Los Cuidados durante la evacuación ocurren cuando llega el personal de evacuación con implementos médicos\n\n            adicionales o la víctima es retirada del área hostil. Esto puede incluir acceso a médicos profesionales y\n\n            equipo médico de emergencia más avanzado.\n\n        </p>\n\n    </ion-card>\n\n    <ion-card *ngIf="RUS === true">\n\n        <h2 id="Title">ТАКТИЧЕСКАЯ МЕДИЦИНА</h2>\n\n        <p id="Text">\n\n            Гражданские медицинские системы страны давно разработали рекомендации по оказанию первой помощи и оказанию\n\n            доврачебной помощи, которые предполагают, что лица, оказывающие первую помощь, способны оказывать помощь, не\n\n            подвергая свою жизнь риску.\n\n            В последние годы роль военной медицины была дополнительно определена для решения обстоятельств, при которых\n\n            лечение жертв должно оцениваться наряду с другими соображениями, включая цели миссии и враждебную\n\n            обстановку.\n\n            Кроме того, оперативный контекст военной медицины означает, что некоторые методы лечения и вмешательства,\n\n            которые могут быть уместны в гражданских условиях, могут привести к большей гибели людей и увеличить риск в\n\n            военных условиях. Имея это в виду, три этапа ухода, представленные ниже, получили широкое признание для\n\n            применения в тактических условиях.</p>\n\n        <p id="SubTitle">ВНИМАНИЕ ПОД ОГНЕМ</p>\n\n        <p id="Text">\n\n            Помощь под огнем относится к медицинскому лечению, применяемому во время пребывания во враждебной среде.\n\n            Помощь часто ограничивается наложением жгутов и самолечением, на данном этапе из-за приоритета борьбы с\n\n            угрозой и ее подавления, по возможности, должна включать оказание помощи пострадавшему.\n\n        </p>\n\n        <p id="SubTitle">ТАКТИЧЕСКАЯ ПОМОЩЬ В ПОЛЕВЫХ УСЛОВИЯХ</p>\n\n        <p id="Text">Тактическое внимание на земле применяется, когда пострадавший и его спасатель больше не находятся\n\n            под прямым огнем, даже если окружающая среда вокруг них враждебна или их положение снова становится\n\n            неблагоприятным. Его часто применяют сотрудники служб экстренного реагирования или врачи, используя любое\n\n            доступное в данный момент оборудование, включая вспомогательные средства для дыхательных путей, декомпрессию\n\n            грудной клетки и установку катетеров.</p>\n\n        <p id="SubTitle">ПОМОЩЬ ПРИ ЭВАКУАЦИИ.</p>\n\n        <p id="Text">Эвакуационная помощь оказывается, когда прибывает эвакуационный персонал с дополнительными\n\n            медикаментами и / или пострадавший удаляется из опасной зоны. Это может включать доступ к профессиональным\n\n            врачам и более современному оборудованию неотложной медицинской помощи.\n\n        </p>\n\n    </ion-card>\n\n</ion-content>'/*ion-inline-end:"F:\UN_Buddy_First_Aid_App\src\pages\train\basics\basics.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__ionic_storage__["b" /* Storage */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
     ], BasicsPage);
@@ -5430,7 +7016,7 @@ var BasicsPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 223:
+/***/ 224:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5438,8 +7024,8 @@ var BasicsPage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_storage__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_geolocation__ = __webpack_require__(114);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_services_location_service__ = __webpack_require__(224);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_geolocation__ = __webpack_require__(115);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_services_location_service__ = __webpack_require__(225);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -5466,6 +7052,7 @@ var SettingsPage = /** @class */ (function () {
         this.ENG = false;
         this.FR = false;
         this.ES = false;
+        this.RUS = false;
         this.geolocationEnabled = false; // This will be bound to the toggle
     }
     SettingsPage.prototype.ionViewWillLoad = function () {
@@ -5476,22 +7063,32 @@ var SettingsPage = /** @class */ (function () {
                     _this.ENG = true;
                     _this.FR = false;
                     _this.ES = false;
+                    _this.RUS = false;
                 }
                 if (data === "ES") {
                     _this.ENG = false;
                     _this.ES = true;
                     _this.FR = false;
+                    _this.RUS = false;
                 }
                 if (data === "FR") {
                     _this.ENG = false;
                     _this.FR = true;
                     _this.ES = false;
+                    _this.RUS = false;
+                }
+                if (data === "RUS") {
+                    _this.ENG = false;
+                    _this.FR = false;
+                    _this.ES = false;
+                    _this.RUS = true;
                 }
             }
             else {
                 _this.ENG = true;
                 _this.ES = false;
                 _this.FR = false;
+                _this.RUS = false;
                 _this.storage.set("Language", "ENG");
             }
         });
@@ -5499,24 +7096,120 @@ var SettingsPage = /** @class */ (function () {
         this.geolocationEnabled = this.locationService.geolocationEnabled;
     };
     SettingsPage.prototype.sendLocationViaWhatsApp = function () {
-        var message = "My location is: Latitude: " + this.locationService.latitude + ", Longitude: " + this.locationService.longitude;
-        window.open("https://wa.me/?text=" + encodeURIComponent(message), "_blank");
+        var _this = this;
+        this.storage.get("Language").then(function (data) {
+            if (data) {
+                if (data === "ENG") {
+                    var message = "My location is: Latitude: " + _this.locationService.latitude + ", Longitude: " + _this.locationService.longitude;
+                    window.open("https://wa.me/?text=" + encodeURIComponent(message), "_blank");
+                }
+                if (data === "ES") {
+                    var message = "mi ubicaci\u00F3n es: Latitud: " + _this.locationService.latitude + ", Longitud: " + _this.locationService.longitude;
+                    window.open("https://wa.me/?text=" + encodeURIComponent(message), "_blank");
+                }
+                if (data === "FR") {
+                    var message = "Mon emplacement est: Latitude: " + _this.locationService.latitude + ", Longitude: " + _this.locationService.longitude;
+                    window.open("https://wa.me/?text=" + encodeURIComponent(message), "_blank");
+                }
+                if (data === "RUS") {
+                    var message = "\u041C\u043E\u0435 \u043C\u0435\u0441\u0442\u043E\u043F\u043E\u043B\u043E\u0436\u0435\u043D\u0438\u0435: \u0428\u0438\u0440\u043E\u0442\u0430: " + _this.locationService.latitude + ", \u0414\u043E\u043B\u0433\u043E\u0442\u0430: " + _this.locationService.longitude;
+                    window.open("https://wa.me/?text=" + encodeURIComponent(message), "_blank");
+                }
+            }
+            else {
+                var message = "My location is: Latitude: " + _this.locationService.latitude + ", Longitude: " + _this.locationService.longitude;
+                window.open("https://wa.me/?text=" + encodeURIComponent(message), "_blank");
+            }
+        });
     };
     SettingsPage.prototype.sendLocationViaSMS = function () {
-        var message = "My location is: Latitude: " + this.locationService.latitude + ", Longitude: " + this.locationService.longitude;
-        window.open("sms:?body=" + encodeURIComponent(message), "_blank");
+        var _this = this;
+        this.storage.get("Language").then(function (data) {
+            if (data) {
+                if (data === "ENG") {
+                    var message = "My location is: Latitude: " + _this.locationService.latitude + ", Longitude: " + _this.locationService.longitude;
+                    window.open("sms:?body=" + encodeURIComponent(message), "_blank");
+                }
+                if (data === "ES") {
+                    var message = "mi ubicaci\u00F3n es: Latitud: " + _this.locationService.latitude + ", Longitud: " + _this.locationService.longitude;
+                    window.open("sms:?body=" + encodeURIComponent(message), "_blank");
+                }
+                if (data === "FR") {
+                    var message = "Mon emplacement est: Latitude: " + _this.locationService.latitude + ", Longitude: " + _this.locationService.longitude;
+                    window.open("sms:?body=" + encodeURIComponent(message), "_blank");
+                }
+                if (data === "RUS") {
+                    var message = "\u041C\u043E\u0435 \u043C\u0435\u0441\u0442\u043E\u043F\u043E\u043B\u043E\u0436\u0435\u043D\u0438\u0435: \u0428\u0438\u0440\u043E\u0442\u0430: " + _this.locationService.latitude + ", \u0414\u043E\u043B\u0433\u043E\u0442\u0430: " + _this.locationService.longitude;
+                    window.open("sms:?body=" + encodeURIComponent(message), "_blank");
+                }
+            }
+            else {
+                var message = "My location is: Latitude: " + _this.locationService.latitude + ", Longitude: " + _this.locationService.longitude;
+                window.open("sms:?body=" + encodeURIComponent(message), "_blank");
+            }
+        });
     };
     SettingsPage.prototype.sendLocationViaMessenger = function () {
-        var message = "My location is: Latitude: " + this.locationService.latitude + ", Longitude: " + this.locationService.longitude;
-        window.open("https://www.facebook.com/messages/t/?text=" + encodeURIComponent(message), "_blank");
+        var _this = this;
+        this.storage.get("Language").then(function (data) {
+            if (data) {
+                if (data === "ENG") {
+                    var message = "My location is: Latitude: " + _this.locationService.latitude + ", Longitude: " + _this.locationService.longitude;
+                    window.open("https://www.facebook.com/messages/t/?text=" + encodeURIComponent(message), "_blank");
+                }
+                if (data === "ES") {
+                    var message = "mi ubicaci\u00F3n es: Latitud: " + _this.locationService.latitude + ", Longitud: " + _this.locationService.longitude;
+                    window.open("https://www.facebook.com/messages/t/?text=" + encodeURIComponent(message), "_blank");
+                }
+                if (data === "FR") {
+                    var message = "Mon emplacement est: Latitude: " + _this.locationService.latitude + ", Longitude: " + _this.locationService.longitude;
+                    window.open("https://www.facebook.com/messages/t/?text=" + encodeURIComponent(message), "_blank");
+                }
+                if (data === "RUS") {
+                    var message = "\u041C\u043E\u0435 \u043C\u0435\u0441\u0442\u043E\u043F\u043E\u043B\u043E\u0436\u0435\u043D\u0438\u0435: \u0428\u0438\u0440\u043E\u0442\u0430: " + _this.locationService.latitude + ", \u0414\u043E\u043B\u0433\u043E\u0442\u0430: " + _this.locationService.longitude;
+                    window.open("https://www.facebook.com/messages/t/?text=" + encodeURIComponent(message), "_blank");
+                }
+            }
+            else {
+                var message = "My location is: Latitude: " + _this.locationService.latitude + ", Longitude: " + _this.locationService.longitude;
+                window.open("https://www.facebook.com/messages/t/?text=" + encodeURIComponent(message), "_blank");
+            }
+        });
     };
     SettingsPage.prototype.onToggleGeolocation = function () {
         this.locationService.onToggleGeolocation();
     };
     SettingsPage.prototype.sendLocationViaEmail = function () {
-        var subject = "My Current Location";
-        var body = "My location is: Latitude: " + this.locationService.latitude + ", Longitude: " + this.locationService.longitude;
-        window.open("mailto:?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body), "_blank");
+        var _this = this;
+        this.storage.get("Language").then(function (data) {
+            if (data) {
+                if (data === "ENG") {
+                    var subject = "My Current Location";
+                    var body = "My location is: Latitude: " + _this.locationService.latitude + ", Longitude: " + _this.locationService.longitude;
+                    window.open("mailto:?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body), "_blank");
+                }
+                if (data === "ES") {
+                    var subject = "Mi ubicación actual";
+                    var body = "mi ubicaci\u00F3n es: Latitud: " + _this.locationService.latitude + ", Longitud: " + _this.locationService.longitude;
+                    window.open("mailto:?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body), "_blank");
+                }
+                if (data === "FR") {
+                    var subject = "Ma position actuelle";
+                    var body = "Mon emplacement est: Latitude: " + _this.locationService.latitude + ", Longitude: " + _this.locationService.longitude;
+                    window.open("mailto:?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body), "_blank");
+                }
+                if (data === "RUS") {
+                    var subject = "Мое текущее местоположение";
+                    var body = "\u041C\u043E\u0435 \u043C\u0435\u0441\u0442\u043E\u043F\u043E\u043B\u043E\u0436\u0435\u043D\u0438\u0435: \u0428\u0438\u0440\u043E\u0442\u0430: " + _this.locationService.latitude + ", \u0414\u043E\u043B\u0433\u043E\u0442\u0430: " + _this.locationService.longitude;
+                    window.open("mailto:?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body), "_blank");
+                }
+            }
+            else {
+                var subject = "My Current Location";
+                var body = "My location is: Latitude: " + _this.locationService.latitude + ", Longitude: " + _this.locationService.longitude;
+                window.open("mailto:?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body), "_blank");
+            }
+        });
     };
     SettingsPage.prototype.onCancel = function () {
         console.log("OnCancelFired");
@@ -5526,24 +7219,34 @@ var SettingsPage = /** @class */ (function () {
             this.ENG = true;
             this.FR = false;
             this.ES = false;
+            this.RUS = false;
             this.storage.set("Language", "ENG");
         }
         if (this.LanguageSelect === "ES") {
             this.ENG = false;
             this.ES = true;
             this.FR = false;
+            this.RUS = false;
             this.storage.set("Language", "ES");
         }
         if (this.LanguageSelect === "FR") {
             this.ENG = false;
             this.ES = false;
             this.FR = true;
+            this.RUS = false;
             this.storage.set("Language", "FR");
+        }
+        if (this.LanguageSelect === "RUS") {
+            this.ENG = false;
+            this.ES = false;
+            this.FR = false;
+            this.RUS = true;
+            this.storage.set("Language", "RUS");
         }
     };
     SettingsPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: "page-settings",template:/*ion-inline-start:"F:\UN_Buddy_First_Aid_App\src\pages\settings\settings.html"*/'<ion-header no-border>\n\n  <ion-navbar color="transparent"> </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content no-padding>\n\n  <ion-card class="card">\n\n    <ion-item *ngIf="ENG === true">\n\n      <ion-label id="LabelText">Language</ion-label>\n\n      <ion-select\n\n        id="Text"\n\n        (ionCancel)="onCancel()"\n\n        (ionChange)="onChange()"\n\n        [(ngModel)]="LanguageSelect"\n\n      >\n\n        <ion-option selected="true" value="ENG">English</ion-option>\n\n        <ion-option value="ES">Español</ion-option>\n\n        <ion-option value="FR">Français</ion-option>\n\n      </ion-select>\n\n    </ion-item>\n\n    <ion-item *ngIf="ENG === true">\n\n      <ion-label id="LabelText">Geo-Location</ion-label>\n\n      <ion-toggle\n\n        [(ngModel)]="geolocationEnabled"\n\n        [color]="geolocationEnabled ? \'success\' : \'danger\'"\n\n        (ionChange)="onToggleGeolocation()"\n\n      ></ion-toggle>\n\n    </ion-item>\n\n\n\n    <div *ngIf="geolocationEnabled && ENG === true">\n\n      <ion-label style="text-align: center">Share Location Detail</ion-label>\n\n\n\n      <div class="share-buttons-container">\n\n        <button class="share-button" (click)="sendLocationViaWhatsApp()">\n\n          Share via WhatsApp\n\n        </button>\n\n        <button class="share-button" (click)="sendLocationViaMessenger()">\n\n          Share via Messenger\n\n        </button>\n\n        <button class="share-button" (click)="sendLocationViaSMS()">\n\n          Share via SMS\n\n        </button>\n\n        <button class="share-button" (click)="sendLocationViaEmail()">\n\n          Share via Email\n\n        </button>\n\n      </div>\n\n    </div>\n\n\n\n    <ion-item *ngIf="ES === true">\n\n      <ion-label id="LabelText">idioma</ion-label>\n\n      <ion-select\n\n        id="Text"\n\n        cancelText="Cancelar"\n\n        (ionCancel)="onCancel()"\n\n        (ionChange)="onChange()"\n\n        [(ngModel)]="LanguageSelect"\n\n      >\n\n        <ion-option value="ENG">English</ion-option>\n\n        <ion-option selected="true" value="ES">Español</ion-option>\n\n        <ion-option value="FR">Français</ion-option>\n\n      </ion-select>\n\n    </ion-item>\n\n    <ion-item *ngIf="FR === true">\n\n      <ion-label id="LabelText">Langue</ion-label>\n\n      <ion-select\n\n        id="Text"\n\n        cancelText="Annuler"\n\n        (ionCancel)="onCancel()"\n\n        (ionChange)="onChange()"\n\n        [(ngModel)]="LanguageSelect"\n\n      >\n\n        <ion-option value="ENG">English</ion-option>\n\n        <ion-option value="ES">Español</ion-option>\n\n        <ion-option selected="true" value="FR">Français</ion-option>\n\n      </ion-select>\n\n    </ion-item>\n\n  </ion-card>\n\n</ion-content>\n\n'/*ion-inline-end:"F:\UN_Buddy_First_Aid_App\src\pages\settings\settings.html"*/,
+            selector: "page-settings",template:/*ion-inline-start:"F:\UN_Buddy_First_Aid_App\src\pages\settings\settings.html"*/'<ion-header no-border>\n\n  <ion-navbar color="transparent"> </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content no-padding>\n\n  <ion-card class="card">\n\n    <ion-item *ngIf="ENG === true">\n\n      <ion-label id="LabelText">Language</ion-label>\n\n      <ion-select\n\n        id="Text"\n\n        (ionCancel)="onCancel()"\n\n        (ionChange)="onChange()"\n\n        [(ngModel)]="LanguageSelect"\n\n      >\n\n        <ion-option selected="true" value="ENG">English</ion-option>\n\n        <ion-option value="ES">Español</ion-option>\n\n        <ion-option value="FR">Français</ion-option>\n\n        <ion-option value="RUS">Русский</ion-option>\n\n      </ion-select>\n\n    </ion-item>\n\n    <ion-item *ngIf="ENG === true">\n\n      <ion-label id="LabelText">Geo-Location</ion-label>\n\n      <ion-toggle\n\n        [(ngModel)]="geolocationEnabled"\n\n        [color]="geolocationEnabled ? \'success\' : \'danger\'"\n\n        (ionChange)="onToggleGeolocation()"\n\n      ></ion-toggle>\n\n    </ion-item>\n\n\n\n    <div *ngIf="geolocationEnabled && ENG === true">\n\n      <ion-label style="text-align: center">Share Location Detail</ion-label>\n\n\n\n      <div class="share-buttons-container">\n\n        <button class="share-button" (click)="sendLocationViaWhatsApp()">\n\n          Share via WhatsApp\n\n        </button>\n\n        <button class="share-button" (click)="sendLocationViaMessenger()">\n\n          Share via Messenger\n\n        </button>\n\n        <button class="share-button" (click)="sendLocationViaSMS()">\n\n          Share via SMS\n\n        </button>\n\n        <button class="share-button" (click)="sendLocationViaEmail()">\n\n          Share via Email\n\n        </button>\n\n      </div>\n\n    </div>\n\n\n\n    <ion-item *ngIf="ES === true">\n\n      <ion-label id="LabelText">idioma</ion-label>\n\n      <ion-select\n\n        id="Text"\n\n        cancelText="Cancelar"\n\n        (ionCancel)="onCancel()"\n\n        (ionChange)="onChange()"\n\n        [(ngModel)]="LanguageSelect"\n\n      >\n\n        <ion-option value="ENG">English</ion-option>\n\n        <ion-option selected="true" value="ES">Español</ion-option>\n\n        <ion-option value="FR">Français</ion-option>\n\n        <ion-option value="RUS">Русский</ion-option>\n\n      </ion-select>\n\n    </ion-item>\n\n\n\n    <ion-item *ngIf="ES === true">\n\n      <ion-label id="LabelText">Ubicación geográfica</ion-label>\n\n      <ion-toggle\n\n        [(ngModel)]="geolocationEnabled"\n\n        [color]="geolocationEnabled ? \'success\' : \'danger\'"\n\n        (ionChange)="onToggleGeolocation()"\n\n      ></ion-toggle>\n\n    </ion-item>\n\n\n\n    <div *ngIf="geolocationEnabled && ES === true">\n\n      <ion-label style="text-align: center">Compartir detalle de ubicación</ion-label>\n\n\n\n      <div class="share-buttons-container">\n\n        <button class="share-button" (click)="sendLocationViaWhatsApp()">\n\n          Compartir vía whatsapp\n\n        </button>\n\n        <button class="share-button" (click)="sendLocationViaMessenger()">\n\n          Compartir a través de Messenger\n\n        </button>\n\n        <button class="share-button" (click)="sendLocationViaSMS()">\n\n          Compartir por SMS\n\n        </button>\n\n        <button class="share-button" (click)="sendLocationViaEmail()">\n\n          Compartir por correo electrónico\n\n        </button>\n\n      </div>\n\n    </div>\n\n\n\n    <ion-item *ngIf="FR === true">\n\n      <ion-label id="LabelText">Langue</ion-label>\n\n      <ion-select\n\n        id="Text"\n\n        cancelText="Annuler"\n\n        (ionCancel)="onCancel()"\n\n        (ionChange)="onChange()"\n\n        [(ngModel)]="LanguageSelect"\n\n      >\n\n        <ion-option value="ENG">English</ion-option>\n\n        <ion-option value="ES">Español</ion-option>\n\n        <ion-option selected="true" value="FR">Français</ion-option>\n\n        <ion-option value="RUS">Русский</ion-option>\n\n      </ion-select>\n\n    </ion-item>\n\n\n\n    <ion-item *ngIf="FR === true">\n\n      <ion-label id="LabelText">Géolocalisation</ion-label>\n\n      <ion-toggle\n\n        [(ngModel)]="geolocationEnabled"\n\n        [color]="geolocationEnabled ? \'success\' : \'danger\'"\n\n        (ionChange)="onToggleGeolocation()"\n\n      ></ion-toggle>\n\n    </ion-item>\n\n\n\n    <div *ngIf="geolocationEnabled && FR === true">\n\n      <ion-label style="text-align: center">Partager les détails de l\'emplacement</ion-label>\n\n\n\n      <div class="share-buttons-container">\n\n        <button class="share-button" (click)="sendLocationViaWhatsApp()">\n\n          Partager via WhatsApp\n\n        </button>\n\n        <button class="share-button" (click)="sendLocationViaMessenger()">\n\n          Partager via Messenger\n\n        </button>\n\n        <button class="share-button" (click)="sendLocationViaSMS()">\n\n          Partager par SMS\n\n        </button>\n\n        <button class="share-button" (click)="sendLocationViaEmail()">\n\n          Partager par e-mail\n\n        </button>\n\n      </div>\n\n    </div>\n\n\n\n    <ion-item *ngIf="RUS === true">\n\n      <ion-label id="LabelText">Язык</ion-label>\n\n      <ion-select\n\n        id="Text"\n\n        cancelText="Отмена"\n\n        (ionCancel)="onCancel()"\n\n        (ionChange)="onChange()"\n\n        [(ngModel)]="LanguageSelect"\n\n      >\n\n        <ion-option value="ENG">English</ion-option>\n\n        <ion-option value="ES">Español</ion-option>\n\n        <ion-option value="FR">Français</ion-option>\n\n        <ion-option selected="true" value="RUS">Русский</ion-option>\n\n      </ion-select>\n\n    </ion-item>\n\n\n\n    <ion-item *ngIf="RUS === true">\n\n      <ion-label id="LabelText">Геолокация</ion-label>\n\n      <ion-toggle\n\n        [(ngModel)]="geolocationEnabled"\n\n        [color]="geolocationEnabled ? \'success\' : \'danger\'"\n\n        (ionChange)="onToggleGeolocation()"\n\n      ></ion-toggle>\n\n    </ion-item>\n\n\n\n    <div *ngIf="geolocationEnabled && RUS === true">\n\n      <ion-label style="text-align: center">Поделиться информацией о местоположении</ion-label>\n\n\n\n      <div class="share-buttons-container">\n\n        <button class="share-button" (click)="sendLocationViaWhatsApp()">\n\n          Поделиться через WhatsApp\n\n        </button>\n\n        <button class="share-button" (click)="sendLocationViaMessenger()">\n\n          Поделиться через Мессенджер\n\n        </button>\n\n        <button class="share-button" (click)="sendLocationViaSMS()">\n\n          Поделиться через SMS\n\n        </button>\n\n        <button class="share-button" (click)="sendLocationViaEmail()">\n\n          Поделиться по электронной почте\n\n        </button>\n\n      </div>\n\n    </div>\n\n\n\n  </ion-card>\n\n</ion-content>\n\n'/*ion-inline-end:"F:\UN_Buddy_First_Aid_App\src\pages\settings\settings.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* ModalController */],
@@ -5559,14 +7262,14 @@ var SettingsPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 224:
+/***/ 225:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LocationService; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ionic_storage__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_geolocation__ = __webpack_require__(114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_geolocation__ = __webpack_require__(115);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -5688,13 +7391,13 @@ var LocationService = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 225:
+/***/ 226:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(226);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(248);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(227);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(249);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -5702,7 +7405,7 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 248:
+/***/ 249:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5710,44 +7413,46 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(28);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(209);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(211);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_geolocation__ = __webpack_require__(114);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__angular_http__ = __webpack_require__(63);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__app_component__ = __webpack_require__(297);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_home_home__ = __webpack_require__(212);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_protocol_protocol__ = __webpack_require__(213);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_train_train__ = __webpack_require__(217);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(210);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(212);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_geolocation__ = __webpack_require__(115);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__angular_http__ = __webpack_require__(52);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__app_component__ = __webpack_require__(298);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_home_home__ = __webpack_require__(213);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_protocol_protocol__ = __webpack_require__(214);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_train_train__ = __webpack_require__(218);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ionic_storage__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__providers_ENGprotocoldata__ = __webpack_require__(115);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__providers_ENGprotocoldata__ = __webpack_require__(116);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__providers_FRprotocoldata__ = __webpack_require__(117);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__providers_ESProtocolData__ = __webpack_require__(118);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_protocol_infomodal_infomodal__ = __webpack_require__(215);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_train_airway_airway__ = __webpack_require__(218);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_train_alert_alert__ = __webpack_require__(42);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_train_circulation_circulation__ = __webpack_require__(45);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_train_heat_heat__ = __webpack_require__(219);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_train_massive_massive__ = __webpack_require__(220);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_train_movement_movement__ = __webpack_require__(221);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_train_respiration_respiration__ = __webpack_require__(49);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_train_scene_scene__ = __webpack_require__(41);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__ionic_native_native_audio__ = __webpack_require__(216);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__pages_train_massive_tourniquet_tourniquet__ = __webpack_require__(43);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__pages_train_massive_woundpacking_woundpacking__ = __webpack_require__(44);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__pages_train_airway_headtilt_headtilt__ = __webpack_require__(46);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__pages_train_airway_recoveryposition_recoveryposition__ = __webpack_require__(47);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__pages_train_airway_situp_situp__ = __webpack_require__(48);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__pages_train_heat_hyperthermia_hyperthermia__ = __webpack_require__(50);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__pages_train_heat_hypothermia_hypothermia__ = __webpack_require__(51);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__pages_settings_settings__ = __webpack_require__(223);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__pages_train_basics_basics__ = __webpack_require__(222);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__services_location_service__ = __webpack_require__(224);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__providers_RUSprotocoldata__ = __webpack_require__(119);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_protocol_infomodal_infomodal__ = __webpack_require__(216);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_train_airway_airway__ = __webpack_require__(219);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_train_alert_alert__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_train_circulation_circulation__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_train_heat_heat__ = __webpack_require__(220);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_train_massive_massive__ = __webpack_require__(221);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_train_movement_movement__ = __webpack_require__(222);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_train_respiration_respiration__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_train_scene_scene__ = __webpack_require__(34);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__ionic_native_native_audio__ = __webpack_require__(217);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__pages_train_massive_tourniquet_tourniquet__ = __webpack_require__(36);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__pages_train_massive_woundpacking_woundpacking__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__pages_train_airway_headtilt_headtilt__ = __webpack_require__(39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__pages_train_airway_recoveryposition_recoveryposition__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__pages_train_airway_situp_situp__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__pages_train_heat_hyperthermia_hyperthermia__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__pages_train_heat_hypothermia_hypothermia__ = __webpack_require__(44);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__pages_settings_settings__ = __webpack_require__(224);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__pages_train_basics_basics__ = __webpack_require__(223);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__services_location_service__ = __webpack_require__(225);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -5793,24 +7498,24 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_8__pages_home_home__["a" /* HomePage */],
                 __WEBPACK_IMPORTED_MODULE_9__pages_protocol_protocol__["a" /* ProtocolPage */],
                 __WEBPACK_IMPORTED_MODULE_10__pages_train_train__["a" /* TrainPage */],
-                __WEBPACK_IMPORTED_MODULE_15__pages_protocol_infomodal_infomodal__["a" /* InfoModalPage */],
-                __WEBPACK_IMPORTED_MODULE_16__pages_train_airway_airway__["a" /* AirwayPage */],
-                __WEBPACK_IMPORTED_MODULE_17__pages_train_alert_alert__["a" /* AlertPage */],
-                __WEBPACK_IMPORTED_MODULE_18__pages_train_circulation_circulation__["a" /* CirculationPage */],
-                __WEBPACK_IMPORTED_MODULE_19__pages_train_heat_heat__["a" /* HeatPage */],
-                __WEBPACK_IMPORTED_MODULE_20__pages_train_massive_massive__["a" /* MassivePage */],
-                __WEBPACK_IMPORTED_MODULE_21__pages_train_movement_movement__["a" /* MovementPage */],
-                __WEBPACK_IMPORTED_MODULE_22__pages_train_respiration_respiration__["a" /* RespirationPage */],
-                __WEBPACK_IMPORTED_MODULE_23__pages_train_scene_scene__["a" /* ScenePage */],
-                __WEBPACK_IMPORTED_MODULE_33__pages_train_basics_basics__["a" /* BasicsPage */],
-                __WEBPACK_IMPORTED_MODULE_25__pages_train_massive_tourniquet_tourniquet__["a" /* TourniquetPage */],
-                __WEBPACK_IMPORTED_MODULE_26__pages_train_massive_woundpacking_woundpacking__["a" /* WoundpackingPage */],
-                __WEBPACK_IMPORTED_MODULE_27__pages_train_airway_headtilt_headtilt__["a" /* HeadtiltPage */],
-                __WEBPACK_IMPORTED_MODULE_28__pages_train_airway_recoveryposition_recoveryposition__["a" /* RecoverypositionPage */],
-                __WEBPACK_IMPORTED_MODULE_29__pages_train_airway_situp_situp__["a" /* SitupPage */],
-                __WEBPACK_IMPORTED_MODULE_30__pages_train_heat_hyperthermia_hyperthermia__["a" /* HyperthermiaPage */],
-                __WEBPACK_IMPORTED_MODULE_31__pages_train_heat_hypothermia_hypothermia__["a" /* HypothermiaPage */],
-                __WEBPACK_IMPORTED_MODULE_32__pages_settings_settings__["a" /* SettingsPage */],
+                __WEBPACK_IMPORTED_MODULE_16__pages_protocol_infomodal_infomodal__["a" /* InfoModalPage */],
+                __WEBPACK_IMPORTED_MODULE_17__pages_train_airway_airway__["a" /* AirwayPage */],
+                __WEBPACK_IMPORTED_MODULE_18__pages_train_alert_alert__["a" /* AlertPage */],
+                __WEBPACK_IMPORTED_MODULE_19__pages_train_circulation_circulation__["a" /* CirculationPage */],
+                __WEBPACK_IMPORTED_MODULE_20__pages_train_heat_heat__["a" /* HeatPage */],
+                __WEBPACK_IMPORTED_MODULE_21__pages_train_massive_massive__["a" /* MassivePage */],
+                __WEBPACK_IMPORTED_MODULE_22__pages_train_movement_movement__["a" /* MovementPage */],
+                __WEBPACK_IMPORTED_MODULE_23__pages_train_respiration_respiration__["a" /* RespirationPage */],
+                __WEBPACK_IMPORTED_MODULE_24__pages_train_scene_scene__["a" /* ScenePage */],
+                __WEBPACK_IMPORTED_MODULE_34__pages_train_basics_basics__["a" /* BasicsPage */],
+                __WEBPACK_IMPORTED_MODULE_26__pages_train_massive_tourniquet_tourniquet__["a" /* TourniquetPage */],
+                __WEBPACK_IMPORTED_MODULE_27__pages_train_massive_woundpacking_woundpacking__["a" /* WoundpackingPage */],
+                __WEBPACK_IMPORTED_MODULE_28__pages_train_airway_headtilt_headtilt__["a" /* HeadtiltPage */],
+                __WEBPACK_IMPORTED_MODULE_29__pages_train_airway_recoveryposition_recoveryposition__["a" /* RecoverypositionPage */],
+                __WEBPACK_IMPORTED_MODULE_30__pages_train_airway_situp_situp__["a" /* SitupPage */],
+                __WEBPACK_IMPORTED_MODULE_31__pages_train_heat_hyperthermia_hyperthermia__["a" /* HyperthermiaPage */],
+                __WEBPACK_IMPORTED_MODULE_32__pages_train_heat_hypothermia_hypothermia__["a" /* HypothermiaPage */],
+                __WEBPACK_IMPORTED_MODULE_33__pages_settings_settings__["a" /* SettingsPage */],
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -5828,24 +7533,24 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_8__pages_home_home__["a" /* HomePage */],
                 __WEBPACK_IMPORTED_MODULE_9__pages_protocol_protocol__["a" /* ProtocolPage */],
                 __WEBPACK_IMPORTED_MODULE_10__pages_train_train__["a" /* TrainPage */],
-                __WEBPACK_IMPORTED_MODULE_15__pages_protocol_infomodal_infomodal__["a" /* InfoModalPage */],
-                __WEBPACK_IMPORTED_MODULE_16__pages_train_airway_airway__["a" /* AirwayPage */],
-                __WEBPACK_IMPORTED_MODULE_17__pages_train_alert_alert__["a" /* AlertPage */],
-                __WEBPACK_IMPORTED_MODULE_18__pages_train_circulation_circulation__["a" /* CirculationPage */],
-                __WEBPACK_IMPORTED_MODULE_19__pages_train_heat_heat__["a" /* HeatPage */],
-                __WEBPACK_IMPORTED_MODULE_20__pages_train_massive_massive__["a" /* MassivePage */],
-                __WEBPACK_IMPORTED_MODULE_21__pages_train_movement_movement__["a" /* MovementPage */],
-                __WEBPACK_IMPORTED_MODULE_22__pages_train_respiration_respiration__["a" /* RespirationPage */],
-                __WEBPACK_IMPORTED_MODULE_23__pages_train_scene_scene__["a" /* ScenePage */],
-                __WEBPACK_IMPORTED_MODULE_33__pages_train_basics_basics__["a" /* BasicsPage */],
-                __WEBPACK_IMPORTED_MODULE_25__pages_train_massive_tourniquet_tourniquet__["a" /* TourniquetPage */],
-                __WEBPACK_IMPORTED_MODULE_26__pages_train_massive_woundpacking_woundpacking__["a" /* WoundpackingPage */],
-                __WEBPACK_IMPORTED_MODULE_27__pages_train_airway_headtilt_headtilt__["a" /* HeadtiltPage */],
-                __WEBPACK_IMPORTED_MODULE_28__pages_train_airway_recoveryposition_recoveryposition__["a" /* RecoverypositionPage */],
-                __WEBPACK_IMPORTED_MODULE_29__pages_train_airway_situp_situp__["a" /* SitupPage */],
-                __WEBPACK_IMPORTED_MODULE_30__pages_train_heat_hyperthermia_hyperthermia__["a" /* HyperthermiaPage */],
-                __WEBPACK_IMPORTED_MODULE_31__pages_train_heat_hypothermia_hypothermia__["a" /* HypothermiaPage */],
-                __WEBPACK_IMPORTED_MODULE_32__pages_settings_settings__["a" /* SettingsPage */],
+                __WEBPACK_IMPORTED_MODULE_16__pages_protocol_infomodal_infomodal__["a" /* InfoModalPage */],
+                __WEBPACK_IMPORTED_MODULE_17__pages_train_airway_airway__["a" /* AirwayPage */],
+                __WEBPACK_IMPORTED_MODULE_18__pages_train_alert_alert__["a" /* AlertPage */],
+                __WEBPACK_IMPORTED_MODULE_19__pages_train_circulation_circulation__["a" /* CirculationPage */],
+                __WEBPACK_IMPORTED_MODULE_20__pages_train_heat_heat__["a" /* HeatPage */],
+                __WEBPACK_IMPORTED_MODULE_21__pages_train_massive_massive__["a" /* MassivePage */],
+                __WEBPACK_IMPORTED_MODULE_22__pages_train_movement_movement__["a" /* MovementPage */],
+                __WEBPACK_IMPORTED_MODULE_23__pages_train_respiration_respiration__["a" /* RespirationPage */],
+                __WEBPACK_IMPORTED_MODULE_24__pages_train_scene_scene__["a" /* ScenePage */],
+                __WEBPACK_IMPORTED_MODULE_34__pages_train_basics_basics__["a" /* BasicsPage */],
+                __WEBPACK_IMPORTED_MODULE_26__pages_train_massive_tourniquet_tourniquet__["a" /* TourniquetPage */],
+                __WEBPACK_IMPORTED_MODULE_27__pages_train_massive_woundpacking_woundpacking__["a" /* WoundpackingPage */],
+                __WEBPACK_IMPORTED_MODULE_28__pages_train_airway_headtilt_headtilt__["a" /* HeadtiltPage */],
+                __WEBPACK_IMPORTED_MODULE_29__pages_train_airway_recoveryposition_recoveryposition__["a" /* RecoverypositionPage */],
+                __WEBPACK_IMPORTED_MODULE_30__pages_train_airway_situp_situp__["a" /* SitupPage */],
+                __WEBPACK_IMPORTED_MODULE_31__pages_train_heat_hyperthermia_hyperthermia__["a" /* HyperthermiaPage */],
+                __WEBPACK_IMPORTED_MODULE_32__pages_train_heat_hypothermia_hypothermia__["a" /* HypothermiaPage */],
+                __WEBPACK_IMPORTED_MODULE_33__pages_settings_settings__["a" /* SettingsPage */],
             ],
             providers: [
                 __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__["a" /* StatusBar */],
@@ -5853,8 +7558,9 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_12__providers_ENGprotocoldata__["a" /* ENGProtocolData */],
                 __WEBPACK_IMPORTED_MODULE_13__providers_FRprotocoldata__["a" /* FRProtocolData */],
                 __WEBPACK_IMPORTED_MODULE_14__providers_ESProtocolData__["a" /* ESProtocolData */],
-                __WEBPACK_IMPORTED_MODULE_24__ionic_native_native_audio__["a" /* NativeAudio */],
-                __WEBPACK_IMPORTED_MODULE_34__services_location_service__["a" /* LocationService */],
+                __WEBPACK_IMPORTED_MODULE_15__providers_RUSprotocoldata__["a" /* RUSProtocolData */],
+                __WEBPACK_IMPORTED_MODULE_25__ionic_native_native_audio__["a" /* NativeAudio */],
+                __WEBPACK_IMPORTED_MODULE_35__services_location_service__["a" /* LocationService */],
                 __WEBPACK_IMPORTED_MODULE_5__ionic_native_geolocation__["a" /* Geolocation */],
                 { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["u" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicErrorHandler */] },
             ],
@@ -5867,16 +7573,16 @@ var AppModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 297:
+/***/ 298:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(211);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(209);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(212);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(212);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(210);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(213);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -5918,7 +7624,7 @@ var MyApp = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 41:
+/***/ 34:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5945,6 +7651,7 @@ var ScenePage = /** @class */ (function () {
         this.ENG = false;
         this.FR = false;
         this.ES = false;
+        this.RUS = false;
     }
     ScenePage.prototype.ionViewWillEnter = function () {
         var _this = this;
@@ -5954,16 +7661,25 @@ var ScenePage = /** @class */ (function () {
                 _this.ENG = true;
                 _this.FR = false;
                 _this.ES = false;
+                _this.RUS = false;
             }
             if (data === 'FR') {
                 _this.ENG = false;
                 _this.FR = true;
                 _this.ES = false;
+                _this.RUS = false;
             }
             if (data === 'ES') {
                 _this.ENG = false;
                 _this.FR = false;
                 _this.ES = true;
+                _this.RUS = false;
+            }
+            if (data === 'RUS') {
+                _this.ENG = false;
+                _this.FR = false;
+                _this.ES = false;
+                _this.RUS = true;
             }
         });
     };
@@ -5972,7 +7688,7 @@ var ScenePage = /** @class */ (function () {
     };
     ScenePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-scene',template:/*ion-inline-start:"F:\UN_Buddy_First_Aid_App\src\pages\train\scene\scene.html"*/'<ion-header no-border>\n\n    <ion-navbar hideBackButton color="transparent">\n\n        <ion-buttons left>\n\n            <button ion-button class="ion-icon" color="light" icon-only (click)="GoBack()">\n\n                <ion-icon id="closeicon" name="arrow-back"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content no-padding>\n\n\n\n    <ion-card *ngIf="ENG === true">\n\n        <h2 id="Title">S.C.E.N.E</h2>\n\n        <p id="Text">The general S.C.E.N.E Assessment is the first evaluation you will make as a first-aider upon\n\n            arriving at or witnessing an injury.</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="FR === true">\n\n        <h2 id="Title">S.C.E.N.E</h2>\n\n        <p id="Text">L\'évaluation générale S.C.E.N.E est la première évaluation que vous ferez à votre arrivée en tant\n\n            que secouriste ou en tant que témoin d\'une blessure.</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="ES === true">\n\n        <h2 id="Title">S.C.A.N.R</h2>\n\n        <p id="Text">\n\n            La evaluación general S.C.A.N.R. es la evaluación primaria que realiza el socorrista al llegar al lugar de un accidente o presenciar una lesión.\n\n        </p>\n\n    </ion-card>\n\n\n\n    <ion-card *ngIf="ENG === true">\n\n        <h2 id="Title">Safe</h2>\n\n        <p id="Text">In your assessment of the scene you need to identify hazards and control them before turning your\n\n            attention to the treatment of the casualty.\n\n            <br>When potential threats are reduced, and it is safe to treat the casualty, take appropriate precautions\n\n            to treat the casualty by using the following personal protective equipment (PPE):\n\n            • Gloves\n\n            • Eye protection\n\n        </p>\n\n    </ion-card>\n\n    <ion-card *ngIf="FR === true">\n\n        <h2 id="Title">Sécurité</h2>\n\n        <p id="Text">Dans votre évaluation de la scène, vous devez identifier les dangers et les maîtriser avant de vous\n\n            concentrer sur le traitement de la victime.\n\n            <br>Lorsque les menaces potentielles sont réduites et que vous pouvez traiter la victime en sécurité, prenez\n\n            les précautions appropriées en utilisant l\'équipement de protection individuelle (EPI) suivant :\n\n            • Gants\n\n            • Protection des yeux\n\n        </p>\n\n    </ion-card>\n\n    <ion-card *ngIf="ES === true">\n\n        <h2 id="Title">SEGURIDAD</h2>\n\n        <p id="Text">\n\n            Al evaluar la escena, usted debe identificar los peligros y controlarlos antes de enfocar su atención en socorrer a la víctima.\n\n\n\n            <br>\n\n            Cuando sean reducidas las amenazas potenciales y sea seguro socorrer a la víctima, tome las precauciones apropiadas haciendo uso del siguiente equipo de protección personal (EPP):\n\n            .Guantes\n\n            .Protección ocular\n\n        </p>\n\n    </ion-card>\n\n    \n\n\n\n    <ion-card *ngIf="ENG === true">\n\n        <h2 id="Title">Cause</h2>\n\n        <p id="Text">Look at the scene around the casualty for clues to what happened and what caused the casualty’s\n\n            injuries. There are traumatic injuries (external) and medical injuries (internal):\n\n            <br>Examples of traumatic injury (external):\n\n            • Road traffic accidents\n\n            • Gunshots\n\n            • Explosions\n\n            • Drowning\n\n            • Snakebites\n\n            <br>Examples of medical injury (internal):\n\n            • Seizures\n\n            • Respiratory disorders\n\n            • Heart disorders\n\n            • Heat disorders\n\n        </p>\n\n    </ion-card>\n\n    <ion-card *ngIf="FR === true">\n\n        <h2 id="Title">Cause</h2>\n\n        <p id="Text">Examinez la scène autour de la victime pour trouver des indices sur ce qui s\'est passé et ce qui a\n\n            causé les blessures de la victime. Il y a des blessures traumatiques (externes) et des blessures médicales\n\n            (internes) :\n\n            <br>Exemples de blessures traumatiques (externes) :\n\n            • Accidents de la route\n\n            • Fusillade\n\n            • Explosions\n\n            • Noyade\n\n            • Morsures de serpent\n\n            <br>Exemples de blessures médicales (internes) :\n\n            • Convulsions\n\n            • Troubles respiratoires\n\n            • Troubles cardiaques\n\n            • Troubles de la chaleur\n\n        </p>\n\n    </ion-card>\n\n    <ion-card *ngIf="ES === true">\n\n        <h2 id="Title">CAUSA</h2>\n\n        <p id="Text">\n\n            Estudie la escena alrededor de la víctima para encontrar pistas sobre lo sucedido y lo que sea que haya podido causarle las lesiones. Existen lesiones traumáticas (externas) y lesiones médicas (internas):\n\n            <br>Ejemplos de lesiones traumáticas (externas):\n\n            .Accidentes de tránsito\n\n            .Disparos\n\n            .Explosiones\n\n            .Ahogamiento\n\n            .Mordeduras de serpiente\n\n            <br>Ejemplos de condiciones médicas (internas):\n\n            .Convulsiones\n\n            .Padecimientos respiratorias\n\n            .Padecimientos cardíacos\n\n            .Trastornos producidos  por el calor\n\n        </p>\n\n    </ion-card>\n\n\n\n    <ion-card *ngIf="ENG === true">\n\n        <h2 id="Title">Environment</h2>\n\n        <p id="Text">\n\n            Are there environmental factors impacting on the victim? Environmental factors may include:\n\n            • Standing water or wet casualties\n\n            • Extreme heat or cold or direct exposure\n\n            • Electrical cables or fallen power lines\n\n            • Oncoming traffic\n\n            • Fire or flammable liquid and vapors\n\n        </p>\n\n    </ion-card>\n\n    <ion-card *ngIf="FR === true">\n\n        <h2 id="Title">Environnement</h2>\n\n        <p id="Text">Y a-t-il des facteurs environnementaux qui ont un impact sur la victime ? Les facteurs\n\n            environnementaux peuvent inclure:\n\n            • Eau stagnante ou blessures mouillées\n\n            • Chaleur ou froid extrême ou exposition directe\n\n            • Câbles électriques ou lignes électriques tombées\n\n            • Trafic\n\n            • Liquides et vapeurs inflammables ou un feu\n\n        </p>\n\n    </ion-card>\n\n    <ion-card *ngIf="ES === true">\n\n        <h2 id="Title">AMBIENTE</h2>\n\n        <p id="Text">\n\n            ¿Hay algún factor ambiental que afecte a la víctima? Los factores medioambientales pueden incluir:\n\n            .Agua estancada o víctimas expuestas al agua\n\n            .Frío o calor extremos o bajo exposición directa\n\n            .Cables eléctricos o líneas eléctricas caídas\n\n            .vehículos que se aproximen a su posición. \n\n            .Fuego o líquidos y vapores inflamables.\n\n        </p>\n\n    </ion-card>\n\n\n\n    <ion-card *ngIf="ENG === true">\n\n        <h2 id="Title">Number of casualties</h2>\n\n        <p id="Text">In circumstances where the number of casualties outweighs the number of responders and resources,\n\n            decisions must be made to prioritize casualties to ensure the best is done for the most victims.</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="FR === true">\n\n        <h2 id="Title">Nombre de victimes</h2>\n\n        <p id="Text">Dans les cas où le nombre de victimes l\'emporte sur le nombre d\'intervenants et de ressources, des\n\n            décisions doivent être prises pour établir l\'ordre de priorité des victimes afin de s\'assurer que la plupart\n\n            des victimes seront traitées au mieux.</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="ES === true">\n\n        <h2 id="Title">NÚMERO DE VÍCTIMAS</h2>\n\n        <p id="Text">\n\n            En circunstancias donde al número de víctimas supera el número de socorristas y de recursos disponibles, se deben tomar decisiones para priorizar las víctimas y garantizar que se hace lo mejor para la mayoría de ellos.\n\n        </p>\n\n    </ion-card>\n\n\n\n    <ion-card *ngIf="ENG === true">\n\n        <h2 id="Title">Extra resources</h2>\n\n        <p id="Text">Incidents may require additional resources to be delivered to the scene to aid in the treatment and\n\n            evacuation of victims.As a first-aider, you are uniquely positioned to identify these needs early, having a\n\n            direct impact on the time taken to deliver these resources to the incident scene.Additional resources may\n\n            include:\n\n            • Medical personnel\n\n            • Specialist equipment\n\n            • Fire suppression assets\n\n            • Quick reaction force\n\n            • Fire support\n\n            • Electricity or utility stabilization services\n\n            • Helicopters or air evacuation assets\n\n        </p>\n\n    </ion-card>\n\n    <ion-card *ngIf="FR === true">\n\n        <h2 id="Title">Ressources supplémentaires</h2>\n\n        <p id="Text">Les incidents peuvent nécessiter l’apport de ressources supplémentaires sur les lieux pour aider au\n\n            traitement et à l\'évacuation des victimes. En tant que secouriste, vous êtes particulièrement bien placé\n\n            pour identifier rapidement ces besoins, ce qui a un impact direct sur le temps nécessaire pour livrer ces\n\n            ressources sur les lieux de l\'incident. Les ressources additionnelles peuvent comprendre:\n\n            • Personnel médical\n\n            • Matériel spécialisé\n\n            • Moyens d\'extinction d\'incendie\n\n            • Force de réaction rapide\n\n            • Pompiers\n\n            • Services de stabilisation de l\'électricité ou des services publics\n\n            • Hélicoptères ou moyens d\'évacuation aérienne\n\n        </p>\n\n    </ion-card>\n\n    <ion-card *ngIf="ES === true">\n\n        <h2 id="Title">RECURSOS ADICIONALES</h2>\n\n        <p id="Text">\n\n            En algunos incidentes, puede ser necesario enviar recursos adicionales al lugar del suceso para ayudar en el tratamiento y evacuación de las víctimas. Como socorrista, usted puede identificar rápidamente estas necesidades, lo que tendrá un impacto directo en el tiempo  que lleva proveer estos recursos en el lugar del incidente y en el tiempo que tome llevar estos recursos al área del incidente. Los recursos adicionales pueden incluir:\n\n            \n\n            .Personal médico\n\n            .Equipo especializado\n\n            .Materiales para sofocar incendios.\n\n            .Unidad de reacción inmediata.\n\n            .Apoyo contra incendios\n\n            .Medios para el restablecimiento de servicios básicos\n\n            .Helicópteros o medios de evacuación aérea.\n\n        </p>\n\n    </ion-card>\n\n\n\n</ion-content>'/*ion-inline-end:"F:\UN_Buddy_First_Aid_App\src\pages\train\scene\scene.html"*/
+            selector: 'page-scene',template:/*ion-inline-start:"F:\UN_Buddy_First_Aid_App\src\pages\train\scene\scene.html"*/'<ion-header no-border>\n\n    <ion-navbar hideBackButton color="transparent">\n\n        <ion-buttons left>\n\n            <button ion-button class="ion-icon" color="light" icon-only (click)="GoBack()">\n\n                <ion-icon id="closeicon" name="arrow-back"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content no-padding>\n\n\n\n    <ion-card *ngIf="ENG === true">\n\n        <h2 id="Title">S.C.E.N.E</h2>\n\n        <p id="Text">The general S.C.E.N.E Assessment is the first evaluation you will make as a first-aider upon\n\n            arriving at or witnessing an injury.</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="FR === true">\n\n        <h2 id="Title">S.C.E.N.E</h2>\n\n        <p id="Text">L\'évaluation générale S.C.E.N.E est la première évaluation que vous ferez à votre arrivée en tant\n\n            que secouriste ou en tant que témoin d\'une blessure.</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="ES === true">\n\n        <h2 id="Title">S.C.A.N.R</h2>\n\n        <p id="Text">\n\n            La evaluación general S.C.A.N.R. es la evaluación primaria que realiza el socorrista al llegar al lugar de\n\n            un accidente o presenciar una lesión.\n\n        </p>\n\n    </ion-card>\n\n    <ion-card *ngIf="RUS === true">\n\n        <h2 id="Title">Б.П.А.К.Р.</h2>\n\n        <p id="Text">Общее Б.П.А.К.Р. Это первичная оценка, выполняемая лицом, оказывающим первую помощь, по прибытии на\n\n            место происшествия или ставшим свидетелем травмы.</p>\n\n    </ion-card>\n\n\n\n    <ion-card *ngIf="ENG === true">\n\n        <h2 id="Title">Safe</h2>\n\n        <p id="Text">In your assessment of the scene you need to identify hazards and control them before turning your\n\n            attention to the treatment of the casualty.\n\n            <br>When potential threats are reduced, and it is safe to treat the casualty, take appropriate precautions\n\n            to treat the casualty by using the following personal protective equipment (PPE):\n\n            • Gloves\n\n            • Eye protection\n\n        </p>\n\n    </ion-card>\n\n    <ion-card *ngIf="FR === true">\n\n        <h2 id="Title">Sécurité</h2>\n\n        <p id="Text">Dans votre évaluation de la scène, vous devez identifier les dangers et les maîtriser avant de vous\n\n            concentrer sur le traitement de la victime.\n\n            <br>Lorsque les menaces potentielles sont réduites et que vous pouvez traiter la victime en sécurité, prenez\n\n            les précautions appropriées en utilisant l\'équipement de protection individuelle (EPI) suivant :\n\n            • Gants\n\n            • Protection des yeux\n\n        </p>\n\n    </ion-card>\n\n    <ion-card *ngIf="ES === true">\n\n        <h2 id="Title">SEGURIDAD</h2>\n\n        <p id="Text">\n\n            Al evaluar la escena, usted debe identificar los peligros y controlarlos antes de enfocar su atención en\n\n            socorrer a la víctima.\n\n\n\n            <br>\n\n            Cuando sean reducidas las amenazas potenciales y sea seguro socorrer a la víctima, tome las precauciones\n\n            apropiadas haciendo uso del siguiente equipo de protección personal (EPP):\n\n            .Guantes\n\n            .Protección ocular\n\n        </p>\n\n    </ion-card>\n\n    <ion-card *ngIf="RUS === true">\n\n        <h2 id="Title">БЕЗОПАСНОСТЬ</h2>\n\n        <p id="Text">Оценивая место происшествия, вы должны определить опасности и контролировать их, прежде чем\n\n            сосредоточить свое внимание на оказании помощи пострадавшему.\n\n            Когда потенциальная угроза уменьшится и спасение пострадавшего станет безопасным, примите соответствующие\n\n            меры предосторожности, используя следующие средства индивидуальной защиты (СИЗ):\n\n            .Перчатки\n\n            .Защитные очки\n\n        </p>\n\n    </ion-card>\n\n\n\n    <ion-card *ngIf="ENG === true">\n\n        <h2 id="Title">Cause</h2>\n\n        <p id="Text">Look at the scene around the casualty for clues to what happened and what caused the casualty’s\n\n            injuries. There are traumatic injuries (external) and medical injuries (internal):\n\n            <br>Examples of traumatic injury (external):\n\n            • Road traffic accidents\n\n            • Gunshots\n\n            • Explosions\n\n            • Drowning\n\n            • Snakebites\n\n            <br>Examples of medical injury (internal):\n\n            • Seizures\n\n            • Respiratory disorders\n\n            • Heart disorders\n\n            • Heat disorders\n\n        </p>\n\n    </ion-card>\n\n    <ion-card *ngIf="FR === true">\n\n        <h2 id="Title">Cause</h2>\n\n        <p id="Text">Examinez la scène autour de la victime pour trouver des indices sur ce qui s\'est passé et ce qui a\n\n            causé les blessures de la victime. Il y a des blessures traumatiques (externes) et des blessures médicales\n\n            (internes) :\n\n            <br>Exemples de blessures traumatiques (externes) :\n\n            • Accidents de la route\n\n            • Fusillade\n\n            • Explosions\n\n            • Noyade\n\n            • Morsures de serpent\n\n            <br>Exemples de blessures médicales (internes) :\n\n            • Convulsions\n\n            • Troubles respiratoires\n\n            • Troubles cardiaques\n\n            • Troubles de la chaleur\n\n        </p>\n\n    </ion-card>\n\n    <ion-card *ngIf="ES === true">\n\n        <h2 id="Title">CAUSA</h2>\n\n        <p id="Text">\n\n            Estudie la escena alrededor de la víctima para encontrar pistas sobre lo sucedido y lo que sea que haya\n\n            podido causarle las lesiones. Existen lesiones traumáticas (externas) y lesiones médicas (internas):\n\n            <br>Ejemplos de lesiones traumáticas (externas):\n\n            .Accidentes de tránsito\n\n            .Disparos\n\n            .Explosiones\n\n            .Ahogamiento\n\n            .Mordeduras de serpiente\n\n            <br>Ejemplos de condiciones médicas (internas):\n\n            .Convulsiones\n\n            .Padecimientos respiratorias\n\n            .Padecimientos cardíacos\n\n            .Trastornos producidos por el calor\n\n        </p>\n\n    </ion-card>\n\n    <ion-card *ngIf="RUS === true">\n\n        <h2 id="Title">ПРИЧИНА</h2>\n\n        <p id="Text">Изучите место происшествия вокруг жертвы, чтобы найти подсказки о том, что произошло и что могло\n\n            стать причиной травм жертвы. Существуют травматические повреждения (внешние) и медицинские (внутренние):\n\n            .Дорожно-транспортные происшествия\n\n            .Выстрелы\n\n            .Взрывы\n\n            .Утопление\n\n            .Укусы змей\n\n            <br>Примеры заболеваний (внутренние):\n\n            .Судороги\n\n            .Респираторные заболевания\n\n            .Заболевания сердца\n\n            .Тепловые расстройства\n\n        </p>\n\n    </ion-card>\n\n\n\n    <ion-card *ngIf="ENG === true">\n\n        <h2 id="Title">Environment</h2>\n\n        <p id="Text">\n\n            Are there environmental factors impacting on the victim? Environmental factors may include:\n\n            • Standing water or wet casualties\n\n            • Extreme heat or cold or direct exposure\n\n            • Electrical cables or fallen power lines\n\n            • Oncoming traffic\n\n            • Fire or flammable liquid and vapors\n\n        </p>\n\n    </ion-card>\n\n    <ion-card *ngIf="FR === true">\n\n        <h2 id="Title">Environnement</h2>\n\n        <p id="Text">Y a-t-il des facteurs environnementaux qui ont un impact sur la victime ? Les facteurs\n\n            environnementaux peuvent inclure:\n\n            • Eau stagnante ou blessures mouillées\n\n            • Chaleur ou froid extrême ou exposition directe\n\n            • Câbles électriques ou lignes électriques tombées\n\n            • Trafic\n\n            • Liquides et vapeurs inflammables ou un feu\n\n        </p>\n\n    </ion-card>\n\n    <ion-card *ngIf="ES === true">\n\n        <h2 id="Title">AMBIENTE</h2>\n\n        <p id="Text">\n\n            ¿Hay algún factor ambiental que afecte a la víctima? Los factores medioambientales pueden incluir:\n\n            .Agua estancada o víctimas expuestas al agua\n\n            .Frío o calor extremos o bajo exposición directa\n\n            .Cables eléctricos o líneas eléctricas caídas\n\n            .vehículos que se aproximen a su posición.\n\n            .Fuego o líquidos y vapores inflamables.\n\n        </p>\n\n    </ion-card>\n\n    <ion-card *ngIf="RUS === true">\n\n        <h2 id="Title">АТМОСФЕРА</h2>\n\n        <p id="Text">\n\n            Существуют ли какие-либо факторы окружающей среды, влияющие на жертву? К факторам окружающей среды могут\n\n            относиться:\n\n            .Застойная вода или жертвы, подвергшиеся воздействию воды\n\n            .Сильный холод или жара или прямое воздействие температуры\n\n            .Оборванные силовые кабели или линии электропередачи\n\n            .Транспортные средства, приближающиеся к вашей позиции.\n\n            .Пожар или легковоспламеняющиеся жидкости и пары.\n\n        </p>\n\n    </ion-card>\n\n\n\n    <ion-card *ngIf="ENG === true">\n\n        <h2 id="Title">Number of casualties</h2>\n\n        <p id="Text">In circumstances where the number of casualties outweighs the number of responders and resources,\n\n            decisions must be made to prioritize casualties to ensure the best is done for the most victims.</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="FR === true">\n\n        <h2 id="Title">Nombre de victimes</h2>\n\n        <p id="Text">Dans les cas où le nombre de victimes l\'emporte sur le nombre d\'intervenants et de ressources, des\n\n            décisions doivent être prises pour établir l\'ordre de priorité des victimes afin de s\'assurer que la plupart\n\n            des victimes seront traitées au mieux.</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="ES === true">\n\n        <h2 id="Title">NÚMERO DE VÍCTIMAS</h2>\n\n        <p id="Text">\n\n            En circunstancias donde al número de víctimas supera el número de socorristas y de recursos disponibles, se\n\n            deben tomar decisiones para priorizar las víctimas y garantizar que se hace lo mejor para la mayoría de\n\n            ellos.\n\n        </p>\n\n    </ion-card>\n\n    <ion-card *ngIf="RUS === true">\n\n        <h2 id="Title">КОЛИЧЕСТВО ПОСТРАДАВШИХ</h2>\n\n        <p id="Text">В обстоятельствах, когда число жертв превышает количество служб экстренного реагирования и\n\n            имеющихся ресурсов, необходимо принимать решения о приоритизации жертв и обеспечении того, чтобы для\n\n            большинства из них было сделано все возможное.</p>\n\n    </ion-card>\n\n\n\n\n\n    <ion-card *ngIf="ENG === true">\n\n        <h2 id="Title">Extra resources</h2>\n\n        <p id="Text">Incidents may require additional resources to be delivered to the scene to aid in the treatment and\n\n            evacuation of victims.As a first-aider, you are uniquely positioned to identify these needs early, having a\n\n            direct impact on the time taken to deliver these resources to the incident scene.Additional resources may\n\n            include:\n\n            • Medical personnel\n\n            • Specialist equipment\n\n            • Fire suppression assets\n\n            • Quick reaction force\n\n            • Fire support\n\n            • Electricity or utility stabilization services\n\n            • Helicopters or air evacuation assets\n\n        </p>\n\n    </ion-card>\n\n    <ion-card *ngIf="FR === true">\n\n        <h2 id="Title">Ressources supplémentaires</h2>\n\n        <p id="Text">Les incidents peuvent nécessiter l’apport de ressources supplémentaires sur les lieux pour aider au\n\n            traitement et à l\'évacuation des victimes. En tant que secouriste, vous êtes particulièrement bien placé\n\n            pour identifier rapidement ces besoins, ce qui a un impact direct sur le temps nécessaire pour livrer ces\n\n            ressources sur les lieux de l\'incident. Les ressources additionnelles peuvent comprendre:\n\n            • Personnel médical\n\n            • Matériel spécialisé\n\n            • Moyens d\'extinction d\'incendie\n\n            • Force de réaction rapide\n\n            • Pompiers\n\n            • Services de stabilisation de l\'électricité ou des services publics\n\n            • Hélicoptères ou moyens d\'évacuation aérienne\n\n        </p>\n\n    </ion-card>\n\n    <ion-card *ngIf="ES === true">\n\n        <h2 id="Title">RECURSOS ADICIONALES</h2>\n\n        <p id="Text">\n\n            En algunos incidentes, puede ser necesario enviar recursos adicionales al lugar del suceso para ayudar en el\n\n            tratamiento y evacuación de las víctimas. Como socorrista, usted puede identificar rápidamente estas\n\n            necesidades, lo que tendrá un impacto directo en el tiempo que lleva proveer estos recursos en el lugar del\n\n            incidente y en el tiempo que tome llevar estos recursos al área del incidente. Los recursos adicionales\n\n            pueden incluir:\n\n\n\n            .Personal médico\n\n            .Equipo especializado\n\n            .Materiales para sofocar incendios.\n\n            .Unidad de reacción inmediata.\n\n            .Apoyo contra incendios\n\n            .Medios para el restablecimiento de servicios básicos\n\n            .Helicópteros o medios de evacuación aérea.\n\n        </p>\n\n    </ion-card>\n\n    <ion-card *ngIf="RUS === true">\n\n        <h2 id="Title">ДОПОЛНИТЕЛЬНЫЕ РЕСУРСЫ</h2>\n\n        <p id="Text">В некоторых случаях может потребоваться отправка дополнительных ресурсов на место происшествия для\n\n            оказания помощи в лечении и эвакуации пострадавших. Как специалист по оказанию первой помощи, вы можете\n\n            быстро определить эти потребности, что окажет прямое влияние на время, необходимое для доставки этих\n\n            ресурсов на место происшествия, и окажет прямое влияние на время, необходимое для доставки этих ресурсов в\n\n            район происшествия.\n\n            Дополнительные ресурсы могут включать:\n\n            • Медицинский персонал\n\n            • Специализированную бригаду\n\n            • Материалы для тушения пожаров.\n\n            • Группу быстрого реагирования.\n\n            • Огневую поддержку.\n\n            • Средства для восстановления основных служб.\n\n            • Вертолеты или средства воздушной эвакуации.\n\n        </p>\n\n    </ion-card>\n\n\n\n</ion-content>'/*ion-inline-end:"F:\UN_Buddy_First_Aid_App\src\pages\train\scene\scene.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__ionic_storage__["b" /* Storage */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
     ], ScenePage);
@@ -5983,7 +7699,7 @@ var ScenePage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 42:
+/***/ 35:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6010,6 +7726,7 @@ var AlertPage = /** @class */ (function () {
         this.ENG = false;
         this.FR = false;
         this.ES = false;
+        this.RUS = false;
     }
     AlertPage.prototype.ionViewWillEnter = function () {
         var _this = this;
@@ -6019,16 +7736,25 @@ var AlertPage = /** @class */ (function () {
                 _this.ENG = true;
                 _this.FR = false;
                 _this.ES = false;
+                _this.RUS = false;
             }
             if (data === 'FR') {
                 _this.ENG = false;
                 _this.FR = true;
                 _this.ES = false;
+                _this.RUS = false;
             }
             if (data === 'ES') {
                 _this.ENG = false;
                 _this.FR = false;
                 _this.ES = true;
+                _this.RUS = false;
+            }
+            if (data === 'RUS') {
+                _this.ENG = false;
+                _this.FR = false;
+                _this.ES = false;
+                _this.RUS = true;
             }
         });
     };
@@ -6037,7 +7763,7 @@ var AlertPage = /** @class */ (function () {
     };
     AlertPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-alert',template:/*ion-inline-start:"F:\UN_Buddy_First_Aid_App\src\pages\train\alert\alert.html"*/'<ion-header no-border>\n\n    <ion-navbar hideBackButton color="transparent">\n\n        <ion-buttons left>\n\n            <button ion-button class="ion-icon" color="light" icon-only (click)="GoBack()">\n\n                <ion-icon id="closeicon" name="arrow-back"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content no-padding>\n\n    <ion-card *ngIf="ENG === true">\n\n        <h2 id="Title">4-liner</h2>\n\n        <p id="Text">An alert message must be transmitted as soon as possible, and no later than 10 minutes after\n\n            casualties are sustained to ensure rapid access to evacuation assets. The United Nations has adopted a basic\n\n            4-line situation report.</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="FR === true">\n\n        <h2 id="Title">4 lignes</h2>\n\n        <p id="Text">Un message d\'alerte doit être transmis dès que possible, et au plus tard 10 minutes après que les\n\n            victimes ont été blessées, pour assurer un accès rapide aux moyens d\'évacuation. L\'Organisation des Nations\n\n            Unies a adopté un rapport de situation standard de quatre lignes.</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="ES === true">\n\n        <h2 id="Title">4-LÍNEAS</h2>\n\n        <p id="Text">\n\n            Un mensaje de alerta debe ser transmitido tan pronto como sea posible y no excediendo 10 minutos después de que se produzcan las víctimas, para garantizar una evacuación rápida. Las Naciones Unidas han adoptado un informe de situación básico que consta de cuatro líneas.\n\n        </p>\n\n    </ion-card>\n\n\n\n    <ion-card *ngIf="ENG === true">\n\n        <h2 id="Title">Location</h2>\n\n        <p id="Text">Where are you? Provide the exact location of desired pick-up (e.g. UTM, MGRS, Lat/Long).</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="FR === true">\n\n        <h2 id="Title">Lieu</h2>\n\n        <p id="Text">Où êtes-vous ? Indiquez l\'emplacement exact de l\'enlèvement souhaité (p.ex., UTM, MGRS, Lat/Long).\n\n        </p>\n\n    </ion-card>\n\n    <ion-card *ngIf="ES === true">\n\n        <h2 id="Title">UBICACIÓN</h2>\n\n        <p id="Text">¿Dónde está? Proporcione la ubicación exacta de extracción deseada (por ejemplo, UTM, MGRS, LAT/LONG). </p>\n\n    </ion-card>\n\n\n\n    <ion-card *ngIf="ENG === true">\n\n        <h2 id="Title">Incident</h2>\n\n        <p id="Text">What has happened? Include information as to the radio frequency, phone or satellite phone\n\n            on-scene.</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="FR === true">\n\n        <h2 id="Title">Incident</h2>\n\n        <p id="Text">Que s\'est-il passé ? Donnez les informations sur la fréquence radio, le téléphone – satellite sur\n\n            place.</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="ES === true">\n\n        <h2 id="Title">INCIDENTE</h2>\n\n        <p id="Text">\n\n            ¿Qué ha ocurrido? Incluya información sobre la frecuencia de radio, teléfono o teléfono satelital en el lugar. \n\n        </p>\n\n    </ion-card>\n\n\n\n    <ion-card *ngIf="ENG === true">\n\n        <h2 id="Title">Actions taken</h2>\n\n        <p id="Text">What are you doing? For example “We are providing first aid on the side of the road”, or “We are\n\n            self-driving to nearest hospital”.</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="FR === true">\n\n        <h2 id="Title">Mesures prises</h2>\n\n        <p id="Text">Qu\'est-ce que vous faites ? Par exemple, « Nous prodiguons les premiers soins sur le bord de la\n\n            route », ou « Nous nous rendons en voiture à l\'hôpital le plus proche ».</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="ES === true">\n\n        <h2 id="Title">ACCIONES TOMADAS</h2>\n\n        <p id="Text">\n\n            ¿Qué han hecho? Por ejemplo “Estamos proporcionando primeros auxilios al costado de la carretera” o “Conducimos sin ayuda hasta el hospital más cercano”. \n\n        </p>\n\n    </ion-card>\n\n\n\n    <ion-card *ngIf="ENG === true">\n\n        <h2 id="Title">Resources required</h2>\n\n        <p id="Text">What do you want? Is there any special equipment needed at the site (e.g. Hoist, Extrication\n\n            Equipment, Ventilators)? </p>\n\n    </ion-card>\n\n    <ion-card *ngIf="FR === true">\n\n        <h2 id="Title">Ressources nécessaires</h2>\n\n        <p id="Text">Que voulez-vous ? A-t-on besoin d\'équipement spécial sur le site (p.ex. un treuil, un équipement de\n\n            dégagement, des ventilateurs)?</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="ES === true">\n\n        <h2 id="Title">RECURSOS NECESARIOS</h2>\n\n        <p id="Text">\n\n            ¿Qué necesita? ¿Hay algún equipo especial en el sitio (por ejemplo, elevadores, equipos de extracción, ventiladores)?\n\n        </p>\n\n    </ion-card>\n\n\n\n</ion-content>'/*ion-inline-end:"F:\UN_Buddy_First_Aid_App\src\pages\train\alert\alert.html"*/
+            selector: 'page-alert',template:/*ion-inline-start:"F:\UN_Buddy_First_Aid_App\src\pages\train\alert\alert.html"*/'<ion-header no-border>\n\n    <ion-navbar hideBackButton color="transparent">\n\n        <ion-buttons left>\n\n            <button ion-button class="ion-icon" color="light" icon-only (click)="GoBack()">\n\n                <ion-icon id="closeicon" name="arrow-back"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content no-padding>\n\n    <ion-card *ngIf="ENG === true">\n\n        <h2 id="Title">4-liner</h2>\n\n        <p id="Text">An alert message must be transmitted as soon as possible, and no later than 10 minutes after\n\n            casualties are sustained to ensure rapid access to evacuation assets. The United Nations has adopted a basic\n\n            4-line situation report.</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="FR === true">\n\n        <h2 id="Title">4 lignes</h2>\n\n        <p id="Text">Un message d\'alerte doit être transmis dès que possible, et au plus tard 10 minutes après que les\n\n            victimes ont été blessées, pour assurer un accès rapide aux moyens d\'évacuation. L\'Organisation des Nations\n\n            Unies a adopté un rapport de situation standard de quatre lignes.</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="ES === true">\n\n        <h2 id="Title">4-LÍNEAS</h2>\n\n        <p id="Text">\n\n            Un mensaje de alerta debe ser transmitido tan pronto como sea posible y no excediendo 10 minutos después de\n\n            que se produzcan las víctimas, para garantizar una evacuación rápida. Las Naciones Unidas han adoptado un\n\n            informe de situación básico que consta de cuatro líneas.\n\n        </p>\n\n    </ion-card>\n\n    <ion-card *ngIf="RUS === true">\n\n        <h2 id="Title">4 СТРОКИ</h2>\n\n        <p id="Text">Сообщение о тревоге должно быть передано как можно скорее, но не более чем через 10 минут после\n\n            появления пострадавших, для обеспечения быстрой эвакуации. Организация Объединенных Наций приняла базовый\n\n            отчет о ситуации, состоящий из четырех строк.</p>\n\n    </ion-card>\n\n\n\n    <ion-card *ngIf="ENG === true">\n\n        <h2 id="Title">Location</h2>\n\n        <p id="Text">Where are you? Provide the exact location of desired pick-up (e.g. UTM, MGRS, Lat/Long).</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="FR === true">\n\n        <h2 id="Title">Lieu</h2>\n\n        <p id="Text">Où êtes-vous ? Indiquez l\'emplacement exact de l\'enlèvement souhaité (p.ex., UTM, MGRS, Lat/Long).\n\n        </p>\n\n    </ion-card>\n\n    <ion-card *ngIf="ES === true">\n\n        <h2 id="Title">UBICACIÓN</h2>\n\n        <p id="Text">¿Dónde está? Proporcione la ubicación exacta de extracción deseada (por ejemplo, UTM, MGRS,\n\n            LAT/LONG). </p>\n\n    </ion-card>\n\n    <ion-card *ngIf="RUS === true">\n\n        <h2 id="Title">ЛОКАЦИЯ</h2>\n\n        <p id="Text">Где находится? Укажите точное желаемое местоположение эвакуации (например, ВРЕМЯ, МЕСТО, ШИРОТА /\n\n            ДОЛГОТА).</p>\n\n    </ion-card>\n\n\n\n    <ion-card *ngIf="ENG === true">\n\n        <h2 id="Title">Incident</h2>\n\n        <p id="Text">What has happened? Include information as to the radio frequency, phone or satellite phone\n\n            on-scene.</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="FR === true">\n\n        <h2 id="Title">Incident</h2>\n\n        <p id="Text">Que s\'est-il passé ? Donnez les informations sur la fréquence radio, le téléphone – satellite sur\n\n            place.</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="ES === true">\n\n        <h2 id="Title">INCIDENTE</h2>\n\n        <p id="Text">\n\n            ¿Qué ha ocurrido? Incluya información sobre la frecuencia de radio, teléfono o teléfono satelital en el\n\n            lugar.\n\n        </p>\n\n    </ion-card>\n\n    <ion-card *ngIf="RUS === true">\n\n        <h2 id="Title">ИНЦИДЕНТ</h2>\n\n        <p id="Text">Что произошло? Включите информацию о частоте радиосвязи, телефоне или спутниковой связи в\n\n            местоположении.</p>\n\n    </ion-card>\n\n\n\n    <ion-card *ngIf="ENG === true">\n\n        <h2 id="Title">Actions taken</h2>\n\n        <p id="Text">What are you doing? For example “We are providing first aid on the side of the road”, or “We are\n\n            self-driving to nearest hospital”.</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="FR === true">\n\n        <h2 id="Title">Mesures prises</h2>\n\n        <p id="Text">Qu\'est-ce que vous faites ? Par exemple, « Nous prodiguons les premiers soins sur le bord de la\n\n            route », ou « Nous nous rendons en voiture à l\'hôpital le plus proche ».</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="ES === true">\n\n        <h2 id="Title">ACCIONES TOMADAS</h2>\n\n        <p id="Text">\n\n            ¿Qué han hecho? Por ejemplo “Estamos proporcionando primeros auxilios al costado de la carretera” o\n\n            “Conducimos sin ayuda hasta el hospital más cercano”.\n\n        </p>\n\n    </ion-card>\n\n    <ion-card *ngIf="RUS === true">\n\n        <h2 id="Title">ПРЕДПРИНЯТЫЕ ДЕЙСТВИЯ</h2>\n\n        <p id="Text">Что было сделано? Например, “Мы оказываем первую помощь на обочине дороги” или “Мы едем без\n\n            посторонней помощи в ближайшую больницу”.</p>\n\n    </ion-card>\n\n\n\n    <ion-card *ngIf="ENG === true">\n\n        <h2 id="Title">Resources required</h2>\n\n        <p id="Text">What do you want? Is there any special equipment needed at the site (e.g. Hoist, Extrication\n\n            Equipment, Ventilators)? </p>\n\n    </ion-card>\n\n    <ion-card *ngIf="FR === true">\n\n        <h2 id="Title">Ressources nécessaires</h2>\n\n        <p id="Text">Que voulez-vous ? A-t-on besoin d\'équipement spécial sur le site (p.ex. un treuil, un équipement de\n\n            dégagement, des ventilateurs)?</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="ES === true">\n\n        <h2 id="Title">RECURSOS NECESARIOS</h2>\n\n        <p id="Text">\n\n            ¿Qué necesita? ¿Hay algún equipo especial en el sitio (por ejemplo, elevadores, equipos de extracción,\n\n            ventiladores)?\n\n        </p>\n\n    </ion-card>\n\n    <ion-card *ngIf="RUS === true">\n\n        <h2 id="Title">НЕОБХОДИМЫЕ РЕСУРСЫ</h2>\n\n        <p id="Text">Что вам нужно? Имеется ли на объекте какое-либо специальное оборудование (например, подъемники,\n\n            оборудование для извлечения, вентиляторы)?</p>\n\n    </ion-card>\n\n\n\n</ion-content>'/*ion-inline-end:"F:\UN_Buddy_First_Aid_App\src\pages\train\alert\alert.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__ionic_storage__["b" /* Storage */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
     ], AlertPage);
@@ -6048,7 +7774,7 @@ var AlertPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 43:
+/***/ 36:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6075,6 +7801,7 @@ var TourniquetPage = /** @class */ (function () {
         this.ENG = false;
         this.FR = false;
         this.ES = false;
+        this.RUS = false;
     }
     TourniquetPage.prototype.ionViewWillEnter = function () {
         var _this = this;
@@ -6083,16 +7810,25 @@ var TourniquetPage = /** @class */ (function () {
                 _this.ENG = true;
                 _this.FR = false;
                 _this.ES = false;
+                _this.RUS = false;
             }
             if (data === 'FR') {
                 _this.ENG = false;
                 _this.FR = true;
                 _this.ES = false;
+                _this.RUS = false;
             }
             if (data === 'ES') {
                 _this.ENG = false;
                 _this.FR = false;
                 _this.ES = true;
+                _this.RUS = false;
+            }
+            if (data === 'RUS') {
+                _this.ENG = false;
+                _this.FR = false;
+                _this.ES = false;
+                _this.RUS = true;
             }
         });
     };
@@ -6101,7 +7837,7 @@ var TourniquetPage = /** @class */ (function () {
     };
     TourniquetPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-tourniquet',template:/*ion-inline-start:"F:\UN_Buddy_First_Aid_App\src\pages\train\massive\tourniquet\tourniquet.html"*/'<ion-header no-border>\n\n    <ion-navbar hideBackButton color="transparent">\n\n        <ion-buttons left>\n\n            <button ion-button class="ion-icon" color="light" icon-only (click)="GoBack()">\n\n                <ion-icon id="closeicon" name="arrow-back"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content no-padding>\n\n    <ion-card *ngIf="ENG === true">\n\n        <h2 id="Title">Storage of the tourniquet</h2>\n\n        <p id="Text">The can be found in your Individual First Aid Kit (IFAK). The tourniquet should be carried on your\n\n            person in a location and manner that allows for rapid access and application by either the left or right\n\n            hand, ideally, in less than 30 seconds.</p>\n\n        <img id="Image" src="./assets/imgs/massive/TourniquetonChestRig.png">\n\n    </ion-card>\n\n    <ion-card *ngIf="FR === true">\n\n        <h2 id="Title">Rangement du garrot tourniquet</h2>\n\n        <p id="Text">Le Tourniquet "Combat Application Tourniquet (CAT)" se trouve dans votre Trousse de Premiers Soins\n\n            Individuelle (TPSI). Le garrot doit être porté sur votre personne à un endroit et d\'une manière qui permet\n\n            un accès et une application rapides de la main gauche ou droite, idéalement en moins de 30 secondes.</p>\n\n        <img id="Image" src="./assets/imgs/massive/TourniquetonChestRig.png">\n\n    </ion-card>\n\n    <ion-card *ngIf="ES === true">\n\n        <h2 id="Title">ALMACENAMIENTO DEL TORNIQUETE</h2>\n\n        <p id="Text">\n\n            Puede encontrarlo en su botiquín individual de primeros auxilios (IFAK, por sus siglas en inglés). El\n\n            torniquete debe llevarse cerca de la mano izquierda o derecha, de manera que permita un rápido acceso y\n\n            colocación, idealmente en menos de 30 segundos.\n\n        </p>\n\n        <img id="Image" src="./assets/imgs/massive/TourniquetonChestRig.png">\n\n    </ion-card>\n\n\n\n\n\n    <ion-card *ngIf="ENG === true">\n\n        <h2 id="Title">Applying the tourniquet</h2>\n\n        <p id="Text">The Tourniquet should be applied directly to the skin approximately 5cm (2-3inches) above the open\n\n            wound. In circumstances where the first-aider has no time to expose and search for wounds, the tourniquet\n\n            may be applied directly over clothing in the ‘high and tight’ position, as high on the limb and close to the\n\n            torso as possible, provided there are no solid objects inside the clothing.</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="FR === true">\n\n        <h2 id="Title">Application du garrot tourniquet</h2>\n\n        <p id="Text">Le garrot tourniquet doit être appliqué directement sur la peau à environ 5 cm (2-3 pouces)\n\n            au-dessus de la plaie ouverte. Dans les cas où le secouriste n\'a pas le temps d\'exposer et de chercher des\n\n            plaies, le garrot peut être appliqué directement sur le vêtement en position « haute et serrée », aussi haut\n\n            que possible sur le membre et aussi près du torse que possible, à condition qu\'il n\'y ait aucun objet solide\n\n            dans les vêtements.</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="ES === true">\n\n        <h2 id="Title">COLOCACIÓN DEL TORNIQUETE</h2>\n\n        <p id="Text">\n\n            El torniquete debe colocarse directamente sobre la piel aproximadamente a 5 cm (2 o 3 pulgadas) por encima\n\n            de la herida. En circunstancias en las que el socorrista no tenga tiempo para exponer y buscar heridas, el\n\n            torniquete puede colocarse directamente sobre la ropa en la posición más alta y ajustada, tan alto en la\n\n            extremidad y cerca del torso como sea posible, siempre que no haya objetos sólidos dentro de la ropa.\n\n        </p>\n\n    </ion-card>\n\n\n\n    <ion-slides pager=\'true\' *ngIf="ENG === true">\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">One-handed application</h2>\n\n                <h2 id="SubTitle">Step 1</h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetSingleStep1.gif">\n\n                <p id="Text">Insert the injured limb through the loop and position it 2-3 inch above the bleeding site\n\n                    to the skin or in ‘high and tight’ position over clothing</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">One-handed application</h2>\n\n                <h2 id="SubTitle">Step 2</h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetSingleStep2.gif">\n\n                <p id="Text">Pull band tightly and fasten it back on itself all the way around the limb, but not over\n\n                    the rod clips.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">One-handed application</h2>\n\n                <h2 id="SubTitle">Step 3</h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetSingleStep3.gif">\n\n                <p id="Text">Twist the rod until bleeding has stopped</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">One-handed application</h2>\n\n                <h2 id="SubTitle">Step 4</h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetSingleStep4.gif">\n\n                <p id="Text">Secure the rod inside the clip to lock it in place.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">One-handed application</h2>\n\n                <h2 id="SubTitle">Step 5</h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetSingleStep5.gif">\n\n                <p id="Text">Route the band between the clips and over the rod. Secure rod and band with TIME strap.\n\n                    Record time of application.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n    </ion-slides>\n\n    <ion-slides pager=\'true\' *ngIf="FR === true">\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Application d’une seule main</h2>\n\n                <h2 id="SubTitle">Étape 1</h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetSingleStep1.gif">\n\n                <p id="Text">Insérez le membre blessé dans la boucle et placez-la à 2-3 pouces au-dessus du saignement\n\n                    ou en position « haute et serrée » sur les vêtements.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Application d’une seule main</h2>\n\n                <h2 id="SubTitle">Étape 2</h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetSingleStep2.gif">\n\n                <p id="Text">Tirez fermement la bande et fixez-la sur elle-même tout autour du membre, mais pas sur les\n\n                    clips de la tige.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Application d’une seule main</h2>\n\n                <h2 id="SubTitle">Étape 3</h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetSingleStep3.gif">\n\n                <p id="Text">Tournez la tige jusqu\'à ce que le saignement s\'arrête.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Application d’une seule main</h2>\n\n                <h2 id="SubTitle">Étape 4</h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetSingleStep4.gif">\n\n                <p id="Text">Fixez la tige à l\'intérieur du clip pour la verrouiller en place.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Application d’une seule main</h2>\n\n                <h2 id="SubTitle">Étape 5</h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetSingleStep5.gif">\n\n                <p id="Text">Placez la bande entre les clips et sur la tige. Fixez la tige et la bande avec la sangle\n\n                    TIME. Enregistrez l’heure de la pose.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n    </ion-slides>\n\n    <ion-slides pager=\'true\' *ngIf="ES === true">\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">COLOCACIÓN CON UNA MANO</h2>\n\n                <h2 id="SubTitle">PASO 1: </h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetSingleStep1.gif">\n\n                <p id="Text">\n\n                    Inserte la extremidad lesionada a través del lazo y colóquela de 2 a 3 pulgadas por encima del área\n\n                    de la hemorragia sobre la piel o en una posición “alta y apretada” sobre la ropa.\n\n                </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">COLOCACIÓN CON UNA MANO</h2>\n\n                <h2 id="SubTitle">PASO 2: </h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetSingleStep2.gif">\n\n                <p id="Text">\n\n                    Tire de la banda con fuerza y ajústela sobre sí misma en todo el contorno de la extremidad, pero no sobre los clips de la barra.\n\n                </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">COLOCACIÓN CON UNA MANO</h2>\n\n                <h2 id="SubTitle">PASO 3: </h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetSingleStep3.gif">\n\n                <p id="Text">Gire la barra hasta que deje de sangrar. </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">COLOCACIÓN CON UNA MANO</h2>\n\n                <h2 id="SubTitle">PASO 4:</h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetSingleStep4.gif">\n\n                <p id="Text">Asegure la barra dentro del clip.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">COLOCACIÓN CON UNA MANO</h2>\n\n                <h2 id="SubTitle">PASO 5:</h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetSingleStep5.gif">\n\n                <p id="Text">\n\n                    Pase la banda entre los clips y sobre la barra. Asegure la barra y la banda con la correa para marcar el tiempo. Registre el tiempo de la colocación.\n\n                </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n    </ion-slides>\n\n\n\n    <ion-slides pager=\'true\' *ngIf="ENG === true">\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Two-handed application</h2>\n\n                <h2 id="SubTitle">Step 1</h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetBuddyStep1.gif">\n\n                <p id="Text">Route the band around the limb and position it above the bleeding site directly on the skin\n\n                    or in ‘high and tight’ position over clothing</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Two-handed application</h2>\n\n                <h2 id="SubTitle">Step 2</h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetBuddyStep2.gif">\n\n                <p id="Text">Pull band tightly and fasten it back on itself all the way around the limb, but not over\n\n                    the rod clips.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Two-handed application</h2>\n\n                <h2 id="SubTitle">Step 3</h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetBuddyStep3.gif">\n\n                <p id="Text">Twist the rod until bleeding has stopped</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Two-handed application</h2>\n\n                <h2 id="SubTitle">Step 4</h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetBuddyStep4.gif">\n\n                <p id="Text">Secure the rod inside the clip to lock it in place.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Two-handed application</h2>\n\n                <h2 id="SubTitle">Step 5</h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetBuddyStep5.gif">\n\n                <p id="Text">Route the band between the clips and over the rod. Secure rod and band with TIME strap.\n\n                    Record time of application.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n    </ion-slides>\n\n    <ion-slides pager=\'true\' *ngIf="FR === true">\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Application à deux mains</h2>\n\n                <h2 id="SubTitle">Étape 1</h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetBuddyStep1.gif">\n\n                <p id="Text">Placez la bande autour du membre et placez-la au-dessus du saignement directement sur la\n\n                    peau ou en position « haute et serrée » par-dessus les vêtements.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Application à deux mains</h2>\n\n                <h2 id="SubTitle">Étape 2</h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetBuddyStep2.gif">\n\n                <p id="Text">Tirez fermement la bande et fixez-la sur elle-même tout autour du membre, mais pas sur les\n\n                    clips de la tige.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Application à deux mains</h2>\n\n                <h2 id="SubTitle">Étape 3</h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetBuddyStep3.gif">\n\n                <p id="Text">Tournez la tige jusqu\'à ce que l\'hémorragie s\'arrête.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Application à deux mains</h2>\n\n                <h2 id="SubTitle">Étape 4</h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetBuddyStep4.gif">\n\n                <p id="Text">Fixez la tige à l\'intérieur du clip pour la verrouiller en place.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Application à deux mains</h2>\n\n                <h2 id="SubTitle">Étape 5</h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetBuddyStep5.gif">\n\n                <p id="Text">Placez la bande entre les clips et sur la tige. Fixez la tige et la bande avec la sangle\n\n                    TIME. Enregistrez l’heure de la pose.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n    </ion-slides>\n\n    <ion-slides pager=\'true\' *ngIf="ES === true">\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">COLOCACIÓN CON DOS MANOS</h2>\n\n                <h2 id="SubTitle">PASO 1: </h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetBuddyStep1.gif">\n\n                <p id="Text">Pase la banda alrededor de la extremidad y colóquela sobre el sitio de sangrado directamente sobre la piel o en una posición “alta y ajustada” sobre la ropa. </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">COLOCACIÓN CON DOS MANOS</h2>\n\n                <h2 id="SubTitle">PASO 2: </h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetBuddyStep2.gif">\n\n                <p id="Text">Tire de la banda con fuerza y ajustela sobre sí misma alrededor de la extremidad, pero no sobre los clips de la barra. </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">COLOCACIÓN CON DOS MANOS</h2>\n\n                <h2 id="SubTitle">PASO 3: </h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetBuddyStep3.gif">\n\n                <p id="Text">Gire la barra hasta que deje de sangrar. </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">COLOCACIÓN CON DOS MANOS</h2>\n\n                <h2 id="SubTitle">PASO 4: </h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetBuddyStep4.gif">\n\n                <p id="Text">Asegure la barra dentro del clip. </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">COLOCACIÓN CON DOS MANOS</h2>\n\n                <h2 id="SubTitle">Step 5</h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetBuddyStep5.gif">\n\n                <p id="Text">Pase la banda entre los clips y sobre la barra. Asegure la barra y la banda con la correa para marcar la hora. Registre el tiempo de la colocación.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n    </ion-slides>\n\n\n\n    <ion-card *ngIf="ENG === true">\n\n        <h2 id="Title">Improvised windlass device</h2>\n\n        <p id="Text">If you do not have access to a tourniquet or your tourniquet is being used it is possible to create\n\n            an improvised tourniquet. To make an improvised tourniquet you will need:<br><br>A material/band of some\n\n            sort to wrap around the extremity such as a cravat/triangle bandage or piece of clothing/cloth;<br><br>A\n\n            windlass – a rigid object to twist the band such as a stick, jack handle, broom handle, pocket knife (closed\n\n            blade), or carabineer.</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="FR === true">\n\n        <h2 id="Title">Dispositif de treuil improvisé</h2>\n\n        <p id="Text">Si vous n\'avez pas de garrot tourniquet ou si votre garrot est utilisé, il est possible de créer un\n\n            garrot improvisé. <br><br>Pour faire un garrot tourniquet improvisé vous aurez besoin d’un tissu ou d’une\n\n            bande à enrouler autour de l\'extrémité du membre, comme une cravate, un bandage triangulaire ou un morceau\n\n            de vêtement/textile;\n\n            <br>Un guindeau - un objet rigide pour tordre la bande comme un bâton, un manche de cric, un manche à balai,\n\n            un couteau de poche (lame fermée), un mousqueton.\n\n        </p>\n\n    </ion-card>\n\n    <ion-card *ngIf="ES === true">\n\n        <h2 id="Title">TORNIQUETE  IMPROVISADO</h2>\n\n        <p id="Text">Si no tiene acceso a un torniquete o si está siendo usado, se puede hacer uno improvisado. Para hacer un torniquete improvisado necesitará: \n\n            Material: banda de algún tipo para envolver la extremidad, como una corbata/vendaje triangular o una pieza de ropa/tela; \n\n            Un torniquete: un objeto rígido para torcer la banda, como un palo, mango de gato hidráulico, mango de escoba, navaja de bolsillo (hoja cerrada) o mosquetón.</p>\n\n    </ion-card>\n\n\n\n    <ion-slides pager=\'true\' *ngIf="ENG === true">\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Improvised windlass device</h2>\n\n                <h2 id="SubTitle">Step 1</h2>\n\n                <img id="Image" src="./assets/imgs/massive/ImprovisedWindlassStep1.gif">\n\n                <p id="Text">Use your selected material/ band to wrap the extremity tightly then secure the material\n\n                    with a knot.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Improvised windlass device</h2>\n\n                <h2 id="SubTitle">Step 2</h2>\n\n                <img id="Image" src="./assets/imgs/massive/ImprovisedWindlassStep2.gif">\n\n                <p id="Text">Place the chosen windlass object underneath the knot and twist the windlass object until\n\n                    the bleeding has stopped.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Improvised windlass device</h2>\n\n                <h2 id="SubTitle">Step 3</h2>\n\n                <img id="Image" src="./assets/imgs/massive/ImprovisedWindlassStep3.gif">\n\n                <p id="Text">Use the material to tie a final knot on top on the twisted windlass in order to properly\n\n                    secure the tourniquet.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n    </ion-slides>\n\n    <ion-slides pager=\'true\' *ngIf="FR === true">\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Utilisation d’un garrot improvisé</h2>\n\n                <h2 id="SubTitle">Étape 1</h2>\n\n                <img id="Image" src="./assets/imgs/massive/ImprovisedWindlassStep1.gif">\n\n                <p id="Text">Utilisez le matériel/la sangle que vous avez choisi pour envelopper étroitement\n\n                    l’extrémité, puis fixez-le à l\'aide d\'un nœud.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">FUtilisation d’un garrot improvisé</h2>\n\n                <h2 id="SubTitle">Étape 2</h2>\n\n                <img id="Image" src="./assets/imgs/massive/ImprovisedWindlassStep2.gif">\n\n                <p id="Text">Placez un bâtonnet improvisé sous le nœud et faites-le tourner jusqu’à ce que l’hémorragie\n\n                    s’arrête.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Utilisation d’un garrot improvisé</h2>\n\n                <h2 id="SubTitle">Étape 3</h2>\n\n                <img id="Image" src="./assets/imgs/massive/ImprovisedWindlassStep3.gif">\n\n                <p id="Text">Utilisez le matériel pour faire un dernier nœud au-dessus du bâtonnet afin de bien le\n\n                    fixer.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n    </ion-slides>\n\n    <ion-slides pager=\'true\' *ngIf="ES === true">\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">TORNIQUETE IMPROVISADO</h2>\n\n                <h2 id="SubTitle">PASO 1: </h2>\n\n                <img id="Image" src="./assets/imgs/massive/ImprovisedWindlassStep1.gif">\n\n                <p id="Text">Use el material o banda seleccionado para envolver la extremidad firmemente y luego asegure el material con un nudo. </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">TORNIQUETE IMPROVISADOe</h2>\n\n                <h2 id="SubTitle">PASO 2: </h2>\n\n                <img id="Image" src="./assets/imgs/massive/ImprovisedWindlassStep2.gif">\n\n                <p id="Text">Coloque el objeto seleccionado como torniquete debajo del nudo y gire el objeto hasta que pare el sangrado.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">TORNIQUETE IMPROVISADO</h2>\n\n                <h2 id="SubTitle">PASO 3: </h2>\n\n                <img id="Image" src="./assets/imgs/massive/ImprovisedWindlassStep3.gif">\n\n                <p id="Text">Utilice el material para hacer un nudo final en la parte superior del molinete retorcido para asegurar correctamente el torniquete.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n    </ion-slides>\n\n\n\n</ion-content>'/*ion-inline-end:"F:\UN_Buddy_First_Aid_App\src\pages\train\massive\tourniquet\tourniquet.html"*/
+            selector: 'page-tourniquet',template:/*ion-inline-start:"F:\UN_Buddy_First_Aid_App\src\pages\train\massive\tourniquet\tourniquet.html"*/'<ion-header no-border>\n\n    <ion-navbar hideBackButton color="transparent">\n\n        <ion-buttons left>\n\n            <button ion-button class="ion-icon" color="light" icon-only (click)="GoBack()">\n\n                <ion-icon id="closeicon" name="arrow-back"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content no-padding>\n\n    <ion-card *ngIf="ENG === true">\n\n        <h2 id="Title">Storage of the tourniquet</h2>\n\n        <p id="Text">The can be found in your Individual First Aid Kit (IFAK). The tourniquet should be carried on your\n\n            person in a location and manner that allows for rapid access and application by either the left or right\n\n            hand, ideally, in less than 30 seconds.</p>\n\n        <img id="Image" src="./assets/imgs/massive/TourniquetonChestRig.png">\n\n    </ion-card>\n\n    <ion-card *ngIf="FR === true">\n\n        <h2 id="Title">Rangement du garrot tourniquet</h2>\n\n        <p id="Text">Le Tourniquet "Combat Application Tourniquet (CAT)" se trouve dans votre Trousse de Premiers Soins\n\n            Individuelle (TPSI). Le garrot doit être porté sur votre personne à un endroit et d\'une manière qui permet\n\n            un accès et une application rapides de la main gauche ou droite, idéalement en moins de 30 secondes.</p>\n\n        <img id="Image" src="./assets/imgs/massive/TourniquetonChestRig.png">\n\n    </ion-card>\n\n    <ion-card *ngIf="ES === true">\n\n        <h2 id="Title">ALMACENAMIENTO DEL TORNIQUETE</h2>\n\n        <p id="Text">\n\n            Puede encontrarlo en su botiquín individual de primeros auxilios (IFAK, por sus siglas en inglés). El\n\n            torniquete debe llevarse cerca de la mano izquierda o derecha, de manera que permita un rápido acceso y\n\n            colocación, idealmente en menos de 30 segundos.\n\n        </p>\n\n        <img id="Image" src="./assets/imgs/massive/TourniquetonChestRig.png">\n\n    </ion-card>\n\n    <ion-card *ngIf="RUS === true">\n\n        <h2 id="Title">ХРАНЕНИЕ ЖГУТА</h2>\n\n        <p id="Text">Вы можете найти его в вашей индивидуальной аптечке первой помощи (АИ). Жгут следует носить близко к\n\n            левой или правой руке, чтобы обеспечить быстрый доступ и наложение, в идеале менее чем за 30 секунд.</p>\n\n        <img id="Image" src="./assets/imgs/massive/TourniquetonChestRig.png">\n\n    </ion-card>\n\n\n\n    <ion-card *ngIf="ENG === true">\n\n        <h2 id="Title">Applying the tourniquet</h2>\n\n        <p id="Text">The Tourniquet should be applied directly to the skin approximately 5cm (2-3inches) above the open\n\n            wound. In circumstances where the first-aider has no time to expose and search for wounds, the tourniquet\n\n            may be applied directly over clothing in the ‘high and tight’ position, as high on the limb and close to the\n\n            torso as possible, provided there are no solid objects inside the clothing.</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="FR === true">\n\n        <h2 id="Title">Application du garrot tourniquet</h2>\n\n        <p id="Text">Le garrot tourniquet doit être appliqué directement sur la peau à environ 5 cm (2-3 pouces)\n\n            au-dessus de la plaie ouverte. Dans les cas où le secouriste n\'a pas le temps d\'exposer et de chercher des\n\n            plaies, le garrot peut être appliqué directement sur le vêtement en position « haute et serrée », aussi haut\n\n            que possible sur le membre et aussi près du torse que possible, à condition qu\'il n\'y ait aucun objet solide\n\n            dans les vêtements.</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="ES === true">\n\n        <h2 id="Title">COLOCACIÓN DEL TORNIQUETE</h2>\n\n        <p id="Text">\n\n            El torniquete debe colocarse directamente sobre la piel aproximadamente a 5 cm (2 o 3 pulgadas) por encima\n\n            de la herida. En circunstancias en las que el socorrista no tenga tiempo para exponer y buscar heridas, el\n\n            torniquete puede colocarse directamente sobre la ropa en la posición más alta y ajustada, tan alto en la\n\n            extremidad y cerca del torso como sea posible, siempre que no haya objetos sólidos dentro de la ropa.\n\n        </p>\n\n    </ion-card>\n\n    <ion-card *ngIf="RUS === true">\n\n        <h2 id="Title">НАЛОЖЕНИЕ ЖГУТА</h2>\n\n        <p id="Text">Жгут следует наложить непосредственно на кожу примерно на 5 см (2-3 дюйма) выше открытой раны. В\n\n            обстоятельствах, когда у спасателя НЕТ времени обнажать раны и осматривать их, жгут можно наложить прямо\n\n            поверх одежды в самом высоком, туго натянутом положении, как можно выше на конечности и ближе к туловищу,\n\n            при условии, что под одеждой НЕТ твердых предметов.</p>\n\n    </ion-card>\n\n\n\n    <ion-slides pager=\'true\' *ngIf="ENG === true">\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">One-handed application</h2>\n\n                <h2 id="SubTitle">Step 1</h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetSingleStep1.gif">\n\n                <p id="Text">Insert the injured limb through the loop and position it 2-3 inch above the bleeding site\n\n                    to the skin or in ‘high and tight’ position over clothing</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">One-handed application</h2>\n\n                <h2 id="SubTitle">Step 2</h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetSingleStep2.gif">\n\n                <p id="Text">Pull band tightly and fasten it back on itself all the way around the limb, but not over\n\n                    the rod clips.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">One-handed application</h2>\n\n                <h2 id="SubTitle">Step 3</h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetSingleStep3.gif">\n\n                <p id="Text">Twist the rod until bleeding has stopped</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">One-handed application</h2>\n\n                <h2 id="SubTitle">Step 4</h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetSingleStep4.gif">\n\n                <p id="Text">Secure the rod inside the clip to lock it in place.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">One-handed application</h2>\n\n                <h2 id="SubTitle">Step 5</h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetSingleStep5.gif">\n\n                <p id="Text">Route the band between the clips and over the rod. Secure rod and band with TIME strap.\n\n                    Record time of application.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n    </ion-slides>\n\n    <ion-slides pager=\'true\' *ngIf="FR === true">\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Application d’une seule main</h2>\n\n                <h2 id="SubTitle">Étape 1</h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetSingleStep1.gif">\n\n                <p id="Text">Insérez le membre blessé dans la boucle et placez-la à 2-3 pouces au-dessus du saignement\n\n                    ou en position « haute et serrée » sur les vêtements.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Application d’une seule main</h2>\n\n                <h2 id="SubTitle">Étape 2</h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetSingleStep2.gif">\n\n                <p id="Text">Tirez fermement la bande et fixez-la sur elle-même tout autour du membre, mais pas sur les\n\n                    clips de la tige.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Application d’une seule main</h2>\n\n                <h2 id="SubTitle">Étape 3</h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetSingleStep3.gif">\n\n                <p id="Text">Tournez la tige jusqu\'à ce que le saignement s\'arrête.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Application d’une seule main</h2>\n\n                <h2 id="SubTitle">Étape 4</h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetSingleStep4.gif">\n\n                <p id="Text">Fixez la tige à l\'intérieur du clip pour la verrouiller en place.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Application d’une seule main</h2>\n\n                <h2 id="SubTitle">Étape 5</h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetSingleStep5.gif">\n\n                <p id="Text">Placez la bande entre les clips et sur la tige. Fixez la tige et la bande avec la sangle\n\n                    TIME. Enregistrez l’heure de la pose.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n    </ion-slides>\n\n    <ion-slides pager=\'true\' *ngIf="ES === true">\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">COLOCACIÓN CON UNA MANO</h2>\n\n                <h2 id="SubTitle">PASO 1: </h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetSingleStep1.gif">\n\n                <p id="Text">\n\n                    Inserte la extremidad lesionada a través del lazo y colóquela de 2 a 3 pulgadas por encima del área\n\n                    de la hemorragia sobre la piel o en una posición “alta y apretada” sobre la ropa.\n\n                </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">COLOCACIÓN CON UNA MANO</h2>\n\n                <h2 id="SubTitle">PASO 2: </h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetSingleStep2.gif">\n\n                <p id="Text">\n\n                    Tire de la banda con fuerza y ajústela sobre sí misma en todo el contorno de la extremidad, pero no\n\n                    sobre los clips de la barra.\n\n                </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">COLOCACIÓN CON UNA MANO</h2>\n\n                <h2 id="SubTitle">PASO 3: </h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetSingleStep3.gif">\n\n                <p id="Text">Gire la barra hasta que deje de sangrar. </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">COLOCACIÓN CON UNA MANO</h2>\n\n                <h2 id="SubTitle">PASO 4:</h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetSingleStep4.gif">\n\n                <p id="Text">Asegure la barra dentro del clip.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">COLOCACIÓN CON UNA MANO</h2>\n\n                <h2 id="SubTitle">PASO 5:</h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetSingleStep5.gif">\n\n                <p id="Text">\n\n                    Pase la banda entre los clips y sobre la barra. Asegure la barra y la banda con la correa para\n\n                    marcar el tiempo. Registre el tiempo de la colocación.\n\n                </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n    </ion-slides>\n\n    <ion-slides pager=\'true\' *ngIf="RUS === true">\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">НАЛОЖЕНИЕ ОДНОЙ РУКОЙ</h2>\n\n                <h2 id="SubTitle">ШАГ 1:</h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetSingleStep1.gif">\n\n                <p id="Text">Проденьте поврежденную конечность в петлю и расположите ее на 2-3 дюйма выше места\n\n                    кровотечения на коже или в положении “высоко и туго” на одежде.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">НАЛОЖЕНИЕ ОДНОЙ РУКОЙ</h2>\n\n                <h2 id="SubTitle">ШАГ 2:</h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetSingleStep2.gif">\n\n                <p id="Text">Туго натяните ленту и затяните ее вокруг конечности по всей длине, но не поверх зажимов на\n\n                    перекладине.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">НАЛОЖЕНИЕ ОДНОЙ РУКОЙ</h2>\n\n                <h2 id="SubTitle">ШАГ 3:</h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetSingleStep3.gif">\n\n                <p id="Text">Вращайте перекладину, пока не прекратится кровотечение.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">НАЛОЖЕНИЕ ОДНОЙ РУКОЙ</h2>\n\n                <h2 id="SubTitle">ШАГ 4:</h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetSingleStep4.gif">\n\n                <p id="Text">Закрепите перекладину внутри зажима.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">НАЛОЖЕНИЕ ОДНОЙ РУКОЙ</h2>\n\n                <h2 id="SubTitle">ШАГ 5:</h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetSingleStep5.gif">\n\n                <p id="Text">Проденьте ленту между зажимами и перекиньте через планку. Закрепите планку и ленту\n\n                    ремешком, чтобы сохранить время. Запишите время наложения.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n    </ion-slides>\n\n\n\n    <ion-slides pager=\'true\' *ngIf="ENG === true">\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Two-handed application</h2>\n\n                <h2 id="SubTitle">Step 1</h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetBuddyStep1.gif">\n\n                <p id="Text">Route the band around the limb and position it above the bleeding site directly on the skin\n\n                    or in ‘high and tight’ position over clothing</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Two-handed application</h2>\n\n                <h2 id="SubTitle">Step 2</h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetBuddyStep2.gif">\n\n                <p id="Text">Pull band tightly and fasten it back on itself all the way around the limb, but not over\n\n                    the rod clips.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Two-handed application</h2>\n\n                <h2 id="SubTitle">Step 3</h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetBuddyStep3.gif">\n\n                <p id="Text">Twist the rod until bleeding has stopped</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Two-handed application</h2>\n\n                <h2 id="SubTitle">Step 4</h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetBuddyStep4.gif">\n\n                <p id="Text">Secure the rod inside the clip to lock it in place.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Two-handed application</h2>\n\n                <h2 id="SubTitle">Step 5</h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetBuddyStep5.gif">\n\n                <p id="Text">Route the band between the clips and over the rod. Secure rod and band with TIME strap.\n\n                    Record time of application.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n    </ion-slides>\n\n    <ion-slides pager=\'true\' *ngIf="FR === true">\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Application à deux mains</h2>\n\n                <h2 id="SubTitle">Étape 1</h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetBuddyStep1.gif">\n\n                <p id="Text">Placez la bande autour du membre et placez-la au-dessus du saignement directement sur la\n\n                    peau ou en position « haute et serrée » par-dessus les vêtements.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Application à deux mains</h2>\n\n                <h2 id="SubTitle">Étape 2</h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetBuddyStep2.gif">\n\n                <p id="Text">Tirez fermement la bande et fixez-la sur elle-même tout autour du membre, mais pas sur les\n\n                    clips de la tige.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Application à deux mains</h2>\n\n                <h2 id="SubTitle">Étape 3</h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetBuddyStep3.gif">\n\n                <p id="Text">Tournez la tige jusqu\'à ce que l\'hémorragie s\'arrête.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Application à deux mains</h2>\n\n                <h2 id="SubTitle">Étape 4</h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetBuddyStep4.gif">\n\n                <p id="Text">Fixez la tige à l\'intérieur du clip pour la verrouiller en place.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Application à deux mains</h2>\n\n                <h2 id="SubTitle">Étape 5</h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetBuddyStep5.gif">\n\n                <p id="Text">Placez la bande entre les clips et sur la tige. Fixez la tige et la bande avec la sangle\n\n                    TIME. Enregistrez l’heure de la pose.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n    </ion-slides>\n\n    <ion-slides pager=\'true\' *ngIf="ES === true">\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">COLOCACIÓN CON DOS MANOS</h2>\n\n                <h2 id="SubTitle">PASO 1: </h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetBuddyStep1.gif">\n\n                <p id="Text">Pase la banda alrededor de la extremidad y colóquela sobre el sitio de sangrado\n\n                    directamente sobre la piel o en una posición “alta y ajustada” sobre la ropa. </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">COLOCACIÓN CON DOS MANOS</h2>\n\n                <h2 id="SubTitle">PASO 2: </h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetBuddyStep2.gif">\n\n                <p id="Text">Tire de la banda con fuerza y ajustela sobre sí misma alrededor de la extremidad, pero no\n\n                    sobre los clips de la barra. </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">COLOCACIÓN CON DOS MANOS</h2>\n\n                <h2 id="SubTitle">PASO 3: </h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetBuddyStep3.gif">\n\n                <p id="Text">Gire la barra hasta que deje de sangrar. </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">COLOCACIÓN CON DOS MANOS</h2>\n\n                <h2 id="SubTitle">PASO 4: </h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetBuddyStep4.gif">\n\n                <p id="Text">Asegure la barra dentro del clip. </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">COLOCACIÓN CON DOS MANOS</h2>\n\n                <h2 id="SubTitle">Step 5</h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetBuddyStep5.gif">\n\n                <p id="Text">Pase la banda entre los clips y sobre la barra. Asegure la barra y la banda con la correa\n\n                    para marcar la hora. Registre el tiempo de la colocación.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n    </ion-slides>\n\n    <ion-slides pager=\'true\' *ngIf="RUS === true">\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">НАЛОЖЕНИЕ ДВУМЯ РУКАМИ</h2>\n\n                <h2 id="SubTitle">ШАГ 1:</h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetBuddyStep1.gif">\n\n                <p id="Text">Обмотайте повязку вокруг конечности и наложите ее на кровоточащее место непосредственно на\n\n                    кожу или в положении “высоко и туго” поверх одежды.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">НАЛОЖЕНИЕ ДВУМЯ РУКАМИ</h2>\n\n                <h2 id="SubTitle">ШАГ 2:</h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetBuddyStep2.gif">\n\n                <p id="Text">Туго натяните ленту и затяните ее вокруг конечности, но не поверх зажимов на перекладине.\n\n                </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">НАЛОЖЕНИЕ ДВУМЯ РУКАМИ</h2>\n\n                <h2 id="SubTitle">ШАГ 3:</h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetBuddyStep3.gif">\n\n                <p id="Text">Вращайте перекладину, пока кровотечение не прекратится.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">НАЛОЖЕНИЕ ДВУМЯ РУКАМИ</h2>\n\n                <h2 id="SubTitle">ШАГ 4:</h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetBuddyStep4.gif">\n\n                <p id="Text">Закрепите перекладину внутри зажима.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">НАЛОЖЕНИЕ ДВУМЯ РУКАМИ</h2>\n\n                <h2 id="SubTitle">ШАГ 5:</h2>\n\n                <img id="Image" src="./assets/imgs/massive/TourniquetBuddyStep5.gif">\n\n                <p id="Text">Проденьте ленту между зажимами и перекиньте через планку. Закрепите планку и ленту\n\n                    ремешком, чтобы отметить время. Запишите время наложения.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n    </ion-slides>\n\n\n\n    <ion-card *ngIf="ENG === true">\n\n        <h2 id="Title">Improvised windlass device</h2>\n\n        <p id="Text">If you do not have access to a tourniquet or your tourniquet is being used it is possible to create\n\n            an improvised tourniquet. To make an improvised tourniquet you will need:<br><br>A material/band of some\n\n            sort to wrap around the extremity such as a cravat/triangle bandage or piece of clothing/cloth;<br><br>A\n\n            windlass – a rigid object to twist the band such as a stick, jack handle, broom handle, pocket knife (closed\n\n            blade), or carabineer.</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="FR === true">\n\n        <h2 id="Title">Dispositif de treuil improvisé</h2>\n\n        <p id="Text">Si vous n\'avez pas de garrot tourniquet ou si votre garrot est utilisé, il est possible de créer un\n\n            garrot improvisé. <br><br>Pour faire un garrot tourniquet improvisé vous aurez besoin d’un tissu ou d’une\n\n            bande à enrouler autour de l\'extrémité du membre, comme une cravate, un bandage triangulaire ou un morceau\n\n            de vêtement/textile;\n\n            <br>Un guindeau - un objet rigide pour tordre la bande comme un bâton, un manche de cric, un manche à balai,\n\n            un couteau de poche (lame fermée), un mousqueton.\n\n        </p>\n\n    </ion-card>\n\n    <ion-card *ngIf="ES === true">\n\n        <h2 id="Title">TORNIQUETE IMPROVISADO</h2>\n\n        <p id="Text">Si no tiene acceso a un torniquete o si está siendo usado, se puede hacer uno improvisado. Para\n\n            hacer un torniquete improvisado necesitará:\n\n            Material: banda de algún tipo para envolver la extremidad, como una corbata/vendaje triangular o una pieza\n\n            de ropa/tela;\n\n            Un torniquete: un objeto rígido para torcer la banda, como un palo, mango de gato hidráulico, mango de\n\n            escoba, navaja de bolsillo (hoja cerrada) o mosquetón.</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="RUS === true">\n\n        <h2 id="Title">САМОДЕЛЬНЫЙ ЖГУТ</h2>\n\n        <p id="Text">Если у вас НЕТ доступа к жгуту или если он используется, можно изготовить самодельный жгут. Для\n\n            изготовления самодельного жгута вам понадобится:\n\n            Материал / лента какого-либо типа для обертывания конечности, например треугольный галстук / бинт или кусок\n\n            одежды / ткани;\n\n            Лебедка - жесткий предмет для скручивания ленты, такой как палка, ручка домкрата, ручка метлы, карманный нож\n\n            (с закрытым лезвием) или карабин.</p>\n\n    </ion-card>\n\n    <ion-slides pager=\'true\' *ngIf="ENG === true">\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Improvised windlass device</h2>\n\n                <h2 id="SubTitle">Step 1</h2>\n\n                <img id="Image" src="./assets/imgs/massive/ImprovisedWindlassStep1.gif">\n\n                <p id="Text">Use your selected material/ band to wrap the extremity tightly then secure the material\n\n                    with a knot.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Improvised windlass device</h2>\n\n                <h2 id="SubTitle">Step 2</h2>\n\n                <img id="Image" src="./assets/imgs/massive/ImprovisedWindlassStep2.gif">\n\n                <p id="Text">Place the chosen windlass object underneath the knot and twist the windlass object until\n\n                    the bleeding has stopped.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Improvised windlass device</h2>\n\n                <h2 id="SubTitle">Step 3</h2>\n\n                <img id="Image" src="./assets/imgs/massive/ImprovisedWindlassStep3.gif">\n\n                <p id="Text">Use the material to tie a final knot on top on the twisted windlass in order to properly\n\n                    secure the tourniquet.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n    </ion-slides>\n\n    <ion-slides pager=\'true\' *ngIf="FR === true">\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Utilisation d’un garrot improvisé</h2>\n\n                <h2 id="SubTitle">Étape 1</h2>\n\n                <img id="Image" src="./assets/imgs/massive/ImprovisedWindlassStep1.gif">\n\n                <p id="Text">Utilisez le matériel/la sangle que vous avez choisi pour envelopper étroitement\n\n                    l’extrémité, puis fixez-le à l\'aide d\'un nœud.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">FUtilisation d’un garrot improvisé</h2>\n\n                <h2 id="SubTitle">Étape 2</h2>\n\n                <img id="Image" src="./assets/imgs/massive/ImprovisedWindlassStep2.gif">\n\n                <p id="Text">Placez un bâtonnet improvisé sous le nœud et faites-le tourner jusqu’à ce que l’hémorragie\n\n                    s’arrête.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Utilisation d’un garrot improvisé</h2>\n\n                <h2 id="SubTitle">Étape 3</h2>\n\n                <img id="Image" src="./assets/imgs/massive/ImprovisedWindlassStep3.gif">\n\n                <p id="Text">Utilisez le matériel pour faire un dernier nœud au-dessus du bâtonnet afin de bien le\n\n                    fixer.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n    </ion-slides>\n\n    <ion-slides pager=\'true\' *ngIf="ES === true">\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">TORNIQUETE IMPROVISADO</h2>\n\n                <h2 id="SubTitle">PASO 1: </h2>\n\n                <img id="Image" src="./assets/imgs/massive/ImprovisedWindlassStep1.gif">\n\n                <p id="Text">Use el material o banda seleccionado para envolver la extremidad firmemente y luego asegure\n\n                    el material con un nudo. </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">TORNIQUETE IMPROVISADOe</h2>\n\n                <h2 id="SubTitle">PASO 2: </h2>\n\n                <img id="Image" src="./assets/imgs/massive/ImprovisedWindlassStep2.gif">\n\n                <p id="Text">Coloque el objeto seleccionado como torniquete debajo del nudo y gire el objeto hasta que\n\n                    pare el sangrado.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">TORNIQUETE IMPROVISADO</h2>\n\n                <h2 id="SubTitle">PASO 3: </h2>\n\n                <img id="Image" src="./assets/imgs/massive/ImprovisedWindlassStep3.gif">\n\n                <p id="Text">Utilice el material para hacer un nudo final en la parte superior del molinete retorcido\n\n                    para asegurar correctamente el torniquete.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n    </ion-slides>\n\n\n\n    <ion-slides pager=\'true\' *ngIf="RUS === true">\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">ИМПРОВИЗИРОВАННЫЙ ЖГУТ</h2>\n\n                <h2 id="SubTitle">ШАГ 1:</h2>\n\n                <img id="Image" src="./assets/imgs/massive/ImprovisedWindlassStep1.gif">\n\n                <p id="Text">Используйте выбранный материал / ленту, чтобы плотно обернуть конечность, а затем закрепите\n\n                    материал узлом.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">ИМПРОВИЗИРОВАННЫЙ ЖГУТ</h2>\n\n                <h2 id="SubTitle">ШАГ 2:</h2>\n\n                <img id="Image" src="./assets/imgs/massive/ImprovisedWindlassStep2.gif">\n\n                <p id="Text">Поместите предмет, выбранный в качестве жгута, под узел и закрутите предмет, чтобы\n\n                    остановить кровотечение.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">ИМПРОВИЗИРОВАННЫЙ ЖГУТ</h2>\n\n                <h2 id="SubTitle">ШАГ 3:</h2>\n\n                <img id="Image" src="./assets/imgs/massive/ImprovisedWindlassStep3.gif">\n\n                <p id="Text">Используйте этот материал, чтобы завязать последний узел в верхней части скрученной\n\n                    вертушки, чтобы должным образом закрепить жгут.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n    </ion-slides>\n\n</ion-content>'/*ion-inline-end:"F:\UN_Buddy_First_Aid_App\src\pages\train\massive\tourniquet\tourniquet.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__ionic_storage__["b" /* Storage */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
     ], TourniquetPage);
@@ -6112,7 +7848,7 @@ var TourniquetPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 44:
+/***/ 37:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6139,6 +7875,7 @@ var WoundpackingPage = /** @class */ (function () {
         this.ENG = false;
         this.FR = false;
         this.ES = false;
+        this.RUS = false;
     }
     WoundpackingPage.prototype.ionViewWillEnter = function () {
         var _this = this;
@@ -6147,16 +7884,25 @@ var WoundpackingPage = /** @class */ (function () {
                 _this.ENG = true;
                 _this.FR = false;
                 _this.ES = false;
+                _this.RUS = false;
             }
             if (data === 'FR') {
                 _this.ENG = false;
                 _this.FR = true;
                 _this.ES = false;
+                _this.RUS = false;
             }
             if (data === 'ES') {
                 _this.ENG = false;
                 _this.FR = false;
                 _this.ES = true;
+                _this.RUS = false;
+            }
+            if (data === 'RUS') {
+                _this.ENG = false;
+                _this.FR = false;
+                _this.ES = false;
+                _this.RUS = true;
             }
         });
     };
@@ -6165,7 +7911,7 @@ var WoundpackingPage = /** @class */ (function () {
     };
     WoundpackingPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-woundpacking',template:/*ion-inline-start:"F:\UN_Buddy_First_Aid_App\src\pages\train\massive\woundpacking\woundpacking.html"*/'<ion-header no-border>\n\n    <ion-navbar hideBackButton color="transparent">\n\n        <ion-buttons left>\n\n            <button ion-button class="ion-icon" color="light" icon-only (click)="GoBack()">\n\n                <ion-icon id="closeicon" name="arrow-back"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content no-padding>\n\n    <ion-card *ngIf="ENG === true">\n\n        <h2 id="Title">Wound packing</h2>\n\n        <p id="Text">Not all wounds are amendable to tourniquet application, such as high limb. In these cases, severe\n\n            bleeding should be controlled by wound packing.</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="FR === true">\n\n        <h2 id="Title">Emballage de la plaie</h2>\n\n        <p id="Text">Toutes les plaies ne sont pas amendables par l\'application d\'un garrot, p.ex. sur un membre\n\n            supérieur. Dans ces cas, les hémorragies graves doivent être contrôlées par l\'emballage de la plaie.</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="ES === true">\n\n        <h2 id="Title">APÓSITO DE HERIDAS</h2>\n\n        <p id="Text">No todas las heridas se pueden contener con la colocación de un torniquete, como las de las\n\n            extremidades altas. En estos casos, la hemorragia intensa debe controlarse mediante la colocación de un\n\n            apósito en herida.</p>\n\n    </ion-card>\n\n\n\n    <ion-slides pager=\'true\' *ngIf="ENG === true">\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Wound packing</h2>\n\n                <h2 id="SubTitle">Step 1</h2>\n\n                <img id="Image" src="./assets/imgs/massive/WoundpackingStep1.gif">\n\n                <p id="Text">Start by forming a small ball of dressing material to begin the packing process.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Wound packing</h2>\n\n                <h2 id="SubTitle">Step 2</h2>\n\n                <img id="Image" src="./assets/imgs/massive/WoundpackingStep2.gif">\n\n                <p id="Text">This ball should be inserted directly into the wound as close as possible to the source of\n\n                    the bleeding. One finger should be kept on the gauze ball maintaining constant pressure, while the\n\n                    remainder of the gauze is fed into the wound.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Wound packing</h2>\n\n                <h2 id="SubTitle">Step 3</h2>\n\n                <img id="Image" src="./assets/imgs/massive/WoundpackingStep3.gif">\n\n                <p id="Text">Once the wound cavity is packed, the remaining gauze should be placed on top of the wound\n\n                    and direct pressure applied for as long as possible, it may take up to 30-minutes for a clot to\n\n                    form.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n    </ion-slides>\n\n    <ion-slides pager=\'true\' *ngIf="FR === true">\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Emballage de la plaie</h2>\n\n                <h2 id="SubTitle">Étape 1</h2>\n\n                <img id="Image" src="./assets/imgs/massive/WoundpackingStep1.gif">\n\n                <p id="Text">Commencez par former une petite boule de pansement pour commencer le processus d\'emballage.\n\n                </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Emballage de la plaie</h2>\n\n                <h2 id="SubTitle">Étape 2</h2>\n\n                <img id="Image" src="./assets/imgs/massive/WoundpackingStep2.gif">\n\n                <p id="Text">Cette boule doit être insérée directement dans la plaie le plus près possible de la source\n\n                    du saignement. Un doigt doit être maintenu sur la boule de gaze en maintenant une pression\n\n                    constante, tandis que le reste de la gaze est introduit dans la plaie.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Emballage de la plaie</h2>\n\n                <h2 id="SubTitle">Étape 3</h2>\n\n                <img id="Image" src="./assets/imgs/massive/WoundpackingStep3.gif">\n\n                <p id="Text">Une fois que la cavité de la plaie est remplie, la gaze restante doit être placée sur la\n\n                    plaie et une pression directe doit être appliquée le plus longtemps possible, cela peut prendre\n\n                    jusqu\'à 30 minutes pour qu\'un caillot se forme.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n    </ion-slides>\n\n    <ion-slides pager=\'true\' *ngIf="ES === true">\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">APÓSITO DE HERIDAS</h2>\n\n                <h2 id="SubTitle">PASO 3: </h2>\n\n                <img id="Image" src="./assets/imgs/massive/WoundpackingStep1.gif">\n\n                <p id="Text">Comience formando una pequeña bola de material de vendaje para comenzar el cubrimiento. </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">APÓSITO DE HERIDAS</h2>\n\n                <h2 id="SubTitle">PASO 2: </h2>\n\n                <img id="Image" src="./assets/imgs/massive/WoundpackingStep2.gif">\n\n                <p id="Text">Esta bola debe insertarse directamente en la herida lo más cerca posible de la fuente de sangrado. Se debe mantener un dedo sobre la bola de gasa manteniendo una presión constante, mientras que el resto de la gasa se introduce en la herida. </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">APÓSITO DE HERIDAS</h2>\n\n                <h2 id="SubTitle">PASO 3: </h2>\n\n                <img id="Image" src="./assets/imgs/massive/WoundpackingStep3.gif">\n\n                <p id="Text">\n\n                    Cuando la cavidad de la herida está llena, se debe colocar la gasa restante sobre la herida y se debe aplicar presión directa durante el mayor tiempo posible, puede tomar hasta 30 minutos para que se forme un coágulo. \n\n                </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n    </ion-slides>\n\n</ion-content>'/*ion-inline-end:"F:\UN_Buddy_First_Aid_App\src\pages\train\massive\woundpacking\woundpacking.html"*/
+            selector: 'page-woundpacking',template:/*ion-inline-start:"F:\UN_Buddy_First_Aid_App\src\pages\train\massive\woundpacking\woundpacking.html"*/'<ion-header no-border>\n\n    <ion-navbar hideBackButton color="transparent">\n\n        <ion-buttons left>\n\n            <button ion-button class="ion-icon" color="light" icon-only (click)="GoBack()">\n\n                <ion-icon id="closeicon" name="arrow-back"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content no-padding>\n\n    <ion-card *ngIf="ENG === true">\n\n        <h2 id="Title">Wound packing</h2>\n\n        <p id="Text">Not all wounds are amendable to tourniquet application, such as high limb. In these cases, severe\n\n            bleeding should be controlled by wound packing.</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="FR === true">\n\n        <h2 id="Title">Emballage de la plaie</h2>\n\n        <p id="Text">Toutes les plaies ne sont pas amendables par l\'application d\'un garrot, p.ex. sur un membre\n\n            supérieur. Dans ces cas, les hémorragies graves doivent être contrôlées par l\'emballage de la plaie.</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="ES === true">\n\n        <h2 id="Title">APÓSITO DE HERIDAS</h2>\n\n        <p id="Text">No todas las heridas se pueden contener con la colocación de un torniquete, como las de las\n\n            extremidades altas. En estos casos, la hemorragia intensa debe controlarse mediante la colocación de un\n\n            apósito en herida.</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="RUS === true">\n\n        <h2 id="Title">ПЕРЕВЯЗКА РАНЫ</h2>\n\n        <p id="Text">Не все раны можно локализовать наложением жгута, например, на верхних конечностях. В этих случаях\n\n            сильное кровотечение следует остановить наложением повязки на рану.</p>\n\n    </ion-card>\n\n\n\n    <ion-slides pager=\'true\' *ngIf="ENG === true">\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Wound packing</h2>\n\n                <h2 id="SubTitle">Step 1</h2>\n\n                <img id="Image" src="./assets/imgs/massive/WoundpackingStep1.gif">\n\n                <p id="Text">Start by forming a small ball of dressing material to begin the packing process.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Wound packing</h2>\n\n                <h2 id="SubTitle">Step 2</h2>\n\n                <img id="Image" src="./assets/imgs/massive/WoundpackingStep2.gif">\n\n                <p id="Text">This ball should be inserted directly into the wound as close as possible to the source of\n\n                    the bleeding. One finger should be kept on the gauze ball maintaining constant pressure, while the\n\n                    remainder of the gauze is fed into the wound.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Wound packing</h2>\n\n                <h2 id="SubTitle">Step 3</h2>\n\n                <img id="Image" src="./assets/imgs/massive/WoundpackingStep3.gif">\n\n                <p id="Text">Once the wound cavity is packed, the remaining gauze should be placed on top of the wound\n\n                    and direct pressure applied for as long as possible, it may take up to 30-minutes for a clot to\n\n                    form.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n    </ion-slides>\n\n    <ion-slides pager=\'true\' *ngIf="FR === true">\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Emballage de la plaie</h2>\n\n                <h2 id="SubTitle">Étape 1</h2>\n\n                <img id="Image" src="./assets/imgs/massive/WoundpackingStep1.gif">\n\n                <p id="Text">Commencez par former une petite boule de pansement pour commencer le processus d\'emballage.\n\n                </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Emballage de la plaie</h2>\n\n                <h2 id="SubTitle">Étape 2</h2>\n\n                <img id="Image" src="./assets/imgs/massive/WoundpackingStep2.gif">\n\n                <p id="Text">Cette boule doit être insérée directement dans la plaie le plus près possible de la source\n\n                    du saignement. Un doigt doit être maintenu sur la boule de gaze en maintenant une pression\n\n                    constante, tandis que le reste de la gaze est introduit dans la plaie.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Emballage de la plaie</h2>\n\n                <h2 id="SubTitle">Étape 3</h2>\n\n                <img id="Image" src="./assets/imgs/massive/WoundpackingStep3.gif">\n\n                <p id="Text">Une fois que la cavité de la plaie est remplie, la gaze restante doit être placée sur la\n\n                    plaie et une pression directe doit être appliquée le plus longtemps possible, cela peut prendre\n\n                    jusqu\'à 30 minutes pour qu\'un caillot se forme.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n    </ion-slides>\n\n    <ion-slides pager=\'true\' *ngIf="ES === true">\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">APÓSITO DE HERIDAS</h2>\n\n                <h2 id="SubTitle">PASO 3: </h2>\n\n                <img id="Image" src="./assets/imgs/massive/WoundpackingStep1.gif">\n\n                <p id="Text">Comience formando una pequeña bola de material de vendaje para comenzar el cubrimiento.\n\n                </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">APÓSITO DE HERIDAS</h2>\n\n                <h2 id="SubTitle">PASO 2: </h2>\n\n                <img id="Image" src="./assets/imgs/massive/WoundpackingStep2.gif">\n\n                <p id="Text">Esta bola debe insertarse directamente en la herida lo más cerca posible de la fuente de\n\n                    sangrado. Se debe mantener un dedo sobre la bola de gasa manteniendo una presión constante, mientras\n\n                    que el resto de la gasa se introduce en la herida. </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">APÓSITO DE HERIDAS</h2>\n\n                <h2 id="SubTitle">PASO 3: </h2>\n\n                <img id="Image" src="./assets/imgs/massive/WoundpackingStep3.gif">\n\n                <p id="Text">\n\n                    Cuando la cavidad de la herida está llena, se debe colocar la gasa restante sobre la herida y se\n\n                    debe aplicar presión directa durante el mayor tiempo posible, puede tomar hasta 30 minutos para que\n\n                    se forme un coágulo.\n\n                </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n    </ion-slides>\n\n    <ion-slides pager=\'true\' *ngIf="RUS === true">\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">ПЕРЕВЯЗКА РАНЫ</h2>\n\n                <h2 id="SubTitle">ШАГ 1:</h2>\n\n                <img id="Image" src="./assets/imgs/massive/WoundpackingStep1.gif">\n\n                <p id="Text">Начните с формирования небольшого шарика из бинтового материала, чтобы начать процесс\n\n                    перевязки.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">ПЕРЕВЯЗКА РАНЫ</h2>\n\n                <h2 id="SubTitle">ШАГ 2:</h2>\n\n                <img id="Image" src="./assets/imgs/massive/WoundpackingStep2.gif">\n\n                <p id="Text">Этот шарик следует ввести непосредственно в рану как можно ближе к источнику кровотечения.\n\n                    Один палец следует держать над марлевым шариком, поддерживая постоянное давление, в то время как\n\n                    остальная часть бинта вводится в рану.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">ПЕРЕВЯЗКА РАНЫ</h2>\n\n                <h2 id="SubTitle">ШАГ 3:</h2>\n\n                <img id="Image" src="./assets/imgs/massive/WoundpackingStep3.gif">\n\n                <p id="Text">Когда полость раны заполнится, оставшийся бинт следует наложить на рану и оказывать прямое\n\n                    давление как можно дольше, для образования сгустка может потребоваться до 30 минут.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n    </ion-slides>\n\n</ion-content>'/*ion-inline-end:"F:\UN_Buddy_First_Aid_App\src\pages\train\massive\woundpacking\woundpacking.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__ionic_storage__["b" /* Storage */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
     ], WoundpackingPage);
@@ -6176,7 +7922,7 @@ var WoundpackingPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 45:
+/***/ 38:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6229,7 +7975,7 @@ var CirculationPage = /** @class */ (function () {
     };
     CirculationPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-circulation',template:/*ion-inline-start:"F:\UN_Buddy_First_Aid_App\src\pages\train\circulation\circulation.html"*/'<ion-header no-border>\n\n    <ion-navbar hideBackButton color="transparent">\n\n        <ion-buttons left>\n\n            <button ion-button class="ion-icon" color="light" icon-only (click)="GoBack()">\n\n                <ion-icon id="closeicon" name="arrow-back"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n    <ion-card *ngIf="ENG === true">\n\n        <h2 id="Title">Emergency Pressure Dressing (EPD)</h2>\n\n        <p id="Text">The EPD was designed specifically with military application in mind and comes contained within\n\n            double vacuum sealed, water proof packaging. The bandage is available in various sizes (10cm, 15cm and 25cm)\n\n        </p>\n\n    </ion-card>\n\n    <ion-card *ngIf="FR === true">\n\n        <h2 id="Title">Pansement Compressif d’Urgence (PCU)</h2>\n\n        <p id="Text">Le PCU a été conçu spécifiquement pour les applications militaires et est contenu dans un emballage\n\n            doublement scellé sous vide et étanche à l’eau. Le bandage est disponible en différentes tailles (10 cm, 15\n\n            cm et 25 cm</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="ES === true">\n\n        <h2 id="Title">APÓSITO COMPRESIVO DE EMERGENCIA (ACE)</h2>  \n\n        <p id="Text">\n\n            El ACE fue diseñado específicamente para uso militar, viene en un paquete doble sellado al vacío, que es a prueba de agua. La venda está disponible en varios tamaños (10, 15 y 25 cm.).\n\n        </p>  \n\n      </ion-card>\n\n\n\n    <ion-slides pager=\'true\' *ngIf="ENG === true">\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">One-handed EPD application</h2>\n\n                <h2 id="SubTitle">Step 1</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/OneHandedEPDStep1.gif">\n\n                <p id="Text">Upon opening the packaging of the EPD, stow the plastic wrapper for later use.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">One-handed EPD application</h2>\n\n                <h2 id="SubTitle">Step 2</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/OneHandedEPDStep2.gif">\n\n                <p id="Text">Unfold the EPD and insert injured arm through the loop. The plastic tension Bar should be\n\n                    placed directly over the center of the wound.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">One-handed EPD application</h2>\n\n                <h2 id="SubTitle">Step 3</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/OneHandedEPDStep3.gif">\n\n                <p id="Text">Apply pressure with the EPD bandage and wrap the bandage around the limb maintaining\n\n                    constant pressure. Wrap the bandage around both edges of the dressing with the tension bar still\n\n                    visible.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">One-handed EPD application</h2>\n\n                <h2 id="SubTitle">Step 4</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/OneHandedEPDStep4.gif">\n\n                <p id="Text">Place the bandage through the tension bar and reverse the direction of the bandage, folding\n\n                    down the tension bar to place additional pressure directly over the wound site.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">One-handed EPD application</h2>\n\n                <h2 id="SubTitle">Step 5</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/OneHandedEPDStep5.gif">\n\n                <p id="Text">Continue wrapping the bandage and secure the running end by tucking the plastic clips into\n\n                    bandage wraps.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n    </ion-slides>\n\n    <ion-slides pager=\'true\' *ngIf="FR === true">\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Application du PCU d’une seule main</h2>\n\n                <h2 id="SubTitle">Étape 1</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/OneHandedEPDStep1.gif">\n\n                <p id="Text">Lors de l’ouverture de l’emballage du PCU, mettez de côté l’emballage en plastique pour une\n\n                    utilisation ultérieure.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Application du PCU d’une seule main</h2>\n\n                <h2 id="SubTitle">Étape 2</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/OneHandedEPDStep2.gif">\n\n                <p id="Text">Dépliez le PCU et insérez le bras blessé dans la boucle. La barre de tension en plastique\n\n                    doit être placée directement au-dessus du centre de la plaie.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Application du PCU d’une seule main</h2>\n\n                <h2 id="SubTitle">Étape 3</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/OneHandedEPDStep3.gif">\n\n                <p id="Text">Appliquez la pression avec le bandage PCU et enroulez le bandage autour du membre en\n\n                    maintenant une pression constante. Enroulez le bandage autour des deux bords du pansement avec la\n\n                    barre de tension encore visible.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Application du PCU d’une seule main</h2>\n\n                <h2 id="SubTitle">Étape 4</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/OneHandedEPDStep4.gif">\n\n                <p id="Text">Placez le bandage à travers la barre de tension et inversez la direction du bandage en\n\n                    rabattant la barre de tension vers le bas pour exercer une pression supplémentaire directement sur\n\n                    la plaie.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Application du PCU d’une seule main</h2>\n\n                <h2 id="SubTitle">Étape 5</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/OneHandedEPDStep5.gif">\n\n                <p id="Text">Continuez à envelopper le bandage et sécurisez l’extrémité de la bande en rentrant les\n\n                    clips en plastique dans les enveloppes de bandage.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n    </ion-slides>\n\n    <ion-slides pager=\'true\' *ngIf="ES === true">\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">APLICACIÓN DE UN ACE CON UNA SOLA MANO</h2>\n\n                <h2 id="SubTitle">PASO 1</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/OneHandedEPDStep1.gif">\n\n                <p id="Text">Al abrir el paquetes  del ACE, guarde el envoltorio de plástico para uso posterior.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">APLICACIÓN DE UN ACE CON UNA SOLA MANO</h2>\n\n                <h2 id="SubTitle">PASO 2</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/OneHandedEPDStep2.gif">\n\n                <p id="Text">\n\n                    Desdoble el ACE y pase el brazo lesionado a través del mismo. La barra plástica de tensión debe ser colocada directamente sobre el centro de la herida.Desdoblar el ACE y pase el brazo lesionado a través del mismo. La barra plástica de tensión debe ser colocada directamente sobre el centro de la herida\n\n                </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">APLICACIÓN DE UN ACE CON UNA SOLA MANO</h2>\n\n                <h2 id="SubTitle">PASO 3</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/OneHandedEPDStep3.gif">\n\n                <p id="Text">\n\n                    Aplicar presión con la venda y envolverla alrededor de la extremidad, manteniendo una presión constante. Envuelva la venda alrededor de ambos bordes del apósito, con la barra de tensión aún visible\n\n                </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">APLICACIÓN DE UN ACE CON UNA SOLA MANO</h2>\n\n                <h2 id="SubTitle">PASO 4</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/OneHandedEPDStep4.gif">\n\n                <p id="Text">\n\n                    Coloque la venda a través de la barra de tensión y cambie la dirección de la venda, doblando la barra de tensión hacia abajo para aplicar presión adicional directamente sobre la herida.\n\n                </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">APLICACIÓN DE UN ACE CON UNA SOLA MANO</h2>\n\n                <h2 id="SubTitle">PASO 5</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/OneHandedEPDStep5.gif">\n\n                <p id="Text">\n\n                    Continúe envolviendo el vendaje y asegure el extremo, insertando los sujetadores de plástico dentro de las envolturas.\n\n                </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n    </ion-slides>\n\n\n\n    <ion-slides pager=\'true\' *ngIf="ENG === true">\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Two-handed EPD application</h2>\n\n                <h2 id="SubTitle">Step 1</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/TwoHandedEPDStep1.gif">\n\n                <p id="Text">Upon opening the packaging of the EPD, stow the plastic wrapper for later use.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Two-handed EPD application</h2>\n\n                <h2 id="SubTitle">Step 2</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/TwoHandedEPDStep2.gif">\n\n                <p id="Text">Unfold the EPD taking care to not touch or contaminate the white dressing pad. Apply the\n\n                    EPD with two hands placing the dressing pad over the wound. The plastic tension bar should be placed\n\n                    directly over the center of the wound.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Two-handed EPD application</h2>\n\n                <h2 id="SubTitle">Step 3</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/TwoHandedEPDStep3.gif">\n\n                <p id="Text">Apply pressure with the EPD bandage and wrap the bandage around the limb maintaining\n\n                    constant pressure. Wrap the bandage around both edges of the dressing with the tension bar still\n\n                    visible.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Two-handed EPD application</h2>\n\n                <h2 id="SubTitle">Step 4</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/TwoHandedEPDStep4.gif">\n\n                <p id="Text">Place the bandage through the tension bar and reverse the direction of the bandage, folding\n\n                    down the tension bar to place additional pressure directly over the wound site.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Two-handed EPD application</h2>\n\n                <h2 id="SubTitle">Step 5</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/TwoHandedEPDStep5.gif">\n\n                <p id="Text">Continue wrapping the bandage and secure the running end by tucking the plastic clips into\n\n                    bandage wraps.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n    </ion-slides>\n\n    <ion-slides pager=\'true\' *ngIf="FR === true">\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Application du PCU à deux mains</h2>\n\n                <h2 id="SubTitle">Étape 1</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/TwoHandedEPDStep1.gif">\n\n                <p id="Text">Lors de l’ouverture de l’emballage du PCU, mettez de côté l’emballage en plastique pour une\n\n                    utilisation ultérieure.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Application du PCU à deux mains</h2>\n\n                <h2 id="SubTitle">Étape 2</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/TwoHandedEPDStep2.gif">\n\n                <p id="Text">Dépliez le PCU en prenant soin de ne pas toucher ou contaminer le tampon de pansement\n\n                    blanc. Appliquez le PCU avec les deux mains en plaçant le pansement sur la plaie. La barre de\n\n                    tension en plastique doit être placée directement au-dessus du centre de la plaie.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Application du PCU à deux mains</h2>\n\n                <h2 id="SubTitle">Étape 3</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/TwoHandedEPDStep3.gif">\n\n                <p id="Text">Appliquez la pression avec le bandage PCU et enroulez le bandage autour du membre en\n\n                    maintenant une pression constante. Enroulez le bandage autour des deux bords du pansement avec la\n\n                    barre de tension encore visible.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Application du PCU à deux mains</h2>\n\n                <h2 id="SubTitle">Étape 4</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/TwoHandedEPDStep4.gif">\n\n                <p id="Text">Placez le bandage à travers la barre de tension et inversez la direction du bandage en\n\n                    rabattant la barre de tension vers le bas pour exercer une pression supplémentaire directement sur\n\n                    la plaie.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Application du PCU à deux mains</h2>\n\n                <h2 id="SubTitle">Étape 5</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/TwoHandedEPDStep5.gif">\n\n                <p id="Text">Continuez à envelopper le bandage et sécurisez l’extrémité de la bande en rentrant les\n\n                    clips en plastique dans les enveloppes de bandage.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n    </ion-slides>\n\n    <ion-slides pager=\'true\' *ngIf="ES === true">\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">APLICACIÓN DE UN ACE CON DOS MANOS</h2>\n\n                <h2 id="SubTitle">PASO 1</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/TwoHandedEPDStep1.gif">\n\n                <p id="Text">\n\n                    Al abrir el paquete del ACE, guarde el envoltorio de plástico para uso posterior.\n\n                </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">APLICACIÓN DE UN ACE CON DOS MANOS</h2>\n\n                <h2 id="SubTitle">PASO 2</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/TwoHandedEPDStep2.gif">\n\n                <p id="Text">\n\n                    Al desdoblar el ACE, tenga cuidado de no tocar o contaminar la gasa blanca. Aplique el ACE con las dos manos colocando la gasa sobre la herida. La barra de tensión plástica debe ser colocada directamente sobre el centro de la herida.\n\n                </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">APLICACIÓN DE UN ACE CON DOS MANOS</h2>\n\n                <h2 id="SubTitle">PASO 3</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/TwoHandedEPDStep3.gif">\n\n                <p id="Text">\n\n                    Aplique presión con el ACE y envuelva alrededor de la extremidad manteniendo presión                  constante. Envuelva el vendaje alrededor de ambos bordes del apósito manteniendo la barra de tensión visible.\n\n                </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">APLICACIÓN DE UN ACE CON DOS MANOS</h2>\n\n                <h2 id="SubTitle">PASO 4</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/TwoHandedEPDStep4.gif">\n\n                <p id="Text">\n\n                    Coloque la venda a través de la barra de tensión y cambie la dirección de la venda, doblando la barra de tensión hacia abajo para aplicar presión adicional directamente sobre la herida.\n\n                </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">APLICACIÓN DE UN ACE CON DOS MANOS</h2>\n\n                <h2 id="SubTitle">PASO 5</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/TwoHandedEPDStep5.gif">\n\n                <p id="Text">\n\n                    Continúe envolviendo el vendaje y asegure el extremo, insertando los sujetadores de plástico dentro de las envolturas.\n\n                </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n    </ion-slides>\n\n\n\n    <ion-slides pager=\'true\' *ngIf="ENG === true">\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">EPD to the head</h2>\n\n                <h2 id="SubTitle">Step 1</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/EPDHeadStep1.gif">\n\n                <p id="Text">Upon opening the packaging of the EPD, stow the plastic wrapper for later use.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">EPD to the head</h2>\n\n                <h2 id="SubTitle">Step 2</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/EPDHeadStep2.gif">\n\n                <p id="Text">Unfold the EPD taking care to not touch or contaminate the white dressing pad. Apply the\n\n                    EPD with two hands placing the dressing pad over the wound. The plastic tension bar should be placed\n\n                    directly over the center of the wound.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">EPD to the head</h2>\n\n                <h2 id="SubTitle">Step 3</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/EPDHeadStep3.gif">\n\n                <p id="Text">Apply pressure with the EPD bandage and wrap the bandage around the head maintaining\n\n                    constant pressure. Wrap the bandage around both edges of the dressing with the tension bar still\n\n                    visible.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">EPD to the head</h2>\n\n                <h2 id="SubTitle">Step 4</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/EPDHeadStep4.gif">\n\n                <p id="Text">Place the bandage through the tension bar and reverse the direction of the bandage, folding\n\n                    down the tension bar to place additional pressure directly over the wound site.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">EPD to the head</h2>\n\n                <h2 id="SubTitle">Step 5</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/EPDHeadStep5.gif">\n\n                <p id="Text">Continue wrapping the bandage and secure the running end by tucking the plastic clips into\n\n                    bandage wraps.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n    </ion-slides>\n\n    <ion-slides pager=\'true\' *ngIf="FR === true">\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">PCU à la tête</h2>\n\n                <h2 id="SubTitle">Étape 1</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/EPDHeadStep1.gif">\n\n                <p id="Text">Lors de l’ouverture de l’emballage du PCU, mettez de côté l’emballage en plastique pour une\n\n                    utilisation ultérieure.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">PCU à la tête</h2>\n\n                <h2 id="SubTitle">Étape 2</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/EPDHeadStep2.gif">\n\n                <p id="Text">Dépliez le PCU en prenant soin de ne pas toucher ou contaminer le tampon blanc du\n\n                    pansement. Appliquez le PCU avec les deux mains en plaçant le pansement sur la plaie. La barre de\n\n                    tension en plastique doit être placée directement au-dessus du centre de la plaie.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">PCU à la tête</h2>\n\n                <h2 id="SubTitle">Étape 3</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/EPDHeadStep3.gif">\n\n                <p id="Text">Appliquez la pression avec le bandage PCU et enroulez le bandage autour du membre en\n\n                    maintenant une pression constante. Enroulez le bandage autour des deux bords du pansement avec la\n\n                    barre de tension encore visible.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">PCU à la tête</h2>\n\n                <h2 id="SubTitle">Étape 4</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/EPDHeadStep4.gif">\n\n                <p id="Text">Placez le bandage à travers la barre de tension et inversez la direction du bandage en\n\n                    rabattant la barre de tension vers le bas pour exercer une pression supplémentaire directement sur\n\n                    la plaie.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">PCU à la tête</h2>\n\n                <h2 id="SubTitle">Étape 5</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/EPDHeadStep5.gif">\n\n                <p id="Text">Continuez à envelopper le bandage et sécurisez l’extrémité de la bande en rentrant les\n\n                    clips en plastique dans les enveloppes de bandage.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n    </ion-slides>\n\n    <ion-slides pager=\'true\' *ngIf="ES === true">\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">EPD a la cabeza</h2>\n\n                <h2 id="SubTitle">PASO 1</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/EPDHeadStep1.gif">\n\n                <p id="Text">Al abrir el embalaje de la EPD, guarde el envoltorio plástico para su uso posterior..</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">EPD a la cabeza</h2>\n\n                <h2 id="SubTitle">PASO 2</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/EPDHeadStep2.gif">\n\n                <p id="Text">\n\n                    Al desdoblar el ACE tenga cuidado de no tocar o contaminar la gasa blanca. Aplique el ACE con las dos manos colocando la gasa sobre la herida. La barra de tensión plástica debe ser colocada directamente sobre el centro de la herida.\n\n                </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">EPD a la cabeza</h2>\n\n                <h2 id="SubTitle">PASO 3</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/EPDHeadStep3.gif">\n\n                <p id="Text">\n\n                    Aplique presión con el vendaje EPD y envuelva el vendaje alrededor de la cabeza manteniendo una presión constante. Envuelva el vendaje alrededor de ambos bordes del vendaje con la barra de tensión aún visible.\n\n                </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">EPD a la cabeza</h2>\n\n                <h2 id="SubTitle">PASO 4</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/EPDHeadStep4.gif">\n\n                <p id="Text">\n\n                    Coloque la venda a través de la barra de tensión y cambie la dirección de la venda, doblando la barra de tensión hacia abajo para aplicar presión adicional directamente sobre la herida.\n\n                </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">EPD a la cabeza</h2>\n\n                <h2 id="SubTitle">PASO 5</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/EPDHeadStep5.gif">\n\n                <p id="Text">\n\n                    Continúe envolviendo el vendaje y asegure el extremo que corre metiendo los clips de plástico en las vendas.\n\n                </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n    </ion-slides>\n\n</ion-content>'/*ion-inline-end:"F:\UN_Buddy_First_Aid_App\src\pages\train\circulation\circulation.html"*/
+            selector: 'page-circulation',template:/*ion-inline-start:"F:\UN_Buddy_First_Aid_App\src\pages\train\circulation\circulation.html"*/'<ion-header no-border>\n\n    <ion-navbar hideBackButton color="transparent">\n\n        <ion-buttons left>\n\n            <button ion-button class="ion-icon" color="light" icon-only (click)="GoBack()">\n\n                <ion-icon id="closeicon" name="arrow-back"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n    <ion-card *ngIf="ENG === true">\n\n        <h2 id="Title">Emergency Pressure Dressing (EPD)</h2>\n\n        <p id="Text">The EPD was designed specifically with military application in mind and comes contained within\n\n            double vacuum sealed, water proof packaging. The bandage is available in various sizes (10cm, 15cm and 25cm)\n\n        </p>\n\n    </ion-card>\n\n    <ion-card *ngIf="FR === true">\n\n        <h2 id="Title">Pansement Compressif d’Urgence (PCU)</h2>\n\n        <p id="Text">Le PCU a été conçu spécifiquement pour les applications militaires et est contenu dans un emballage\n\n            doublement scellé sous vide et étanche à l’eau. Le bandage est disponible en différentes tailles (10 cm, 15\n\n            cm et 25 cm</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="ES === true">\n\n        <h2 id="Title">APÓSITO COMPRESIVO DE EMERGENCIA (ACE)</h2>\n\n        <p id="Text">\n\n            El ACE fue diseñado específicamente para uso militar, viene en un paquete doble sellado al vacío, que es a\n\n            prueba de agua. La venda está disponible en varios tamaños (10, 15 y 25 cm.).\n\n        </p>\n\n    </ion-card>\n\n\n\n    <ion-slides pager=\'true\' *ngIf="ENG === true">\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">One-handed EPD application</h2>\n\n                <h2 id="SubTitle">Step 1</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/OneHandedEPDStep1.gif">\n\n                <p id="Text">Upon opening the packaging of the EPD, stow the plastic wrapper for later use.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">One-handed EPD application</h2>\n\n                <h2 id="SubTitle">Step 2</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/OneHandedEPDStep2.gif">\n\n                <p id="Text">Unfold the EPD and insert injured arm through the loop. The plastic tension Bar should be\n\n                    placed directly over the center of the wound.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">One-handed EPD application</h2>\n\n                <h2 id="SubTitle">Step 3</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/OneHandedEPDStep3.gif">\n\n                <p id="Text">Apply pressure with the EPD bandage and wrap the bandage around the limb maintaining\n\n                    constant pressure. Wrap the bandage around both edges of the dressing with the tension bar still\n\n                    visible.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">One-handed EPD application</h2>\n\n                <h2 id="SubTitle">Step 4</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/OneHandedEPDStep4.gif">\n\n                <p id="Text">Place the bandage through the tension bar and reverse the direction of the bandage, folding\n\n                    down the tension bar to place additional pressure directly over the wound site.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">One-handed EPD application</h2>\n\n                <h2 id="SubTitle">Step 5</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/OneHandedEPDStep5.gif">\n\n                <p id="Text">Continue wrapping the bandage and secure the running end by tucking the plastic clips into\n\n                    bandage wraps.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n    </ion-slides>\n\n    <ion-slides pager=\'true\' *ngIf="FR === true">\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Application du PCU d’une seule main</h2>\n\n                <h2 id="SubTitle">Étape 1</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/OneHandedEPDStep1.gif">\n\n                <p id="Text">Lors de l’ouverture de l’emballage du PCU, mettez de côté l’emballage en plastique pour une\n\n                    utilisation ultérieure.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Application du PCU d’une seule main</h2>\n\n                <h2 id="SubTitle">Étape 2</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/OneHandedEPDStep2.gif">\n\n                <p id="Text">Dépliez le PCU et insérez le bras blessé dans la boucle. La barre de tension en plastique\n\n                    doit être placée directement au-dessus du centre de la plaie.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Application du PCU d’une seule main</h2>\n\n                <h2 id="SubTitle">Étape 3</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/OneHandedEPDStep3.gif">\n\n                <p id="Text">Appliquez la pression avec le bandage PCU et enroulez le bandage autour du membre en\n\n                    maintenant une pression constante. Enroulez le bandage autour des deux bords du pansement avec la\n\n                    barre de tension encore visible.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Application du PCU d’une seule main</h2>\n\n                <h2 id="SubTitle">Étape 4</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/OneHandedEPDStep4.gif">\n\n                <p id="Text">Placez le bandage à travers la barre de tension et inversez la direction du bandage en\n\n                    rabattant la barre de tension vers le bas pour exercer une pression supplémentaire directement sur\n\n                    la plaie.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Application du PCU d’une seule main</h2>\n\n                <h2 id="SubTitle">Étape 5</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/OneHandedEPDStep5.gif">\n\n                <p id="Text">Continuez à envelopper le bandage et sécurisez l’extrémité de la bande en rentrant les\n\n                    clips en plastique dans les enveloppes de bandage.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n    </ion-slides>\n\n    <ion-slides pager=\'true\' *ngIf="ES === true">\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">APLICACIÓN DE UN ACE CON UNA SOLA MANO</h2>\n\n                <h2 id="SubTitle">PASO 1</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/OneHandedEPDStep1.gif">\n\n                <p id="Text">Al abrir el paquetes del ACE, guarde el envoltorio de plástico para uso posterior.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">APLICACIÓN DE UN ACE CON UNA SOLA MANO</h2>\n\n                <h2 id="SubTitle">PASO 2</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/OneHandedEPDStep2.gif">\n\n                <p id="Text">\n\n                    Desdoble el ACE y pase el brazo lesionado a través del mismo. La barra plástica de tensión debe ser\n\n                    colocada directamente sobre el centro de la herida.Desdoblar el ACE y pase el brazo lesionado a\n\n                    través del mismo. La barra plástica de tensión debe ser colocada directamente sobre el centro de la\n\n                    herida\n\n                </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">APLICACIÓN DE UN ACE CON UNA SOLA MANO</h2>\n\n                <h2 id="SubTitle">PASO 3</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/OneHandedEPDStep3.gif">\n\n                <p id="Text">\n\n                    Aplicar presión con la venda y envolverla alrededor de la extremidad, manteniendo una presión\n\n                    constante. Envuelva la venda alrededor de ambos bordes del apósito, con la barra de tensión aún\n\n                    visible\n\n                </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">APLICACIÓN DE UN ACE CON UNA SOLA MANO</h2>\n\n                <h2 id="SubTitle">PASO 4</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/OneHandedEPDStep4.gif">\n\n                <p id="Text">\n\n                    Coloque la venda a través de la barra de tensión y cambie la dirección de la venda, doblando la\n\n                    barra de tensión hacia abajo para aplicar presión adicional directamente sobre la herida.\n\n                </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">APLICACIÓN DE UN ACE CON UNA SOLA MANO</h2>\n\n                <h2 id="SubTitle">PASO 5</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/OneHandedEPDStep5.gif">\n\n                <p id="Text">\n\n                    Continúe envolviendo el vendaje y asegure el extremo, insertando los sujetadores de plástico dentro\n\n                    de las envolturas.\n\n                </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n    </ion-slides>\n\n\n\n    <ion-slides pager=\'true\' *ngIf="ENG === true">\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Two-handed EPD application</h2>\n\n                <h2 id="SubTitle">Step 1</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/TwoHandedEPDStep1.gif">\n\n                <p id="Text">Upon opening the packaging of the EPD, stow the plastic wrapper for later use.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Two-handed EPD application</h2>\n\n                <h2 id="SubTitle">Step 2</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/TwoHandedEPDStep2.gif">\n\n                <p id="Text">Unfold the EPD taking care to not touch or contaminate the white dressing pad. Apply the\n\n                    EPD with two hands placing the dressing pad over the wound. The plastic tension bar should be placed\n\n                    directly over the center of the wound.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Two-handed EPD application</h2>\n\n                <h2 id="SubTitle">Step 3</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/TwoHandedEPDStep3.gif">\n\n                <p id="Text">Apply pressure with the EPD bandage and wrap the bandage around the limb maintaining\n\n                    constant pressure. Wrap the bandage around both edges of the dressing with the tension bar still\n\n                    visible.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Two-handed EPD application</h2>\n\n                <h2 id="SubTitle">Step 4</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/TwoHandedEPDStep4.gif">\n\n                <p id="Text">Place the bandage through the tension bar and reverse the direction of the bandage, folding\n\n                    down the tension bar to place additional pressure directly over the wound site.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Two-handed EPD application</h2>\n\n                <h2 id="SubTitle">Step 5</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/TwoHandedEPDStep5.gif">\n\n                <p id="Text">Continue wrapping the bandage and secure the running end by tucking the plastic clips into\n\n                    bandage wraps.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n    </ion-slides>\n\n    <ion-slides pager=\'true\' *ngIf="FR === true">\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Application du PCU à deux mains</h2>\n\n                <h2 id="SubTitle">Étape 1</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/TwoHandedEPDStep1.gif">\n\n                <p id="Text">Lors de l’ouverture de l’emballage du PCU, mettez de côté l’emballage en plastique pour une\n\n                    utilisation ultérieure.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Application du PCU à deux mains</h2>\n\n                <h2 id="SubTitle">Étape 2</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/TwoHandedEPDStep2.gif">\n\n                <p id="Text">Dépliez le PCU en prenant soin de ne pas toucher ou contaminer le tampon de pansement\n\n                    blanc. Appliquez le PCU avec les deux mains en plaçant le pansement sur la plaie. La barre de\n\n                    tension en plastique doit être placée directement au-dessus du centre de la plaie.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Application du PCU à deux mains</h2>\n\n                <h2 id="SubTitle">Étape 3</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/TwoHandedEPDStep3.gif">\n\n                <p id="Text">Appliquez la pression avec le bandage PCU et enroulez le bandage autour du membre en\n\n                    maintenant une pression constante. Enroulez le bandage autour des deux bords du pansement avec la\n\n                    barre de tension encore visible.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Application du PCU à deux mains</h2>\n\n                <h2 id="SubTitle">Étape 4</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/TwoHandedEPDStep4.gif">\n\n                <p id="Text">Placez le bandage à travers la barre de tension et inversez la direction du bandage en\n\n                    rabattant la barre de tension vers le bas pour exercer une pression supplémentaire directement sur\n\n                    la plaie.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Application du PCU à deux mains</h2>\n\n                <h2 id="SubTitle">Étape 5</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/TwoHandedEPDStep5.gif">\n\n                <p id="Text">Continuez à envelopper le bandage et sécurisez l’extrémité de la bande en rentrant les\n\n                    clips en plastique dans les enveloppes de bandage.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n    </ion-slides>\n\n    <ion-slides pager=\'true\' *ngIf="ES === true">\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">APLICACIÓN DE UN ACE CON DOS MANOS</h2>\n\n                <h2 id="SubTitle">PASO 1</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/TwoHandedEPDStep1.gif">\n\n                <p id="Text">\n\n                    Al abrir el paquete del ACE, guarde el envoltorio de plástico para uso posterior.\n\n                </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">APLICACIÓN DE UN ACE CON DOS MANOS</h2>\n\n                <h2 id="SubTitle">PASO 2</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/TwoHandedEPDStep2.gif">\n\n                <p id="Text">\n\n                    Al desdoblar el ACE, tenga cuidado de no tocar o contaminar la gasa blanca. Aplique el ACE con las\n\n                    dos manos colocando la gasa sobre la herida. La barra de tensión plástica debe ser colocada\n\n                    directamente sobre el centro de la herida.\n\n                </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">APLICACIÓN DE UN ACE CON DOS MANOS</h2>\n\n                <h2 id="SubTitle">PASO 3</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/TwoHandedEPDStep3.gif">\n\n                <p id="Text">\n\n                    Aplique presión con el ACE y envuelva alrededor de la extremidad manteniendo presión constante.\n\n                    Envuelva el vendaje alrededor de ambos bordes del apósito manteniendo la barra de tensión visible.\n\n                </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">APLICACIÓN DE UN ACE CON DOS MANOS</h2>\n\n                <h2 id="SubTitle">PASO 4</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/TwoHandedEPDStep4.gif">\n\n                <p id="Text">\n\n                    Coloque la venda a través de la barra de tensión y cambie la dirección de la venda, doblando la\n\n                    barra de tensión hacia abajo para aplicar presión adicional directamente sobre la herida.\n\n                </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">APLICACIÓN DE UN ACE CON DOS MANOS</h2>\n\n                <h2 id="SubTitle">PASO 5</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/TwoHandedEPDStep5.gif">\n\n                <p id="Text">\n\n                    Continúe envolviendo el vendaje y asegure el extremo, insertando los sujetadores de plástico dentro\n\n                    de las envolturas.\n\n                </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n    </ion-slides>\n\n\n\n    <ion-slides pager=\'true\' *ngIf="ENG === true">\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">EPD to the head</h2>\n\n                <h2 id="SubTitle">Step 1</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/EPDHeadStep1.gif">\n\n                <p id="Text">Upon opening the packaging of the EPD, stow the plastic wrapper for later use.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">EPD to the head</h2>\n\n                <h2 id="SubTitle">Step 2</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/EPDHeadStep2.gif">\n\n                <p id="Text">Unfold the EPD taking care to not touch or contaminate the white dressing pad. Apply the\n\n                    EPD with two hands placing the dressing pad over the wound. The plastic tension bar should be placed\n\n                    directly over the center of the wound.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">EPD to the head</h2>\n\n                <h2 id="SubTitle">Step 3</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/EPDHeadStep3.gif">\n\n                <p id="Text">Apply pressure with the EPD bandage and wrap the bandage around the head maintaining\n\n                    constant pressure. Wrap the bandage around both edges of the dressing with the tension bar still\n\n                    visible.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">EPD to the head</h2>\n\n                <h2 id="SubTitle">Step 4</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/EPDHeadStep4.gif">\n\n                <p id="Text">Place the bandage through the tension bar and reverse the direction of the bandage, folding\n\n                    down the tension bar to place additional pressure directly over the wound site.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">EPD to the head</h2>\n\n                <h2 id="SubTitle">Step 5</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/EPDHeadStep5.gif">\n\n                <p id="Text">Continue wrapping the bandage and secure the running end by tucking the plastic clips into\n\n                    bandage wraps.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n    </ion-slides>\n\n    <ion-slides pager=\'true\' *ngIf="FR === true">\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">PCU à la tête</h2>\n\n                <h2 id="SubTitle">Étape 1</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/EPDHeadStep1.gif">\n\n                <p id="Text">Lors de l’ouverture de l’emballage du PCU, mettez de côté l’emballage en plastique pour une\n\n                    utilisation ultérieure.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">PCU à la tête</h2>\n\n                <h2 id="SubTitle">Étape 2</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/EPDHeadStep2.gif">\n\n                <p id="Text">Dépliez le PCU en prenant soin de ne pas toucher ou contaminer le tampon blanc du\n\n                    pansement. Appliquez le PCU avec les deux mains en plaçant le pansement sur la plaie. La barre de\n\n                    tension en plastique doit être placée directement au-dessus du centre de la plaie.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">PCU à la tête</h2>\n\n                <h2 id="SubTitle">Étape 3</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/EPDHeadStep3.gif">\n\n                <p id="Text">Appliquez la pression avec le bandage PCU et enroulez le bandage autour du membre en\n\n                    maintenant une pression constante. Enroulez le bandage autour des deux bords du pansement avec la\n\n                    barre de tension encore visible.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">PCU à la tête</h2>\n\n                <h2 id="SubTitle">Étape 4</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/EPDHeadStep4.gif">\n\n                <p id="Text">Placez le bandage à travers la barre de tension et inversez la direction du bandage en\n\n                    rabattant la barre de tension vers le bas pour exercer une pression supplémentaire directement sur\n\n                    la plaie.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">PCU à la tête</h2>\n\n                <h2 id="SubTitle">Étape 5</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/EPDHeadStep5.gif">\n\n                <p id="Text">Continuez à envelopper le bandage et sécurisez l’extrémité de la bande en rentrant les\n\n                    clips en plastique dans les enveloppes de bandage.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n    </ion-slides>\n\n    <ion-slides pager=\'true\' *ngIf="ES === true">\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">EPD a la cabeza</h2>\n\n                <h2 id="SubTitle">PASO 1</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/EPDHeadStep1.gif">\n\n                <p id="Text">Al abrir el embalaje de la EPD, guarde el envoltorio plástico para su uso posterior..</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">EPD a la cabeza</h2>\n\n                <h2 id="SubTitle">PASO 2</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/EPDHeadStep2.gif">\n\n                <p id="Text">\n\n                    Al desdoblar el ACE tenga cuidado de no tocar o contaminar la gasa blanca. Aplique el ACE con las\n\n                    dos manos colocando la gasa sobre la herida. La barra de tensión plástica debe ser colocada\n\n                    directamente sobre el centro de la herida.\n\n                </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">EPD a la cabeza</h2>\n\n                <h2 id="SubTitle">PASO 3</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/EPDHeadStep3.gif">\n\n                <p id="Text">\n\n                    Aplique presión con el vendaje EPD y envuelva el vendaje alrededor de la cabeza manteniendo una\n\n                    presión constante. Envuelva el vendaje alrededor de ambos bordes del vendaje con la barra de tensión\n\n                    aún visible.\n\n                </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">EPD a la cabeza</h2>\n\n                <h2 id="SubTitle">PASO 4</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/EPDHeadStep4.gif">\n\n                <p id="Text">\n\n                    Coloque la venda a través de la barra de tensión y cambie la dirección de la venda, doblando la\n\n                    barra de tensión hacia abajo para aplicar presión adicional directamente sobre la herida.\n\n                </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">EPD a la cabeza</h2>\n\n                <h2 id="SubTitle">PASO 5</h2>\n\n                <img id="Image" src="./assets/imgs/circulation/EPDHeadStep5.gif">\n\n                <p id="Text">\n\n                    Continúe envolviendo el vendaje y asegure el extremo que corre metiendo los clips de plástico en las\n\n                    vendas.\n\n                </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n    </ion-slides>\n\n</ion-content>'/*ion-inline-end:"F:\UN_Buddy_First_Aid_App\src\pages\train\circulation\circulation.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__ionic_storage__["b" /* Storage */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
     ], CirculationPage);
@@ -6240,7 +7986,7 @@ var CirculationPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 46:
+/***/ 39:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6267,6 +8013,7 @@ var HeadtiltPage = /** @class */ (function () {
         this.ENG = false;
         this.FR = false;
         this.ES = false;
+        this.RUS = false;
     }
     HeadtiltPage.prototype.ionViewWillEnter = function () {
         var _this = this;
@@ -6275,16 +8022,25 @@ var HeadtiltPage = /** @class */ (function () {
                 _this.ENG = true;
                 _this.FR = false;
                 _this.ES = false;
+                _this.RUS = false;
             }
             if (data === 'FR') {
                 _this.ENG = false;
                 _this.FR = true;
                 _this.ES = false;
+                _this.RUS = false;
             }
             if (data === 'ES') {
                 _this.ENG = false;
                 _this.FR = false;
                 _this.ES = true;
+                _this.RUS = false;
+            }
+            if (data === 'RUS') {
+                _this.ENG = false;
+                _this.FR = false;
+                _this.ES = false;
+                _this.RUS = true;
             }
         });
     };
@@ -6293,7 +8049,7 @@ var HeadtiltPage = /** @class */ (function () {
     };
     HeadtiltPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-headtilt',template:/*ion-inline-start:"F:\UN_Buddy_First_Aid_App\src\pages\train\airway\headtilt\headtilt.html"*/'<ion-header no-border>\n\n    <ion-navbar hideBackButton color="transparent">\n\n        <ion-buttons left>\n\n            <button ion-button class="ion-icon" color="light" icon-only  (click)="GoBack()">\n\n                <ion-icon id="closeicon" name="arrow-back"></ion-icon>\n\n            </button>\n\n          </ion-buttons>\n\n    </ion-navbar>\n\n  </ion-header>\n\n\n\n<ion-content no-padding>\n\n    <ion-card *ngIf="ENG === true">  \n\n        <h2 id="Title">Head-tilt</h2>\n\n        <p id="Text">The head-tilt technique is used to most rapidly open the casualty’s upper airway. The head tilt provides the added benefit of maintaining the airway in an open position without the need for the first-aider to maintain constant contact with the head, allowing the first-aider to use their hands to provide other treatments.</p>\n\n    </ion-card>  \n\n    <ion-card *ngIf="FR === true">  \n\n        <h2 id="Title">Inclinaison de la tête</h2>\n\n        <p id="Text">La technique d’inclinaison de la tête est utilisée pour ouvrir le plus rapidement possible les voies aériennes supérieures de la victime. L’inclinaison de la tête offre l’avantage supplémentaire de maintenir les voies respiratoires en position ouverte sans que le secouriste n’ait besoin de maintenir un contact constant avec la tête, ce qui permet aux secouristes d’utiliser leurs mains pour effectuer d’autres traitements.</p>\n\n    </ion-card>  \n\n    <ion-card *ngIf="ES === true">  \n\n        <h2 id="Title">INCLINACIÓN DE LA CABEZA </h2>\n\n        <p id="Text">\n\n            La técnica de inclinación de la cabeza se utiliza para abrir más rápidamente las vías respiratorias superiores del herido. La inclinación proporciona un beneficio adicional de mantener las vías respiratorias en una posición abierta sin la necesidad de que el socorrista mantenga un contacto constante con la cabeza, lo que le permite al socorrista utilizar sus manos para proporcionar otros tratamientos.\n\n        </p>\n\n    </ion-card>  \n\n\n\n    <ion-card *ngIf="ENG === true">  \n\n        <h2 id="Title">Performing the head-tilt</h2>\n\n        <img id="Image" src="./assets/imgs/airway/headtilt.gif">  \n\n        <p id="Text">The technique is carried out by using one hand to place downward pressure on the casualty’s forehead, while using your other hand to raise the chin and jaw of the victim, extending the head and neck backward.</p>\n\n    </ion-card>  \n\n    <ion-card *ngIf="FR === true">  \n\n        <h2 id="Title">Exécution de l’inclinaison de la tête</h2>\n\n        <img id="Image" src="./assets/imgs/airway/headtilt.gif">  \n\n        <p id="Text">La technique est effectuée en utilisant une main pour exercer une pression vers le bas sur le front de la victime, tout en utilisant votre autre main pour soulever le menton et la mâchoire de la victime, en étendant la tête et le cou vers l’arrière.</p>\n\n    </ion-card> \n\n    <ion-card *ngIf="ES === true">  \n\n        <h2 id="Title">EJECUCIÓN DE LA INCLINACIÓN DE LA CABEZA</h2>\n\n        <img id="Image" src="./assets/imgs/airway/headtilt.gif">  \n\n        <p id="Text">La técnica se lleva a cabo utilizando una mano para ejercer presión hacia abajo sobre la frente de la víctima, mientras usa la otra mano para levantar la barbilla y mandíbula de la víctima, extendiendo la cabeza y cuello hacia atrás.</p>\n\n    </ion-card> \n\n</ion-content>'/*ion-inline-end:"F:\UN_Buddy_First_Aid_App\src\pages\train\airway\headtilt\headtilt.html"*/
+            selector: 'page-headtilt',template:/*ion-inline-start:"F:\UN_Buddy_First_Aid_App\src\pages\train\airway\headtilt\headtilt.html"*/'<ion-header no-border>\n\n    <ion-navbar hideBackButton color="transparent">\n\n        <ion-buttons left>\n\n            <button ion-button class="ion-icon" color="light" icon-only (click)="GoBack()">\n\n                <ion-icon id="closeicon" name="arrow-back"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content no-padding>\n\n    <ion-card *ngIf="ENG === true">\n\n        <h2 id="Title">Head-tilt</h2>\n\n        <p id="Text">The head-tilt technique is used to most rapidly open the casualty’s upper airway. The head tilt\n\n            provides the added benefit of maintaining the airway in an open position without the need for the\n\n            first-aider to maintain constant contact with the head, allowing the first-aider to use their hands to\n\n            provide other treatments.</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="FR === true">\n\n        <h2 id="Title">Inclinaison de la tête</h2>\n\n        <p id="Text">La technique d’inclinaison de la tête est utilisée pour ouvrir le plus rapidement possible les\n\n            voies aériennes supérieures de la victime. L’inclinaison de la tête offre l’avantage supplémentaire de\n\n            maintenir les voies respiratoires en position ouverte sans que le secouriste n’ait besoin de maintenir un\n\n            contact constant avec la tête, ce qui permet aux secouristes d’utiliser leurs mains pour effectuer d’autres\n\n            traitements.</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="ES === true">\n\n        <h2 id="Title">INCLINACIÓN DE LA CABEZA </h2>\n\n        <p id="Text">\n\n            La técnica de inclinación de la cabeza se utiliza para abrir más rápidamente las vías respiratorias\n\n            superiores del herido. La inclinación proporciona un beneficio adicional de mantener las vías respiratorias\n\n            en una posición abierta sin la necesidad de que el socorrista mantenga un contacto constante con la cabeza,\n\n            lo que le permite al socorrista utilizar sus manos para proporcionar otros tratamientos.\n\n        </p>\n\n    </ion-card>\n\n    <ion-card *ngIf="RUS === true">\n\n        <h2 id="Title">НАКЛОН ГОЛОВЫ</h2>\n\n        <p id="Text">Техника наклона головы используется для более быстрого открытия верхних дыхательных путей\n\n            пострадавшего. Наклон обеспечивает дополнительное преимущество в поддержании дыхательных путей в открытом\n\n            положении без необходимости для спасателя поддерживать постоянный контакт головой, позволяя спасателю\n\n            использовать свои руки для проведения других процедур.</p>\n\n    </ion-card>\n\n\n\n    <ion-card *ngIf="ENG === true">\n\n        <h2 id="Title">Performing the head-tilt</h2>\n\n        <img id="Image" src="./assets/imgs/airway/headtilt.gif">\n\n        <p id="Text">The technique is carried out by using one hand to place downward pressure on the casualty’s\n\n            forehead, while using your other hand to raise the chin and jaw of the victim, extending the head and neck\n\n            backward.</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="FR === true">\n\n        <h2 id="Title">Exécution de l’inclinaison de la tête</h2>\n\n        <img id="Image" src="./assets/imgs/airway/headtilt.gif">\n\n        <p id="Text">La technique est effectuée en utilisant une main pour exercer une pression vers le bas sur le front\n\n            de la victime, tout en utilisant votre autre main pour soulever le menton et la mâchoire de la victime, en\n\n            étendant la tête et le cou vers l’arrière.</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="ES === true">\n\n        <h2 id="Title">EJECUCIÓN DE LA INCLINACIÓN DE LA CABEZA</h2>\n\n        <img id="Image" src="./assets/imgs/airway/headtilt.gif">\n\n        <p id="Text">La técnica se lleva a cabo utilizando una mano para ejercer presión hacia abajo sobre la frente de\n\n            la víctima, mientras usa la otra mano para levantar la barbilla y mandíbula de la víctima, extendiendo la\n\n            cabeza y cuello hacia atrás.</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="RUS === true">\n\n        <h2 id="Title">ВЫПОЛНЕНИЕ НАКЛОНА ГОЛОВЫ</h2>\n\n        <img id="Image" src="./assets/imgs/airway/headtilt.gif">\n\n        <p id="Text">Техника выполняется путем надавливания одной рукой на лоб пострадавшего сверху вниз, в то время как\n\n            другой рукой приподнимают подбородок и челюсть пострадавшего, отводя голову и шею назад.</p>\n\n    </ion-card>\n\n</ion-content>'/*ion-inline-end:"F:\UN_Buddy_First_Aid_App\src\pages\train\airway\headtilt\headtilt.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__ionic_storage__["b" /* Storage */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
     ], HeadtiltPage);
@@ -6304,7 +8060,7 @@ var HeadtiltPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 47:
+/***/ 40:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6331,6 +8087,7 @@ var RecoverypositionPage = /** @class */ (function () {
         this.ENG = false;
         this.FR = false;
         this.ES = false;
+        this.RUS = false;
     }
     RecoverypositionPage.prototype.ionViewWillEnter = function () {
         var _this = this;
@@ -6339,16 +8096,25 @@ var RecoverypositionPage = /** @class */ (function () {
                 _this.ENG = true;
                 _this.FR = false;
                 _this.ES = false;
+                _this.RUS = false;
             }
             if (data === 'FR') {
                 _this.ENG = false;
                 _this.FR = true;
                 _this.ES = false;
+                _this.RUS = false;
             }
             if (data === 'ES') {
                 _this.ENG = false;
                 _this.FR = false;
                 _this.ES = true;
+                _this.RUS = false;
+            }
+            if (data === 'RUS') {
+                _this.ENG = false;
+                _this.FR = false;
+                _this.ES = false;
+                _this.RUS = true;
             }
         });
     };
@@ -6357,7 +8123,7 @@ var RecoverypositionPage = /** @class */ (function () {
     };
     RecoverypositionPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-recoveryposition',template:/*ion-inline-start:"F:\UN_Buddy_First_Aid_App\src\pages\train\airway\recoveryposition\recoveryposition.html"*/'<ion-header no-border>\n\n    <ion-navbar hideBackButton color="transparent">\n\n        <ion-buttons left>\n\n            <button ion-button class="ion-icon" color="light" icon-only (click)="GoBack()">\n\n                <ion-icon id="closeicon" name="arrow-back"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content no-padding>\n\n    <ion-card *ngIf="ENG === true">\n\n        <h2 id="Title">Recovery position</h2>\n\n        <p id="Text">The recovery position allows for an unconscious casualty to maintain their own airway by allowing\n\n            the tongue to stay forward of the airway and to drain any aspirated fluid. The Recovery Position is best\n\n            used for unconscious medical casualties and trauma casualties without spinal injury.</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="FR === true">\n\n        <h2 id="Title">Position de récupération</h2>\n\n        <p id="Text">La position latérale de sécurité permet à la victime inconsciente de préserver ses propres voies\n\n            respiratoires en permettant à la langue de rester en avant des voies respiratoires et de drainer tout\n\n            liquide aspiré. La position de récupération est la meilleure pour les victimes médicales inconscientes et\n\n            les victimes de traumatismes sans lésion de la colonne vertébrale.</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="ES === true">\n\n        <h2 id="Title">POSICIÓN DE RECUPERACIÓN</h2>\n\n        <p id="Text">\n\n            La posición de recuperación permite a un herido inconsciente mantener sus vías respiratorias libres, posicionando a la lengua mantenerse delante de las vías respiratorias y drenar cualquier fluido aspirado. La posición de recuperación es mejor utilizada en heridos medicamente inconscientes y heridos por traumatismo sin lesión espinal.\n\n        </p>\n\n    </ion-card>\n\n\n\n    <ion-slides pager=\'true\' *ngIf="ENG === true">\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Performing recovery position</h2>\n\n                <h2 id="SubTitle">Step 1</h2>\n\n                <img id="Image" src="./assets/imgs/airway/RecoveryPositionStep1.gif">\n\n                <p id="Text">With the person lying on their back, kneel on the floor at their side. Extend the arm\n\n                    nearest you at a right angle to their body with their palm facing up.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Performing recovery position</h2>\n\n                <h2 id="SubTitle">Step 2</h2>\n\n                <img id="Image" src="./assets/imgs/airway/RecoveryPositionStep2.gif">\n\n                <p id="Text">Take the other arm and fold it so the back of their hand rests on the cheek closest to you,\n\n                    and hold it in place. Use your free hand to bend the person\'s knee farthest from you to a right\n\n                    angle. Roll the person onto their side by pulling on the bent knee.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Performing recovery position</h2>\n\n                <h2 id="SubTitle">Step 3</h2>\n\n                <img id="Image" src="./assets/imgs/airway/RecoveryPositionStep3.gif">\n\n                <p id="Text">Open their airway by gently tilting their head back and lifting their chin, and check that\n\n                    nothing is blocking their airway.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n    </ion-slides>\n\n    <ion-slides pager=\'true\' *ngIf="FR === true">\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Exécution de la position latérale de sécurité</h2>\n\n                <h2 id="SubTitle">Étape 1</h2>\n\n                <img id="Image" src="./assets/imgs/airway/RecoveryPositionStep1.gif">\n\n                <p id="Text">Avec la personne allongée sur le dos, agenouillez-vous sur le sol à côté d’elle. Tendez le\n\n                    bras le plus près de vous à angle droit par rapport au corps, la paume vers le haut.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Exécution de la position latérale de sécurité</h2>\n\n                <h2 id="SubTitle">Étape 2</h2>\n\n                <img id="Image" src="./assets/imgs/airway/RecoveryPositionStep2.gif">\n\n                <p id="Text">Prenez l’autre bras et pliez-le de façon à ce que le dos de la main repose sur la joue la\n\n                    plus proche de vous, et maintenez-le en place. Utilisez votre main libre pour plier le genou externe\n\n                    de la personne à angle droit. Roulez la personne sur le côté en tirant sur le genou fléchi.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Exécution de la position latérale de sécurité</h2>\n\n                <h2 id="SubTitle">Étape 3</h2>\n\n                <img id="Image" src="./assets/imgs/airway/RecoveryPositionStep3.gif">\n\n                <p id="Text">Ouvrez les voies respiratoires en inclinant doucement la tête vers l’arrière et en levant\n\n                    le menton de la victime, et vérifiez que rien ne bloque ses voies respiratoires.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n    </ion-slides>\n\n    <ion-slides pager=\'true\' *ngIf="ES === true">\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">EJECUCIÓN DE POSICIÓN DE RECUPERACIÓN</h2>\n\n                <h2 id="SubTitle">PASO 1:</h2>\n\n                <img id="Image" src="./assets/imgs/airway/RecoveryPositionStep1.gif">\n\n                <p id="Text">\n\n                    Con la persona recostada hacia atrás, arrodíllese en el piso al lado de la persona. Extienda el brazo más cercano de usted en ángulo recto de su cuerpo con la palma de la mano hacia arriba.\n\n                </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">EJECUCIÓN DE POSICIÓN DE RECUPERACIÓN</h2>\n\n                <h2 id="SubTitle">PASO 2:</h2>\n\n                <img id="Image" src="./assets/imgs/airway/RecoveryPositionStep2.gif">\n\n                <p id="Text">\n\n                    Tome el otro brazo y dóblelo de modo que el dorso de la mano descanse sobre la mejilla más cercana a usted y manténgalo en su lugar. Use la mano que está libre para doblar en ángulo recto la rodilla de la persona mas alejada de usted. Ponga a la persona de lado tirando de la rodilla doblada.\n\n                </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">EJECUCIÓN DE POSICIÓN DE RECUPERACIÓN</h2>\n\n                <h2 id="SubTitle">PASO 3:</h2>\n\n                <img id="Image" src="./assets/imgs/airway/RecoveryPositionStep3.gif">\n\n                <p id="Text">Abra las vías respiratorias inclinando suavemente la cabeza hacia atrás y levantando la barbilla y revise que no haya nada bloqueando las vías respiratorias.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n    </ion-slides>\n\n</ion-content>'/*ion-inline-end:"F:\UN_Buddy_First_Aid_App\src\pages\train\airway\recoveryposition\recoveryposition.html"*/
+            selector: 'page-recoveryposition',template:/*ion-inline-start:"F:\UN_Buddy_First_Aid_App\src\pages\train\airway\recoveryposition\recoveryposition.html"*/'<ion-header no-border>\n\n    <ion-navbar hideBackButton color="transparent">\n\n        <ion-buttons left>\n\n            <button ion-button class="ion-icon" color="light" icon-only (click)="GoBack()">\n\n                <ion-icon id="closeicon" name="arrow-back"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content no-padding>\n\n    <ion-card *ngIf="ENG === true">\n\n        <h2 id="Title">Recovery position</h2>\n\n        <p id="Text">The recovery position allows for an unconscious casualty to maintain their own airway by allowing\n\n            the tongue to stay forward of the airway and to drain any aspirated fluid. The Recovery Position is best\n\n            used for unconscious medical casualties and trauma casualties without spinal injury.</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="FR === true">\n\n        <h2 id="Title">Position de récupération</h2>\n\n        <p id="Text">La position latérale de sécurité permet à la victime inconsciente de préserver ses propres voies\n\n            respiratoires en permettant à la langue de rester en avant des voies respiratoires et de drainer tout\n\n            liquide aspiré. La position de récupération est la meilleure pour les victimes médicales inconscientes et\n\n            les victimes de traumatismes sans lésion de la colonne vertébrale.</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="ES === true">\n\n        <h2 id="Title">POSICIÓN DE RECUPERACIÓN</h2>\n\n        <p id="Text">\n\n            La posición de recuperación permite a un herido inconsciente mantener sus vías respiratorias libres,\n\n            posicionando a la lengua mantenerse delante de las vías respiratorias y drenar cualquier fluido aspirado. La\n\n            posición de recuperación es mejor utilizada en heridos medicamente inconscientes y heridos por traumatismo\n\n            sin lesión espinal.\n\n        </p>\n\n    </ion-card>\n\n    <ion-card *ngIf="RUS === true">\n\n        <h2 id="Title">ПОЛОЖЕНИЕ ДЛЯ ВОССТАНОВЛЕНИЯ</h2>\n\n        <p id="Text">Положение для восстановления позволяет пострадавшему, находящемуся без сознания, очистить\n\n            дыхательные пути, располагая язык таким образом, чтобы он оставался перед дыхательными путями и отводил всю\n\n            всасываемую жидкость. Положение для восстановления лучше всего использовать при потере сознания с\n\n            медицинской точки зрения и травмах без повреждения позвоночника.</p>\n\n    </ion-card>\n\n\n\n    <ion-slides pager=\'true\' *ngIf="ENG === true">\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Performing recovery position</h2>\n\n                <h2 id="SubTitle">Step 1</h2>\n\n                <img id="Image" src="./assets/imgs/airway/RecoveryPositionStep1.gif">\n\n                <p id="Text">With the person lying on their back, kneel on the floor at their side. Extend the arm\n\n                    nearest you at a right angle to their body with their palm facing up.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Performing recovery position</h2>\n\n                <h2 id="SubTitle">Step 2</h2>\n\n                <img id="Image" src="./assets/imgs/airway/RecoveryPositionStep2.gif">\n\n                <p id="Text">Take the other arm and fold it so the back of their hand rests on the cheek closest to you,\n\n                    and hold it in place. Use your free hand to bend the person\'s knee farthest from you to a right\n\n                    angle. Roll the person onto their side by pulling on the bent knee.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Performing recovery position</h2>\n\n                <h2 id="SubTitle">Step 3</h2>\n\n                <img id="Image" src="./assets/imgs/airway/RecoveryPositionStep3.gif">\n\n                <p id="Text">Open their airway by gently tilting their head back and lifting their chin, and check that\n\n                    nothing is blocking their airway.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n    </ion-slides>\n\n    <ion-slides pager=\'true\' *ngIf="FR === true">\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Exécution de la position latérale de sécurité</h2>\n\n                <h2 id="SubTitle">Étape 1</h2>\n\n                <img id="Image" src="./assets/imgs/airway/RecoveryPositionStep1.gif">\n\n                <p id="Text">Avec la personne allongée sur le dos, agenouillez-vous sur le sol à côté d’elle. Tendez le\n\n                    bras le plus près de vous à angle droit par rapport au corps, la paume vers le haut.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Exécution de la position latérale de sécurité</h2>\n\n                <h2 id="SubTitle">Étape 2</h2>\n\n                <img id="Image" src="./assets/imgs/airway/RecoveryPositionStep2.gif">\n\n                <p id="Text">Prenez l’autre bras et pliez-le de façon à ce que le dos de la main repose sur la joue la\n\n                    plus proche de vous, et maintenez-le en place. Utilisez votre main libre pour plier le genou externe\n\n                    de la personne à angle droit. Roulez la personne sur le côté en tirant sur le genou fléchi.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Exécution de la position latérale de sécurité</h2>\n\n                <h2 id="SubTitle">Étape 3</h2>\n\n                <img id="Image" src="./assets/imgs/airway/RecoveryPositionStep3.gif">\n\n                <p id="Text">Ouvrez les voies respiratoires en inclinant doucement la tête vers l’arrière et en levant\n\n                    le menton de la victime, et vérifiez que rien ne bloque ses voies respiratoires.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n    </ion-slides>\n\n    <ion-slides pager=\'true\' *ngIf="ES === true">\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">EJECUCIÓN DE POSICIÓN DE RECUPERACIÓN</h2>\n\n                <h2 id="SubTitle">PASO 1:</h2>\n\n                <img id="Image" src="./assets/imgs/airway/RecoveryPositionStep1.gif">\n\n                <p id="Text">\n\n                    Con la persona recostada hacia atrás, arrodíllese en el piso al lado de la persona. Extienda el\n\n                    brazo más cercano de usted en ángulo recto de su cuerpo con la palma de la mano hacia arriba.\n\n                </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">EJECUCIÓN DE POSICIÓN DE RECUPERACIÓN</h2>\n\n                <h2 id="SubTitle">PASO 2:</h2>\n\n                <img id="Image" src="./assets/imgs/airway/RecoveryPositionStep2.gif">\n\n                <p id="Text">\n\n                    Tome el otro brazo y dóblelo de modo que el dorso de la mano descanse sobre la mejilla más cercana a\n\n                    usted y manténgalo en su lugar. Use la mano que está libre para doblar en ángulo recto la rodilla de\n\n                    la persona mas alejada de usted. Ponga a la persona de lado tirando de la rodilla doblada.\n\n                </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">EJECUCIÓN DE POSICIÓN DE RECUPERACIÓN</h2>\n\n                <h2 id="SubTitle">PASO 3:</h2>\n\n                <img id="Image" src="./assets/imgs/airway/RecoveryPositionStep3.gif">\n\n                <p id="Text">Abra las vías respiratorias inclinando suavemente la cabeza hacia atrás y levantando la\n\n                    barbilla y revise que no haya nada bloqueando las vías respiratorias.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n    </ion-slides>\n\n\n\n    <ion-slides pager=\'true\' *ngIf="RUS === true">\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">ВЫПОЛНЕНИЕ ВОССТАНОВИТЕЛЬНОЙ ПОЗЫ</h2>\n\n                <h2 id="SubTitle">ШАГ 1:</h2>\n\n                <img id="Image" src="./assets/imgs/airway/RecoveryPositionStep1.gif">\n\n                <p id="Text">Когда человек лежит на спине, встаньте на колени на пол рядом с ним. Вытяните ближайшую к\n\n                    вам руку под прямым углом к телу ладонью вверх.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">ВЫПОЛНЕНИЕ ВОССТАНОВИТЕЛЬНОЙ ПОЗЫ</h2>\n\n                <h2 id="SubTitle">ШАГ 2:</h2>\n\n                <img id="Image" src="./assets/imgs/airway/RecoveryPositionStep2.gif">\n\n                <p id="Text">Возьмите другую руку и согните ее так, чтобы тыльная сторона ладони покоилась на ближайшей\n\n                    к вам щеке, и удерживайте ее на месте. Свободной рукой согните дальнее колено человека, под прямым\n\n                    углом. Поверните человека на бок, потянув за согнутое колено.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">ВЫПОЛНЕНИЕ ВОССТАНОВИТЕЛЬНОЙ ПОЗЫ</h2>\n\n                <h2 id="SubTitle">ШАГ 3:</h2>\n\n                <img id="Image" src="./assets/imgs/airway/RecoveryPositionStep3.gif">\n\n                <p id="Text">Откройте дыхательные пути, осторожно откинув голову назад и приподняв подбородок, и\n\n                    убедитесь, что дыхательные пути ничем не перекрыты.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n    </ion-slides>\n\n</ion-content>'/*ion-inline-end:"F:\UN_Buddy_First_Aid_App\src\pages\train\airway\recoveryposition\recoveryposition.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__ionic_storage__["b" /* Storage */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
     ], RecoverypositionPage);
@@ -6368,7 +8134,7 @@ var RecoverypositionPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 48:
+/***/ 41:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6395,6 +8161,7 @@ var SitupPage = /** @class */ (function () {
         this.ENG = false;
         this.FR = false;
         this.ES = false;
+        this.RUS = false;
     }
     SitupPage.prototype.ionViewWillEnter = function () {
         var _this = this;
@@ -6403,16 +8170,25 @@ var SitupPage = /** @class */ (function () {
                 _this.ENG = true;
                 _this.FR = false;
                 _this.ES = false;
+                _this.RUS = false;
             }
             if (data === 'FR') {
                 _this.ENG = false;
                 _this.FR = true;
                 _this.ES = false;
+                _this.RUS = false;
             }
             if (data === 'ES') {
                 _this.ENG = false;
                 _this.FR = false;
                 _this.ES = true;
+                _this.RUS = false;
+            }
+            if (data === 'RUS') {
+                _this.ENG = false;
+                _this.FR = false;
+                _this.ES = false;
+                _this.RUS = true;
             }
         });
     };
@@ -6421,7 +8197,7 @@ var SitupPage = /** @class */ (function () {
     };
     SitupPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-situp',template:/*ion-inline-start:"F:\UN_Buddy_First_Aid_App\src\pages\train\airway\situp\situp.html"*/'<ion-header no-border>\n\n    <ion-navbar hideBackButton color="transparent">\n\n        <ion-buttons left>\n\n            <button ion-button class="ion-icon" color="light" icon-only (click)="GoBack()">\n\n                <ion-icon id="closeicon" name="arrow-back"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content no-padding>\n\n    <ion-card *ngIf="ENG === true">\n\n        <h2 id="Title">Sit up & forward position</h2>\n\n        <p id="Text">Casualties that are conscious and experiencing breathing difficulty should be permitted to adopt\n\n            the ‘sit up & forward position’.<br><br>Particularly those with severe facial trauma may be able to best\n\n            maintain their airway by leaning forward and allowing blood, tissue, and fluid to naturally drain free.</p>\n\n        <img id="Image" src="./assets/imgs/airway/sittingposition.gif">\n\n    </ion-card>\n\n    <ion-card *ngIf="FR === true">\n\n        <h2 id="Title">Position assise penchée en avant</h2>\n\n        <p id="Text">Les blessés conscients qui éprouvent des difficultés respiratoires devraient être autorisés à\n\n            adopter la « position assise penchée vers l’avant ». <br><br>En particulier, ceux qui ont un traumatisme\n\n            facial grave pourront être mieux en mesure de maintenir leurs voies respiratoires en se penchant vers\n\n            l’avant et en laissant le sang, les tissus et les liquides se dégager naturellement.</p>\n\n        <img id="Image" src="./assets/imgs/airway/sittingposition.gif">\n\n    </ion-card>\n\n    <ion-card *ngIf="ES === true">\n\n        <h2 id="Title">POSICIÓN SENTADA HACIA ADELANTE</h2>\n\n        <p id="Text">\n\n            Se puede adoptar una posición sentada hacia adelante a los heridos que estén conscientes que sientan\n\n            dificultad para respirar.\n\n            Particularmente aquellos con traumas faciales severos puedan mantener mejor sus vías respiratorias\n\n            inclinándose hacia adelante y permitiendo que la sangre, los tejidos y el líquido se drenen naturalmente.\n\n        </p>\n\n        <img id="Image" src="./assets/imgs/airway/sittingposition.gif">\n\n    </ion-card>\n\n</ion-content>'/*ion-inline-end:"F:\UN_Buddy_First_Aid_App\src\pages\train\airway\situp\situp.html"*/
+            selector: 'page-situp',template:/*ion-inline-start:"F:\UN_Buddy_First_Aid_App\src\pages\train\airway\situp\situp.html"*/'<ion-header no-border>\n\n    <ion-navbar hideBackButton color="transparent">\n\n        <ion-buttons left>\n\n            <button ion-button class="ion-icon" color="light" icon-only (click)="GoBack()">\n\n                <ion-icon id="closeicon" name="arrow-back"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content no-padding>\n\n    <ion-card *ngIf="ENG === true">\n\n        <h2 id="Title">Sit up & forward position</h2>\n\n        <p id="Text">Casualties that are conscious and experiencing breathing difficulty should be permitted to adopt\n\n            the ‘sit up & forward position’.<br><br>Particularly those with severe facial trauma may be able to best\n\n            maintain their airway by leaning forward and allowing blood, tissue, and fluid to naturally drain free.</p>\n\n        <img id="Image" src="./assets/imgs/airway/sittingposition.gif">\n\n    </ion-card>\n\n    <ion-card *ngIf="FR === true">\n\n        <h2 id="Title">Position assise penchée en avant</h2>\n\n        <p id="Text">Les blessés conscients qui éprouvent des difficultés respiratoires devraient être autorisés à\n\n            adopter la « position assise penchée vers l’avant ». <br><br>En particulier, ceux qui ont un traumatisme\n\n            facial grave pourront être mieux en mesure de maintenir leurs voies respiratoires en se penchant vers\n\n            l’avant et en laissant le sang, les tissus et les liquides se dégager naturellement.</p>\n\n        <img id="Image" src="./assets/imgs/airway/sittingposition.gif">\n\n    </ion-card>\n\n    <ion-card *ngIf="ES === true">\n\n        <h2 id="Title">POSICIÓN SENTADA HACIA ADELANTE</h2>\n\n        <p id="Text">\n\n            Se puede adoptar una posición sentada hacia adelante a los heridos que estén conscientes que sientan\n\n            dificultad para respirar.\n\n            Particularmente aquellos con traumas faciales severos puedan mantener mejor sus vías respiratorias\n\n            inclinándose hacia adelante y permitiendo que la sangre, los tejidos y el líquido se drenen naturalmente.\n\n        </p>\n\n        <img id="Image" src="./assets/imgs/airway/sittingposition.gif">\n\n    </ion-card>\n\n    <ion-card *ngIf="RUS === true">\n\n        <h2 id="Title">ПОЛОЖЕНИЕ СИДЯ ВПЕРЕД</h2>\n\n        <p id="Text">Находящимся в сознании пострадавшим, которые чувствуют затрудненное дыхание, разрешается принять\n\n            положение сидя вперед.\n\n            Особенно те, у кого тяжелая травма лица, могут лучше поддерживать свои дыхательные пути, наклоняясь вперед и\n\n            позволяя крови, тканям и жидкости стекать естественным путем.</p>\n\n        <img id="Image" src="./assets/imgs/airway/sittingposition.gif">\n\n    </ion-card>\n\n</ion-content>'/*ion-inline-end:"F:\UN_Buddy_First_Aid_App\src\pages\train\airway\situp\situp.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__ionic_storage__["b" /* Storage */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
     ], SitupPage);
@@ -6432,7 +8208,7 @@ var SitupPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 49:
+/***/ 42:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6485,7 +8261,7 @@ var RespirationPage = /** @class */ (function () {
     };
     RespirationPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-respiration',template:/*ion-inline-start:"F:\UN_Buddy_First_Aid_App\src\pages\train\respiration\respiration.html"*/'<ion-header no-border>\n\n    <ion-navbar hideBackButton color="transparent">\n\n        <ion-buttons left>\n\n            <button ion-button class="ion-icon" color="light" icon-only (click)="GoBack()">\n\n                <ion-icon id="closeicon" name="arrow-back"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content no-padding>\n\n    <ion-card *ngIf="ENG === true">\n\n        <h2 id="Title">Chest wounds</h2>\n\n        <p id="Text">Any injury on the front or back of the casualty’s torso above the navel should be treated as a\n\n            chest injury.</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="FR === true">\n\n        <h2 id="Title">Blessures à la poitrine</h2>\n\n        <p id="Text">Toute blessure à l’avant ou à l’arrière du torse de la victime au-dessus du nombril doit être\n\n            traitée comme une blessure à la poitrine.</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="ES === true">\n\n        <h2 id="Title">HERIDAS DE PECHO</h2>\n\n        <p id="Text">\n\n            Cualquier lesión en la parte delantera o trasera del torso de la víctima por encima del ombligo debe\n\n            tratarse como una lesión en el pecho.\n\n        </p>\n\n    </ion-card>\n\n\n\n    <ion-card *ngIf="ENG === true">\n\n        <h2 id="Title">Chest seal</h2>\n\n        <p id="Text">Sucking chest wounds should be sealed with an air tight dressing.<br><br>If there is more than one\n\n            wound, such as an entrance and exit wound, apply the chest seal or 3-sided flutter valve to the wound on the\n\n            casualty\'s front and a full seal to the wound on the casualty\'s back (all four sides taped down).\n\n        </p>\n\n    </ion-card>\n\n    <ion-card *ngIf="FR === true">\n\n        <h2 id="Title">Pansement thoracique occlusif</h2>\n\n        <p id="Text">Les plaies thoraciques soufflantes doivent être scellées avec un pansement hermétique. S’il y a\n\n            plus d’une plaie, comme une plaie d’entrée et une plaie de sortie, appliquez un pansement thoracique\n\n            occlusif ou une valve anti-reflux à 3 côtés sur la plaie sur l’avant de la victime et un pansement occlusif\n\n            sur la plaie au dos de la victime (les quatre côtés sont scotchés).\n\n        </p>\n\n    </ion-card>\n\n    <ion-card *ngIf="ES === true">\n\n        <h2 id="Title">CUBRIR EL PECHO</h2>\n\n        <p id="Text">Las heridas por succión en el pecho deben cubrirse con un vendaje hermético.\n\n            \n\n            Si hay más de una herida, tales como una entrada o salida, aplicar el vendaje hermético o la válvula de\n\n            aleteo de 3 lados en la herida, de la parte frontal de la víctima y un sello completo a la herida en la\n\n            espalda de la víctima (los cuatro lados pegados con cinta adhesiva).\n\n        </p>\n\n    </ion-card>\n\n\n\n    <ion-slides pager=\'true\' *ngIf="ENG === true">\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Applying chest seal</h2>\n\n                <h2 id="SubTitle">Step 1</h2>\n\n                <img id="Image" src="assets/imgs/respiration/ChestsealStep1.gif">\n\n                <p id="Text">Prior to fetching a chest seal place gloved hand over the wound or apply sideways pressure\n\n                    to the wound to shift the muscle tissue, closing the wound.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Applying chest seal</h2>\n\n                <h2 id="SubTitle">Step 2</h2>\n\n                <img id="Image" src="./assets/imgs/respiration/ChestsealStep2.gif">\n\n                <p id="Text">Take gauze/cloth and wipe away any blood, sweat, debris from the wound area. Place the\n\n                    chest seal next to the wound. Slowly remove the plastic backing while rolling the sticky side over\n\n                    the wound. The seal should be centered over the wound.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Applying chest seal</h2>\n\n                <h2 id="SubTitle">Step 3</h2>\n\n                <img id="Image" src="./assets/imgs/respiration/ChestsealStep3.gif">\n\n                <p id="Text">Verify that the seal is sticking and that no air is heard passing through the seal during\n\n                    inhalation. For vented chest seals make sure that the vent ports are not clogged up and are able to\n\n                    let excess air vent from the chest cavity. Repeat as necessary for additional wounds, ensure you\n\n                    seal any exit wounds.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n    </ion-slides>\n\n    <ion-slides pager=\'true\' *ngIf="FR === true">\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Application d’un pansement thoracique occlusif</h2>\n\n                <h2 id="SubTitle">Étape 1</h2>\n\n                <img id="Image" src="assets/imgs/respiration/ChestsealStep1.gif">\n\n                <p id="Text">Avant de poser un pansement pour plaie thoracique, placez la main gantée sur la plaie ou\n\n                    appuyez sur les côtés de la plaie pour déplacer le tissu musculaire et fermer la plaie.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Application d’un pansement thoracique occlusif</h2>\n\n                <h2 id="SubTitle">Étape 2</h2>\n\n                <img id="Image" src="./assets/imgs/respiration/ChestsealStep2.gif">\n\n                <p id="Text">Prenez de la gaze ou un tissu et essuyez le sang, la sueur et les débris de la zone de la\n\n                    plaie. Placez le pansement occlusif à côté de la plaie. Retirez lentement le dos en plastique tout\n\n                    en faisant rouler le côté collant sur la plaie. Le pansement doit être centré sur la plaie.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Application d’un pansement thoracique occlusif</h2>\n\n                <h2 id="SubTitle">Étape 3</h2>\n\n                <img id="Image" src="./assets/imgs/respiration/ChestsealStep3.gif">\n\n                <p id="Text">Vérifiez que le pansement colle bien et qu’il n’y a pas d’air qui passe à travers pendant\n\n                    l’inhalation. Pour les pansements thoraciques ventilés, s’assurer que les orifices de ventilation ne\n\n                    sont pas obstrués et qu’ils sont capables de laisser l’excès d’air s’échapper de la cavité\n\n                    thoracique. Répétez l’opération si nécessaire pour d’autres plaies, assurez-vous de sceller toutes\n\n                    les plaies de sortie.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n    </ion-slides>\n\n    <ion-slides pager=\'true\' *ngIf="ES === true">\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">APLICAR PARCHE DE PECHO</h2>\n\n                <h2 id="SubTitle">PASO 1:</h2>\n\n                <img id="Image" src="assets/imgs/respiration/ChestsealStep1.gif">\n\n                <p id="Text">\n\n                    Antes de utilizar un parche de pecho, coloque la mano enguantada sobre la herida o aplique presión\n\n                    lateral a la herida para mover el tejido muscular cerrando la herida.\n\n                </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">APLICAR PARCHE DE PECHO</h2>\n\n                <h2 id="SubTitle">PASO 2:</h2>\n\n                <img id="Image" src="./assets/imgs/respiration/ChestsealStep2.gif">\n\n                <p id="Text">\n\n                    Tome una gasa o paño y limpie la sangre, el sudor y los residuos del área de la herida. Coloque el\n\n                    parche de forma uniforme con la herida. Remueva despacio el respaldo de plástico mientras enrolla el\n\n                    lado adhesivo sobre la herida. El parche debe quedar centrado sobre la herida.\n\n                </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">APLICAR PARCHE DE PECHO</h2>\n\n                <h2 id="SubTitle">PASO 3:</h2>\n\n                <img id="Image" src="./assets/imgs/respiration/ChestsealStep3.gif">\n\n                <p id="Text">\n\n                    Verifique que el parche quede adherido y que no se escuche paso de aire a través del sello durante\n\n                    la inhalación. Para los parches de pecho ventilados, asegúrese que los puertos de ventilación no\n\n                    estén obstruidos y que sean capaces de permitir que el exceso de aire salga de la cavidad torácica.\n\n                    Repita según sea necesario para heridas adicionales, asegúrese de sellar cualquier herida.\n\n                </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n    </ion-slides>\n\n\n\n    <ion-card *ngIf="ENG === true">\n\n        <h2 id="Title">4-Sided Occlusive Dressing</h2>\n\n        <p id="Text">If commercial chest seals are not available, any air tight material like plastic can be used to\n\n            seal the chest including plastic wrapping from other dressings, duct tape or plastic kitchen roll. The\n\n            important objective is to seal the wounds in a way that prevents air from entering the chest.</p>\n\n        <img id="Image" src="./assets/imgs/respiration/FlutterValve.png">\n\n    </ion-card>\n\n    <ion-card *ngIf="FR === true">\n\n        <h2 id="Title">Pansement occlusif à 4 côtés</h2>\n\n        <p id="Text">S’il n’y a pas de pansement thoracique occlusif, tout matériau étanche à l’air comme du plastique\n\n            peut être utilisé pour sceller la poitrine, y compris un emballage en plastique, d’autres pansements, du\n\n            ruban adhésif en toile ou un rouleau de film plastique. L’objectif important est de sceller les plaies d’une\n\n            manière qui empêche l’air de pénétrer dans la poitrine.</p>\n\n        <img id="Image" src="./assets/imgs/respiration/FlutterValve.png">\n\n    </ion-card>\n\n    <ion-card *ngIf="ES === true">\n\n        <h2 id="Title">VENDAJE OCLUSIVO DE 4 LADOS</h2>\n\n        <p id="Text">\n\n            Si los parches comerciales no están disponibles, cualquier material hermético como el plástico puede ser\n\n            usado para sellar el pecho incluyendo envoltura de plástico de otros vendajes, cinta adhesiva o rollo\n\n            plástico para cocina. El objetivo principal es sellar las heridas de forma que evitemos que el aire entre en\n\n            el pecho.\n\n        </p>\n\n        <img id="Image" src="./assets/imgs/respiration/FlutterValve.png">\n\n    </ion-card>\n\n\n\n</ion-content>'/*ion-inline-end:"F:\UN_Buddy_First_Aid_App\src\pages\train\respiration\respiration.html"*/
+            selector: 'page-respiration',template:/*ion-inline-start:"F:\UN_Buddy_First_Aid_App\src\pages\train\respiration\respiration.html"*/'<ion-header no-border>\n\n    <ion-navbar hideBackButton color="transparent">\n\n        <ion-buttons left>\n\n            <button ion-button class="ion-icon" color="light" icon-only (click)="GoBack()">\n\n                <ion-icon id="closeicon" name="arrow-back"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content no-padding>\n\n    <ion-card *ngIf="ENG === true">\n\n        <h2 id="Title">Chest wounds</h2>\n\n        <p id="Text">Any injury on the front or back of the casualty’s torso above the navel should be treated as a\n\n            chest injury.</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="FR === true">\n\n        <h2 id="Title">Blessures à la poitrine</h2>\n\n        <p id="Text">Toute blessure à l’avant ou à l’arrière du torse de la victime au-dessus du nombril doit être\n\n            traitée comme une blessure à la poitrine.</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="ES === true">\n\n        <h2 id="Title">HERIDAS DE PECHO</h2>\n\n        <p id="Text">\n\n            Cualquier lesión en la parte delantera o trasera del torso de la víctima por encima del ombligo debe\n\n            tratarse como una lesión en el pecho.\n\n        </p>\n\n    </ion-card>\n\n\n\n    <ion-card *ngIf="ENG === true">\n\n        <h2 id="Title">Chest seal</h2>\n\n        <p id="Text">Sucking chest wounds should be sealed with an air tight dressing.<br><br>If there is more than one\n\n            wound, such as an entrance and exit wound, apply the chest seal or 3-sided flutter valve to the wound on the\n\n            casualty\'s front and a full seal to the wound on the casualty\'s back (all four sides taped down).\n\n        </p>\n\n    </ion-card>\n\n    <ion-card *ngIf="FR === true">\n\n        <h2 id="Title">Pansement thoracique occlusif</h2>\n\n        <p id="Text">Les plaies thoraciques soufflantes doivent être scellées avec un pansement hermétique. S’il y a\n\n            plus d’une plaie, comme une plaie d’entrée et une plaie de sortie, appliquez un pansement thoracique\n\n            occlusif ou une valve anti-reflux à 3 côtés sur la plaie sur l’avant de la victime et un pansement occlusif\n\n            sur la plaie au dos de la victime (les quatre côtés sont scotchés).\n\n        </p>\n\n    </ion-card>\n\n    <ion-card *ngIf="ES === true">\n\n        <h2 id="Title">CUBRIR EL PECHO</h2>\n\n        <p id="Text">Las heridas por succión en el pecho deben cubrirse con un vendaje hermético.\n\n\n\n            Si hay más de una herida, tales como una entrada o salida, aplicar el vendaje hermético o la válvula de\n\n            aleteo de 3 lados en la herida, de la parte frontal de la víctima y un sello completo a la herida en la\n\n            espalda de la víctima (los cuatro lados pegados con cinta adhesiva).\n\n        </p>\n\n    </ion-card>\n\n\n\n    <ion-slides pager=\'true\' *ngIf="ENG === true">\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Applying chest seal</h2>\n\n                <h2 id="SubTitle">Step 1</h2>\n\n                <img id="Image" src="assets/imgs/respiration/ChestsealStep1.gif">\n\n                <p id="Text">Prior to fetching a chest seal place gloved hand over the wound or apply sideways pressure\n\n                    to the wound to shift the muscle tissue, closing the wound.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Applying chest seal</h2>\n\n                <h2 id="SubTitle">Step 2</h2>\n\n                <img id="Image" src="./assets/imgs/respiration/ChestsealStep2.gif">\n\n                <p id="Text">Take gauze/cloth and wipe away any blood, sweat, debris from the wound area. Place the\n\n                    chest seal next to the wound. Slowly remove the plastic backing while rolling the sticky side over\n\n                    the wound. The seal should be centered over the wound.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Applying chest seal</h2>\n\n                <h2 id="SubTitle">Step 3</h2>\n\n                <img id="Image" src="./assets/imgs/respiration/ChestsealStep3.gif">\n\n                <p id="Text">Verify that the seal is sticking and that no air is heard passing through the seal during\n\n                    inhalation. For vented chest seals make sure that the vent ports are not clogged up and are able to\n\n                    let excess air vent from the chest cavity. Repeat as necessary for additional wounds, ensure you\n\n                    seal any exit wounds.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n    </ion-slides>\n\n    <ion-slides pager=\'true\' *ngIf="FR === true">\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Application d’un pansement thoracique occlusif</h2>\n\n                <h2 id="SubTitle">Étape 1</h2>\n\n                <img id="Image" src="assets/imgs/respiration/ChestsealStep1.gif">\n\n                <p id="Text">Avant de poser un pansement pour plaie thoracique, placez la main gantée sur la plaie ou\n\n                    appuyez sur les côtés de la plaie pour déplacer le tissu musculaire et fermer la plaie.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Application d’un pansement thoracique occlusif</h2>\n\n                <h2 id="SubTitle">Étape 2</h2>\n\n                <img id="Image" src="./assets/imgs/respiration/ChestsealStep2.gif">\n\n                <p id="Text">Prenez de la gaze ou un tissu et essuyez le sang, la sueur et les débris de la zone de la\n\n                    plaie. Placez le pansement occlusif à côté de la plaie. Retirez lentement le dos en plastique tout\n\n                    en faisant rouler le côté collant sur la plaie. Le pansement doit être centré sur la plaie.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">Application d’un pansement thoracique occlusif</h2>\n\n                <h2 id="SubTitle">Étape 3</h2>\n\n                <img id="Image" src="./assets/imgs/respiration/ChestsealStep3.gif">\n\n                <p id="Text">Vérifiez que le pansement colle bien et qu’il n’y a pas d’air qui passe à travers pendant\n\n                    l’inhalation. Pour les pansements thoraciques ventilés, s’assurer que les orifices de ventilation ne\n\n                    sont pas obstrués et qu’ils sont capables de laisser l’excès d’air s’échapper de la cavité\n\n                    thoracique. Répétez l’opération si nécessaire pour d’autres plaies, assurez-vous de sceller toutes\n\n                    les plaies de sortie.</p>\n\n            </ion-card>\n\n        </ion-slide>\n\n    </ion-slides>\n\n    <ion-slides pager=\'true\' *ngIf="ES === true">\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">APLICAR PARCHE DE PECHO</h2>\n\n                <h2 id="SubTitle">PASO 1:</h2>\n\n                <img id="Image" src="assets/imgs/respiration/ChestsealStep1.gif">\n\n                <p id="Text">\n\n                    Antes de utilizar un parche de pecho, coloque la mano enguantada sobre la herida o aplique presión\n\n                    lateral a la herida para mover el tejido muscular cerrando la herida.\n\n                </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">APLICAR PARCHE DE PECHO</h2>\n\n                <h2 id="SubTitle">PASO 2:</h2>\n\n                <img id="Image" src="./assets/imgs/respiration/ChestsealStep2.gif">\n\n                <p id="Text">\n\n                    Tome una gasa o paño y limpie la sangre, el sudor y los residuos del área de la herida. Coloque el\n\n                    parche de forma uniforme con la herida. Remueva despacio el respaldo de plástico mientras enrolla el\n\n                    lado adhesivo sobre la herida. El parche debe quedar centrado sobre la herida.\n\n                </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <ion-card class="cardSteps">\n\n                <h2 id="Title">APLICAR PARCHE DE PECHO</h2>\n\n                <h2 id="SubTitle">PASO 3:</h2>\n\n                <img id="Image" src="./assets/imgs/respiration/ChestsealStep3.gif">\n\n                <p id="Text">\n\n                    Verifique que el parche quede adherido y que no se escuche paso de aire a través del sello durante\n\n                    la inhalación. Para los parches de pecho ventilados, asegúrese que los puertos de ventilación no\n\n                    estén obstruidos y que sean capaces de permitir que el exceso de aire salga de la cavidad torácica.\n\n                    Repita según sea necesario para heridas adicionales, asegúrese de sellar cualquier herida.\n\n                </p>\n\n            </ion-card>\n\n        </ion-slide>\n\n    </ion-slides>\n\n\n\n    <ion-card *ngIf="ENG === true">\n\n        <h2 id="Title">4-Sided Occlusive Dressing</h2>\n\n        <p id="Text">If commercial chest seals are not available, any air tight material like plastic can be used to\n\n            seal the chest including plastic wrapping from other dressings, duct tape or plastic kitchen roll. The\n\n            important objective is to seal the wounds in a way that prevents air from entering the chest.</p>\n\n        <img id="Image" src="./assets/imgs/respiration/FlutterValve.png">\n\n    </ion-card>\n\n    <ion-card *ngIf="FR === true">\n\n        <h2 id="Title">Pansement occlusif à 4 côtés</h2>\n\n        <p id="Text">S’il n’y a pas de pansement thoracique occlusif, tout matériau étanche à l’air comme du plastique\n\n            peut être utilisé pour sceller la poitrine, y compris un emballage en plastique, d’autres pansements, du\n\n            ruban adhésif en toile ou un rouleau de film plastique. L’objectif important est de sceller les plaies d’une\n\n            manière qui empêche l’air de pénétrer dans la poitrine.</p>\n\n        <img id="Image" src="./assets/imgs/respiration/FlutterValve.png">\n\n    </ion-card>\n\n    <ion-card *ngIf="ES === true">\n\n        <h2 id="Title">VENDAJE OCLUSIVO DE 4 LADOS</h2>\n\n        <p id="Text">\n\n            Si los parches comerciales no están disponibles, cualquier material hermético como el plástico puede ser\n\n            usado para sellar el pecho incluyendo envoltura de plástico de otros vendajes, cinta adhesiva o rollo\n\n            plástico para cocina. El objetivo principal es sellar las heridas de forma que evitemos que el aire entre en\n\n            el pecho.\n\n        </p>\n\n        <img id="Image" src="./assets/imgs/respiration/FlutterValve.png">\n\n    </ion-card>\n\n\n\n</ion-content>'/*ion-inline-end:"F:\UN_Buddy_First_Aid_App\src\pages\train\respiration\respiration.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__ionic_storage__["b" /* Storage */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
     ], RespirationPage);
@@ -6496,7 +8272,7 @@ var RespirationPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 50:
+/***/ 43:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6549,7 +8325,7 @@ var HyperthermiaPage = /** @class */ (function () {
     };
     HyperthermiaPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-hyperthermia',template:/*ion-inline-start:"F:\UN_Buddy_First_Aid_App\src\pages\train\heat\hyperthermia\hyperthermia.html"*/'<ion-header no-border>\n\n    <ion-navbar hideBackButton color="transparent">\n\n        <ion-buttons left>\n\n            <button ion-button class="ion-icon" color="light" icon-only (click)="GoBack()">\n\n                <ion-icon id="closeicon" name="arrow-back"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content no-padding>\n\n    <ion-card *ngIf="ENG === true">\n\n        <h2 id="Title">Hyperthermia</h2>\n\n        <p id="Text">Hyperthermia (heat cramps/heat exhaustion or heat stroke) is elevated body temperature as the body\n\n            produces or absorbs more heat than it dissipates. Extreme temperature elevation becomes a medical emergency\n\n            requiring immediate treatment to prevent disability or death.\n\n        </p>\n\n    </ion-card>\n\n    <ion-card *ngIf="FR === true">\n\n        <h2 id="Title">Hyperthermie</h2>\n\n        <p id="Text">Hyperthermia (heat cramps/heat exhaustion or heat stroke) is elevated body temperature as the body\n\n            produces or absorbs more heat than it dissipates. Extreme temperature elevation becomes a medical emergency\n\n            requiring immediate treatment to prevent disability or death.</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="ES === true">\n\n        <h2 id="Title">HIPERTERMIA</h2>\n\n        <p id="Text">\n\n            Hipertermia (calambres por calor/insolación o golpe de calor) es la temperatura corporal elevada cuando el cuerpo genera o absorbe más calor de lo que puede disipar. Un aumento extremo de la temperatura es una emergencia médica que requiere tratamiento inmediato para prevenir discapacidades o la muerte.\n\n        </p>\n\n    </ion-card>\n\n\n\n    <ion-card *ngIf="ENG === true">\n\n        <h2 id="Title">Heat exhaustion</h2>\n\n        <p id="Text">As the body’s organs and muscle tissue lose fluid, they draw this fluid from the fat cells and\n\n            circulating blood causing the heart rate to increase in an effort to maintain blood pressure. Signs of Heat\n\n            Exhaustion include:\n\n            • Excessive Sweating\n\n            • Mild Headaches\n\n            • Dizziness and/or confusion\n\n            • Loss of Appetite\n\n        </p>\n\n        <p id="SubTitle">Treatment</p>\n\n        <p id="Text">Emergency medical care for hyperthermia may include one of the following interventions:\n\n            • Remove person from the elements into the shade\n\n            • Use cold wet towels or dampen clothing with tepid water\n\n            • Offer cool fluids to drink\n\n            Avoid hot, heavy meals. Do not immerse someone who is suffering from hyperthermia into a body of cold water\n\n        </p>\n\n    </ion-card>\n\n    <ion-card *ngIf="FR === true">\n\n        <h2 id="Title">Épuisement par la chaleur</h2>\n\n        <p id="Text">Lorsque les organes et les tissus musculaires du corps perdent du liquide, ils le tirent des\n\n            cellules adipeuses et du sang en circulation, ce qui fait augmenter la fréquence cardiaque dans un effort de\n\n            maintenir la tension artérielle. Les signes d’épuisement par la chaleur incluent :\n\n            • Transpiration excessive\n\n            • Légers maux de tête\n\n            • Vertige et/ou confusion\n\n            • Perte d’appétit</p>\n\n        <p id="SubTitle">Traitement</p>\n\n        <p id="Text">Les soins médicaux d\'urgence en cas d\'hyperthermie peuvent comprendre l\'une des interventions\n\n            suivantes :\n\n            • Retirez la personne du soleil et la mettre à l’ombre\n\n            • Utilisez des serviettes humides froides ou mouiller les vêtements avec de l’eau tiède\n\n            • Offrez des boissons froides\n\n            Évitez les repas chauds et lourds. Ne plongez pas une personne souffrant d\'hyperthermie dans un plan d\'eau\n\n            froide.</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="ES === true">\n\n        <h2 id="Title">INSOLACIÓN</h2>\n\n        <p id="Text">A medida que los órganos y tejidos musculares del cuerpo pierden líquido, extraen este líquido de las células grasas y de la sangre circulante, haciendo que la frecuencia cardíaca aumente en un intento de mantener la presión arterial. Los signos de insolación incluyen:\n\n            • Sudoración excesiva.\n\n            • Dolores leves de cabeza.\n\n            • Mareo o confusión.\n\n            • Pérdida de apetito\n\n        </p>\n\n        <p id="SubTitle">TRATAMIENTO</p>\n\n        <p id="Text">La atención médica de emergencia para la hipertermia puede incluir una de las siguientes intervenciones:\n\n            • Alejar a la persona del ambiente caluroso hacia la sombra.\n\n            • Usar toallas mojadas frías o humedecer la ropa con agua tibia.\n\n            • Proporcionar líquidos fríos para beber.\n\n            Evitar comidas pesadas y calientes. No sumergir a alguien que está sufriendo hipertermia en agua fría.\n\n        </p>\n\n    </ion-card>\n\n\n\n    <ion-card *ngIf="ENG === true">\n\n        <h2 id="Title">Heat stroke</h2>\n\n        <p id="Text">If fluid and electrolyte levels are not rapidly replaced, the casualty’s level of consciousness\n\n            will continue to decline, leading to Heat Stroke. Signs of Heat Stroke include:\n\n            • Throbbing Headache\n\n            • Little or no sweating\n\n            • Vomiting\n\n            • Red skin which is dry and hot to the touch\n\n            • Loss of Consciousness (fainting)\n\n        </p>\n\n        <p id="SubTitle">Treatment</p>\n\n        <p id="Text">Heat Stroke is a medical emergency. Without rapid intervention, the casualty may suffer\n\n            irreversible brain and organ damage. The treatment for Heat Stoke in a hot field environment is referred to\n\n            as ‘rapid cooling’. This is achieved by:\n\n            • Requesting assistance of a medical professional as soon as possible\n\n            • Moving the casualty to shade if possible\n\n            • Removing the casualty’s clothing (except underwear)\n\n            • Pouring water (30ºC-40ºC) over the casualty below the neck. Use as much water as possible (approx40-80L)\n\n            • Medical professional to administer IV fluid\n\n        </p>\n\n    </ion-card>\n\n    <ion-card *ngIf="FR === true">\n\n        <h2 id="Title">Insolation</h2>\n\n        <p id="Text">Si les niveaux de liquide et d’électrolytes ne sont pas rapidement rééquilibrés, l’état de\n\n            conscience de la victime continuera de décliner, ce qui entraînera une insolation. Les signes d’insolation\n\n            incluent :\n\n            • Maux de tête lancinants\n\n            • Pas de transpiration ou transpiration légère.\n\n            • Vomissements\n\n            • Peau rouge, sèche et chaude au toucher\n\n            • Perte de conscience (évanouissement)</p>\n\n        <p id="SubTitle">Traitement</p>\n\n        <p id="Text">L’insolation est une urgence médicale. Sans intervention rapide, la victime peut souffrir de\n\n            dommages irréversibles au cerveau et aux organes. Le traitement de l’insolation dans un environnement de\n\n            terrain surchauffé est appelé « refroidissement rapide ». Pour ce faire, il faut :\n\n            • Demander au plus tôt l’aide d’un professionnel de la santé\n\n            • Mettre la victime à l’ombre si possible\n\n            • Retirer les vêtements de la victime (sauf les sous-vêtements)\n\n            • Verser de l’eau (30ºC-40ºC) sur la victime en dessous du cou. Utiliser autant d’eau que possible (de 40 à\n\n            80 litres environ)\n\n            • Un professionnel de la santé qui administre du liquide par voie intraveineuse</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="ES === true">\n\n        <h2 id="Title">GOLPE DE CALOR</h2>\n\n        <p id="Text">Si los niveles de líquidos y electrolitos no se reponen rápidamente, el nivel de conciencia de la víctima seguirá disminuyendo, llevándola a una insolación. Los signos de un golpe de calor incluyen:\n\n            • Dolor de cabeza palpitante.\n\n            • Poca o nada de sudoración.\n\n            • Vómitos.\n\n            • Piel enrojecida, la cual es seca y caliente al tacto.\n\n            • Pérdida de conciencia (desmayo).\n\n        </p>\n\n        <p id="SubTitle">TRATAMIENTO</p>\n\n        <p id="Text">El golpe de calor es una emergencia médica. Sin la intervención inmediata, la víctima podría sufrir daños irreversibles de los órganos y el cerebro. El tratamiento para el golpe de calor en un ambiente caluroso se conoce como ‘enfriamiento rápido’, y se logra de la siguiente manera:\n\n            • Solicitar la asistencia de un médico profesional lo antes posible.\n\n            • Trasladar a la víctima a la sombra de ser posible\n\n            • Quitarle la ropa a la víctima (excepto la ropa interior).\n\n            • Verter agua (30 °C o 40 °C) sobre la víctima debajo del cuello. Utilizar la \n\n            • mayor cantidad de agua posible (aproximadamente entre 40 a 80 litros).\n\n            • Un médico profesional debe de administrar líquidos por vía intravenosa.\n\n        </p>\n\n    </ion-card>\n\n</ion-content>'/*ion-inline-end:"F:\UN_Buddy_First_Aid_App\src\pages\train\heat\hyperthermia\hyperthermia.html"*/
+            selector: 'page-hyperthermia',template:/*ion-inline-start:"F:\UN_Buddy_First_Aid_App\src\pages\train\heat\hyperthermia\hyperthermia.html"*/'<ion-header no-border>\n\n    <ion-navbar hideBackButton color="transparent">\n\n        <ion-buttons left>\n\n            <button ion-button class="ion-icon" color="light" icon-only (click)="GoBack()">\n\n                <ion-icon id="closeicon" name="arrow-back"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content no-padding>\n\n    <ion-card *ngIf="ENG === true">\n\n        <h2 id="Title">Hyperthermia</h2>\n\n        <p id="Text">Hyperthermia (heat cramps/heat exhaustion or heat stroke) is elevated body temperature as the body\n\n            produces or absorbs more heat than it dissipates. Extreme temperature elevation becomes a medical emergency\n\n            requiring immediate treatment to prevent disability or death.\n\n        </p>\n\n    </ion-card>\n\n    <ion-card *ngIf="FR === true">\n\n        <h2 id="Title">Hyperthermie</h2>\n\n        <p id="Text">Hyperthermia (heat cramps/heat exhaustion or heat stroke) is elevated body temperature as the body\n\n            produces or absorbs more heat than it dissipates. Extreme temperature elevation becomes a medical emergency\n\n            requiring immediate treatment to prevent disability or death.</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="ES === true">\n\n        <h2 id="Title">HIPERTERMIA</h2>\n\n        <p id="Text">\n\n            Hipertermia (calambres por calor/insolación o golpe de calor) es la temperatura corporal elevada cuando el\n\n            cuerpo genera o absorbe más calor de lo que puede disipar. Un aumento extremo de la temperatura es una\n\n            emergencia médica que requiere tratamiento inmediato para prevenir discapacidades o la muerte.\n\n        </p>\n\n    </ion-card>\n\n\n\n    <ion-card *ngIf="ENG === true">\n\n        <h2 id="Title">Heat exhaustion</h2>\n\n        <p id="Text">As the body’s organs and muscle tissue lose fluid, they draw this fluid from the fat cells and\n\n            circulating blood causing the heart rate to increase in an effort to maintain blood pressure. Signs of Heat\n\n            Exhaustion include:\n\n            • Excessive Sweating\n\n            • Mild Headaches\n\n            • Dizziness and/or confusion\n\n            • Loss of Appetite\n\n        </p>\n\n        <p id="SubTitle">Treatment</p>\n\n        <p id="Text">Emergency medical care for hyperthermia may include one of the following interventions:\n\n            • Remove person from the elements into the shade\n\n            • Use cold wet towels or dampen clothing with tepid water\n\n            • Offer cool fluids to drink\n\n            Avoid hot, heavy meals. Do not immerse someone who is suffering from hyperthermia into a body of cold water\n\n        </p>\n\n    </ion-card>\n\n    <ion-card *ngIf="FR === true">\n\n        <h2 id="Title">Épuisement par la chaleur</h2>\n\n        <p id="Text">Lorsque les organes et les tissus musculaires du corps perdent du liquide, ils le tirent des\n\n            cellules adipeuses et du sang en circulation, ce qui fait augmenter la fréquence cardiaque dans un effort de\n\n            maintenir la tension artérielle. Les signes d’épuisement par la chaleur incluent :\n\n            • Transpiration excessive\n\n            • Légers maux de tête\n\n            • Vertige et/ou confusion\n\n            • Perte d’appétit</p>\n\n        <p id="SubTitle">Traitement</p>\n\n        <p id="Text">Les soins médicaux d\'urgence en cas d\'hyperthermie peuvent comprendre l\'une des interventions\n\n            suivantes :\n\n            • Retirez la personne du soleil et la mettre à l’ombre\n\n            • Utilisez des serviettes humides froides ou mouiller les vêtements avec de l’eau tiède\n\n            • Offrez des boissons froides\n\n            Évitez les repas chauds et lourds. Ne plongez pas une personne souffrant d\'hyperthermie dans un plan d\'eau\n\n            froide.</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="ES === true">\n\n        <h2 id="Title">INSOLACIÓN</h2>\n\n        <p id="Text">A medida que los órganos y tejidos musculares del cuerpo pierden líquido, extraen este líquido de\n\n            las células grasas y de la sangre circulante, haciendo que la frecuencia cardíaca aumente en un intento de\n\n            mantener la presión arterial. Los signos de insolación incluyen:\n\n            • Sudoración excesiva.\n\n            • Dolores leves de cabeza.\n\n            • Mareo o confusión.\n\n            • Pérdida de apetito\n\n        </p>\n\n        <p id="SubTitle">TRATAMIENTO</p>\n\n        <p id="Text">La atención médica de emergencia para la hipertermia puede incluir una de las siguientes\n\n            intervenciones:\n\n            • Alejar a la persona del ambiente caluroso hacia la sombra.\n\n            • Usar toallas mojadas frías o humedecer la ropa con agua tibia.\n\n            • Proporcionar líquidos fríos para beber.\n\n            Evitar comidas pesadas y calientes. No sumergir a alguien que está sufriendo hipertermia en agua fría.\n\n        </p>\n\n    </ion-card>\n\n\n\n    <ion-card *ngIf="ENG === true">\n\n        <h2 id="Title">Heat stroke</h2>\n\n        <p id="Text">If fluid and electrolyte levels are not rapidly replaced, the casualty’s level of consciousness\n\n            will continue to decline, leading to Heat Stroke. Signs of Heat Stroke include:\n\n            • Throbbing Headache\n\n            • Little or no sweating\n\n            • Vomiting\n\n            • Red skin which is dry and hot to the touch\n\n            • Loss of Consciousness (fainting)\n\n        </p>\n\n        <p id="SubTitle">Treatment</p>\n\n        <p id="Text">Heat Stroke is a medical emergency. Without rapid intervention, the casualty may suffer\n\n            irreversible brain and organ damage. The treatment for Heat Stoke in a hot field environment is referred to\n\n            as ‘rapid cooling’. This is achieved by:\n\n            • Requesting assistance of a medical professional as soon as possible\n\n            • Moving the casualty to shade if possible\n\n            • Removing the casualty’s clothing (except underwear)\n\n            • Pouring water (30ºC-40ºC) over the casualty below the neck. Use as much water as possible (approx40-80L)\n\n            • Medical professional to administer IV fluid\n\n        </p>\n\n    </ion-card>\n\n    <ion-card *ngIf="FR === true">\n\n        <h2 id="Title">Insolation</h2>\n\n        <p id="Text">Si les niveaux de liquide et d’électrolytes ne sont pas rapidement rééquilibrés, l’état de\n\n            conscience de la victime continuera de décliner, ce qui entraînera une insolation. Les signes d’insolation\n\n            incluent :\n\n            • Maux de tête lancinants\n\n            • Pas de transpiration ou transpiration légère.\n\n            • Vomissements\n\n            • Peau rouge, sèche et chaude au toucher\n\n            • Perte de conscience (évanouissement)</p>\n\n        <p id="SubTitle">Traitement</p>\n\n        <p id="Text">L’insolation est une urgence médicale. Sans intervention rapide, la victime peut souffrir de\n\n            dommages irréversibles au cerveau et aux organes. Le traitement de l’insolation dans un environnement de\n\n            terrain surchauffé est appelé « refroidissement rapide ». Pour ce faire, il faut :\n\n            • Demander au plus tôt l’aide d’un professionnel de la santé\n\n            • Mettre la victime à l’ombre si possible\n\n            • Retirer les vêtements de la victime (sauf les sous-vêtements)\n\n            • Verser de l’eau (30ºC-40ºC) sur la victime en dessous du cou. Utiliser autant d’eau que possible (de 40 à\n\n            80 litres environ)\n\n            • Un professionnel de la santé qui administre du liquide par voie intraveineuse</p>\n\n    </ion-card>\n\n    <ion-card *ngIf="ES === true">\n\n        <h2 id="Title">GOLPE DE CALOR</h2>\n\n        <p id="Text">Si los niveles de líquidos y electrolitos no se reponen rápidamente, el nivel de conciencia de la\n\n            víctima seguirá disminuyendo, llevándola a una insolación. Los signos de un golpe de calor incluyen:\n\n            • Dolor de cabeza palpitante.\n\n            • Poca o nada de sudoración.\n\n            • Vómitos.\n\n            • Piel enrojecida, la cual es seca y caliente al tacto.\n\n            • Pérdida de conciencia (desmayo).\n\n        </p>\n\n        <p id="SubTitle">TRATAMIENTO</p>\n\n        <p id="Text">El golpe de calor es una emergencia médica. Sin la intervención inmediata, la víctima podría sufrir\n\n            daños irreversibles de los órganos y el cerebro. El tratamiento para el golpe de calor en un ambiente\n\n            caluroso se conoce como ‘enfriamiento rápido’, y se logra de la siguiente manera:\n\n            • Solicitar la asistencia de un médico profesional lo antes posible.\n\n            • Trasladar a la víctima a la sombra de ser posible\n\n            • Quitarle la ropa a la víctima (excepto la ropa interior).\n\n            • Verter agua (30 °C o 40 °C) sobre la víctima debajo del cuello. Utilizar la\n\n            • mayor cantidad de agua posible (aproximadamente entre 40 a 80 litros).\n\n            • Un médico profesional debe de administrar líquidos por vía intravenosa.\n\n        </p>\n\n    </ion-card>\n\n</ion-content>'/*ion-inline-end:"F:\UN_Buddy_First_Aid_App\src\pages\train\heat\hyperthermia\hyperthermia.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__ionic_storage__["b" /* Storage */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
     ], HyperthermiaPage);
@@ -6560,7 +8336,7 @@ var HyperthermiaPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 51:
+/***/ 44:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6624,5 +8400,5 @@ var HypothermiaPage = /** @class */ (function () {
 
 /***/ })
 
-},[225]);
+},[226]);
 //# sourceMappingURL=main.js.map
