@@ -19,6 +19,11 @@
             INCLINACIÓN DE LA CABEZA
         </button>
     </ion-buttons>
+    <ion-buttons *ngIf="RUS === true">
+        <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoHeadtilt()">
+            НАКЛОН ГОЛОВЫ
+        </button>
+    </ion-buttons>
 
     <ion-buttons *ngIf="ENG === true">
         <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoRecovery()">
@@ -35,6 +40,11 @@
             POSICIÓN DE RECUPERACIÓN
         </button>
     </ion-buttons>
+    <ion-buttons *ngIf="RUS === true">
+        <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoRecovery()">
+            ИСХОДНОЕ ПОЛОЖЕНИЕ
+        </button>
+    </ion-buttons>
 
     <ion-buttons *ngIf="ENG === true">
         <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoSitup()">
@@ -49,6 +59,11 @@
     <ion-buttons *ngIf="ES === true">
         <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoSitup()">
             POSICIÓN SENTADA HACIA ADELANTE
+        </button>
+    </ion-buttons>
+    <ion-buttons *ngIf="RUS === true">
+        <button outline class="buttons" clear full ion-button color="light" icon-only (click)="GotoSitup()">
+            ПОЛОЖЕНИЕ СИДЯ ВПЕРЕД
         </button>
     </ion-buttons>
 </ion-content>
