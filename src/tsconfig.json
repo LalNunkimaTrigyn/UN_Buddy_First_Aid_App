@@ -1,6 +1,11 @@
 {
   "compilerOptions": {
-    "experimentalDecorators": true,
-    "lib": ["dom", "es2015"] // Add "es2015" or higher here
+    "target": "es5",
+    "lib": ["es2015", "dom"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "strict": false,
+    "esModuleInterop": true,
+    "skipLibCheck": true
   }
 }

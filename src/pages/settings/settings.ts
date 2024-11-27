@@ -1,10 +1,11 @@
 import { Component, OnDestroy, OnInit } from "@angular/core";
 import { NavParams, ModalController, NavController } from "ionic-angular";
 import { Storage } from "@ionic/storage";
-// import { Geolocation } from '@ionic-native/geolocation';  // Import Geolocation plugin
 import { Geolocation } from "@ionic-native/geolocation";
 import { LocationService } from "../../app/services/location.service";
 import { Subscription } from "rxjs";
+import { FirebaseService } from "../../app/services/firebase.service";
+import { Device } from "@ionic-native/device";
 
 @Component({
   selector: "page-settings",
@@ -17,7 +18,9 @@ export class SettingsPage implements OnInit, OnDestroy {
     public navCtrl: NavController,
     public storage: Storage,
     public geolocation: Geolocation,
-    public locationService: LocationService
+    public locationService: LocationService,
+    private firebaseService: FirebaseService,
+    private device: Device
   ) {}
 
   ENG = false;
@@ -26,6 +29,7 @@ export class SettingsPage implements OnInit, OnDestroy {
   RUS = false;
   LanguageSelect: string;
   geolocationEnabled: boolean = false; // This will be bound to the toggle
+  geolocationEnabledString = null; // This will be bound to the toggle
   latitude: number | null = null; // Initialize as null to show "Waiting for location data"
   longitude: number | null = null;
   sub1: Subscription;
@@ -40,8 +44,61 @@ export class SettingsPage implements OnInit, OnDestroy {
     });
   }
 
+  getDeviceInfo() {
+    // Get Device ID
+    const deviceId = this.device.uuid;
+    console.log("deviceId: ", deviceId);
+
+    // Get Current Location
+    this.geolocation
+      .getCurrentPosition()
+      .then((resp) => {
+        const lat = resp.coords.latitude;
+        const lng = resp.coords.longitude;
+
+        // Save the device info to Firebase
+        this.saveDeviceInfo(deviceId, lat, lng);
+      })
+      .catch((error) => {
+        console.log("Error getting location", error);
+        this.geolocationEnabled = false;
+      });
+  }
+
+  saveDeviceInfo(deviceId: string, lat: number, lng: number) {
+    const deviceData = {
+      deviceId: deviceId,
+      latitude: lat,
+      longitude: lng,
+      timestamp: new Date().toISOString(), // Optionally add a timestamp
+    };
+
+    // Add the device info to Firebase
+
+    this.firebaseService
+      .addOrUpdateData("deviceInfo", deviceData.deviceId, deviceData)
+      .then(() => {
+        console.log("Device info added successfully!");
+      })
+      .catch((error) => {
+        console.error("Error adding device info to Firebase", error);
+      });
+  }
+
   ionViewWillLoad() {
     this.listen();
+    if (
+      this.geolocationEnabledString === "true" ||
+      this.geolocationEnabledString === "false"
+    ) {
+      if (this.geolocationEnabledString === "true") {
+        this.geolocationEnabled = true;
+      } else {
+        this.geolocationEnabled = false;
+      }
+    } else {
+      this.geolocationEnabled = false;
+    }
 
     this.storage.get("Language").then((data) => {
       if (data) {
@@ -85,8 +142,30 @@ export class SettingsPage implements OnInit, OnDestroy {
     });
 
     this.locationService.loadGeolocationStatus();
-    this.geolocationEnabled = this.locationService.geolocationEnabled;
+    if (localStorage.getItem("geolocationEnabled") !== null) {
+      if (localStorage.getItem("geolocationEnabled") === "true") {
+        this.geolocationEnabled = true;
+        localStorage.setItem("geolocationEnabled", "true");
+      } else if (localStorage.getItem("geolocationEnabled") === "null") {
+        this.geolocationEnabled = false;
+
+        console.log("false here");
+        localStorage.setItem("geolocationEnabled", "false");
+      } else {
+        this.geolocationEnabled = false;
+        console.log("false here");
+        localStorage.setItem("geolocationEnabled", "false");
+      }
+    } else {
+      this.geolocationEnabled = false;
+      console.log("false here");
+      localStorage.setItem("geolocationEnabled", "false");
+    }
   }
+
+  ionViewWillLeave() {}
+
+  ionViewWillUnload() {}
 
   sendLocationViaWhatsApp() {
     this.storage.get("Language").then((data) => {
@@ -206,24 +285,40 @@ export class SettingsPage implements OnInit, OnDestroy {
     });
   }
 
-  onToggleGeolocation() {
-    if (this.geolocationEnabled) {
-      console.log("turning on service file");
+  async onToggleGeolocation(event: any) {
+    if (event.checked) {
+      if (this.geolocationEnabled) {
+        console.log("turning on service file");
 
-      this.listen();
-      this.locationService.onToggleGeolocation();
-      this.locationService.enableGeolocationTracking();
+        this.listen();
+        const res = this.locationService.onToggleGeolocation();
+        if (res) {
+          this.locationService.enableGeolocationTracking();
+          localStorage.setItem("geolocationEnabled", "true");
+          this.getDeviceInfo();
+        }
+      } else {
+        console.log("return");
+        this.sub1.unsubscribe();
+        this.locationService.sub1.unsubscribe();
+        localStorage.setItem("geolocationEnabled", "false");
+
+        return;
+      }
     } else {
-      console.log("return");
-      this.sub1.unsubscribe();
-      this.locationService.sub1.unsubscribe();
+      this.geolocationEnabled = false;
       return;
     }
   }
 
   ngOnDestroy(): void {
-    this.sub1.unsubscribe();
-    this.locationService.sub1.unsubscribe();
+    if (this.sub1) {
+      this.sub1.unsubscribe();
+      if (this.locationService.sub1) {
+        this.locationService.sub1.unsubscribe();
+      }
+      return;
+    } else return;
   }
 
   sendLocationViaEmail() {
