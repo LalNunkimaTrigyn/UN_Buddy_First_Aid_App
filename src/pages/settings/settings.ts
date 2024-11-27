@@ -1,22 +1,26 @@
-import { Component } from "@angular/core";
+import { Component, OnDestroy, OnInit } from "@angular/core";
 import { NavParams, ModalController, NavController } from "ionic-angular";
 import { Storage } from "@ionic/storage";
-// import { Geolocation } from '@ionic-native/geolocation';  // Import Geolocation plugin
 import { Geolocation } from "@ionic-native/geolocation";
 import { LocationService } from "../../app/services/location.service";
+import { Subscription } from "rxjs";
+import { FirebaseService } from "../../app/services/firebase.service";
+import { Device } from "@ionic-native/device";
 
 @Component({
   selector: "page-settings",
   templateUrl: "settings.html",
 })
-export class SettingsPage {
+export class SettingsPage implements OnInit, OnDestroy {
   constructor(
     public navParams: NavParams,
     public modalCtrl: ModalController,
     public navCtrl: NavController,
     public storage: Storage,
     public geolocation: Geolocation,
-    public locationService: LocationService
+    public locationService: LocationService,
+    private firebaseService: FirebaseService,
+    private device: Device
   ) {}
 
   ENG = false;
@@ -25,10 +29,79 @@ export class SettingsPage {
   RUS = false;
   LanguageSelect: string;
   geolocationEnabled: boolean = false; // This will be bound to the toggle
+  geolocationEnabledString = null; // This will be bound to the toggle
+  latitude: number | null = null; // Initialize as null to show "Waiting for location data"
+  longitude: number | null = null;
+  sub1: Subscription;
+
+  ngOnInit(): void {}
+
+  listen() {
+    this.sub1 = this.locationService.locationUpdates$.subscribe((location) => {
+      console.log("Received location update:", location); // Debugging log
+      this.latitude = location.latitude;
+      this.longitude = location.longitude;
+    });
+  }
+
+  getDeviceInfo() {
+    // Get Device ID
+    const deviceId = this.device.uuid;
+    console.log("deviceId: ", deviceId);
+
+    // Get Current Location
+    this.geolocation
+      .getCurrentPosition()
+      .then((resp) => {
+        const lat = resp.coords.latitude;
+        const lng = resp.coords.longitude;
+
+        // Save the device info to Firebase
+        this.saveDeviceInfo(deviceId, lat, lng);
+      })
+      .catch((error) => {
+        console.log("Error getting location", error);
+        this.geolocationEnabled = false;
+      });
+  }
+
+  saveDeviceInfo(deviceId: string, lat: number, lng: number) {
+    const deviceData = {
+      deviceId: deviceId,
+      latitude: lat,
+      longitude: lng,
+      timestamp: new Date().toISOString(), // Optionally add a timestamp
+    };
+
+    // Add the device info to Firebase
+
+    this.firebaseService
+      .addOrUpdateData("deviceInfo", deviceData.deviceId, deviceData)
+      .then(() => {
+        console.log("Device info added successfully!");
+      })
+      .catch((error) => {
+        console.error("Error adding device info to Firebase", error);
+      });
+  }
 
   ionViewWillLoad() {
+    this.listen();
+    if (
+      this.geolocationEnabledString === "true" ||
+      this.geolocationEnabledString === "false"
+    ) {
+      if (this.geolocationEnabledString === "true") {
+        this.geolocationEnabled = true;
+      } else {
+        this.geolocationEnabled = false;
+      }
+    } else {
+      this.geolocationEnabled = false;
+    }
+
     this.storage.get("Language").then((data) => {
-      if (data) { 
+      if (data) {
         if (data === "ENG") {
           this.ENG = true;
           this.FR = false;
@@ -60,34 +133,77 @@ export class SettingsPage {
         this.RUS = false;
         this.storage.set("Language", "ENG");
       }
+
+      const lastLocation = this.locationService.getLastKnownLocation();
+      if (lastLocation.latitude !== null && lastLocation.longitude !== null) {
+        this.latitude = lastLocation.latitude;
+        this.longitude = lastLocation.longitude;
+      }
     });
 
     this.locationService.loadGeolocationStatus();
-    this.geolocationEnabled = this.locationService.geolocationEnabled;
+    if (localStorage.getItem("geolocationEnabled") !== null) {
+      if (localStorage.getItem("geolocationEnabled") === "true") {
+        this.geolocationEnabled = true;
+        localStorage.setItem("geolocationEnabled", "true");
+      } else if (localStorage.getItem("geolocationEnabled") === "null") {
+        this.geolocationEnabled = false;
+
+        console.log("false here");
+        localStorage.setItem("geolocationEnabled", "false");
+      } else {
+        this.geolocationEnabled = false;
+        console.log("false here");
+        localStorage.setItem("geolocationEnabled", "false");
+      }
+    } else {
+      this.geolocationEnabled = false;
+      console.log("false here");
+      localStorage.setItem("geolocationEnabled", "false");
+    }
   }
+
+  ionViewWillLeave() {}
+
+  ionViewWillUnload() {}
 
   sendLocationViaWhatsApp() {
     this.storage.get("Language").then((data) => {
       if (data) {
         if (data === "ENG") {
           const message = `My location is: Latitude: ${this.locationService.latitude}, Longitude: ${this.locationService.longitude}`;
-          window.open(`https://wa.me/?text=${encodeURIComponent(message)}`, "_blank");
+          window.open(
+            `https://wa.me/?text=${encodeURIComponent(message)}`,
+            "_blank"
+          );
         }
         if (data === "ES") {
           const message = `mi ubicación es: Latitud: ${this.locationService.latitude}, Longitud: ${this.locationService.longitude}`;
-          window.open(`https://wa.me/?text=${encodeURIComponent(message)}`, "_blank");
+          window.open(
+            `https://wa.me/?text=${encodeURIComponent(message)}`,
+            "_blank"
+          );
         }
         if (data === "FR") {
           const message = `Mon emplacement est: Latitude: ${this.locationService.latitude}, Longitude: ${this.locationService.longitude}`;
-          window.open(`https://wa.me/?text=${encodeURIComponent(message)}`, "_blank");
+          window.open(
+            `https://wa.me/?text=${encodeURIComponent(message)}`,
+            "_blank"
+          );
         }
         if (data === "RUS") {
           const message = `Мое местоположение: Широта: ${this.locationService.latitude}, Долгота: ${this.locationService.longitude}`;
-          window.open(`https://wa.me/?text=${encodeURIComponent(message)}`, "_blank");
+          window.open(
+            `https://wa.me/?text=${encodeURIComponent(message)}`,
+            "_blank"
+          );
         }
       } else {
         const message = `My location is: Latitude: ${this.locationService.latitude}, Longitude: ${this.locationService.longitude}`;
-        window.open(`https://wa.me/?text=${encodeURIComponent(message)}`, "_blank");
+        window.open(
+          `https://wa.me/?text=${encodeURIComponent(message)}`,
+          "_blank"
+        );
       }
     });
   }
@@ -116,7 +232,6 @@ export class SettingsPage {
         window.open(`sms:?body=${encodeURIComponent(message)}`, "_blank");
       }
     });
-
   }
 
   sendLocationViaMessenger() {
@@ -168,11 +283,42 @@ export class SettingsPage {
         );
       }
     });
-
   }
 
-  onToggleGeolocation() {
-    this.locationService.onToggleGeolocation();
+  async onToggleGeolocation(event: any) {
+    if (event.checked) {
+      if (this.geolocationEnabled) {
+        console.log("turning on service file");
+
+        this.listen();
+        const res = this.locationService.onToggleGeolocation();
+        if (res) {
+          this.locationService.enableGeolocationTracking();
+          localStorage.setItem("geolocationEnabled", "true");
+          this.getDeviceInfo();
+        }
+      } else {
+        console.log("return");
+        this.sub1.unsubscribe();
+        this.locationService.sub1.unsubscribe();
+        localStorage.setItem("geolocationEnabled", "false");
+
+        return;
+      }
+    } else {
+      this.geolocationEnabled = false;
+      return;
+    }
+  }
+
+  ngOnDestroy(): void {
+    if (this.sub1) {
+      this.sub1.unsubscribe();
+      if (this.locationService.sub1) {
+        this.locationService.sub1.unsubscribe();
+      }
+      return;
+    } else return;
   }
 
   sendLocationViaEmail() {
@@ -182,9 +328,9 @@ export class SettingsPage {
           const subject = "My Current Location";
           const body = `My location is: Latitude: ${this.locationService.latitude}, Longitude: ${this.locationService.longitude}`;
           window.open(
-            `mailto:?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(
-              body
-            )}`,
+            `mailto:?subject=${encodeURIComponent(
+              subject
+            )}&body=${encodeURIComponent(body)}`,
             "_blank"
           );
         }
@@ -192,9 +338,9 @@ export class SettingsPage {
           const subject = "Mi ubicación actual";
           const body = `mi ubicación es: Latitud: ${this.locationService.latitude}, Longitud: ${this.locationService.longitude}`;
           window.open(
-            `mailto:?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(
-              body
-            )}`,
+            `mailto:?subject=${encodeURIComponent(
+              subject
+            )}&body=${encodeURIComponent(body)}`,
             "_blank"
           );
         }
@@ -202,9 +348,9 @@ export class SettingsPage {
           const subject = "Ma position actuelle";
           const body = `Mon emplacement est: Latitude: ${this.locationService.latitude}, Longitude: ${this.locationService.longitude}`;
           window.open(
-            `mailto:?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(
-              body
-            )}`,
+            `mailto:?subject=${encodeURIComponent(
+              subject
+            )}&body=${encodeURIComponent(body)}`,
             "_blank"
           );
         }
@@ -212,9 +358,9 @@ export class SettingsPage {
           const subject = "Мое текущее местоположение";
           const body = `Мое местоположение: Широта: ${this.locationService.latitude}, Долгота: ${this.locationService.longitude}`;
           window.open(
-            `mailto:?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(
-              body
-            )}`,
+            `mailto:?subject=${encodeURIComponent(
+              subject
+            )}&body=${encodeURIComponent(body)}`,
             "_blank"
           );
         }
@@ -222,14 +368,13 @@ export class SettingsPage {
         const subject = "My Current Location";
         const body = `My location is: Latitude: ${this.locationService.latitude}, Longitude: ${this.locationService.longitude}`;
         window.open(
-          `mailto:?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(
-            body
-          )}`,
+          `mailto:?subject=${encodeURIComponent(
+            subject
+          )}&body=${encodeURIComponent(body)}`,
           "_blank"
         );
       }
     });
-
   }
 
   onCancel() {

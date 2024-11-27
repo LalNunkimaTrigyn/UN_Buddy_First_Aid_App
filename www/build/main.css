@@ -31347,7 +31347,7 @@ page-circulation .card {
 
 page-circulation .cardSteps {
   border-radius: 30px;
-  height: 425px;
+  height: 450px;
 }
 
 page-circulation .swiper-slide {
@@ -31360,7 +31360,7 @@ page-circulation ion-slides {
 }
 
 page-circulation div.swiper-pagination {
-  top: 415px;
+  top: 435px;
   bottom: inherit;
 }
 
@@ -31518,7 +31518,7 @@ page-hypothermia .card {
 
 page-hypothermia .cardSteps {
   border-radius: 30px;
-  height: 350px;
+  height: 400px;
 }
 
 page-hypothermia .swiper-slide {
@@ -31531,7 +31531,7 @@ page-hypothermia ion-slides {
 }
 
 page-hypothermia div.swiper-pagination {
-  top: 340px;
+  top: 380px;
   bottom: inherit;
 }
 
@@ -31833,7 +31833,7 @@ page-respiration .card {
 
 page-respiration .cardSteps {
   border-radius: 30px;
-  height: 500px;
+  height: 550px;
 }
 
 page-respiration .swiper-slide {
@@ -31846,7 +31846,7 @@ page-respiration ion-slides {
 }
 
 page-respiration div.swiper-pagination {
-  top: 490px;
+  top: 540px;
   bottom: inherit;
 }
 

@@ -1464,7 +1464,7 @@ constructor(public http: Http) {
 },
 
 {
-  //Call medic after recovery
+  // Call medic after recovery
  Step: '61',
  InstructionText: 'Вызов медика',
  InformationButton: false,
