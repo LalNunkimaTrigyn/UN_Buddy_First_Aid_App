@@ -38,34 +38,30 @@ export class SettingsPage implements OnInit, OnDestroy {
 
   listen() {
     this.sub1 = this.locationService.locationUpdates$.subscribe((location) => {
-      console.log("Received location update:", location); // Debugging log
+      // console.log("Received location update:", location); // Debugging log
       this.latitude = location.latitude;
       this.longitude = location.longitude;
     });
   }
 
-  getDeviceInfo() {
-    // Get Device ID
-    const deviceId = this.device.uuid;
-    console.log("deviceId: ", deviceId);
+  async getDeviceInfo() {
+    try {
+      // Get Device ID
+      const deviceId = this.device.uuid;
+      // console.log("deviceId: ", deviceId);
 
-    // Get Current Location
-    this.geolocation
-      .getCurrentPosition()
-      .then((resp) => {
-        const lat = resp.coords.latitude;
-        const lng = resp.coords.longitude;
-
-        // Save the device info to Firebase
-        this.saveDeviceInfo(deviceId, lat, lng);
-      })
-      .catch((error) => {
-        console.log("Error getting location", error);
-        this.geolocationEnabled = false;
-      });
+      // Get Current Location
+      const resp = await this.geolocation.getCurrentPosition();
+      const lat = resp.coords.latitude;
+      const lng = resp.coords.longitude;
+      await this.saveDeviceInfo(deviceId, lat, lng);
+    } catch (error) {
+      console.log("Error getting location", error);
+      this.geolocationEnabled = false;
+    }
   }
 
-  saveDeviceInfo(deviceId: string, lat: number, lng: number) {
+  async saveDeviceInfo(deviceId: string, lat: number, lng: number) {
     const deviceData = {
       deviceId: deviceId,
       latitude: lat,
@@ -73,19 +69,20 @@ export class SettingsPage implements OnInit, OnDestroy {
       timestamp: new Date().toISOString(), // Optionally add a timestamp
     };
 
-    // Add the device info to Firebase
-
-    this.firebaseService
-      .addOrUpdateData("deviceInfo", deviceData.deviceId, deviceData)
-      .then(() => {
-        console.log("Device info added successfully!");
-      })
-      .catch((error) => {
-        console.error("Error adding device info to Firebase", error);
-      });
+    try {
+      await this.firebaseService.addOrUpdateData(
+        "deviceInfo",
+        deviceData.deviceId,
+        deviceData
+      );
+      // console.log("Device info added successfully!");
+    } catch (error) {
+      console.error("Error adding device info to Firebase", error);
+    }
   }
 
   ionViewWillLoad() {
+    console.log("ionViewWillLoad");
     this.listen();
     if (
       this.geolocationEnabledString === "true" ||
@@ -149,16 +146,16 @@ export class SettingsPage implements OnInit, OnDestroy {
       } else if (localStorage.getItem("geolocationEnabled") === "null") {
         this.geolocationEnabled = false;
 
-        console.log("false here");
+        // console.log("false here");
         localStorage.setItem("geolocationEnabled", "false");
       } else {
         this.geolocationEnabled = false;
-        console.log("false here");
+        // console.log("false here");
         localStorage.setItem("geolocationEnabled", "false");
       }
     } else {
       this.geolocationEnabled = false;
-      console.log("false here");
+      // console.log("false here");
       localStorage.setItem("geolocationEnabled", "false");
     }
   }
@@ -286,28 +283,18 @@ export class SettingsPage implements OnInit, OnDestroy {
   }
 
   async onToggleGeolocation(event: any) {
-    if (event.checked) {
-      if (this.geolocationEnabled) {
-        console.log("turning on service file");
-
-        this.listen();
-        const res = this.locationService.onToggleGeolocation();
-        if (res) {
-          this.locationService.enableGeolocationTracking();
-          localStorage.setItem("geolocationEnabled", "true");
-          this.getDeviceInfo();
-        }
-      } else {
-        console.log("return");
-        this.sub1.unsubscribe();
-        this.locationService.sub1.unsubscribe();
-        localStorage.setItem("geolocationEnabled", "false");
-
-        return;
-      }
+    const toggeStatus = localStorage.getItem("geolocationEnabled");
+    if (toggeStatus === "false") {
+      console.log("false");
+      this.listen();
+      this.locationService.onToggleGeolocation();
+      this.locationService.enableGeolocationTracking();
+      localStorage.setItem("geolocationEnabled", "true");
+      this.getDeviceInfo();
     } else {
-      this.geolocationEnabled = false;
-      return;
+      this.sub1.unsubscribe();
+      this.locationService.sub1.unsubscribe();
+      localStorage.setItem("geolocationEnabled", "false");
     }
   }
 
