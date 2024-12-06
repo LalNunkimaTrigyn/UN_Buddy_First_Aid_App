@@ -24,7 +24,7 @@
       <ion-toggle
         [(ngModel)]="geolocationEnabled"
         [color]="geolocationEnabled ? 'success' : 'danger'"
-        (ionChange)="onToggleGeolocation()"
+        (ionChange)="onToggleGeolocation($event)"
       ></ion-toggle>
     </ion-item>
 
@@ -71,7 +71,7 @@
       <ion-toggle
         [(ngModel)]="geolocationEnabled"
         [color]="geolocationEnabled ? 'success' : 'danger'"
-        (ionChange)="onToggleGeolocation()"
+        (ionChange)="onToggleGeolocation($event)"
       ></ion-toggle>
     </ion-item>
 
@@ -117,7 +117,7 @@
       <ion-toggle
         [(ngModel)]="geolocationEnabled"
         [color]="geolocationEnabled ? 'success' : 'danger'"
-        (ionChange)="onToggleGeolocation()"
+        (ionChange)="onToggleGeolocation($event)"
       ></ion-toggle>
     </ion-item>
 
@@ -163,7 +163,7 @@
       <ion-toggle
         [(ngModel)]="geolocationEnabled"
         [color]="geolocationEnabled ? 'success' : 'danger'"
-        (ionChange)="onToggleGeolocation()"
+        (ionChange)="onToggleGeolocation($event)"
       ></ion-toggle>
     </ion-item>
 
@@ -188,11 +188,30 @@
       </div>
     </div>
     <div *ngIf="latitude && longitude && geolocationEnabled">
-      <p style="text-align: center; color: rgba(56, 93, 138, 1)"><strong style="text-align: center; color: rgba(56, 93, 138, 1)">Latitude:</strong> {{ latitude }}</p>
-      <p style="text-align: center; color: rgba(56, 93, 138, 1)"><strong style="text-align: center; color: rgba(56, 93, 138, 1)">Longitude:</strong> {{ longitude }}</p>
+      <p style="text-align: center; color: rgba(56, 93, 138, 1)">
+        <strong style="text-align: center; color: rgba(56, 93, 138, 1)"
+          >Latitude:</strong
+        >
+        {{ latitude }}
+      </p>
+      <p style="text-align: center; color: rgba(56, 93, 138, 1)">
+        <strong style="text-align: center; color: rgba(56, 93, 138, 1)"
+          >Longitude:</strong
+        >
+        {{ longitude }}
+      </p>
     </div>
-    <div *ngIf="!latitude && !longitude && geolocationEnabled">
+    <div *ngIf="!latitude && !longitude && geolocationEnabled && ENG === true">
       <p>Waiting for location data...</p>
-    </div>  
+    </div>
+    <div *ngIf="!latitude && !longitude && geolocationEnabled && ES === true">
+      <p>Esperando datos de ubicación...</p>
+    </div>
+    <div *ngIf="!latitude && !longitude && geolocationEnabled && FR === true">
+      <p>En attente des données de localisation...</p>
+    </div>
+    <div *ngIf="!latitude && !longitude && geolocationEnabled && RUS === true">
+      <p>Ожидание данных о местоположении...</p>
+    </div>
   </ion-card>
 </ion-content>

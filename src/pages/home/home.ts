@@ -4,13 +4,17 @@ import { ProtocolPage } from "../protocol/protocol";
 import { TrainPage } from "../train/train";
 import { Storage } from "@ionic/storage";
 import { SettingsPage } from "../settings/settings";
+// import { Device } from "@ionic-native/device";
 
 @Component({
   selector: "page-home",
   templateUrl: "home.html",
 })
 export class HomePage {
+  deviceId: string = "";
+
   constructor(
+    // private device: Device,
     public storage: Storage,
     public navCtrl: NavController,
     private alertCtrl: AlertController // Inject AlertController
@@ -19,6 +23,8 @@ export class HomePage {
   StepHistory = [];
 
   ionViewWillEnter() {
+    // this.getDeviceId();
+
     console.log("ionViewWillEnter");
     this.GetLanguage();
     this.checkFirstLoad(); // Check for first load on page enter
@@ -30,6 +36,17 @@ export class HomePage {
       }
     });
   }
+
+  // getDeviceId() {
+  //   if (this.device.uuid) {
+  //     this.deviceId = this.device.uuid;
+  //   } else {
+  //     // Mock Device ID for testing
+  //     this.deviceId = "mock-device-id";
+  //   }
+  //   this.storage.set("deviceId", this.deviceId);
+  //   console.log("Device ID:", this.deviceId);
+  // }
 
   checkFirstLoad() {
     this.storage.get("isFirstLoad").then((data) => {
@@ -81,8 +98,7 @@ export class HomePage {
         this.FR = false;
         this.ES = false;
         this.RUS = true;
-      } 
-      else {
+      } else {
         this.ENG = true;
         this.ES = false;
         this.FR = false;

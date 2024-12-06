@@ -34,6 +34,10 @@ import { HypothermiaPage } from "../pages/train/heat/hypothermia/hypothermia";
 import { SettingsPage } from "../pages/settings/settings";
 import { BasicsPage } from "../pages/train/basics/basics";
 import { LocationService } from "./services/location.service";
+import { FirebaseService } from "./services/firebase.service";
+import { Device } from "@ionic-native/device";
+
+
 
 @NgModule({
   declarations: [
@@ -102,7 +106,9 @@ import { LocationService } from "./services/location.service";
     RUSProtocolData,
     NativeAudio,
     LocationService,
+    FirebaseService,
     Geolocation,
+    Device,
     { provide: ErrorHandler, useClass: IonicErrorHandler },
   ],
 })
